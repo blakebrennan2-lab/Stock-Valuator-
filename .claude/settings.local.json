@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 run_aapl.py)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv\")",
+      "Bash(python3 run_universe.py)",
+      "Bash(python3 -c \"import pytest; print\\('pytest', pytest.__version__\\)\")",
+      "Bash(python3 run_ddm.py KO)",
+      "Bash(python3 run_ddm.py AMZN)",
+      "Bash(python3 -m pip install --quiet yfinance)",
+      "Bash(python3 -c \"import yfinance as yf, pandas as pd; print\\('yfinance', yf.__version__\\); print\\('pandas', pd.__version__\\)\")",
+      "Bash(python3 run_coverage.py)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(awk '{print \"coverage.csv from prior run:\", $5, \"bytes\"}')",
+      "Bash(python3 tests/test_telegram.py)",
+      "Bash(python3 run_notify.py --dry-run)",
+      "Bash(chmod +x scripts/*.sh)",
+      "Bash(plutil -lint scripts/com.stock-valuator.scan.plist)",
+      "Bash(python3 -c \"import run_pipeline; print\\('run_pipeline imports OK'\\)\")"
+    ]
+  }
+}

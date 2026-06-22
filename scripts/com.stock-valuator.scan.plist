@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.stock-valuator.scan</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/blakebrennan/Desktop/Stock-Valuator/scripts/run_pipeline.sh</string>
+    </array>
+
+    <!-- Every 2 days (172800 seconds). Counts from load / last run. -->
+    <key>StartInterval</key>
+    <integer>172800</integer>
+
+    <!-- Don't fire immediately on load; run scripts/run_pipeline.sh by hand to test. -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/blakebrennan/Desktop/Stock-Valuator</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/blakebrennan/Desktop/Stock-Valuator/output/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/blakebrennan/Desktop/Stock-Valuator/output/launchd.err.log</string>
+</dict>
+</plist>

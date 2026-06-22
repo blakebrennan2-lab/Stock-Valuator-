@@ -1,0 +1,57 @@
+:root {
+  --bg: #0b0f14; --card: #141a22; --line: #232c38;
+  --text: #e6edf3; --muted: #8b98a8; --green: #2ecc71; --accent: #4aa3ff;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 -apple-system, system-ui, Segoe UI, Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+header {
+  position: sticky; top: 0; background: rgba(11,15,20,.92);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--line);
+  padding: max(env(safe-area-inset-top), 12px) 16px 10px;
+}
+.bar { display: flex; align-items: center; gap: 8px; }
+h1 { font-size: 20px; margin: 0; }
+.asof { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.back {
+  background: none; border: none; color: var(--accent); font-size: 30px;
+  line-height: 1; padding: 0 6px 0 0; cursor: pointer;
+}
+.hidden { display: none; }
+main { padding: 14px 16px 28px; max-width: 760px; margin: 0 auto; }
+footer { color: var(--muted); font-size: 12px; text-align: center; padding: 18px; }
+.loading, .empty { color: var(--muted); text-align: center; padding: 48px 16px; }
+.empty .big { font-size: 22px; color: var(--text); margin-bottom: 6px; }
+
+/* home cards */
+.card {
+  display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 14px; padding: 14px 16px; margin-bottom: 12px;
+  color: inherit; text-decoration: none; cursor: pointer;
+}
+.card:active { background: #1a212b; }
+.card .row { display: flex; justify-content: space-between; align-items: baseline; }
+.tk { font-size: 20px; font-weight: 700; }
+.nm { color: var(--muted); font-size: 14px; }
+.up { color: var(--green); font-weight: 700; font-size: 20px; }
+.px { color: var(--muted); font-size: 14px; margin-top: 6px; }
+.chev { color: var(--muted); }
+
+/* detail */
+.summary { background: var(--card); border: 1px solid var(--line);
+  border-radius: 14px; padding: 14px 16px; margin-bottom: 14px; }
+.tabs { display: flex; gap: 8px; margin: 6px 0 14px; }
+.tab { flex: 1; padding: 10px; text-align: center; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; color: var(--muted);
+  cursor: pointer; font-weight: 600; }
+.tab.active { color: var(--text); border-color: var(--accent); }
+.report { background: var(--card); border: 1px solid var(--line);
+  border-radius: 14px; padding: 6px 16px 16px; }
+.report h4 { color: var(--accent); margin: 14px 0 6px; }
+.report table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 14px; }
+.report th, .report td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); }
+.report th { color: var(--muted); font-weight: 600; }
+.na { color: var(--muted); }

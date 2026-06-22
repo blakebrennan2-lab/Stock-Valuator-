@@ -1,0 +1,4 @@
+# Runtime deps for the scan (local + GitHub Actions runner).
+# Pinned loosely; the CI runner installs the latest compatible.
+yfinance>=1.2.0
+pandas>=2.0
