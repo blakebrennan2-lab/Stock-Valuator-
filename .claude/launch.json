@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "webapp",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/blakebrennan/Desktop/Stock-Valuator/scripts/serve_docs.py"],
+      "port": 8123
+    }
+  ]
+}

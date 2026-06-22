@@ -15,7 +15,7 @@ from typing import List, Optional
 
 from src.valuation.blender import BlendResult
 
-DEFAULT_PATH = "output/picks_log.csv"
+DEFAULT_PATH = "state/picks_log.csv"  # committed so the cloud run accumulates it
 HEADER = ["run_date", "rank", "symbol", "name", "price", "intrinsic",
           "margin_of_safety", "confidence", "n_models"]
 

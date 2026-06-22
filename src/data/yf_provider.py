@@ -309,6 +309,53 @@ class YFinanceProvider(DataProvider):
         return pm
 
     # ------------------------------------------------------------------ #
+    def get_quote(self, ticker: str) -> Optional[float]:
+        """Latest price (intraday-ish via fast_info), for the hourly refresh."""
+        t = yf.Ticker(self._yahoo_symbol(ticker))
+        for getter in (
+            lambda: t.fast_info["last_price"],
+            lambda: t.fast_info["lastPrice"],
+            lambda: (t.info or {}).get("currentPrice"),
+        ):
+            try:
+                v = getter()
+                if v:
+                    return float(v)
+            except Exception:
+                continue
+        hist = self.get_price_history(ticker)
+        return hist[-1][1] if hist else None
+
+    def get_price_history(self, ticker: str) -> List[list]:
+        """Daily closes for the chart: full daily for the last ~year, weekly
+        before that (up to 5y), to keep the payload small. -> [[YYYY-MM-DD, close]]."""
+        ticker = ticker.upper().strip()
+        cache_key = f"yf:history:{ticker}"
+        if self.cache is not None:
+            cached = self.cache.get(cache_key)
+            if cached is not None:
+                try:
+                    return json.loads(cached)
+                except Exception:
+                    pass
+        try:
+            closes = yf.Ticker(self._yahoo_symbol(ticker)).history(
+                period="5y", interval="1d")["Close"].dropna()
+            items = list(closes.items())
+        except Exception:
+            items = []
+
+        out: List[list] = []
+        if items:
+            one_year_ago = items[-1][0] - pd.Timedelta(days=365)
+            for i, (ts, val) in enumerate(items):
+                if ts >= one_year_ago or i % 5 == 0:  # daily recent, weekly older
+                    out.append([ts.strftime("%Y-%m-%d"), round(float(val), 2)])
+
+        if self.cache is not None and out:
+            self.cache.set(cache_key, json.dumps(out))
+        return out
+
     def get_news(self, ticker: str, limit: int = 4) -> List[dict]:
         """Recent headlines from Yahoo (real source) -> [{title, publisher, date}].
 

@@ -1,7 +1,7 @@
-"""Export a ScanResult to docs/results.json for the web app to display.
+"""Export a ScanResult to docs/results.json for the web app.
 
-Contains the qualifying picks and, per pick, the full report (summary block +
-DCF/DDM/Comps work). No secrets — safe to publish.
+Per pick: header, price history (for the chart), key stats, why-bullets, risks,
+profile scorecard, news, and the DCF/DDM/Comps breakdown HTML. No secrets.
 """
 
 from __future__ import annotations
@@ -11,8 +11,7 @@ import os
 from datetime import date
 from typing import Optional
 
-from src.notify.detail import _peer_medians, build_stock_block
-from src.web.report import render_comps, render_dcf, render_ddm
+from src.web.fields import stock_payload
 
 DEFAULT_PATH = "docs/results.json"
 
@@ -28,31 +27,16 @@ def export_results(scan_result, path: str = DEFAULT_PATH, as_of: Optional[str] =
         data = rec.data if rec else None
         results = rec.results if rec else {}
         comps = results.get("Comps")
-        # Only a handful of picks -> fetching news for each is cheap.
-        news = (provider.get_news(b.ticker)
-                if provider and hasattr(provider, "get_news") else None)
+        if data is None:
+            continue
+        # Only a handful of picks -> fetching history + news for each is cheap.
+        history = provider.get_price_history(b.ticker) if (
+            provider and hasattr(provider, "get_price_history")) else []
+        news = provider.get_news(b.ticker) if (
+            provider and hasattr(provider, "get_news")) else None
+        picks.append(stock_payload(b, data, comps, results, history, news))
 
-        # build_stock_block uses \n (Telegram); browsers need <br>.
-        summary_html = (build_stock_block(b, data, comps, news).replace("\n", "<br>")
-                        if data else "")
-        picks.append({
-            "ticker": b.ticker,
-            "name": b.company_name or "",
-            "price": b.price,
-            "intrinsic": b.intrinsic_value,
-            "upside": b.margin_of_safety,
-            "confidence": b.confidence,
-            "summary_html": summary_html,
-            "dcf_html": render_dcf(results.get("DCF")),
-            "ddm_html": render_ddm(results.get("DDM")),
-            "comps_html": render_comps(comps),
-        })
-
-    payload = {
-        "as_of": as_of,
-        "count": len(picks),
-        "picks": picks,
-    }
+    payload = {"as_of": as_of, "count": len(picks), "picks": picks}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w") as fh:
         json.dump(payload, fh, indent=2)
