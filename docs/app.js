@@ -120,26 +120,37 @@ function renderHome() {
     <div class="sub">${sub}</div><div class="list">${cards}</div>`;
 }
 
+function acc(title, body, open) {
+  return `<details class="acc"${open ? " open" : ""}>
+    <summary>${title}<span class="chev">›</span></summary>
+    <div class="acc-body">${body}</div></details>`;
+}
+
 function renderDetail(p) {
-  const stats = (p.stats || []).map(s =>
+  const low = p.confidence === "low";
+  const statsGrid = (p.stats || []).map(s =>
     `<div class="stat"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div></div>`).join("");
-  const why = (p.why || []).map(t => `<li>${esc(t)}</li>`).join("");
+
+  const methods = (p.methods || []).map(m => `
+    <div class="mrow"><span class="${m.used ? "mok" : "mno"}">${m.used ? "✓" : "✗"}</span>
+      <div class="mtext"><div class="mname">${esc(m.name)}</div>
+        <div class="mreason">${esc(m.reason)}</div></div></div>`).join("");
+
+  const rec = p.reconciliation || { values: {}, sentence: "" };
+  const recVals = Object.entries(rec.values || {}).map(([k, v]) =>
+    `<div class="stat"><div class="l">${esc(k)}</div><div class="v">${usd(v)}</div></div>`).join("");
+  const checklist = (p.profile || []).map(t => `<li>${esc(t)}</li>`).join("");
   const risks = (p.risks || []).map(t => `<li>${esc(t)}</li>`).join("");
-  const profile = (p.profile || []).map(t => `<li>${esc(t)}</li>`).join("");
   const news = (p.news || []).slice(0, 3).map(n =>
     `<li>${esc(n.title)} <span class="nm">(${esc([n.publisher, n.date].filter(Boolean).join(" · "))})</span></li>`).join("");
 
-  // When models disagree (low confidence), don't print a single confident
-  // number — lead with the flag and show the value as a range.
-  const low = p.confidence === "low";
+  // verdict header — always visible
   const header = low
-    ? `<div class="row"><span class="iv">Fair value ${usd(p.range_low)}–${usd(p.range_high)}</span></div>
-       <div class="lowbanner">⚠ LOW confidence — the models disagree on this one. Treat the value as a wide range, not a precise target.</div>`
-    : `<div class="row">
-        <span class="iv">Fair value ${usd(p.intrinsic)}</span>
-        <span class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)} upside</span>
-        <span class="pill">${esc(p.confidence)} confidence</span>
-      </div>`;
+    ? `<div class="fv">Fair value ${usd(p.range_low)}–${usd(p.range_high)}</div>
+       <div class="lowbanner">⚠ LOW confidence — the models disagree. Treat the value as a wide range, not a target.</div>`
+    : `<div class="fv">Fair value ${usd(p.intrinsic)} <span class="rng">(${usd(p.range_low)}–${usd(p.range_high)})</span></div>
+       <div class="row"><span class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)} upside</span>
+         <span class="pill">${esc(p.confidence)} confidence</span></div>`;
 
   root.innerHTML = `
     <div class="nav"><button class="back" onclick="location.hash=''">
@@ -150,20 +161,23 @@ function renderDetail(p) {
       <div class="price">${usd(p.price)}</div>
       ${header}
     </div>
+    ${p.thesis ? `<div class="thesis">${esc(p.thesis)}</div>` : ""}
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
     <div class="chart-note">prices ${DATA.price_as_of || DATA.as_of} · analysis ${DATA.as_of}</div>
 
-    <div class="sec"><h3>Key stats</h3><div class="grid">${stats}</div></div>
-    <div class="sec"><h3>Why it's a buy</h3><div class="panel"><ul class="bullets good">${why}</ul></div></div>
-    <div class="sec"><h3>Risks</h3><div class="panel"><ul class="bullets risk">${risks}</ul></div></div>
-    ${profile ? `<div class="sec"><h3>Quality profile</h3><div class="panel"><ul class="bullets good">${profile}</ul></div></div>` : ""}
-    ${news ? `<div class="sec"><h3>Recent news</h3><div class="panel"><ul class="bullets">${news}</ul></div></div>` : ""}
+    <div class="sec"><h3>Key stats</h3><div class="grid">${statsGrid}</div></div>
 
-    <div class="sec"><h3>Valuation breakdown</h3>
-      ${modelBlock("DCF — discounted cash flow", p.dcf_html)}
-      ${modelBlock("DDM — dividend discount", p.ddm_html)}
-      ${modelBlock("Comps — peer multiples", p.comps_html)}
+    <div class="accordions">
+      ${acc("How we valued it", `<div class="methods">${methods}</div>`, true)}
+      ${acc("DCF — discounted cash flow", `<div class="report">${p.dcf_html || ""}</div>`)}
+      ${acc("DDM — dividend discount", `<div class="report">${p.ddm_html || ""}</div>`)}
+      ${acc("Comps — peer multiples", `<div class="report">${p.comps_html || ""}</div>`)}
+      ${acc("Reconciliation & confidence",
+          `<p class="recsent">${esc(rec.sentence)}</p><div class="grid">${recVals}</div>`)}
+      ${acc("Quality checklist", `<ul class="bullets good">${checklist}</ul>`)}
+      ${acc("Risks", `<ul class="bullets risk">${risks}</ul>` +
+          (news ? `<div class="newshead">Recent news</div><ul class="bullets">${news}</ul>` : ""))}
     </div>
     <footer>Mechanical model output — not investment advice or legal due diligence.</footer>`;
 
@@ -181,10 +195,6 @@ function renderDetail(p) {
       b.addEventListener("click", () => { active = b.dataset.r; draw(); }));
   };
   draw();
-}
-function modelBlock(title, html) {
-  return `<details class="model"><summary>${title}<span class="chev">›</span></summary>
-    <div class="body">${html || "<p class='na'>not available</p>"}</div></details>`;
 }
 
 window.addEventListener("hashchange", route);

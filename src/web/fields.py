@@ -36,6 +36,65 @@ def _pct(x: Optional[float], signed=False) -> str:
     return f"{x*100:+.0f}%" if signed else f"{x*100:.0f}%"
 
 
+_METHOD_LABELS = {
+    "DCF": "DCF — discounted cash flow",
+    "DDM": "DDM — dividend discount",
+    "Comps": "Comps — peer multiples",
+}
+
+
+def _methods(results: dict) -> list:
+    """Per-stock applicability: which models were used, which skipped and why."""
+    out = []
+    for key in ("DCF", "DDM", "Comps"):
+        r = results.get(key)
+        used = bool(r and r.ok and r.value_per_share and r.value_per_share > 0)
+        if used:
+            reason = "Used in the blended value."
+        elif r and r.flags:
+            # the skip reason is the explanatory flag
+            reason = next((f for f in r.flags if "applicable" in f.lower()
+                           or "meaningful" in f.lower()), r.flags[-1])
+        else:
+            reason = "Not applicable for this company."
+        out.append({"key": key, "name": _METHOD_LABELS[key], "used": used, "reason": reason})
+    return out
+
+
+def _reconciliation(blend: BlendResult) -> dict:
+    lo, hi = blend.range_low, blend.range_high
+    spread = ((hi - lo) / lo) if (lo and hi and lo > 0) else None
+    c = blend.confidence
+    if len(blend.model_values) <= 1:
+        sent = f"Only one method applied here, so treat the estimate cautiously ({c} confidence)."
+    else:
+        tail = {
+            "high": "They agree closely, so confidence is high.",
+            "medium": "They broadly agree on direction but differ on magnitude — medium confidence.",
+            "low": "They disagree sharply, so confidence is low — treat the value as a wide range.",
+        }.get(c, "")
+        sp = f" (a {spread*100:.0f}% spread)" if spread is not None else ""
+        sent = f"The methods land between {_money(lo)} and {_money(hi)}{sp}. {tail}"
+    return {"values": blend.model_values, "spread": spread, "confidence": c, "sentence": sent}
+
+
+def _thesis(blend: BlendResult, methods: list) -> str:
+    used = [m["key"] for m in methods if m["used"]]
+    skipped = [m for m in methods if not m["used"]]
+    s1 = (f"{blend.ticker} trades around {_money(blend.price)} versus an estimated fair "
+          f"value of {_money(blend.intrinsic_value)} "
+          f"(range {_money(blend.range_low)}–{_money(blend.range_high)}) — about "
+          f"{_pct(blend.margin_of_safety)} below, at {blend.confidence} confidence.")
+    s2 = ("It clears the full quality screen — long-term uptrend, growing profits, healthy "
+          "margins, and durable revenue — which is why it surfaces as a buy.")
+    s3 = f"Valued with {' and '.join(used) if used else 'no applicable model'}."
+    if skipped:
+        sk = skipped[0]
+        reason = sk["reason"].split(":", 1)[-1].strip().rstrip(".")
+        s3 += f" {sk['key']} was skipped ({reason})."
+    return f"{s1} {s2} {s3}"
+
+
 def stock_payload(blend: BlendResult, data: CompanyData,
                   comps: Optional[ValuationResult], results: dict,
                   history: list, news: Optional[list]) -> dict:
@@ -114,6 +173,7 @@ def stock_payload(blend: BlendResult, data: CompanyData,
         risks.append(f"Model spread {label} ({_pct(cv)}) — "
                      f"{'lower' if label != 'tight' else 'higher'} confidence")
 
+    methods = _methods(results)
     return {
         "ticker": blend.ticker,
         "name": blend.company_name or "",
@@ -123,6 +183,9 @@ def stock_payload(blend: BlendResult, data: CompanyData,
         "confidence": blend.confidence,
         "range_low": blend.range_low,
         "range_high": blend.range_high,
+        "thesis": _thesis(blend, methods),
+        "methods": methods,
+        "reconciliation": _reconciliation(blend),
         "history": history,
         "stats": stats,
         "why": why,

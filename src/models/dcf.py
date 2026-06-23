@@ -102,7 +102,16 @@ class DCFModel(ValuationModel):
 
         latest_fcf = fcf_series[-1][1]  # most recent
         if latest_fcf is None or latest_fcf <= 0:
-            result.flags.append(f"Latest FCF non-positive ({latest_fcf}); DCF unreliable")
+            result.flags.append(
+                "Not applicable: latest free cash flow is negative or zero")
+            return result
+
+        # Erratic FCF: negative in several years -> DCF unreliable.
+        negatives = sum(1 for _, f in fcf_series if f is not None and f < 0)
+        if negatives > len(fcf_series) / 2:
+            result.flags.append(
+                f"Not applicable: free cash flow was negative in {negatives} of "
+                f"{len(fcf_series)} years (erratic)")
             return result
 
         # --- 1b. Strip one-off FCF spikes (e.g. election-year ad revenue) - #
@@ -208,6 +217,10 @@ class DCFModel(ValuationModel):
                 "bull": bull["per_share"] if bull else None,
             },
         }
+        if negatives >= 1:
+            result.low_reliability = True
+            result.flags.append(
+                f"FCF was negative in {negatives} year(s) — treat with caution")
         if wacc.used_fallback:
             result.flags.append("WACC used 9% fallback (beta missing)")
         if spikes:

@@ -141,7 +141,7 @@ def test_negative_fcf_skips():
     )
     res = DCFModel().value(data)
     assert not res.ok
-    assert any("non-positive" in f for f in res.flags), res.flags
+    assert any("Not applicable" in f for f in res.flags), res.flags
     print("  negative-FCF correctly skipped  OK")
 
 

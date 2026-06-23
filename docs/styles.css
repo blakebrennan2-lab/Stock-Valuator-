@@ -86,20 +86,42 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .bullets.good li::before { content: "✓"; color: var(--green); font-weight: 800;
   margin-right: 8px; }
 
-/* collapsible model sections */
-details.model { background: var(--card); border-radius: 16px; margin-bottom: 10px; overflow: hidden; }
-details.model > summary { list-style: none; cursor: pointer; padding: 15px 16px;
-  font-weight: 700; display: flex; justify-content: space-between; align-items: center; }
-details.model > summary::-webkit-details-marker { display: none; }
-details.model > summary .chev { color: var(--muted); transition: transform .2s; }
-details.model[open] > summary .chev { transform: rotate(90deg); }
-.model .body { padding: 0 16px 14px; color: var(--muted2); font-size: 14px; }
-.model .body h4 { color: var(--blue); font-size: 14px; margin: 12px 0 6px; }
-.model .body table { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 13px; }
-.model .body th, .model .body td { text-align: left; padding: 5px 4px;
-  border-bottom: 1px solid var(--line); }
-.model .body th { color: var(--muted); font-weight: 600; }
-.model .body b { color: var(--text); }
-.model .na { color: var(--muted); }
+/* verdict header extras */
+.dh .fv { font-size: 17px; color: var(--text); margin-top: 6px; }
+.dh .fv .rng { color: var(--muted); font-size: 14px; font-weight: 500; }
+
+/* plain-language thesis */
+.thesis { margin: 8px 16px 4px; color: var(--muted2); font-size: 15px; line-height: 1.5; }
+
+/* accordion section */
+.accordions { margin: 14px 12px 0; border-top: 1px solid var(--line); }
+details.acc { border-bottom: 1px solid var(--line); }
+details.acc > summary { list-style: none; cursor: pointer; padding: 16px 4px;
+  font-weight: 700; font-size: 16px; display: flex; justify-content: space-between;
+  align-items: center; }
+details.acc > summary::-webkit-details-marker { display: none; }
+details.acc > summary .chev { color: var(--muted); font-size: 22px; transition: transform .2s; }
+details.acc[open] > summary .chev { transform: rotate(90deg); }
+.acc-body { padding: 0 4px 18px; color: var(--muted2); font-size: 14px;
+  animation: fade .2s ease; }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* methods used/skipped list */
+.mrow { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; }
+.mok { color: var(--green); font-weight: 800; }
+.mno { color: var(--muted); font-weight: 800; }
+.mname { color: var(--text); font-weight: 600; }
+.mreason { color: var(--muted); font-size: 13px; margin-top: 1px; }
+.recsent { color: var(--text); margin: 4px 0 12px; }
+.newshead { color: var(--muted); font-weight: 700; font-size: 12px;
+  text-transform: uppercase; letter-spacing: .5px; margin: 14px 0 4px; }
+
+/* model work tables (inside accordions) */
+.report h4 { color: var(--blue); font-size: 14px; margin: 12px 0 6px; }
+.report table { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 13px; }
+.report th, .report td { text-align: left; padding: 5px 4px; border-bottom: 1px solid var(--line); }
+.report th { color: var(--muted); font-weight: 600; }
+.report b { color: var(--text); }
+.report .na { color: var(--muted); }
 
 footer { color: var(--muted); font-size: 12px; text-align: center; padding: 22px 24px 36px; }
