@@ -22,6 +22,10 @@ def main() -> None:
     except FileNotFoundError:
         print("No results.json yet — run the full scan first.")
         return
+    except ValueError:
+        # Corrupt/conflicted JSON: don't crash; the daily full scan rewrites it.
+        print("results.json is not valid JSON — skipping refresh (daily scan will rebuild).")
+        return
 
     picks = data.get("picks", [])
     if not picks:
