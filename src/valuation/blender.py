@@ -29,6 +29,8 @@ class BlendResult:
     intrinsic_value: Optional[float] = None   # equal-weight blend (base cases)
     low: Optional[float] = None               # blended bear
     high: Optional[float] = None              # blended bull
+    range_low: Optional[float] = None         # min across models' central values
+    range_high: Optional[float] = None        # max across models' central values
     margin_of_safety: Optional[float] = None  # (intrinsic - price) / intrinsic
 
     models_used: List[str] = field(default_factory=list)
@@ -88,7 +90,16 @@ class Blender:
             mean = out.intrinsic_value
             out.dispersion = (statistics.pstdev(values) / mean) if mean else None
 
+        # Range across the valid models' central estimates (the disagreement).
+        out.range_low = min(values)
+        out.range_high = max(values)
+
         out.confidence = self._confidence(n, out.dispersion)
+        # A model flagged as fragile (e.g. terminal-dominated DCF, or an implied
+        # multiple far above the market) forces LOW confidence regardless of CV.
+        if any(getattr(r, "low_reliability", False) for r in valid):
+            out.confidence = "low"
+            out.notes.append("a contributing model is flagged fragile")
 
         if price and price > 0 and out.intrinsic_value:
             out.margin_of_safety = (out.intrinsic_value - price) / out.intrinsic_value

@@ -34,7 +34,9 @@ class DDMConfig:
     growth_cap: float = 0.08           # mature-name ceiling on dividend growth
     growth_floor: float = 0.0          # don't project shrinking dividends
     coe_fallback: float = 0.09         # cost of equity when beta missing
-    coe_floor: float = 0.08            # discount-rate floor (low-beta defensiveness)
+    coe_floor: float = 0.09            # discount-rate floor (low-beta defensiveness)
+    min_yield: float = 0.015           # below this, dividend is a token (buyback-driven)
+    min_payout: float = 0.20           # below this payout ratio, DDM isn't meaningful
     min_spread: float = 0.04           # r - g >= this -> terminal multiple <= 25x
     growth_delta: float = 0.02         # scenario shift on high-growth rate
     rate_delta: float = 0.01           # scenario shift on discount rate
@@ -80,6 +82,24 @@ class DDMModel(ValuationModel):
                 "Not applicable: latest dividend is zero (suspended/non-payer)"
             )
             result.audit = {"dividend_history": div_series}
+            return result
+
+        # --- 1b. NOT MEANINGFUL when the dividend is a token payout ----- #
+        # Buyback-driven names (low yield / low payout) would be grossly
+        # undervalued by DDM, so we exclude it rather than show a misleading
+        # co-equal number. Applies generally, not just to one company.
+        yld = (d0 / data.price) if data.price else None
+        eps = data.latest.eps_diluted if data.latest else None
+        payout = (d0 / eps) if (eps and eps > 0) else None
+        if (yld is not None and yld < cfg.min_yield) or \
+           (payout is not None and payout < cfg.min_payout):
+            yld_s = f"{yld:.1%}" if yld is not None else "n/a"
+            pay_s = f"{payout:.0%}" if payout is not None else "n/a"
+            result.flags.append(
+                f"Not meaningful for this company: token dividend "
+                f"(yield {yld_s}, payout {pay_s}) — returns cash via buybacks; "
+                f"DDM excluded from the blend")
+            result.audit = {"dividend_history": div_series, "yield": yld, "payout": payout}
             return result
 
         # --- 2. Growth from dividend history (CAGR), capped ------------ #

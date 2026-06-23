@@ -104,14 +104,18 @@ function renderHome() {
         The screen ran fine — it's just being disciplined.</div></div>`;
     return;
   }
-  const cards = DATA.picks.map(p => `
+  const cards = DATA.picks.map(p => {
+    const low = p.confidence === "low";
+    return `
     <button class="card" onclick="location.hash='#/${encodeURIComponent(p.ticker)}'">
       <div class="id"><div class="tk">${esc(p.ticker)}</div>
         <div class="nm">${esc(p.name)}</div></div>
       ${sparkline(p.history || [])}
       <div class="rt"><div class="px">${usd(p.price)}</div>
-        <div class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</div></div>
-    </button>`).join("");
+        <div class="up ${p.upside >= 0 ? "pos" : "neg"}">${low ? "see range" : pct(p.upside)}</div>
+        ${low ? '<div class="lowflag">⚠ low confidence</div>' : ""}</div>
+    </button>`;
+  }).join("");
   root.innerHTML = `<div class="title-lg">Strong Buys</div>
     <div class="sub">${sub}</div><div class="list">${cards}</div>`;
 }
@@ -125,6 +129,18 @@ function renderDetail(p) {
   const news = (p.news || []).slice(0, 3).map(n =>
     `<li>${esc(n.title)} <span class="nm">(${esc([n.publisher, n.date].filter(Boolean).join(" · "))})</span></li>`).join("");
 
+  // When models disagree (low confidence), don't print a single confident
+  // number — lead with the flag and show the value as a range.
+  const low = p.confidence === "low";
+  const header = low
+    ? `<div class="row"><span class="iv">Fair value ${usd(p.range_low)}–${usd(p.range_high)}</span></div>
+       <div class="lowbanner">⚠ LOW confidence — the models disagree on this one. Treat the value as a wide range, not a precise target.</div>`
+    : `<div class="row">
+        <span class="iv">Fair value ${usd(p.intrinsic)}</span>
+        <span class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)} upside</span>
+        <span class="pill">${esc(p.confidence)} confidence</span>
+      </div>`;
+
   root.innerHTML = `
     <div class="nav"><button class="back" onclick="location.hash=''">
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
@@ -132,11 +148,7 @@ function renderDetail(p) {
     <div class="dh">
       <div class="nm">${esc(p.name)}</div>
       <div class="price">${usd(p.price)}</div>
-      <div class="row">
-        <span class="iv">Fair value ${usd(p.intrinsic)}</span>
-        <span class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)} upside</span>
-        <span class="pill">${esc(p.confidence)} confidence</span>
-      </div>
+      ${header}
     </div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>

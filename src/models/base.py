@@ -31,6 +31,7 @@ class ValuationResult:
     high: Optional[float] = None  # bull
 
     ok: bool = False
+    low_reliability: bool = False  # value is technically computed but fragile
     assumptions: Dict[str, Any] = field(default_factory=dict)
     audit: Dict[str, Any] = field(default_factory=dict)
     flags: List[str] = field(default_factory=list)

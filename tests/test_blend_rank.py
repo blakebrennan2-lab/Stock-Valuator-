@@ -115,6 +115,16 @@ def test_ranker_quality_gate():
     print("  quality gate drops value-trap TRAP despite higher MoS  OK")
 
 
+def test_low_reliability_forces_low_confidence():
+    r1 = _res("DCF", 100)
+    r1.low_reliability = True   # e.g. terminal-dominated DCF
+    r2 = _res("Comps", 105)
+    b = Blender().blend([r1, r2], price=50, ticker="T")
+    assert b.confidence == "low", b.confidence
+    assert abs(b.range_low - 100) < 1e-9 and abs(b.range_high - 105) < 1e-9
+    print("  fragile model -> LOW confidence + model range exposed  OK")
+
+
 def test_ranker_confidence_gate():
     # A 'low' confidence name with huge MoS must not appear in the top list.
     low = _res("Comps", 300)  # single model -> low confidence
@@ -137,6 +147,7 @@ if __name__ == "__main__":
         test_ranker_min_models_gate,
         test_ranker_confidence_gate,
         test_ranker_quality_gate,
+        test_low_reliability_forces_low_confidence,
     ]
     failed = 0
     for t in tests:

@@ -54,6 +54,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .dh .up { font-size: 17px; font-weight: 700; }
 .pill { font-size: 12px; font-weight: 600; color: var(--muted2);
   background: var(--card); padding: 3px 9px; border-radius: 20px; }
+.lowflag { font-size: 11px; font-weight: 700; color: #ffd60a; margin-top: 2px; }
+.lowbanner { margin-top: 10px; background: rgba(255,214,10,.12);
+  border: 1px solid rgba(255,214,10,.35); color: #ffd60a; font-size: 13px;
+  font-weight: 600; border-radius: 12px; padding: 10px 12px; }
 
 /* chart */
 .chart-wrap { padding: 8px 8px 0; }

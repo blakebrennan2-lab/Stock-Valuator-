@@ -41,16 +41,23 @@ class DCFConfig:
     growth_floor: float = -0.05        # min base growth
     fade: bool = True                  # fade growth from g0 -> terminal over horizon
     normalize_base: bool = True        # use median FCF as base (smooths cyclical peaks)
-    cost_of_equity_floor: float = 0.08  # equity holders demand >= this
-    wacc_floor: float = 0.08           # no equity valued below an 8% discount rate
+    normalize_spikes: bool = True      # damp one-off FCF spikes before measuring growth
+    spike_threshold: float = 1.40      # a year >1.4x median FCF is treated as a spike
+    cost_of_equity_floor: float = 0.09  # equity holders demand >= this
+    wacc_floor: float = 0.09           # no equity valued below a 9% discount rate
     default_beta: float = 1.0          # used only inside CAPM if beta present-but-odd
     wacc_fallback: float = 0.09        # whole-WACC fallback when beta missing
     cost_of_debt_spread: float = 0.01  # over rf, when interest/debt can't price it
     default_tax_rate: float = 0.21     # US statutory, when effective rate missing
+    # Terminal growth is tied to the firm's own trend, clamped to
+    # [0, terminal_growth] -- no assuming a declining business grows at GDP forever.
     # Scenario shifts (applied to base growth and base WACC).
     growth_delta: float = 0.03
     wacc_delta: float = 0.01
     min_wacc_spread: float = 0.04      # WACC - g >= this -> terminal multiple <= 25x
+    # Reliability sanity checks.
+    max_terminal_share: float = 0.75   # flag if terminal PV > this share of EV
+    multiple_flag_ratio: float = 1.8   # flag if DCF-implied FCF multiple >> market's
 
 
 @dataclass
@@ -98,48 +105,66 @@ class DCFModel(ValuationModel):
             result.flags.append(f"Latest FCF non-positive ({latest_fcf}); DCF unreliable")
             return result
 
-        # Projection base: median of positive FCF history smooths one-off peaks
-        # (defensible conservatism for cyclicals); else the latest year.
-        positive_fcf = [f for _, f in fcf_series if f and f > 0]
-        if cfg.normalize_base and positive_fcf:
-            fcf0 = statistics.median(positive_fcf)
-        else:
-            fcf0 = latest_fcf
+        # --- 1b. Strip one-off FCF spikes (e.g. election-year ad revenue) - #
+        # Any year more than spike_threshold x the median is damped to the
+        # median so a cyclical peak can't masquerade as a growth trend.
+        values = [f for _, f in fcf_series]
+        positive_fcf = [f for f in values if f and f > 0]
+        med = statistics.median(positive_fcf) if positive_fcf else latest_fcf
+        # Symmetric: damp BOTH one-off peaks (e.g. election ad revenue) and
+        # one-off troughs (e.g. a large one-time payment) to the median trend.
+        hi, lo = med * cfg.spike_threshold, med / cfg.spike_threshold
+        spikes = []
+        norm_values = []
+        for (year, f) in fcf_series:
+            if cfg.normalize_spikes and f and med and (f > hi or f < lo):
+                spikes.append((year, f, med))
+                norm_values.append(med)
+            else:
+                norm_values.append(f)
 
-        # --- 2. Growth from historical FCF (CAGR), capped -------------- #
-        oldest = fcf_series[0][1]
-        n_steps = len(fcf_series) - 1
-        if oldest is not None and oldest > 0:
-            # Trend from actual endpoints (latest vs oldest), not the median base.
-            raw_growth = (latest_fcf / oldest) ** (1.0 / n_steps) - 1.0
-            growth_method = f"CAGR over {len(fcf_series)} yrs"
+        # Projection base: median of normalized positive FCF (smooths cyclicals).
+        norm_positive = [f for f in norm_values if f and f > 0]
+        if cfg.normalize_base and norm_positive:
+            fcf0 = statistics.median(norm_positive)
+        else:
+            fcf0 = norm_values[-1]
+
+        # --- 2. Growth from NORMALIZED endpoints, capped --------------- #
+        oldest_n, newest_n = norm_values[0], norm_values[-1]
+        n_steps = len(norm_values) - 1
+        if oldest_n and oldest_n > 0 and newest_n and newest_n > 0:
+            raw_growth = (newest_n / oldest_n) ** (1.0 / n_steps) - 1.0
+            growth_method = (f"CAGR over {len(norm_values)} yrs"
+                             + (" (spike-normalized)" if spikes else ""))
         else:
             raw_growth = cfg.terminal_growth
             growth_method = "fallback (non-positive oldest FCF)"
         applied_growth = max(cfg.growth_floor, min(cfg.growth_cap, raw_growth))
         growth_capped = applied_growth != raw_growth
 
+        # Terminal growth tied to the firm's own trend, clamped to [0, cap]:
+        # a flat/declining business does NOT grow at GDP forever.
+        terminal_g = max(0.0, min(cfg.terminal_growth, applied_growth))
+
         # --- 3. WACC --------------------------------------------------- #
         wacc = self._compute_wacc(data)
 
         # --- 4. Base scenario + full audit ----------------------------- #
-        base_scn = self._run_scenario(fcf0, applied_growth, wacc.wacc, data)
+        base_scn = self._run_scenario(fcf0, applied_growth, wacc.wacc, data, terminal_g)
         if base_scn is None:
             result.flags.append("Could not bridge EV to equity (missing shares)")
             return result
 
         # --- 5. Bull / bear ------------------------------------------- #
         bull = self._run_scenario(
-            fcf0,
-            min(cfg.growth_cap, applied_growth + cfg.growth_delta),
-            max(cfg.min_wacc_spread + cfg.terminal_growth, wacc.wacc - cfg.wacc_delta),
-            data,
+            fcf0, min(cfg.growth_cap, applied_growth + cfg.growth_delta),
+            wacc.wacc - cfg.wacc_delta, data,
+            max(0.0, min(cfg.terminal_growth, applied_growth + cfg.growth_delta)),
         )
         bear = self._run_scenario(
-            fcf0,
-            max(cfg.growth_floor, applied_growth - cfg.growth_delta),
-            wacc.wacc + cfg.wacc_delta,
-            data,
+            fcf0, max(cfg.growth_floor, applied_growth - cfg.growth_delta),
+            wacc.wacc + cfg.wacc_delta, data, terminal_g,
         )
 
         result.ok = True
@@ -155,17 +180,28 @@ class DCFModel(ValuationModel):
             "projection_years": cfg.projection_years,
             "growth_applied": applied_growth,
         }
+        # --- 6. Reliability sanity checks ----------------------------- #
+        ev = base_scn["enterprise_value"]
+        terminal_share = base_scn["pv_terminal"] / ev if ev > 0 else 0.0
+        market_ev = ((data.market_cap or 0.0) + (data.total_debt or 0.0)
+                     - (data.cash_and_equivalents or 0.0))
+        market_mult = market_ev / fcf0 if fcf0 > 0 else None
+        dcf_mult = ev / fcf0 if fcf0 > 0 else None
+
         result.audit = {
             "fcf_history": fcf_series,
             "fcf0": fcf0,
+            "spikes_normalized": spikes,
             "growth": {
-                "method": growth_method,
-                "raw": raw_growth,
-                "applied": applied_growth,
-                "capped": growth_capped,
+                "method": growth_method, "raw": raw_growth,
+                "applied": applied_growth, "capped": growth_capped,
             },
+            "terminal_growth_used": terminal_g,
             "wacc": wacc.__dict__,
             "base": base_scn,
+            "terminal_share": terminal_share,
+            "market_multiple": market_mult,
+            "dcf_multiple": dcf_mult,
             "scenarios": {
                 "bear": bear["per_share"] if bear else None,
                 "base": base_scn["per_share"],
@@ -174,10 +210,20 @@ class DCFModel(ValuationModel):
         }
         if wacc.used_fallback:
             result.flags.append("WACC used 9% fallback (beta missing)")
+        if spikes:
+            yrs = ", ".join(y for y, _, _ in spikes)
+            result.flags.append(f"FCF outlier normalized (FY {yrs}) — one-off, smoothed to trend")
         if growth_capped:
             result.flags.append(
-                f"Growth capped from {raw_growth:.1%} to {applied_growth:.1%}"
-            )
+                f"Growth capped from {raw_growth:.1%} to {applied_growth:.1%}")
+        if terminal_share > cfg.max_terminal_share:
+            result.low_reliability = True
+            result.flags.append(
+                f"Terminal value is {terminal_share:.0%} of DCF — fragile")
+        if market_mult and dcf_mult and dcf_mult > market_mult * cfg.multiple_flag_ratio:
+            result.low_reliability = True
+            result.flags.append(
+                f"DCF implies {dcf_mult:.0f}x FCF vs market's {market_mult:.0f}x")
         return result
 
     # ------------------------------------------------------------------ #
@@ -267,11 +313,12 @@ class DCFModel(ValuationModel):
 
     # ------------------------------------------------------------------ #
     def _run_scenario(
-        self, fcf0: float, growth: float, wacc: float, data: CompanyData
+        self, fcf0: float, growth: float, wacc: float, data: CompanyData,
+        terminal_g: float,
     ) -> Optional[dict]:
         """Project, discount, terminal, EV, and bridge to per-share."""
         cfg = self.cfg
-        g = cfg.terminal_growth
+        g = terminal_g
         # Keep WACC safely above terminal growth so the Gordon term is sane.
         wacc = max(wacc, g + cfg.min_wacc_spread)
 

@@ -123,10 +123,10 @@ def test_aapl_frozen():
 
     assert abs(res.audit["wacc"]["wacc"] - 0.0960) < 5e-4, res.audit["wacc"]["wacc"]
     assert abs(res.audit["growth"]["applied"] - 0.0153) < 5e-4
-    # Calibrated defaults (median FCF base 99.58B, fade 1.53%->2.5%, WACC 9.6%
-    # so the 8% floor doesn't bind): $88.63.
-    assert abs(res.base - 88.63) < 0.10, res.base
-    print(f"  AAPL frozen per-share = {res.base:.2f}  (expected 88.63)  OK")
+    # Calibrated defaults: median FCF base, terminal growth tied to AAPL's own
+    # 1.53% trend (not 2.5%), WACC 9.6% (above 9% floor): $78.40.
+    assert abs(res.base - 78.40) < 0.10, res.base
+    print(f"  AAPL frozen per-share = {res.base:.2f}  (expected 78.40)  OK")
 
 
 # --------------------------------------------------------------------------- #
@@ -165,12 +165,31 @@ def test_missing_beta_uses_fallback():
     print("  missing-beta fallback to 9% WACC  OK")
 
 
+def test_spike_is_normalized():
+    # Flat ~100 FCF then a one-off 2x spike in the latest year. Growth must NOT
+    # read as huge — the spike is damped before measuring the trend.
+    data = CompanyData(
+        ticker="SPIKE", beta=1.0, market_cap=10_000.0, total_debt=0.0,
+        cash_and_equivalents=0.0, shares_outstanding=100.0,
+        periods=[
+            _period(2025, 200.0), _period(2024, 100.0),
+            _period(2023, 100.0), _period(2022, 100.0),
+        ],
+    )
+    res = DCFModel().value(data)
+    assert res.ok
+    assert res.audit["spikes_normalized"], "spike should be detected"
+    assert res.audit["growth"]["applied"] <= 0.02, res.audit["growth"]["applied"]
+    print(f"  one-off spike normalized; growth={res.audit['growth']['applied']:.1%}  OK")
+
+
 if __name__ == "__main__":
     tests = [
         test_handworked_synthetic,
         test_aapl_frozen,
         test_negative_fcf_skips,
         test_missing_beta_uses_fallback,
+        test_spike_is_normalized,
     ]
     failed = 0
     for t in tests:

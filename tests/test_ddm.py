@@ -79,12 +79,12 @@ def test_ko_frozen():
     res = DDMModel().value(data)
     assert res.ok, res.flags
     assert abs(res.audit["cost_of_equity"]["cost_of_equity"] - 0.0607) < 5e-4
-    # Low beta (0.354) -> raw coe 6.07% floored to the 8% discount-rate floor.
-    assert abs(res.audit["discount_rate_used"] - 0.08) < 1e-9
+    # Low beta (0.354) -> raw coe 6.07% floored to the 9% discount-rate floor.
+    assert abs(res.audit["discount_rate_used"] - 0.09) < 1e-9
     assert abs(res.audit["growth"]["applied"] - 0.0497) < 5e-4
-    assert abs(res.base - 42.35) < 0.10, res.base
-    assert abs(res.audit["gordon"]["value"] - 38.02) < 0.10
-    print(f"  KO frozen two-stage = {res.base:.2f} (exp 42.35, r floored to 8%)  OK")
+    assert abs(res.base - 35.77) < 0.10, res.base
+    assert abs(res.audit["gordon"]["value"] - 32.17) < 0.10
+    print(f"  KO frozen two-stage = {res.base:.2f} (exp 35.77, r floored to 9%)  OK")
 
 
 # --------------------------------------------------------------------------- #
@@ -119,12 +119,29 @@ def test_suspended_dividend():
     print("  suspended dividend -> NOT APPLICABLE  OK")
 
 
+def test_token_dividend_not_meaningful():
+    # Buyback-driven: rising but tiny dividend (yield ~0.5%, payout ~10%).
+    data = CompanyData(
+        ticker="BUYBACK", beta=1.0, price=100.0,
+        periods=[
+            FinancialPeriod(fiscal_year="2025", dividend_per_share=0.50, eps_diluted=5.0),
+            FinancialPeriod(fiscal_year="2024", dividend_per_share=0.45, eps_diluted=4.5),
+            FinancialPeriod(fiscal_year="2023", dividend_per_share=0.40, eps_diluted=4.0),
+        ],
+    )
+    res = DDMModel().value(data)
+    assert not res.ok
+    assert any("Not meaningful" in f for f in res.flags), res.flags
+    print("  token dividend (low yield/payout) -> DDM not meaningful  OK")
+
+
 if __name__ == "__main__":
     tests = [
         test_handworked_payer,
         test_ko_frozen,
         test_non_payer_not_applicable,
         test_suspended_dividend,
+        test_token_dividend_not_meaningful,
     ]
     failed = 0
     for t in tests:
