@@ -33,6 +33,9 @@ class CompsConfig:
     min_peers_per_multiple: int = 2   # need at least this many to trust a median
     low_confidence_below: int = 3     # flag when a median rests on <3 peers
     trim_when_at_least: int = 5       # drop one high + one low at/above this n
+    min_industry_peers: int = 2       # this many same-industry peers = a clean group
+    size_lo: float = 0.2              # sector fallback: keep peers within 0.2x..
+    size_hi: float = 5.0              # ..5x the target's market cap (drop the giants)
 
 
 def _trimmed_median(values: List[float], trim_at: int) -> tuple:
@@ -58,6 +61,57 @@ class CompsModel(ValuationModel):
         self.cfg = config or CompsConfig()
 
     # ------------------------------------------------------------------ #
+    def _select_peers(self, data, candidates):
+        """Pick genuinely comparable peers: same granular industry first; if too
+        few, a size-matched sector subset (low confidence); else none.
+        Returns (peers, basis, low_reliability)."""
+        cfg = self.cfg
+
+        def valid(pm):
+            return any(v and v > 0 for v in (pm.pe, pm.ev_ebitda, pm.pb))
+
+        if self.universe is None:  # tests / explicit peer lists
+            return [pm for pm in candidates if valid(pm)], "provided peers", False
+
+        def base_name(n):  # "Fox Corporation (Class B)" -> "fox corporation"
+            return (n or "").split("(")[0].strip().lower()
+
+        target = self.universe.get(data.ticker)
+        target_sub = target.sub_industry if target else None
+        target_base = base_name(target.name) if target else None
+
+        annotated = []
+        for pm in candidates:
+            c = self.universe.get(pm.symbol)
+            if c and not pm.sub_industry:
+                pm.sub_industry = c.sub_industry
+            # Exclude the target's own other share classes (FOX/FOXA, GOOG/GOOGL).
+            if c and target_base and base_name(c.name) == target_base:
+                continue
+            annotated.append(pm)
+        candidates = annotated
+
+        same = [pm for pm in candidates
+                if target_sub and pm.sub_industry == target_sub and valid(pm)]
+        if len(same) >= cfg.min_industry_peers:
+            return same, f"same industry — {target_sub}", False
+
+        # Fallback: same sector but only size-comparable names (drop the giants),
+        # and mark it low confidence since the business match is looser.
+        tmc = data.market_cap
+        if tmc:
+            lo, hi = tmc * cfg.size_lo, tmc * cfg.size_hi
+            sized = [pm for pm in candidates
+                     if valid(pm) and pm.market_cap and lo <= pm.market_cap <= hi]
+        else:
+            sized = [pm for pm in candidates if valid(pm)]
+        if len(sized) >= cfg.min_peers_per_multiple:
+            return sized, "size-matched sector peers (no close industry match)", True
+        if same:
+            return same, f"only {len(same)} same-industry peer(s)", True
+        return [], "no genuinely comparable peers", True
+
+    # ------------------------------------------------------------------ #
     def value(
         self, data: CompanyData, peer_symbols: Optional[List[str]] = None
     ) -> ValuationResult:
@@ -74,10 +128,19 @@ class CompsModel(ValuationModel):
             result.flags.append("No peers found for Comps")
             return result
 
-        # --- Fetch peer multiples ------------------------------------- #
-        peer_multiples: List[PeerMultiple] = [
+        # --- Fetch candidate multiples, then pick genuine comparables -- #
+        candidates: List[PeerMultiple] = [
             self.provider.get_multiples(sym) for sym in peer_symbols
         ]
+        peer_multiples, basis, low_rel = self._select_peers(data, candidates)
+        if not peer_multiples:
+            result.flags.append(
+                f"Not applicable: {basis} for {data.ticker} (won't compare to "
+                f"unrelated companies)")
+            result.audit = {"basis": basis, "candidates_considered": len(candidates)}
+            return result
+        if low_rel:
+            result.low_reliability = True
 
         # Target metrics
         latest = data.latest
@@ -118,6 +181,7 @@ class CompsModel(ValuationModel):
         if not implied:
             result.flags.append("No valid multiples produced a Comps value")
             result.audit = {
+                "basis": basis,
                 "peers": [p.__dict__ for p in peer_multiples],
                 "multiples": audit_multiples,
             }
@@ -130,12 +194,15 @@ class CompsModel(ValuationModel):
         result.value_per_share = reconciled
         result.low = min(valid_values)
         result.high = max(valid_values)
+        if basis.startswith("size-matched") or basis.startswith("only"):
+            result.flags.append(f"Comps basis: {basis} — lower confidence")
 
         result.assumptions = {
-            "peers_used": peer_symbols,
+            "peers_used": [p.symbol for p in peer_multiples],
             "methods_used": list(implied.keys()),
         }
         result.audit = {
+            "basis": basis,
             "peers": [p.__dict__ for p in peer_multiples],
             "multiples": audit_multiples,
             "implied_by_method": implied,

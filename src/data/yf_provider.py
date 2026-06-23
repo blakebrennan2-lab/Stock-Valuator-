@@ -284,7 +284,7 @@ class YFinanceProvider(DataProvider):
     def get_multiples(self, ticker: str) -> PeerMultiple:
         ticker = ticker.upper().strip()
 
-        cache_key = f"yf:multiples:{ticker}"
+        cache_key = f"yf:multiples:v2:{ticker}"  # v2: + market_cap
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -303,6 +303,7 @@ class YFinanceProvider(DataProvider):
             pe=_f(info.get("trailingPE")),
             ev_ebitda=_f(info.get("enterpriseToEbitda")),
             pb=_f(info.get("priceToBook")),
+            market_cap=_f(info.get("marketCap")),
         )
         if self.cache is not None and info:
             self.cache.set(cache_key, multiples_to_json(pm))

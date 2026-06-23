@@ -67,6 +67,8 @@ class PeerMultiple:
     pe: Optional[float] = None          # price / earnings
     ev_ebitda: Optional[float] = None   # enterprise value / EBITDA
     pb: Optional[float] = None          # price / book
+    market_cap: Optional[float] = None  # for size-comparability filtering
+    sub_industry: Optional[str] = None  # GICS sub-industry (granular comparability)
 
 
 @dataclass

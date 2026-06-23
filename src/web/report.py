@@ -102,8 +102,12 @@ def render_comps(res: Optional[ValuationResult]) -> str:
         return (f"{info['median']:.1f}x → <b>${info['implied']:,.2f}</b>"
                 if "implied" in info else "dropped")
     impl = " · ".join(f"{k} ${v:,.0f}" for k, v in a["implied_by_method"].items())
+    basis = a.get("basis", "")
+    peer_list = ", ".join(p["symbol"] for p in a["peers"])
     return f"""
 <h4>Comps — peer multiples</h4>
+<p>Peers used ({len(a['peers'])}): <b>{peer_list}</b><br>
+   Basis: {basis}</p>
 <table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr>{prows}</table>
 <p>Median P/E: {med('pe')}<br>
    Median EV/EBITDA: {med('ev_ebitda')}<br>

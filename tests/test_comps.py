@@ -13,8 +13,21 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data.provider import CompanyData, DataProvider, FinancialPeriod, PeerMultiple
+from src.data.provider import (
+    CompanyData, Constituent, DataProvider, FinancialPeriod, PeerMultiple,
+)
 from src.models.comps import CompsModel
+
+
+class FakeUniverse:
+    def __init__(self, table):
+        self.table = table
+
+    def get(self, s):
+        return self.table.get(s)
+
+    def peers_for(self, s):
+        return [k for k in self.table if k != s]
 
 
 class FakeProvider(DataProvider):
@@ -144,9 +157,34 @@ def test_too_few_peers():
     print("  too few peers -> dropped  OK")
 
 
+def test_peer_selection_industry_and_dual_class():
+    # Target FOO (Broadcasting). FOOA = its own other share class (exclude).
+    # BAR/BAZ = real broadcasting peers. QUX = unrelated industry (exclude).
+    uni = FakeUniverse({
+        "FOO": Constituent("FOO", "Foo Corp (Class B)", "Comm", "Broadcasting"),
+        "FOOA": Constituent("FOOA", "Foo Corp (Class A)", "Comm", "Broadcasting"),
+        "BAR": Constituent("BAR", "Bar Media", "Comm", "Broadcasting"),
+        "BAZ": Constituent("BAZ", "Baz Media", "Comm", "Broadcasting"),
+        "QUX": Constituent("QUX", "Qux Retail", "Cons", "Retail Stores"),
+    })
+    table = {s: PeerMultiple(symbol=s, pe=15, ev_ebitda=10, pb=2, market_cap=1e10)
+             for s in uni.table}
+    data = CompanyData(ticker="FOO", market_cap=1e10, shares_outstanding=100.0,
+                       periods=[FinancialPeriod(fiscal_year="2025", eps_diluted=5.0,
+                                                ebitda=1000.0, book_value_per_share=10.0)])
+    res = CompsModel(FakeProvider(table), uni).value(data)
+    assert res.ok, res.flags
+    used = {p["symbol"] for p in res.audit["peers"]}
+    assert used == {"BAR", "BAZ"}, used                 # same industry only
+    assert "FOOA" not in used and "QUX" not in used      # no dual-class, no unrelated
+    assert res.audit["basis"].startswith("same industry")
+    print("  same-industry peers chosen; dual-class + unrelated excluded  OK")
+
+
 if __name__ == "__main__":
     tests = [
         test_handworked,
+        test_peer_selection_industry_and_dual_class,
         test_negative_target_eps_drops_pe,
         test_negative_target_book_drops_pb,
         test_negative_peer_pb_filtered,

@@ -6,12 +6,12 @@
       "ticker": "FOX",
       "name": "Fox Corporation",
       "price": 44.93,
-      "intrinsic": 82.9375098599312,
-      "upside": 0.4582668278676838,
-      "confidence": "medium",
+      "intrinsic": 115.3463061049312,
+      "upside": 0.6104773397847096,
+      "confidence": "low",
       "range_low": 65.27534068986239,
-      "range_high": 100.59967903,
-      "thesis": "FOX trades around $44.93 versus an estimated fair value of $82.94 (range $65.28\u2013$100.60) \u2014 about 46% below, at medium confidence. It clears the full quality screen \u2014 long-term uptrend, growing profits, healthy margins, and durable revenue \u2014 which is why it surfaces as a buy. Valued with DCF and Comps. DDM was skipped (token dividend (yield 1.2%, payout 11%) \u2014 returns cash via buybacks; DDM excluded from the blend).",
+      "range_high": 165.41727152,
+      "thesis": "FOX trades around $44.93 versus an estimated fair value of $115.35 (range $65.28\u2013$165.42) \u2014 about 61% below, at low confidence. It clears the full quality screen \u2014 long-term uptrend, growing profits, healthy margins, and durable revenue \u2014 which is why it surfaces as a buy. Valued with DCF and Comps. DDM was skipped (token dividend (yield 1.2%, payout 11%) \u2014 returns cash via buybacks; DDM excluded from the blend).",
       "methods": [
         {
           "key": "DCF",
@@ -35,11 +35,11 @@
       "reconciliation": {
         "values": {
           "DCF": 65.27534068986239,
-          "Comps": 100.59967903
+          "Comps": 165.41727152
         },
-        "spread": 0.5411590037954972,
-        "confidence": "medium",
-        "sentence": "The methods land between $65.28 and $100.60 (a 54% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
+        "spread": 1.5341464291382887,
+        "confidence": "low",
+        "sentence": "The methods land between $65.28 and $165.42 (a 153% spread). They disagree sharply, so confidence is low \u2014 treat the value as a wide range."
       },
       "history": [
         [
@@ -1874,7 +1874,7 @@
         },
         {
           "label": "P/E",
-          "value": "9.2  (peers 20.5)"
+          "value": "9.2  (peers 33.7)"
         },
         {
           "label": "Cash vs debt",
@@ -1886,17 +1886,17 @@
         }
       ],
       "why": [
-        "46% below intrinsic value ($44.93 vs $82.94)",
-        "medium confidence across 2 models \u2014 DCF $65.28, Comps $100.60",
+        "61% below intrinsic value ($44.93 vs $115.35)",
+        "low confidence across 2 models \u2014 DCF $65.28, Comps $165.42",
         "Free cash flow grew +24%/yr over 4y",
         "Net margin 14% on $16.3B revenue",
         "Net debt $1.3B (0.3x EBITDA)",
-        "P/E 9.2 vs peer median 20.5"
+        "P/E 9.2 vs peer median 33.7"
       ],
       "risks": [
         "Defensive: beta 0.52",
         "Recession sensitivity moderate [heuristic]",
-        "Model spread moderate (21%) \u2014 lower confidence"
+        "Model spread wide (43%) \u2014 lower confidence"
       ],
       "profile": [
         "\u2713 not excluded: Communication Services",
@@ -1905,7 +1905,7 @@
         "\u2713 profit growth: +23%/yr over 4y",
         "\u2713 high margin: 14% vs sector 13%",
         "\u2713 revenue durability: growth vol 9%",
-        "\u2713 undervalued: MoS 46%"
+        "\u2713 undervalued: MoS 61%"
       ],
       "news": [
         {
@@ -1931,7 +1931,7 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>-0.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.519</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>71.6% / 28.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-0.9%</td><td>$1.5B</td><td>1.090</td><td>$1.4B</td></tr><tr><td>Y2</td><td>-0.7%</td><td>$1.5B</td><td>1.188</td><td>$1.3B</td></tr><tr><td>Y3</td><td>-0.4%</td><td>$1.5B</td><td>1.295</td><td>$1.1B</td></tr><tr><td>Y4</td><td>-0.2%</td><td>$1.5B</td><td>1.412</td><td>$1.1B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$1.5B</td><td>1.539</td><td>$963.6M</td></tr></table>\n<p>Sum of PV (explicit): <b>$5.8B</b> \u00b7\n   terminal value <b>$16.5B</b> \u2192\n   PV <b>$10.7B</b></p>\n<p>Enterprise value <b>$16.5B</b> \u2212 debt $7.5B\n   + cash $5.4B = equity <b>$14.4B</b><br>\n   \u00f7 220M shares = <b>$65.28/share</b></p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful for this company: token dividend (yield 1.2%, payout 11%) \u2014 returns cash via buybacks; DDM excluded from the blend</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr><td>GOOGL</td><td>26.7x</td><td>26.1x</td><td>8.8x</td></tr><tr><td>GOOG</td><td>26.6x</td><td>26.0x</td><td>8.8x</td></tr><tr><td>T</td><td>7.3x</td><td>7.2x</td><td>1.4x</td></tr><tr><td>CHTR</td><td>3.4x</td><td>5.3x</td><td>0.9x</td></tr><tr><td>CMCSA</td><td>4.4x</td><td>4.7x</td><td>0.9x</td></tr><tr><td>SATS</td><td>\u2013</td><td>36.9x</td><td>5.5x</td></tr><tr><td>EA</td><td>57.7x</td><td>33.5x</td><td>7.5x</td></tr><tr><td>FOXA</td><td>13.0x</td><td>7.0x</td><td>1.9x</td></tr><tr><td>LYV</td><td>\u2013</td><td>28.6x</td><td>-282.4x</td></tr><tr><td>META</td><td>20.5x</td><td>13.1x</td><td>5.9x</td></tr><tr><td>NFLX</td><td>23.5x</td><td>21.8x</td><td>9.9x</td></tr><tr><td>NWSA</td><td>31.2x</td><td>11.9x</td><td>1.6x</td></tr><tr><td>NWS</td><td>35.3x</td><td>13.4x</td><td>1.8x</td></tr><tr><td>OMC</td><td>\u2013</td><td>9.2x</td><td>2.2x</td></tr><tr><td>PSKY</td><td>329.7x</td><td>8.7x</td><td>0.9x</td></tr><tr><td>TMUS</td><td>19.1x</td><td>9.3x</td><td>3.5x</td></tr><tr><td>TTWO</td><td>\u2013</td><td>57.6x</td><td>12.7x</td></tr><tr><td>TKO</td><td>73.6x</td><td>16.7x</td><td>4.4x</td></tr><tr><td>TTD</td><td>20.5x</td><td>10.6x</td><td>3.5x</td></tr><tr><td>VZ</td><td>11.1x</td><td>7.5x</td><td>1.8x</td></tr><tr><td>DIS</td><td>16.4x</td><td>11.5x</td><td>1.6x</td></tr><tr><td>WBD</td><td>\u2013</td><td>12.9x</td><td>2.1x</td></tr></table>\n<p>Median P/E: 20.5x \u2192 <b>$100.60</b><br>\n   Median EV/EBITDA: 12.4x \u2192 <b>$207.13</b><br>\n   Median P/B: 2.2x \u2192 <b>$56.85</b></p>\n<p>Implied by method: P/E $101 \u00b7 EV/EBITDA $207 \u00b7 P/B $57<br>\n   Reconciled (median): <b>$100.60/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (13): <b>CHTR, CMCSA, SATS, EA, LYV, NWSA, NWS, OMC, PSKY, TTWO, TKO, TTD, WBD</b><br>\n   Basis: size-matched sector peers (no close industry match)</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr><td>CHTR</td><td>3.6x</td><td>5.3x</td><td>1.0x</td></tr><tr><td>CMCSA</td><td>4.5x</td><td>4.7x</td><td>0.9x</td></tr><tr><td>SATS</td><td>\u2013</td><td>36.9x</td><td>5.2x</td></tr><tr><td>EA</td><td>58.0x</td><td>33.5x</td><td>7.5x</td></tr><tr><td>LYV</td><td>\u2013</td><td>28.6x</td><td>-283.6x</td></tr><tr><td>NWSA</td><td>31.6x</td><td>11.9x</td><td>1.6x</td></tr><tr><td>NWS</td><td>35.8x</td><td>13.4x</td><td>1.8x</td></tr><tr><td>OMC</td><td>\u2013</td><td>9.2x</td><td>2.2x</td></tr><tr><td>PSKY</td><td>323.8x</td><td>8.7x</td><td>0.9x</td></tr><tr><td>TTWO</td><td>\u2013</td><td>57.6x</td><td>12.9x</td></tr><tr><td>TKO</td><td>75.3x</td><td>16.7x</td><td>4.5x</td></tr><tr><td>TTD</td><td>20.5x</td><td>10.6x</td><td>3.5x</td></tr><tr><td>WBD</td><td>\u2013</td><td>12.9x</td><td>2.1x</td></tr></table>\n<p>Median P/E: 33.7x \u2192 <b>$165.42</b><br>\n   Median EV/EBITDA: 12.9x \u2192 <b>$215.73</b><br>\n   Median P/B: 2.1x \u2192 <b>$55.28</b></p>\n<p>Implied by method: P/E $165 \u00b7 EV/EBITDA $216 \u00b7 P/B $55<br>\n   Reconciled (median): <b>$165.42/share</b></p>\n"
     }
   ]
 }
