@@ -11,6 +11,7 @@ import os
 from datetime import date
 from typing import Optional
 
+from src.screen.etf import build_etf_payloads
 from src.web.fields import stock_payload
 
 DEFAULT_PATH = "docs/results.json"
@@ -38,7 +39,8 @@ def export_results(scan_result, path: str = DEFAULT_PATH, as_of: Optional[str] =
             provider and hasattr(provider, "get_news")) else None
         picks.append(stock_payload(b, data, comps, results, history, news, intraday))
 
-    payload = {"as_of": as_of, "count": len(picks), "picks": picks}
+    etfs = build_etf_payloads(provider) if provider else []
+    payload = {"as_of": as_of, "count": len(picks), "picks": picks, "etfs": etfs}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w") as fh:
         json.dump(payload, fh, indent=2)

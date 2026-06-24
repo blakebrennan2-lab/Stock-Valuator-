@@ -352,11 +352,12 @@ class YFinanceProvider(DataProvider):
             self.cache.set(cache_key, json.dumps(out))
         return out
 
-    def get_intraday(self, ticker: str) -> List[list]:
-        """Hourly closes for the last month — fine resolution for 1W/1M ranges.
-        -> [['YYYY-MM-DD HH:MM', close]]."""
+    def get_intraday(self, ticker: str) -> dict:
+        """Fine-grained intraday at multiple resolutions, like Apple Stocks:
+        day = 1-minute (~390 pts), week = 5-minute, month = hourly.
+        -> {'day': [...], 'week': [...], 'month': [...]} of ['YYYY-MM-DD HH:MM', close]."""
         ticker = ticker.upper().strip()
-        cache_key = f"yf:intraday:v1:{ticker}"
+        cache_key = f"yf:intraday:v2:{ticker}"  # v2: multi-resolution dict
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -364,14 +365,17 @@ class YFinanceProvider(DataProvider):
                     return json.loads(cached)
                 except Exception:
                     pass
-        try:
-            closes = yf.Ticker(self._yahoo_symbol(ticker)).history(
-                period="1mo", interval="60m")["Close"].dropna()
-            out = [[ts.strftime("%Y-%m-%d %H:%M"), round(float(v), 2)]
-                   for ts, v in closes.items()]
-        except Exception:
-            out = []
-        if self.cache is not None and out:
+        t = yf.Ticker(self._yahoo_symbol(ticker))
+        specs = {"day": ("1d", "1m"), "week": ("5d", "5m"), "month": ("1mo", "60m")}
+        out = {}
+        for key, (period, interval) in specs.items():
+            try:
+                closes = t.history(period=period, interval=interval)["Close"].dropna()
+                out[key] = [[ts.strftime("%Y-%m-%d %H:%M"), round(float(v), 2)]
+                            for ts, v in closes.items()]
+            except Exception:
+                out[key] = []
+        if self.cache is not None and any(out.values()):
             self.cache.set(cache_key, json.dumps(out))
         return out
 

@@ -49,9 +49,21 @@ def main() -> None:
             p["intraday"] = intra
         print(f"  {p['ticker']}: {p['price']} (upside {round((p.get('upside') or 0)*100)}%)")
 
+    for e in data.get("etfs", []):
+        price = provider.get_quote(e["ticker"])
+        if price:
+            e["price"] = round(price, 2)
+        hist = provider.get_price_history(e["ticker"])
+        if hist:
+            e["history"] = hist
+        intra = provider.get_intraday(e["ticker"])
+        if intra:
+            e["intraday"] = intra
+
     data["price_as_of"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")
     json.dump(data, open(PATH, "w"), indent=2)
-    print(f"Refreshed {len(picks)} pick(s) at {data['price_as_of']}")
+    print(f"Refreshed {len(picks)} pick(s) + {len(data.get('etfs', []))} ETF(s) "
+          f"at {data['price_as_of']}")
 
 
 if __name__ == "__main__":

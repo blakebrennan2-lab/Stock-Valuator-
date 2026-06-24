@@ -94,7 +94,9 @@ def render_comps(res: Optional[ValuationResult]) -> str:
         pe = f"{p['pe']:.1f}x" if p.get("pe") else "–"
         ev = f"{p['ev_ebitda']:.1f}x" if p.get("ev_ebitda") else "–"
         pb = f"{p['pb']:.1f}x" if p.get("pb") else "–"
-        prows += f"<tr><td>{p['symbol']}</td><td>{pe}</td><td>{ev}</td><td>{pb}</td></tr>"
+        nm = p.get("name") or ""
+        prows += (f"<tr><td>{p['symbol']}<div class='peernm'>{nm}</div></td>"
+                  f"<td>{pe}</td><td>{ev}</td><td>{pb}</td></tr>")
     m = a["multiples"]
 
     def med(key):
