@@ -7,7 +7,7 @@
       "name": "Leidos Holdings, Inc.",
       "price": 106.11,
       "intrinsic": 214.62810621761852,
-      "upside": 0.5056099507656674,
+      "upside": 0.505609947921904,
       "confidence": "medium",
       "range_low": 117.13488992886727,
       "range_high": 312.1213225063698,
@@ -934,7 +934,7 @@
         ],
         [
           "2021-10-20",
-          94.4
+          94.39
         ],
         [
           "2021-10-21",
@@ -1078,7 +1078,7 @@
         ],
         [
           "2021-12-10",
-          82.9
+          82.91
         ],
         [
           "2021-12-13",
@@ -2490,7 +2490,7 @@
         ],
         [
           "2023-05-09",
-          77.27
+          77.26
         ],
         [
           "2023-05-10",
@@ -5710,7 +5710,7 @@
       "name": "Fox Corporation",
       "price": 48.79,
       "intrinsic": 118.77439648757512,
-      "upside": 0.5892212341815276,
+      "upside": 0.5892212264734074,
       "confidence": "low",
       "range_low": 72.13152145515022,
       "range_high": 165.41727152,
@@ -11412,7 +11412,7 @@
       "name": "Pentair plc",
       "price": 73.16,
       "intrinsic": 77.06835908831005,
-      "upside": 0.050712888331144984,
+      "upside": 0.050712840813468184,
       "confidence": "medium",
       "range_low": 59.66903123402189,
       "range_high": 94.46768694259819,
@@ -17109,5 +17109,5 @@
       "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (13): <b>DOV, FTV, HUBB, IEX, ITW, IR, NDSN, OTIS, PH, SNA, SWK, GWW, XYL</b><br>\n   Basis: same industry \u2014 Industrial Machinery & Supplies & Components</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr><td>DOV</td><td>27.9x</td><td>17.4x</td><td>4.0x</td></tr><tr><td>FTV</td><td>35.6x</td><td>18.5x</td><td>3.0x</td></tr><tr><td>HUBB</td><td>30.3x</td><td>21.0x</td><td>7.2x</td></tr><tr><td>IEX</td><td>32.7x</td><td>18.9x</td><td>4.1x</td></tr><tr><td>ITW</td><td>24.4x</td><td>17.9x</td><td>23.4x</td></tr><tr><td>IR</td><td>51.9x</td><td>16.9x</td><td>3.0x</td></tr><tr><td>NDSN</td><td>31.1x</td><td>20.1x</td><td>5.1x</td></tr><tr><td>OTIS</td><td>19.1x</td><td>14.2x</td><td>-4.9x</td></tr><tr><td>PH</td><td>34.9x</td><td>23.8x</td><td>8.2x</td></tr><tr><td>SNA</td><td>19.9x</td><td>14.1x</td><td>3.4x</td></tr><tr><td>SWK</td><td>34.4x</td><td>12.0x</td><td>1.5x</td></tr><tr><td>GWW</td><td>35.7x</td><td>21.3x</td><td>15.9x</td></tr><tr><td>XYL</td><td>27.5x</td><td>14.7x</td><td>2.3x</td></tr></table>\n<p>Median P/E: 31.1x \u2192 <b>$123.05</b><br>\n   Median EV/EBITDA: 17.9x \u2192 <b>$94.24</b><br>\n   Median P/B: 4.0x \u2192 <b>$94.47</b></p>\n<p>Implied by method: P/E $123 \u00b7 EV/EBITDA $94 \u00b7 P/B $94<br>\n   Reconciled (median): <b>$94.47/share</b></p>\n"
     }
   ],
-  "price_as_of": "2026-06-23 23:39Z"
+  "price_as_of": "2026-06-24 10:37Z"
 }
