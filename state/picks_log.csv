@@ -1,2 +1,5 @@
 run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-06-20,1,FOX,Fox Corporation,46.95,103.28,54.5%,medium,3
+2026-06-24,1,MSFT,Microsoft Corporation,368.58,446.05,17.4%,low,2
+2026-06-24,2,BMY,Bristol-Myers Squibb Company,55.38,61.98,10.6%,high,3
+2026-06-24,3,HCA,"HCA Healthcare, Inc.",391.75,454.91,13.9%,low,2
