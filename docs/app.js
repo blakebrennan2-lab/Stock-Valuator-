@@ -61,13 +61,20 @@ function sparkline(hist) {
 const RANGE_LABEL = { 7: "Past week", 30: "Past month", 182: "Past 6 months",
   365: "Past year", 0: "All time" };
 function fmtDate(iso) {
-  const d = new Date(iso + "T00:00:00");
-  return d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  const intraday = iso.length > 10;            // "YYYY-MM-DD HH:MM"
+  const d = new Date(iso.replace(" ", "T") + (intraday ? "" : "T00:00:00"));
+  const opts = intraday
+    ? { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }
+    : { month: "short", day: "numeric", year: "numeric" };
+  return d.toLocaleString(undefined, opts);
 }
 
 // Renders the chart into `host` and wires Apple-Stocks-style scrubbing.
+// Uses hourly intraday for short ranges (smooth), daily for longer ones.
 // `readout` = { price, chg, date } DOM elements updated live.
-function mountChart(host, readout, hist, days, intrinsic) {
+function mountChart(host, readout, daily, intraday, days, intrinsic) {
+  const useIntra = days && days <= 31 && intraday && intraday.length > 2;
+  const hist = useIntra ? intraday : (daily || []);
   const seg = sliceDays(hist, days);
   const data = seg.map(p => ({ date: p[0], price: p[1] }));
   if (data.length < 2) { host.innerHTML = '<div class="chart-note">No chart data.</div>'; return; }
@@ -133,11 +140,10 @@ function renderHome() {
     : (DATA.as_of ? `Updated ${DATA.as_of}` : "");
   if (!DATA.picks.length) {
     root.innerHTML = `
-      <div class="title-lg">Strong Buys</div><div class="sub">${sub}</div>
+      <div class="title-lg">Quality Dips</div><div class="sub">${sub}</div>
       <div class="empty"><div class="dot">🟢</div>
-        <div class="big">No strong buys this cycle</div>
-        <div>Nothing cleared the quality bar at a 20% margin of safety.
-        The screen ran fine — it's just being disciplined.</div></div>`;
+        <div class="big">Nothing today</div>
+        <div>No strong company pulled back on sentiment while staying at or below fair value. The screen ran fine — it's just being patient.</div></div>`;
     return;
   }
   const cards = DATA.picks.map(p => {
@@ -152,7 +158,7 @@ function renderHome() {
         ${low ? '<div class="lowflag">⚠ low confidence</div>' : ""}</div>
     </button>`;
   }).join("");
-  root.innerHTML = `<div class="title-lg">Strong Buys</div>
+  root.innerHTML = `<div class="title-lg">Quality Dips</div>
     <div class="sub">${sub}</div><div class="list">${cards}</div>`;
 }
 
@@ -191,7 +197,7 @@ function renderDetail(p) {
   root.innerHTML = `
     <div class="nav"><button class="back" onclick="location.hash=''">
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
-        stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Strong Buys</button></div>
+        stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
       <div class="nm">${esc(p.name)}</div>
       <div class="price">${usd(p.price)}</div>
@@ -234,7 +240,7 @@ function renderDetail(p) {
   let active = "6M";
   const draw = () => {
     const days = ranges.find(r => r[0] === active)[1];
-    mountChart(cEl, readout, p.history || [], days, p.intrinsic);
+    mountChart(cEl, readout, p.history || [], p.intraday || [], days, p.intrinsic);
     rEl.innerHTML = ranges.map(([lab]) =>
       `<button class="range ${lab === active ? "active" : ""}" data-r="${lab}">${lab}</button>`).join("");
     rEl.querySelectorAll(".range").forEach(b =>

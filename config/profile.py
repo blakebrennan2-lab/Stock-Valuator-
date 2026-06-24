@@ -1,7 +1,12 @@
-"""The quality-compounder profile — every threshold in one place.
+"""The screen profile — quality companies on a sentiment-driven dip.
 
-Tighten or loosen the screen by editing these numbers only; the gate logic in
-src/screen/profile.py reads them and never hard-codes a threshold.
+The trigger is a recent pullback (down from the 52-week high) where the
+fundamentals are still intact — earnings/revenue/margins stable-to-improving and
+a long-term uptrend — i.e. the drop is multiple compression, not deterioration.
+Valuation only has to be at/below fair value, not deeply discounted.
+
+Every threshold lives here; the gate logic in src/screen/profile.py reads these
+and never hard-codes a number.
 """
 
 from dataclasses import dataclass
@@ -9,25 +14,19 @@ from dataclasses import dataclass
 
 @dataclass
 class ProfileConfig:
-    # --- Undervaluation (ranked on this after gating) ---
-    mos_floor: float = 0.20            # margin of safety must clear this
+    # --- Recent-pullback trigger (the main signal) ---
+    min_pullback: float = 0.10        # down at least 10% from the 52-week high
+    max_pullback: float = 0.50        # but not a >50% collapse (likely real trouble)
 
-    # --- Long-term uptrend (no structural decliners) ---
-    require_uptrend: bool = True       # 3y & 5y returns positive, OR price > long MA
+    # --- Valuation: at or below fair value (not a deep discount) ---
+    mos_floor: float = 0.0            # margin of safety >= 0 (price <= fair value)
 
-    # --- Rising-dividend streak ---
-    min_dividend_streak: int = 3       # consecutive years of higher dividend/share
-
-    # --- Profit growth ---
-    min_profit_growth_years: int = 3   # need at least this many years of net income
-    profit_growth_min_cagr: float = 0.0  # net income CAGR must exceed this (>0 = growing)
-
-    # --- Margins (high, and beat the sector) ---
-    net_margin_floor: float = 0.10     # absolute net-margin floor
-    require_above_sector_margin: bool = True  # also beat the sector median
-
-    # --- Revenue durability (penalize spiky / one-off revenue) ---
-    max_revenue_growth_vol: float = 0.15  # max std-dev of annual revenue growth
+    # --- Quality / fundamentals-intact ---
+    require_uptrend: bool = True      # long-term uptrend (3y & 5y returns positive, or > long MA)
+    min_profit_growth_years: int = 3  # need this many years of earnings history
+    profit_growth_min_cagr: float = 0.0   # earnings stable-to-growing (no deterioration)
+    net_margin_floor: float = 0.05    # healthy, profitable margins
+    max_revenue_growth_vol: float = 0.20  # durable, non-spiky revenue
 
     # --- Output ---
-    top_n: int = 5
+    top_n: int = 3                    # top 3 quality-on-a-dip names daily

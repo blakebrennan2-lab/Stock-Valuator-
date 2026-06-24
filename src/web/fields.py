@@ -78,26 +78,28 @@ def _reconciliation(blend: BlendResult) -> dict:
     return {"values": blend.model_values, "spread": spread, "confidence": c, "sentence": sent}
 
 
-def _thesis(blend: BlendResult, methods: list) -> str:
+def _thesis(blend: BlendResult, methods: list, data: CompanyData) -> str:
+    dd = data.drawdown
+    pull = f"down {abs(dd):.0%} from its 52-week high" if dd is not None else "off its highs"
+    ni = [p.net_income for p in reversed(data.periods) if p.net_income is not None]
+    cagr = ((ni[-1] / ni[0]) ** (1.0 / (len(ni) - 1)) - 1.0
+            if len(ni) >= 2 and ni[0] > 0 and ni[-1] > 0 else None)
+    earn = f"while earnings grew {_pct(cagr)}/yr" if cagr is not None else "with earnings intact"
+
+    s1 = (f"{blend.ticker} is {pull} {earn} — a sentiment-driven pullback, not "
+          f"fundamental deterioration.")
+    s2 = (f"Quality looks intact (healthy margins, durable revenue, long-term uptrend), "
+          f"and it's now at or below fair value ({_money(blend.price)} vs "
+          f"{_money(blend.intrinsic_value)}, {blend.confidence} confidence).")
     used = [m["key"] for m in methods if m["used"]]
-    skipped = [m for m in methods if not m["used"]]
-    s1 = (f"{blend.ticker} trades around {_money(blend.price)} versus an estimated fair "
-          f"value of {_money(blend.intrinsic_value)} "
-          f"(range {_money(blend.range_low)}–{_money(blend.range_high)}) — about "
-          f"{_pct(blend.margin_of_safety)} below, at {blend.confidence} confidence.")
-    s2 = ("It clears the full quality screen — long-term uptrend, growing profits, healthy "
-          "margins, and durable revenue — which is why it surfaces as a buy.")
     s3 = f"Valued with {' and '.join(used) if used else 'no applicable model'}."
-    if skipped:
-        sk = skipped[0]
-        reason = sk["reason"].split(":", 1)[-1].strip().rstrip(".")
-        s3 += f" {sk['key']} was skipped ({reason})."
     return f"{s1} {s2} {s3}"
 
 
 def stock_payload(blend: BlendResult, data: CompanyData,
                   comps: Optional[ValuationResult], results: dict,
-                  history: list, news: Optional[list]) -> dict:
+                  history: list, news: Optional[list],
+                  intraday: Optional[list] = None) -> dict:
     latest = data.latest
     revenue = latest.revenue if latest else None
     prev_rev = data.periods[1].revenue if len(data.periods) > 1 else None
@@ -183,7 +185,8 @@ def stock_payload(blend: BlendResult, data: CompanyData,
         "confidence": blend.confidence,
         "range_low": blend.range_low,
         "range_high": blend.range_high,
-        "thesis": _thesis(blend, methods),
+        "intraday": intraday or [],
+        "thesis": _thesis(blend, methods, data),
         "methods": methods,
         "reconciliation": _reconciliation(blend),
         "history": history,

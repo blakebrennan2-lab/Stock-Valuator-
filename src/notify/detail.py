@@ -196,21 +196,20 @@ def build_stock_block(
 
 
 def build_digest_messages(top, provider, universe, as_of=None,
-                          title="Quality Compounders"):
+                          title="Quality on a Dip"):
     """Header + one richly-detailed message per stock (keeps each under Telegram's
     length limit). Fetches cached data and runs Comps for peer medians + news."""
     as_of = as_of or date.today().isoformat()
-    header = (
-        f"<b>📉 Top {len(top) or 5} {title} — undervalued</b>\n"
-        f"<i>as of {as_of} · cleared every quality gate · ranked by upside</i>"
-    )
     if not top:
         return [
-            f"<b>🟢 No strong buys this cycle</b>\n"
-            f"<i>{as_of}</i>\n\n"
-            "Nothing cleared the quality-compounder bar at a ≥20% margin of "
-            "safety. The screen ran fine — it's just being disciplined."
+            f"<b>🟢 Nothing today</b>\n<i>{as_of}</i>\n\n"
+            "No quality-on-a-dip setups right now — no strong company pulled back "
+            "on sentiment while staying at/below fair value. (Screen ran fine.)"
         ]
+    header = (
+        f"<b>📉 Top {len(top)} {title}</b>\n"
+        f"<i>as of {as_of} · strong fundamentals, recently pulled back, ≤ fair value</i>"
+    )
 
     messages = [header]
     comps_model = CompsModel(provider, universe)

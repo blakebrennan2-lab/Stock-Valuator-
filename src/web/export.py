@@ -32,9 +32,11 @@ def export_results(scan_result, path: str = DEFAULT_PATH, as_of: Optional[str] =
         # Only a handful of picks -> fetching history + news for each is cheap.
         history = provider.get_price_history(b.ticker) if (
             provider and hasattr(provider, "get_price_history")) else []
+        intraday = provider.get_intraday(b.ticker) if (
+            provider and hasattr(provider, "get_intraday")) else []
         news = provider.get_news(b.ticker) if (
             provider and hasattr(provider, "get_news")) else None
-        picks.append(stock_payload(b, data, comps, results, history, news))
+        picks.append(stock_payload(b, data, comps, results, history, news, intraday))
 
     payload = {"as_of": as_of, "count": len(picks), "picks": picks}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)

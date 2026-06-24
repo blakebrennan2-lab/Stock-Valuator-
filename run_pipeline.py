@@ -48,24 +48,16 @@ def main() -> None:
     export_results(result, provider=scanner.provider)  # always refresh the app data
     print_top(result)
 
-    current = {b.ticker for b in result.top}
-    previous = _load_last()
-    changed = previous is None or current != previous
-
-    if not changed:
-        print(f"Picks unchanged ({sorted(current) or 'none'}) — Telegram skipped.")
-        return
-
-    print(f"Picks changed: {sorted(previous or [])} -> {sorted(current)}")
+    # Send a digest EVERY run with the day's top 3 (or "nothing today").
     notifier = TelegramNotifier()
     messages = build_digest_messages(result.top, scanner.provider, universe,
                                      as_of=date.today().isoformat())
     sent = notifier.send_many(messages)
     print("Telegram: sent." if sent else "Telegram: not sent (creds/send error).")
 
-    _save_last(current)
+    _save_last({b.ticker for b in result.top})
     append_digest_log(result.top, as_of=date.today().isoformat())
-    print(f"Recorded {len(current)} pick(s) to {STATE_PATH} and the picks log.")
+    print(f"Recorded {len(result.top)} pick(s) to {STATE_PATH} and the picks log.")
 
 
 if __name__ == "__main__":

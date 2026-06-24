@@ -96,9 +96,10 @@ class DDMModel(ValuationModel):
             yld_s = f"{yld:.1%}" if yld is not None else "n/a"
             pay_s = f"{payout:.0%}" if payout is not None else "n/a"
             result.flags.append(
-                f"Not meaningful for this company: token dividend "
-                f"(yield {yld_s}, payout {pay_s}) — returns cash via buybacks; "
-                f"DDM excluded from the blend")
+                "Not meaningful: this is a growth-oriented company that reinvests "
+                "and returns cash mainly via buybacks rather than dividends "
+                f"(yield {yld_s}, payout {pay_s}), so a dividend-only model "
+                "understates it — DDM excluded")
             result.audit = {"dividend_history": div_series, "yield": yld, "payout": payout}
             return result
 

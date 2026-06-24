@@ -139,7 +139,10 @@ class Scanner:
             rec.blend.profile_lines = rec.profile.lines()
 
         qualifiers = [r for r in records if r.profile and r.profile.qualifies]
-        qualifiers.sort(key=lambda r: r.blend.margin_of_safety or 0.0, reverse=True)
+        # Rank by the pullback depth — biggest recent drop on intact fundamentals
+        # first (the strongest "quality on a dip" signal).
+        qualifiers.sort(key=lambda r: (r.data.drawdown if r.data and r.data.drawdown
+                                       is not None else 0.0))
         # Collapse dual-class duplicates (FOX/FOXA) before taking the top N.
         top = dedupe_dual_class([r.blend for r in qualifiers])[: self.profile_cfg.top_n]
 

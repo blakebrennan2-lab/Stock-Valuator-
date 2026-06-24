@@ -44,6 +44,9 @@ def main() -> None:
         hist = provider.get_price_history(p["ticker"])
         if hist:
             p["history"] = hist
+        intra = provider.get_intraday(p["ticker"])
+        if intra:
+            p["intraday"] = intra
         print(f"  {p['ticker']}: {p['price']} (upside {round((p.get('upside') or 0)*100)}%)")
 
     data["price_as_of"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")

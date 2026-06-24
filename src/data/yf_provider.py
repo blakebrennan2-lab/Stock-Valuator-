@@ -95,7 +95,7 @@ class YFinanceProvider(DataProvider):
     def get_company_data(self, ticker: str) -> CompanyData:
         ticker = ticker.upper().strip()
 
-        cache_key = f"yf:company:v2:{ticker}:{self.history_years}"  # v2: + price metrics
+        cache_key = f"yf:company:v3:{ticker}:{self.history_years}"  # v3: + 52w drawdown
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -139,6 +139,9 @@ class YFinanceProvider(DataProvider):
         data.beta = _f(info.get("beta"))
         data.market_cap = _f(info.get("marketCap"))
         data.last_dividend = _f(info.get("lastDividendValue"))
+        data.high_52w = _f(info.get("fiftyTwoWeekHigh"))
+        if data.price and data.high_52w and data.high_52w > 0:
+            data.drawdown = data.price / data.high_52w - 1.0  # negative = below high
         if data.beta is None:
             data.warnings.append("beta missing (WACC will use fallback)")
 
@@ -328,10 +331,10 @@ class YFinanceProvider(DataProvider):
         return hist[-1][1] if hist else None
 
     def get_price_history(self, ticker: str) -> List[list]:
-        """Daily closes for the chart: full daily for the last ~year, weekly
-        before that (up to 5y), to keep the payload small. -> [[YYYY-MM-DD, close]]."""
+        """Full daily closes (~5y, every trading day) for the chart's longer
+        ranges. -> [[YYYY-MM-DD, close]]."""
         ticker = ticker.upper().strip()
-        cache_key = f"yf:history:{ticker}"
+        cache_key = f"yf:history:v2:{ticker}"  # v2: full daily (no weekly thinning)
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -342,17 +345,32 @@ class YFinanceProvider(DataProvider):
         try:
             closes = yf.Ticker(self._yahoo_symbol(ticker)).history(
                 period="5y", interval="1d")["Close"].dropna()
-            items = list(closes.items())
+            out = [[ts.strftime("%Y-%m-%d"), round(float(v), 2)] for ts, v in closes.items()]
         except Exception:
-            items = []
+            out = []
+        if self.cache is not None and out:
+            self.cache.set(cache_key, json.dumps(out))
+        return out
 
-        out: List[list] = []
-        if items:
-            one_year_ago = items[-1][0] - pd.Timedelta(days=365)
-            for i, (ts, val) in enumerate(items):
-                if ts >= one_year_ago or i % 5 == 0:  # daily recent, weekly older
-                    out.append([ts.strftime("%Y-%m-%d"), round(float(val), 2)])
-
+    def get_intraday(self, ticker: str) -> List[list]:
+        """Hourly closes for the last month — fine resolution for 1W/1M ranges.
+        -> [['YYYY-MM-DD HH:MM', close]]."""
+        ticker = ticker.upper().strip()
+        cache_key = f"yf:intraday:v1:{ticker}"
+        if self.cache is not None:
+            cached = self.cache.get(cache_key)
+            if cached is not None:
+                try:
+                    return json.loads(cached)
+                except Exception:
+                    pass
+        try:
+            closes = yf.Ticker(self._yahoo_symbol(ticker)).history(
+                period="1mo", interval="60m")["Close"].dropna()
+            out = [[ts.strftime("%Y-%m-%d %H:%M"), round(float(v), 2)]
+                   for ts, v in closes.items()]
+        except Exception:
+            out = []
         if self.cache is not None and out:
             self.cache.set(cache_key, json.dumps(out))
         return out

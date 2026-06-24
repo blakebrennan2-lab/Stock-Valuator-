@@ -98,11 +98,13 @@ class CompanyData:
     total_equity: Optional[float] = None        # book value of equity
     shares_outstanding: Optional[float] = None
 
-    # Price-trend metrics (for the quality-compounder uptrend gate)
+    # Price-trend metrics (uptrend gate + recent-pullback trigger)
     return_3y: Optional[float] = None
     return_5y: Optional[float] = None
     ma_long: Optional[float] = None         # ~10-month (≈200-day) SMA
     above_long_ma: Optional[bool] = None
+    high_52w: Optional[float] = None        # 52-week high
+    drawdown: Optional[float] = None        # (price - high_52w)/high_52w, negative
 
     # History (most recent first) and peers
     periods: List[FinancialPeriod] = field(default_factory=list)
