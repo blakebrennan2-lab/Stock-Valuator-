@@ -67,11 +67,12 @@ def _peers(pe_list, ev_list, pb_list):
 # --------------------------------------------------------------------------- #
 # 1. Hand-worked
 # --------------------------------------------------------------------------- #
-# P/E peers [10,12,14,16,100] -> trim -> [12,14,16] median 14 ; x EPS 5  = 70
-# EV/EBITDA [8,9,10,11,50]    -> trim -> [9,10,11] median 10 ; x EBITDA 1000 = 10000 EV
+# P/E peers [10,12,14,16,100] -> 100 dropped by sanity cap (>60) -> [10,12,14,16]
+#   n=4 (<5) so no trim -> median 13 ; x EPS 5 = 65
+# EV/EBITDA [8,9,10,11,50]    -> all <=50 cap; n=5 trim -> [9,10,11] median 10 ; x EBITDA 1000 = 10000 EV
 #   equity = 10000 - 200 + 50 = 9850 ; / 100 sh = 98.50
 # P/B [1,2,3,4,5]             -> trim -> [2,3,4]  median 3  ; x BVPS 10 = 30
-# implied {P/E:70, EV/EBITDA:98.5, P/B:30} -> median 70 ; range 30..98.5
+# implied {P/E:65, EV/EBITDA:98.5, P/B:30} -> median 65 ; range 30..98.5
 def test_handworked():
     syms, table = _peers([10, 12, 14, 16, 100], [8, 9, 10, 11, 50], [1, 2, 3, 4, 5])
     res = CompsModel(FakeProvider(table)).value(
@@ -79,12 +80,14 @@ def test_handworked():
     )
     assert res.ok, res.flags
     m = res.audit["multiples"]
-    assert m["pe"]["median"] == 14 and abs(m["pe"]["implied"] - 70) < 1e-9
+    # The absurd P/E of 100 is dropped by the sanity cap before the median.
+    assert 100 not in m["pe"]["peer_values"], m["pe"]["peer_values"]
+    assert m["pe"]["median"] == 13 and abs(m["pe"]["implied"] - 65) < 1e-9
     assert m["ev_ebitda"]["median"] == 10 and abs(m["ev_ebitda"]["implied"] - 98.5) < 1e-9
     assert m["pb"]["median"] == 3 and abs(m["pb"]["implied"] - 30) < 1e-9
-    assert abs(res.base - 70) < 1e-9, res.base
+    assert abs(res.base - 65) < 1e-9, res.base
     assert abs(res.low - 30) < 1e-9 and abs(res.high - 98.5) < 1e-9
-    print(f"  hand-worked: P/E=70 EV/EBITDA=98.5 P/B=30 -> base {res.base}  OK")
+    print(f"  hand-worked: P/E=65 EV/EBITDA=98.5 P/B=30 -> base {res.base}  OK")
 
 
 # --------------------------------------------------------------------------- #

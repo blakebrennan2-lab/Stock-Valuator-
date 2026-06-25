@@ -34,8 +34,16 @@ class CompsConfig:
     low_confidence_below: int = 3     # flag when a median rests on <3 peers
     trim_when_at_least: int = 5       # drop one high + one low at/above this n
     min_industry_peers: int = 2       # this many same-industry peers = a clean group
-    size_lo: float = 0.2              # sector fallback: keep peers within 0.2x..
-    size_hi: float = 5.0              # ..5x the target's market cap (drop the giants)
+    size_lo: float = 0.2              # keep peers within 0.2x..
+    size_hi: float = 5.0              # ..5x the target's market cap (no mega-vs-small)
+    max_pe: float = 60.0             # drop P/E above this as non-meaningful
+    max_ev_ebitda: float = 50.0      # drop EV/EBITDA above this
+    max_pb: float = 25.0             # drop P/B above this
+
+
+def _sane(v, cap) -> bool:
+    """A multiple is meaningful only if positive and below a sanity cap."""
+    return v is not None and 0 < v <= cap
 
 
 def _trimmed_median(values: List[float], trim_at: int) -> tuple:
@@ -67,8 +75,14 @@ class CompsModel(ValuationModel):
         Returns (peers, basis, low_reliability)."""
         cfg = self.cfg
 
-        def valid(pm):
-            return any(v and v > 0 for v in (pm.pe, pm.ev_ebitda, pm.pb))
+        def valid(pm):  # has at least one sane (positive, not absurd) multiple
+            return (_sane(pm.pe, cfg.max_pe) or _sane(pm.ev_ebitda, cfg.max_ev_ebitda)
+                    or _sane(pm.pb, cfg.max_pb))
+
+        def in_size(pm):  # similar scale (no mega-cap vs small-cap)
+            if not data.market_cap or not pm.market_cap:
+                return True
+            return data.market_cap * cfg.size_lo <= pm.market_cap <= data.market_cap * cfg.size_hi
 
         if self.universe is None:  # tests / explicit peer lists
             return [pm for pm in candidates if valid(pm)], "provided peers", False
@@ -91,25 +105,17 @@ class CompsModel(ValuationModel):
             annotated.append(pm)
         candidates = annotated
 
+        # Same granular industry AND similar size (no mega-cap vs small-cap).
         same = [pm for pm in candidates
-                if target_sub and pm.sub_industry == target_sub and valid(pm)]
+                if target_sub and pm.sub_industry == target_sub and valid(pm) and in_size(pm)]
         if len(same) >= cfg.min_industry_peers:
-            return same, f"same industry — {target_sub}", False
+            return same, f"same industry & size — {target_sub}", False
 
-        # Fallback: same sector but only size-comparable names (drop the giants),
-        # and mark it low confidence since the business match is looser.
-        tmc = data.market_cap
-        if tmc:
-            lo, hi = tmc * cfg.size_lo, tmc * cfg.size_hi
-            sized = [pm for pm in candidates
-                     if valid(pm) and pm.market_cap and lo <= pm.market_cap <= hi]
-        else:
-            sized = [pm for pm in candidates if valid(pm)]
+        # Fallback: same sector, size-comparable only; flagged lower confidence.
+        sized = [pm for pm in candidates if valid(pm) and in_size(pm)]
         if len(sized) >= cfg.min_peers_per_multiple:
             return sized, "size-matched sector peers (no close industry match)", True
-        if same:
-            return same, f"only {len(same)} same-industry peer(s)", True
-        return [], "no genuinely comparable peers", True
+        return [], "not enough genuinely comparable peers (size/industry)", True
 
     # ------------------------------------------------------------------ #
     def value(
@@ -151,8 +157,8 @@ class CompsModel(ValuationModel):
         implied: Dict[str, float] = {}
         audit_multiples: Dict[str, dict] = {}
 
-        # --- P/E ------------------------------------------------------- #
-        pe_vals = [p.pe for p in peer_multiples if p.pe is not None and p.pe > 0]
+        # --- P/E (drop negative / absurd multiples) ------------------- #
+        pe_vals = [p.pe for p in peer_multiples if _sane(p.pe, cfg.max_pe)]
         audit_multiples["pe"] = self._build_multiple(
             "P/E", pe_vals, target_eps, "EPS (diluted)", result
         )
@@ -160,17 +166,15 @@ class CompsModel(ValuationModel):
             implied["P/E"] = audit_multiples["pe"]["implied"]
 
         # --- EV/EBITDA (with EV->equity bridge) ----------------------- #
-        ev_vals = [
-            p.ev_ebitda for p in peer_multiples
-            if p.ev_ebitda is not None and p.ev_ebitda > 0
-        ]
+        ev_vals = [p.ev_ebitda for p in peer_multiples
+                   if _sane(p.ev_ebitda, cfg.max_ev_ebitda)]
         ev_audit = self._build_ev_multiple(ev_vals, target_ebitda, data, result)
         audit_multiples["ev_ebitda"] = ev_audit
         if ev_audit.get("implied") is not None:
             implied["EV/EBITDA"] = ev_audit["implied"]
 
         # --- P/B ------------------------------------------------------- #
-        pb_vals = [p.pb for p in peer_multiples if p.pb is not None and p.pb > 0]
+        pb_vals = [p.pb for p in peer_multiples if _sane(p.pb, cfg.max_pb)]
         audit_multiples["pb"] = self._build_multiple(
             "P/B", pb_vals, target_bvps, "Book value/share", result
         )

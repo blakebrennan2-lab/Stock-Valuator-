@@ -100,7 +100,9 @@ def test_handworked_synthetic():
 # 2. Frozen-input AAPL regression
 # --------------------------------------------------------------------------- #
 # Real FCF history + market snapshot captured from the live run. Default config.
-# Hand-checked outputs: WACC 9.60%, growth 1.53%, per-share $86.07.
+# AAPL's FCF actually peaked in FY2022 and is choppy-flat since, so the median
+# of year-over-year growth rates is ~0% -- an honest read, not a real grower
+# being over-damped. Hand-checked outputs: WACC 9.60%, growth ~0.0%, $64.19.
 def test_aapl_frozen():
     data = CompanyData(
         ticker="AAPL",
@@ -122,11 +124,10 @@ def test_aapl_frozen():
     assert res.ok, res.flags
 
     assert abs(res.audit["wacc"]["wacc"] - 0.0960) < 5e-4, res.audit["wacc"]["wacc"]
-    assert abs(res.audit["growth"]["applied"] - 0.0153) < 5e-4
-    # Calibrated defaults: median FCF base, terminal growth tied to AAPL's own
-    # 1.53% trend (not 2.5%), WACC 9.6% (above 9% floor): $78.40.
-    assert abs(res.base - 78.40) < 0.10, res.base
-    print(f"  AAPL frozen per-share = {res.base:.2f}  (expected 78.40)  OK")
+    assert abs(res.audit["growth"]["applied"] - 0.0002) < 5e-4, res.audit["growth"]["applied"]
+    # Median-YoY growth ~0% on flat FCF + median FCF base + WACC 9.6%: $64.19.
+    assert abs(res.base - 64.19) < 0.10, res.base
+    print(f"  AAPL frozen per-share = {res.base:.2f}  (expected 64.19)  OK")
 
 
 # --------------------------------------------------------------------------- #
@@ -165,9 +166,10 @@ def test_missing_beta_uses_fallback():
     print("  missing-beta fallback to 9% WACC  OK")
 
 
-def test_spike_is_normalized():
-    # Flat ~100 FCF then a one-off 2x spike in the latest year. Growth must NOT
-    # read as huge — the spike is damped before measuring the trend.
+def test_spike_does_not_inflate_growth():
+    # Flat ~100 FCF then a one-off 2x spike in the latest year. The MEDIAN of the
+    # year-over-year rates (0%, 0%, +100%) is 0% -- one anomalous year can't move
+    # the middle of the distribution, so growth stays grounded in the trend.
     data = CompanyData(
         ticker="SPIKE", beta=1.0, market_cap=10_000.0, total_debt=0.0,
         cash_and_equivalents=0.0, shares_outstanding=100.0,
@@ -178,9 +180,8 @@ def test_spike_is_normalized():
     )
     res = DCFModel().value(data)
     assert res.ok
-    assert res.audit["spikes_normalized"], "spike should be detected"
     assert res.audit["growth"]["applied"] <= 0.02, res.audit["growth"]["applied"]
-    print(f"  one-off spike normalized; growth={res.audit['growth']['applied']:.1%}  OK")
+    print(f"  one-off spike ignored by median; growth={res.audit['growth']['applied']:.1%}  OK")
 
 
 if __name__ == "__main__":
@@ -189,7 +190,7 @@ if __name__ == "__main__":
         test_aapl_frozen,
         test_negative_fcf_skips,
         test_missing_beta_uses_fallback,
-        test_spike_is_normalized,
+        test_spike_does_not_inflate_growth,
     ]
     failed = 0
     for t in tests:

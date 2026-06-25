@@ -20,7 +20,7 @@ class RankerConfig:
     mos_floor: float = 0.20            # only surface names >=20% undervalued
     top_n: int = 5
     min_models: int = 2               # require agreement of >=2 models
-    exclude_confidence: tuple = ("low",)  # keep low-confidence noise out of top
+    exclude_confidence: tuple = ("low", "inconclusive")  # keep noise/unscorable out
     require_quality: bool = True       # drop names with value-trap quality flags
 
 

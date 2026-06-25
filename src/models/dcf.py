@@ -41,8 +41,6 @@ class DCFConfig:
     growth_floor: float = -0.05        # min base growth
     fade: bool = True                  # fade growth from g0 -> terminal over horizon
     normalize_base: bool = True        # use median FCF as base (smooths cyclical peaks)
-    normalize_spikes: bool = True      # damp one-off FCF spikes before measuring growth
-    spike_threshold: float = 1.40      # a year >1.4x median FCF is treated as a spike
     cost_of_equity_floor: float = 0.09  # equity holders demand >= this
     wacc_floor: float = 0.09           # no equity valued below a 9% discount rate
     default_beta: float = 1.0          # used only inside CAPM if beta present-but-odd
@@ -114,41 +112,27 @@ class DCFModel(ValuationModel):
                 f"{len(fcf_series)} years (erratic)")
             return result
 
-        # --- 1b. Strip one-off FCF spikes (e.g. election-year ad revenue) - #
-        # Any year more than spike_threshold x the median is damped to the
-        # median so a cyclical peak can't masquerade as a growth trend.
+        # --- 1b. Robust base level --------------------------------------- #
         values = [f for _, f in fcf_series]
         positive_fcf = [f for f in values if f and f > 0]
-        med = statistics.median(positive_fcf) if positive_fcf else latest_fcf
-        # Symmetric: damp BOTH one-off peaks (e.g. election ad revenue) and
-        # one-off troughs (e.g. a large one-time payment) to the median trend.
-        hi, lo = med * cfg.spike_threshold, med / cfg.spike_threshold
-        spikes = []
-        norm_values = []
-        for (year, f) in fcf_series:
-            if cfg.normalize_spikes and f and med and (f > hi or f < lo):
-                spikes.append((year, f, med))
-                norm_values.append(med)
-            else:
-                norm_values.append(f)
-
-        # Projection base: median of normalized positive FCF (smooths cyclicals).
-        norm_positive = [f for f in norm_values if f and f > 0]
-        if cfg.normalize_base and norm_positive:
-            fcf0 = statistics.median(norm_positive)
+        if cfg.normalize_base and positive_fcf:
+            fcf0 = statistics.median(positive_fcf)   # robust to a one-off spike year
         else:
-            fcf0 = norm_values[-1]
+            fcf0 = latest_fcf
 
-        # --- 2. Growth from NORMALIZED endpoints, capped --------------- #
-        oldest_n, newest_n = norm_values[0], norm_values[-1]
-        n_steps = len(norm_values) - 1
-        if oldest_n and oldest_n > 0 and newest_n and newest_n > 0:
-            raw_growth = (newest_n / oldest_n) ** (1.0 / n_steps) - 1.0
-            growth_method = (f"CAGR over {len(norm_values)} yrs"
-                             + (" (spike-normalized)" if spikes else ""))
+        # --- 2. Sustainable growth = MEDIAN of annual YoY growth rates ---- #
+        # The median ignores a single one-off spike/trough (it can't move the
+        # middle of N rates) WITHOUT flattening a consistent grower the way
+        # damping every year to the median did. Then capped and faded.
+        yoy = [values[i + 1] / values[i] - 1.0
+               for i in range(len(values) - 1)
+               if values[i] and values[i] > 0 and values[i + 1] is not None]
+        if yoy:
+            raw_growth = statistics.median(yoy)
+            growth_method = f"median YoY FCF growth over {len(yoy)} yrs"
         else:
             raw_growth = cfg.terminal_growth
-            growth_method = "fallback (non-positive oldest FCF)"
+            growth_method = "fallback (insufficient FCF history)"
         applied_growth = max(cfg.growth_floor, min(cfg.growth_cap, raw_growth))
         growth_capped = applied_growth != raw_growth
 
@@ -200,7 +184,6 @@ class DCFModel(ValuationModel):
         result.audit = {
             "fcf_history": fcf_series,
             "fcf0": fcf0,
-            "spikes_normalized": spikes,
             "growth": {
                 "method": growth_method, "raw": raw_growth,
                 "applied": applied_growth, "capped": growth_capped,
@@ -223,9 +206,6 @@ class DCFModel(ValuationModel):
                 f"FCF was negative in {negatives} year(s) — treat with caution")
         if wacc.used_fallback:
             result.flags.append("WACC used 9% fallback (beta missing)")
-        if spikes:
-            yrs = ", ".join(y for y, _, _ in spikes)
-            result.flags.append(f"FCF outlier normalized (FY {yrs}) — one-off, smoothed to trend")
         if growth_capped:
             result.flags.append(
                 f"Growth capped from {raw_growth:.1%} to {applied_growth:.1%}")

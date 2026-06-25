@@ -53,6 +53,63 @@ def test_blend_renormalizes_when_model_missing():
     print(f"  renormalized 2-model blend = {b.intrinsic_value} (DDM dropped)  OK")
 
 
+def test_blend_excludes_broken_method():
+    # A DCF that collapsed to $10 while DDM/Comps and price all cluster ~$105 is
+    # a likely-broken input: drop it, don't drag the range down to $10, and flag
+    # the DCF growth as suspect.
+    results = [_res("DCF", 10, 8, 12), _res("DDM", 100, 90, 110),
+               _res("Comps", 110, 95, 125)]
+    b = Blender().blend(results, price=105, ticker="T")
+    assert b.ok and not b.inconclusive
+    assert "DCF" not in b.model_values, b.model_values
+    assert b.n_models == 2
+    assert abs(b.intrinsic_value - 105) < 1e-9             # median(100,110)
+    assert abs(b.range_low - 100) < 1e-9                   # broken $10 not in range
+    assert any("growth suspect" in n for n in b.notes), b.notes
+    print(f"  broken DCF $10 excluded; blend={b.intrinsic_value} range "
+          f"{b.range_low}-{b.range_high}, growth flagged  OK")
+
+
+def test_blend_inconclusive_when_survivors_diverge():
+    # Two methods survive the outlier check (each is far from the OTHER but not
+    # also far from price) yet disagree >3x: too uncertain to publish a number.
+    results = [_res("DCF", 50, 40, 60), _res("Comps", 200, 180, 220)]
+    b = Blender().blend(results, price=120, ticker="T")
+    assert b.ok and b.inconclusive
+    assert b.confidence == "inconclusive"
+    assert b.margin_of_safety is None      # no headline MoS published
+    assert Ranker().rank([b]) == []        # never surfaced as a buy
+    print("  divergent survivors -> inconclusive, no MoS, not ranked  OK")
+
+
+def test_blend_lone_method_far_from_price_is_inconclusive():
+    # Only DCF fires (DDM/Comps n/a) and it lands at $84 vs a $365 price -- a
+    # lone, uncorroborated method that wildly disagrees with the market. This is
+    # the MSFT case: don't publish $84 as a confident value, call it inconclusive
+    # and flag DCF growth.
+    results = [_res("DCF", 84), _res("DDM", None, ok=False),
+               _res("Comps", None, ok=False)]
+    b = Blender().blend(results, price=365, ticker="MSFT")
+    assert b.ok and b.inconclusive
+    assert b.confidence == "inconclusive"
+    assert b.margin_of_safety is None
+    assert any("growth suspect" in n for n in b.notes), b.notes
+    assert Ranker().rank([b]) == []
+    print("  lone DCF far from price -> inconclusive, growth flagged  OK")
+
+
+def test_blend_lone_method_near_price_still_values():
+    # A single method that broadly agrees with the market (within band) is still
+    # a usable value -- we only bail when it wildly disagrees.
+    results = [_res("Comps", 130, 110, 150), _res("DCF", None, ok=False),
+               _res("DDM", None, ok=False)]
+    b = Blender().blend(results, price=100, ticker="T")
+    assert b.ok and not b.inconclusive
+    assert abs(b.intrinsic_value - 130) < 1e-9
+    assert abs(b.margin_of_safety - (130 - 100) / 130) < 1e-9
+    print("  lone Comps near price -> still valued (MoS published)  OK")
+
+
 def test_blend_none_valid():
     results = [_res("DCF", None, ok=False), _res("DDM", None, ok=False)]
     b = Blender().blend(results, price=100, ticker="T")
@@ -140,6 +197,10 @@ if __name__ == "__main__":
     tests = [
         test_blend_three_median,
         test_blend_renormalizes_when_model_missing,
+        test_blend_excludes_broken_method,
+        test_blend_inconclusive_when_survivors_diverge,
+        test_blend_lone_method_far_from_price_is_inconclusive,
+        test_blend_lone_method_near_price_still_values,
         test_blend_none_valid,
         test_confidence_levels,
         test_ranker_floor_and_sort,
