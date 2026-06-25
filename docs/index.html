@@ -3,18 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
-  <title>Strong Buys</title>
+  <title>Quality Dips</title>
   <meta name="theme-color" content="#000000">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Strong Buys">
+  <meta name="apple-mobile-web-app-title" content="Quality Dips">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <!-- minimal inline bg so there's no white flash before the stylesheet loads -->
+  <style>html,body{margin:0;background:#000;color:#fff;font-family:-apple-system,system-ui,sans-serif}</style>
 </head>
 <body>
   <div id="app" class="screen"><div class="loading">Loading…</div></div>
-  <script src="app.js"></script>
+  <script>
+    // Load CSS + JS with a cache-busting query so iOS never serves a stale app.
+    (function () {
+      var v = "?t=" + Date.now();
+      var link = document.createElement("link");
+      link.rel = "stylesheet"; link.href = "styles.css" + v;
+      document.head.appendChild(link);
+      var s = document.createElement("script");
+      s.src = "app.js" + v; document.body.appendChild(s);
+    })();
+  </script>
 </body>
 </html>

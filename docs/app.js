@@ -138,17 +138,17 @@ function mountChart(host, readout, data, label, intrinsic) {
     if (t.length >= 2) showTwo(idxAt(t[0].clientX), idxAt(t[1].clientX));
     else if (t.length === 1) showOne(idxAt(t[0].clientX));
   };
-  svg.addEventListener("touchstart", onTouch, { passive: false });
-  svg.addEventListener("touchmove", onTouch, { passive: false });
-  svg.addEventListener("touchend", e => {
+  host.addEventListener("touchstart", onTouch, { passive: false });
+  host.addEventListener("touchmove", onTouch, { passive: false });
+  host.addEventListener("touchend", e => {
     e.preventDefault();
     if (e.touches.length === 1) showOne(idxAt(e.touches[0].clientX));
     else if (e.touches.length === 0) reset();
   }, { passive: false });
-  svg.addEventListener("touchcancel", reset);
+  host.addEventListener("touchcancel", reset);
   // Mouse (desktop): hover scrubs a single point.
-  svg.addEventListener("mousemove", e => showOne(idxAt(e.clientX)));
-  svg.addEventListener("mouseleave", reset);
+  host.addEventListener("mousemove", e => showOne(idxAt(e.clientX)));
+  host.addEventListener("mouseleave", reset);
 }
 
 /* ---------- views ---------- */
