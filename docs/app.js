@@ -103,7 +103,8 @@ function mountChart(host, readout, data, label, intrinsic) {
     readout.chg.className = "chg " + (chg >= 0 ? "pos" : "neg");
     readout.date.textContent = dateLabel;
   };
-  const place = (lineEl, dotEl, i, r) => {
+  const place = (lineEl, dotEl, i) => {
+    const r = host.getBoundingClientRect();
     const px = (xs(i) / W) * r.width, py = (ys(data[i][1]) / H) * r.height;
     lineEl.style.left = px + "px"; dotEl.style.left = px + "px"; dotEl.style.top = py + "px";
   };
@@ -113,35 +114,41 @@ function mountChart(host, readout, data, label, intrinsic) {
   const idxAt = clientX => {
     const r = host.getBoundingClientRect();
     let f = (clientX - r.left) / r.width; f = Math.max(0, Math.min(1, f));
-    return { i: Math.round(f * (data.length - 1)), r };
+    return Math.round(f * (data.length - 1));
   };
-  let anchorIdx = null;
-  const render = (a, b, r) => {
-    cross.hidden = false; place(vline, dot, b, r);
-    if (a != null && a !== b) {                          // span selection
-      anc.hidden = false; place(aline, adot, a, r);
-      out(data[b][1], (data[b][1] - data[a][1]) / data[a][1],
-          `${fmtDate(data[a][0])} → ${fmtDate(data[b][0])}`);
-    } else {                                             // single point
-      anc.hidden = true;
-      out(data[b][1], (data[b][1] - first) / first, fmtDate(data[b][0]));
-    }
+  // One point: price + % vs range start. Two points: % between them.
+  const showOne = i => {
+    cross.hidden = false; anc.hidden = true; place(vline, dot, i);
+    out(data[i][1], (data[i][1] - first) / first, fmtDate(data[i][0]));
   };
-  const end = () => { cross.hidden = true; anc.hidden = true; anchorIdx = null; base(); };
+  const showTwo = (i, j) => {
+    const a = Math.min(i, j), b = Math.max(i, j);
+    cross.hidden = false; anc.hidden = false;
+    place(aline, adot, a); place(vline, dot, b);
+    out(data[b][1], (data[b][1] - data[a][1]) / data[a][1],
+        `${fmtDate(data[a][0])} → ${fmtDate(data[b][0])}`);
+  };
+  const reset = () => { cross.hidden = true; anc.hidden = true; base(); };
 
-  svg.addEventListener("pointerdown", e => {
-    const { i, r } = idxAt(e.clientX); anchorIdx = i;
-    try { svg.setPointerCapture(e.pointerId); } catch (_) {}
-    render(i, i, r); e.preventDefault();
-  });
-  svg.addEventListener("pointermove", e => {
-    const { i, r } = idxAt(e.clientX);
-    if (anchorIdx != null) render(anchorIdx, i, r);
-    else if (e.pointerType === "mouse") render(null, i, r);
-  });
-  svg.addEventListener("pointerup", end);
-  svg.addEventListener("pointercancel", end);
-  svg.addEventListener("pointerleave", () => { if (anchorIdx == null) end(); });
+  // Touch: read ALL active fingers each event -> smooth 1-finger scrub, and a
+  // 2nd finger anywhere instantly compares the two points (Apple Stocks style).
+  const onTouch = e => {
+    e.preventDefault();                                   // own the gesture (no scroll/stick)
+    const t = e.touches;
+    if (t.length >= 2) showTwo(idxAt(t[0].clientX), idxAt(t[1].clientX));
+    else if (t.length === 1) showOne(idxAt(t[0].clientX));
+  };
+  svg.addEventListener("touchstart", onTouch, { passive: false });
+  svg.addEventListener("touchmove", onTouch, { passive: false });
+  svg.addEventListener("touchend", e => {
+    e.preventDefault();
+    if (e.touches.length === 1) showOne(idxAt(e.touches[0].clientX));
+    else if (e.touches.length === 0) reset();
+  }, { passive: false });
+  svg.addEventListener("touchcancel", reset);
+  // Mouse (desktop): hover scrubs a single point.
+  svg.addEventListener("mousemove", e => showOne(idxAt(e.clientX)));
+  svg.addEventListener("mouseleave", reset);
 }
 
 /* ---------- views ---------- */
