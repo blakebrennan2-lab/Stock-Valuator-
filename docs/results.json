@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-27",
+  "as_of": "2026-06-28",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "RTX Corporation",
       "price": 187.99,
       "intrinsic": 210.0168964134606,
-      "upside": 0.10488151808953576,
+      "upside": 0.10488154424535534,
       "confidence": "low",
       "range_low": 210.0168964134606,
       "range_high": 210.0168964134606,
@@ -3903,7 +3903,7 @@
         ],
         [
           "2021-08-09",
-          78.0
+          78.01
         ],
         [
           "2021-08-10",
@@ -8893,7 +8893,7 @@
       "name": "Booking Holdings Inc.",
       "price": 181.46,
       "intrinsic": 187.6999852341915,
-      "upside": 0.033244427337267776,
+      "upside": 0.03324446310640847,
       "confidence": "medium",
       "range_low": 159.68455523480586,
       "range_high": 215.71541523357712,
@@ -16226,7 +16226,7 @@
         ],
         [
           "2025-01-08",
-          192.53
+          192.54
         ],
         [
           "2025-01-10",
@@ -17773,14 +17773,14 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.4B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.088</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.7% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>6.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>87.9% / 12.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.0B</td><td>1.094</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.6B</td><td>1.196</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.0B</td><td>1.308</td><td>$6.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.4B</td><td>1.431</td><td>$6.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.6B</td><td>1.565</td><td>$6.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$34.1B</b> \u00b7\n   terminal value <b>$143.5B</b> \u2192\n   PV <b>$91.7B</b></p>\n<p>Enterprise value <b>$125.8B</b> \u2212 debt $19.3B\n   + cash $17.2B = equity <b>$123.7B</b><br>\n   \u00f7 775M shares = <b>$159.68/share</b></p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.8%, payout 23%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (6): <b>ABNB, CCL, EXPE, HLT, MAR, RCL</b><br>\n   Basis: same industry & size \u2014 Hotels, Resorts & Cruise Lines</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr><td>ABNB<div class='peernm'>Airbnb, Inc.</div></td><td>35.9x</td><td>29.4x</td><td>11.3x</td></tr><tr><td>CCL<div class='peernm'>Carnival Corporation Ltd.</div></td><td>13.1x</td><td>8.9x</td><td>3.1x</td></tr><tr><td>EXPE<div class='peernm'>Expedia Group, Inc.</div></td><td>23.2x</td><td>12.2x</td><td>54.7x</td></tr><tr><td>HLT<div class='peernm'>Hilton Worldwide Holdings Inc.</div></td><td>50.7x</td><td>29.4x</td><td>-12.9x</td></tr><tr><td>MAR<div class='peernm'>Marriott International, Inc.</div></td><td>39.5x</td><td>24.6x</td><td>-24.4x</td></tr><tr><td>RCL<div class='peernm'>Royal Caribbean Cruises Ltd.</div></td><td>19.4x</td><td>15.5x</td><td>8.7x</td></tr></table>\n<p>Median P/E: 29.6x \u2192 <b>$195.82</b><br>\n   Median EV/EBITDA: 20.0x \u2192 <b>$235.61</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $196 \u00b7 EV/EBITDA $236<br>\n   Reconciled (median): <b>$215.72/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (6): <b>ABNB, CCL, EXPE, HLT, MAR, RCL</b><br>\n   Basis: same industry & size \u2014 Hotels, Resorts & Cruise Lines</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr><td>ABNB<div class='peernm'>Airbnb, Inc.</div></td><td>35.9x</td><td>29.4x</td><td>11.3x</td></tr><tr><td>CCL<div class='peernm'>Carnival Corporation Ltd.</div></td><td>13.1x</td><td>8.7x</td><td>3.1x</td></tr><tr><td>EXPE<div class='peernm'>Expedia Group, Inc.</div></td><td>23.2x</td><td>12.2x</td><td>54.7x</td></tr><tr><td>HLT<div class='peernm'>Hilton Worldwide Holdings Inc.</div></td><td>50.7x</td><td>29.4x</td><td>-12.9x</td></tr><tr><td>MAR<div class='peernm'>Marriott International, Inc.</div></td><td>39.5x</td><td>24.6x</td><td>-24.4x</td></tr><tr><td>RCL<div class='peernm'>Royal Caribbean Cruises Ltd.</div></td><td>19.4x</td><td>15.5x</td><td>8.7x</td></tr></table>\n<p>Median P/E: 29.6x \u2192 <b>$195.82</b><br>\n   Median EV/EBITDA: 20.0x \u2192 <b>$235.61</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $196 \u00b7 EV/EBITDA $236<br>\n   Reconciled (median): <b>$215.72/share</b></p>\n"
     },
     {
       "ticker": "MSI",
       "name": "Motorola Solutions, Inc.",
       "price": 402.89,
       "intrinsic": 550.571947125,
-      "upside": 0.2682336672758833,
+      "upside": 0.2682336938817385,
       "confidence": "low",
       "range_low": 550.571947125,
       "range_high": 550.571947125,
@@ -22924,7 +22924,7 @@
         ],
         [
           "2022-12-12",
-          259.57
+          259.58
         ],
         [
           "2022-12-13",
@@ -23044,7 +23044,7 @@
         ],
         [
           "2023-01-26",
-          247.37
+          247.36
         ],
         [
           "2023-01-27",
@@ -23336,7 +23336,7 @@
         ],
         [
           "2023-05-11",
-          278.28
+          278.27
         ],
         [
           "2023-05-12",
@@ -24312,7 +24312,7 @@
         ],
         [
           "2024-05-01",
-          328.15
+          328.14
         ],
         [
           "2024-05-02",
@@ -24556,7 +24556,7 @@
         ],
         [
           "2024-07-30",
-          387.1
+          387.09
         ],
         [
           "2024-07-31",
@@ -63484,7 +63484,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -70560,6 +70560,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-06-28 15:00Z"
+  ]
 }
