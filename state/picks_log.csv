@@ -21,3 +21,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-01,1,RTX,RTX Corporation,191.13,210.98,9.4%,low,1
 2026-07-01,2,BKNG,Booking Holdings Inc.,183.68,187.79,2.2%,medium,2
 2026-07-01,3,BMY,Bristol-Myers Squibb Company,56.44,60.89,7.3%,high,3
+2026-07-02,1,CMI,Cummins Inc.,658.27,754.21,12.7%,low,1
+2026-07-02,2,TDG,TransDigm Group Incorporated,1337.98,1339.75,0.1%,medium,2
+2026-07-02,3,MSI,"Motorola Solutions, Inc.",420.69,561.88,25.1%,low,1
