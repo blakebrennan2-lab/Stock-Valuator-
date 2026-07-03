@@ -24,3 +24,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-02,1,CMI,Cummins Inc.,658.27,754.21,12.7%,low,1
 2026-07-02,2,TDG,TransDigm Group Incorporated,1337.98,1339.75,0.1%,medium,2
 2026-07-02,3,MSI,"Motorola Solutions, Inc.",420.69,561.88,25.1%,low,1
+2026-07-03,1,DELL,Dell Technologies Inc.,394.32,961.60,59.0%,low,1
+2026-07-03,2,BKNG,Booking Holdings Inc.,184.56,187.85,1.8%,medium,2
+2026-07-03,3,CMI,Cummins Inc.,661.70,759.17,12.8%,low,1
