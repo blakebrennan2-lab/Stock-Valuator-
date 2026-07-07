@@ -52,6 +52,11 @@ class FinancialPeriod:
     change_in_working_capital: Optional[float] = None
     dividends_paid: Optional[float] = None  # total cash, negative outflow
 
+    # Balance sheet (per-period, for debt trend + liquidity)
+    total_debt: Optional[float] = None
+    current_assets: Optional[float] = None
+    current_liabilities: Optional[float] = None
+
     # Derived / ratio-sourced
     effective_tax_rate: Optional[float] = None
     dividend_per_share: Optional[float] = None

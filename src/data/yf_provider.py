@@ -95,7 +95,7 @@ class YFinanceProvider(DataProvider):
     def get_company_data(self, ticker: str) -> CompanyData:
         ticker = ticker.upper().strip()
 
-        cache_key = f"yf:company:v3:{ticker}:{self.history_years}"  # v3: + 52w drawdown
+        cache_key = f"yf:company:v4:{ticker}:{self.history_years}"  # v4: + per-period debt & liquidity
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -214,6 +214,9 @@ class YFinanceProvider(DataProvider):
                                 "Depreciation Amortization Depletion"])
 
         equity = _row(balance, ["Stockholders Equity", "Common Stock Equity"])
+        debt_hist = _row(balance, ["Total Debt"])
+        cur_assets = _row(balance, ["Current Assets"])
+        cur_liab = _row(balance, ["Current Liabilities"])
 
         periods: List[FinancialPeriod] = []
         for col in list(income.columns)[: self.history_years]:
@@ -247,6 +250,9 @@ class YFinanceProvider(DataProvider):
                 free_cash_flow=_cell(fcf, col),
                 change_in_working_capital=_cell(wc, col),
                 dividends_paid=_cell(divs_paid, col),
+                total_debt=_cell(debt_hist, col),
+                current_assets=_cell(cur_assets, col),
+                current_liabilities=_cell(cur_liab, col),
                 effective_tax_rate=etr,
                 dividend_per_share=_f(div_by_year.get(year)),
                 book_value_per_share=bvps,
@@ -376,6 +382,34 @@ class YFinanceProvider(DataProvider):
             except Exception:
                 out[key] = []
         if self.cache is not None and any(out.values()):
+            self.cache.set(cache_key, json.dumps(out))
+        return out
+
+    def get_ownership(self, ticker: str) -> dict:
+        """Ownership / positioning snapshot for a pick: insider %, institutional %,
+        short % of float. Fetched only for the handful of top picks (cheap), never
+        the whole universe. Best-effort: missing keys come back absent, not faked."""
+        ticker = ticker.upper().strip()
+        cache_key = f"yf:own:v1:{ticker}"
+        if self.cache is not None:
+            cached = self.cache.get(cache_key)
+            if cached is not None:
+                try:
+                    return json.loads(cached)
+                except Exception:
+                    pass
+        try:
+            info = yf.Ticker(self._yahoo_symbol(ticker)).info or {}
+        except Exception:
+            info = {}
+        out = {}
+        for key, src in (("insiders", "heldPercentInsiders"),
+                         ("institutions", "heldPercentInstitutions"),
+                         ("short_pct_float", "shortPercentOfFloat")):
+            v = _f(info.get(src))
+            if v is not None:
+                out[key] = v
+        if self.cache is not None and out:
             self.cache.set(cache_key, json.dumps(out))
         return out
 

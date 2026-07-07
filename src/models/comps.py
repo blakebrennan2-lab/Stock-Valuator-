@@ -191,6 +191,18 @@ class CompsModel(ValuationModel):
             }
             return result
 
+        # Target's own multiples, so the report can show it beside its peers.
+        ev = ((data.market_cap or 0.0) + (data.total_debt or 0.0)
+              - (data.cash_and_equivalents or 0.0))
+        target_multiples = {
+            "pe": (data.price / target_eps
+                   if data.price and target_eps and target_eps > 0 else None),
+            "ev_ebitda": (ev / target_ebitda
+                          if ev > 0 and target_ebitda and target_ebitda > 0 else None),
+            "pb": (data.price / target_bvps
+                   if data.price and target_bvps and target_bvps > 0 else None),
+        }
+
         valid_values = list(implied.values())
         reconciled = statistics.median(valid_values)
         result.ok = True
@@ -209,6 +221,7 @@ class CompsModel(ValuationModel):
             "basis": basis,
             "peers": [p.__dict__ for p in peer_multiples],
             "multiples": audit_multiples,
+            "target_multiples": target_multiples,
             "implied_by_method": implied,
             "reconciled_median": reconciled,
             "reconciled_mean": statistics.fmean(valid_values),

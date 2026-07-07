@@ -160,6 +160,21 @@ def test_too_few_peers():
     print("  too few peers -> dropped  OK")
 
 
+def test_target_multiples_in_audit():
+    # The report shows the target's own multiples beside its peers.
+    syms, table = _peers([10, 12, 14], [8, 9, 10], [1, 2, 3])
+    data = _target(eps=5, ebitda=1000, bvps=10)
+    data.price = 50.0
+    data.market_cap = 5000.0     # EV = 5000 + 200 - 50 = 5150
+    res = CompsModel(FakeProvider(table)).value(data, peer_symbols=syms)
+    assert res.ok
+    tm = res.audit["target_multiples"]
+    assert abs(tm["pe"] - 10.0) < 1e-9, tm            # 50 / 5
+    assert abs(tm["ev_ebitda"] - 5.15) < 1e-9, tm     # 5150 / 1000
+    assert abs(tm["pb"] - 5.0) < 1e-9, tm             # 50 / 10
+    print("  target's own P/E, EV/EBITDA, P/B recorded for the peer table  OK")
+
+
 def test_peer_selection_industry_and_dual_class():
     # Target FOO (Broadcasting). FOOA = its own other share class (exclude).
     # BAR/BAZ = real broadcasting peers. QUX = unrelated industry (exclude).
@@ -187,6 +202,7 @@ def test_peer_selection_industry_and_dual_class():
 if __name__ == "__main__":
     tests = [
         test_handworked,
+        test_target_multiples_in_audit,
         test_peer_selection_industry_and_dual_class,
         test_negative_target_eps_drops_pe,
         test_negative_target_book_drops_pb,

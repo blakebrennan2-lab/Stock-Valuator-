@@ -61,7 +61,27 @@ def render_dcf(res: Optional[ValuationResult]) -> str:
 <p>Enterprise value <b>{_m(b['enterprise_value'])}</b> − debt {_m(b['total_debt'])}
    + cash {_m(b['cash'])} = equity <b>{_m(b['equity_value'])}</b><br>
    ÷ {b['shares']/1e6:,.0f}M shares = <b>${b['per_share']:,.2f}/share</b></p>
+{_sensitivity_html(a.get('sensitivity'))}
 """
+
+
+def _sensitivity_html(s: Optional[dict]) -> str:
+    """Fair value vs growth × discount rate — how fragile is the estimate?"""
+    if not s or not s.get("grid"):
+        return ""
+    head = "".join(f"<th>WACC {_pct(w)}</th>" for w in s["wacc_values"])
+    rows = ""
+    bi, bj = s.get("base_row", 1), s.get("base_col", 1)
+    for i, g in enumerate(s["growth_values"]):
+        cells = ""
+        for j, v in enumerate(s["grid"][i]):
+            cell = "n/a" if v is None else f"${v:,.0f}"
+            cells += f"<td>{'<b>' + cell + '</b>' if (i == bi and j == bj) else cell}</td>"
+        rows += f"<tr><td>growth {_pct(g)}</td>{cells}</tr>"
+    return (f"<h4>Sensitivity — fair value/share</h4>"
+            f"<table><tr><th></th>{head}</tr>{rows}</table>"
+            f"<p class='na'>Bold = base case. If the buy only works in the "
+            f"bottom-left corner, it isn't robust.</p>")
 
 
 def render_ddm(res: Optional[ValuationResult]) -> str:
@@ -89,14 +109,22 @@ def render_comps(res: Optional[ValuationResult]) -> str:
     if not res or not res.ok:
         return _na(res, "Comps")
     a = res.audit
+    def _x(v):
+        return f"{v:.1f}x" if v else "–"
+
     prows = ""
+    tm = a.get("target_multiples") or {}
+    if any(tm.get(k) for k in ("pe", "ev_ebitda", "pb")):
+        prows += (f"<tr class='self'><td>{res.ticker}"
+                  f"<div class='peernm'>this company — at today's price</div></td>"
+                  f"<td><b>{_x(tm.get('pe'))}</b></td>"
+                  f"<td><b>{_x(tm.get('ev_ebitda'))}</b></td>"
+                  f"<td><b>{_x(tm.get('pb'))}</b></td></tr>")
     for p in a["peers"]:
-        pe = f"{p['pe']:.1f}x" if p.get("pe") else "–"
-        ev = f"{p['ev_ebitda']:.1f}x" if p.get("ev_ebitda") else "–"
-        pb = f"{p['pb']:.1f}x" if p.get("pb") else "–"
         nm = p.get("name") or ""
         prows += (f"<tr><td>{p['symbol']}<div class='peernm'>{nm}</div></td>"
-                  f"<td>{pe}</td><td>{ev}</td><td>{pb}</td></tr>")
+                  f"<td>{_x(p.get('pe'))}</td><td>{_x(p.get('ev_ebitda'))}</td>"
+                  f"<td>{_x(p.get('pb'))}</td></tr>")
     m = a["multiples"]
 
     def med(key):

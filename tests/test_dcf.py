@@ -184,6 +184,30 @@ def test_spike_does_not_inflate_growth():
     print(f"  one-off spike ignored by median; growth={res.audit['growth']['applied']:.1%}  OK")
 
 
+def test_sensitivity_grid():
+    # Grid must anchor on the base case and move the right way: value falls as
+    # WACC rises (left->right) and rises with growth (top->bottom).
+    data = CompanyData(
+        ticker="SENS", beta=1.0, market_cap=10_000.0, total_debt=0.0,
+        cash_and_equivalents=0.0, shares_outstanding=100.0,
+        periods=[
+            _period(2025, 146.41), _period(2024, 133.1), _period(2023, 121.0),
+            _period(2022, 110.0), _period(2021, 100.0),
+        ],
+    )
+    res = DCFModel().value(data)
+    assert res.ok
+    s = res.audit["sensitivity"]
+    base_cell = s["grid"][s["base_row"]][s["base_col"]]
+    assert abs(base_cell - res.base) < 1e-9, (base_cell, res.base)
+    for row in s["grid"]:                      # higher WACC -> lower value
+        assert row[0] > row[1] > row[2], row
+    for j in range(3):                         # higher growth -> higher value
+        col = [s["grid"][i][j] for i in range(len(s["grid"]))]
+        assert col == sorted(col), col
+    print(f"  sensitivity grid anchored on base ${base_cell:,.2f}, monotonic  OK")
+
+
 if __name__ == "__main__":
     tests = [
         test_handworked_synthetic,
@@ -191,6 +215,7 @@ if __name__ == "__main__":
         test_negative_fcf_skips,
         test_missing_beta_uses_fallback,
         test_spike_does_not_inflate_growth,
+        test_sensitivity_grid,
     ]
     failed = 0
     for t in tests:

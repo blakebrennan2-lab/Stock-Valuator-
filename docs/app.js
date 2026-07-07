@@ -11,7 +11,8 @@ async function load() {
     DATA = await r.json();
   } catch (e) {
     root.innerHTML = `<div class="empty"><div class="big">Couldn't load data</div>
-      <div>Check back after the next refresh.</div></div>`;
+      <div>Check your connection, or check back after the next refresh.</div>
+      <button class="retry" onclick="load()">Try again</button></div>`;
     return;
   }
   route();
@@ -178,9 +179,11 @@ function renderHome() {
   const sub = DATA.price_as_of
     ? `Prices ${DATA.price_as_of} · analysis ${DATA.as_of}`
     : (DATA.as_of ? `Updated ${DATA.as_of}` : "");
-  const tabs = `<div class="tabs-home">
-    <button class="htab ${homeTab === "stocks" ? "active" : ""}" data-tab="stocks">Stocks</button>
-    <button class="htab ${homeTab === "etfs" ? "active" : ""}" data-tab="etfs">ETFs</button></div>`;
+  const tabs = `<div class="tabs-home" role="tablist">
+    <button class="htab ${homeTab === "stocks" ? "active" : ""}" data-tab="stocks"
+      role="tab" aria-selected="${homeTab === "stocks"}">Stocks</button>
+    <button class="htab ${homeTab === "etfs" ? "active" : ""}" data-tab="etfs"
+      role="tab" aria-selected="${homeTab === "etfs"}">ETFs</button></div>`;
 
   let body;
   if (homeTab === "stocks") {
@@ -196,7 +199,9 @@ function renderHome() {
          <div>No quality ETF has pulled back within its uptrend right now.</div></div>`;
   }
   root.innerHTML = `<div class="title-lg">Quality Dips</div><div class="sub">${sub}</div>
-    ${tabs}${body}`;
+    ${tabs}${body}
+    <footer>Screens the S&P 500 for quality companies in a sentiment dip.
+      Mechanical model output — not investment advice.</footer>`;
   root.querySelectorAll(".htab").forEach(b =>
     b.addEventListener("click", () => { homeTab = b.dataset.tab; renderHome(); }));
 }
@@ -228,7 +233,8 @@ function mountDetailChart(p) {
     if (!data || data.length < 2) data = sliceDays(p.history || [], fb[active] || 30);
     mountChart(cEl, readout, data, label, p.intrinsic);
     rEl.innerHTML = ranges.map(l =>
-      `<button class="range ${l === active ? "active" : ""}" data-r="${l}">${l}</button>`).join("");
+      `<button class="range ${l === active ? "active" : ""}" data-r="${l}"
+        aria-pressed="${l === active}">${l}</button>`).join("");
     rEl.querySelectorAll(".range").forEach(b =>
       b.addEventListener("click", () => { active = b.dataset.r; draw(); }));
   };
@@ -239,7 +245,7 @@ function renderEtfDetail(e) {
   const statsGrid = (e.stats || []).map(s =>
     `<div class="stat"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div></div>`).join("");
   root.innerHTML = `
-    <div class="nav"><button class="back" onclick="location.hash=''">
+    <div class="nav"><button class="back" onclick="location.hash=''" aria-label="Back to list">
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
@@ -253,7 +259,7 @@ function renderEtfDetail(e) {
       <span class="chg" id="cchg"></span><span class="cdate" id="cdate"></span></div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
-    <div class="chart-note">drag to scrub · hold & drag to measure a span · prices ${DATA.price_as_of || DATA.as_of}</div>
+    <div class="chart-note">one finger scrubs · add a second to measure · prices ${DATA.price_as_of || DATA.as_of}</div>
     <div class="sec"><h3>Fund facts</h3><div class="grid">${statsGrid}</div></div>
     <footer>ETFs are screened on trend + pullback, not DCF (a fund has no earnings).
       Mechanical model output — not investment advice.</footer>`;
@@ -276,6 +282,12 @@ function renderDetail(p) {
     `<div class="stat"><div class="l">${esc(k)}</div><div class="v">${usd(v)}</div></div>`).join("");
   const checklist = (p.profile || []).map(t => `<li>${esc(t)}</li>`).join("");
   const risks = (p.risks || []).map(t => `<li>${esc(t)}</li>`).join("");
+  const health = (p.health || []).map(s =>
+    `<div class="stat"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div>
+     ${s.src ? `<div class="s">${esc(s.src)}</div>` : ""}</div>`).join("");
+  const capital = (p.capital || []).map(t => `<li>${esc(t)}</li>`).join("");
+  const mind = (p.change_mind || []).map(t => `<li>${esc(t)}</li>`).join("");
+  const manual = (p.manual || []).map(t => `<li>${esc(t)}</li>`).join("");
   const news = (p.news || []).slice(0, 3).map(n =>
     `<li>${esc(n.title)} <span class="nm">(${esc([n.publisher, n.date].filter(Boolean).join(" · "))})</span></li>`).join("");
 
@@ -288,7 +300,7 @@ function renderDetail(p) {
          <span class="pill">${esc(p.confidence)} confidence</span></div>`;
 
   root.innerHTML = `
-    <div class="nav"><button class="back" onclick="location.hash=''">
+    <div class="nav"><button class="back" onclick="location.hash=''" aria-label="Back to list">
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
@@ -304,9 +316,11 @@ function renderDetail(p) {
     </div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
-    <div class="chart-note">drag the chart to scrub · prices ${DATA.price_as_of || DATA.as_of}</div>
+    <div class="chart-note">one finger scrubs · add a second to measure · prices ${DATA.price_as_of || DATA.as_of}</div>
 
     <div class="sec"><h3>Key stats</h3><div class="grid">${statsGrid}</div></div>
+    ${health ? `<div class="sec"><h3>Financial health</h3><div class="grid">${health}</div>
+      <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div></div>` : ""}
 
     <div class="accordions">
       ${acc("How we valued it", `<div class="methods">${methods}</div>`, true)}
@@ -316,43 +330,17 @@ function renderDetail(p) {
       ${acc("Reconciliation & confidence",
           `<p class="recsent">${esc(rec.sentence)}</p><div class="grid">${recVals}</div>`)}
       ${acc("Quality checklist", `<ul class="bullets good">${checklist}</ul>`)}
+      ${capital ? acc("Capital allocation", `<ul class="bullets cap">${capital}</ul>`) : ""}
       ${acc("Risks", `<ul class="bullets risk">${risks}</ul>` +
           (news ? `<div class="newshead">Recent news</div><ul class="bullets">${news}</ul>` : ""))}
+      ${mind ? acc("What would change our mind", `<ul class="bullets mind">${mind}</ul>`) : ""}
+      ${manual ? acc("Needs your own research", `<p class="recsent">The models can't
+          judge these — check them yourself before buying:</p>
+          <ul class="bullets manual">${manual}</ul>`) : ""}
     </div>
     <footer>Mechanical model output — not investment advice or legal due diligence.</footer>`;
 
-  // chart + range toggles — granular intraday for 1D/1W/1M, daily for longer
-  const ranges = ["1D", "1W", "1M", "6M", "1Y", "All"];
-  const id = p.intraday || {};
-  const seriesFor = r => {
-    if (r === "1D") return [id.day, "Today"];
-    if (r === "1W") return [id.week, "Past week"];
-    if (r === "1M") return [id.month, "Past month"];
-    const days = { "6M": 182, "1Y": 365, "All": 0 }[r];
-    const lab = { "6M": "Past 6 months", "1Y": "Past year", "All": "All time" }[r];
-    return [sliceDays(p.history || [], days), lab];
-  };
-  const fallbackDays = { "1D": 5, "1W": 7, "1M": 30 };
-  const rEl = document.getElementById("ranges");
-  const cEl = document.getElementById("chart");
-  const readout = {
-    price: document.getElementById("cprice"),
-    chg: document.getElementById("cchg"),
-    date: document.getElementById("cdate"),
-  };
-  let active = "1D";
-  const draw = () => {
-    let [data, label] = seriesFor(active);
-    if (!data || data.length < 2) {            // intraday missing -> daily fallback
-      data = sliceDays(p.history || [], fallbackDays[active] || 30);
-    }
-    mountChart(cEl, readout, data, label, p.intrinsic);
-    rEl.innerHTML = ranges.map(lab =>
-      `<button class="range ${lab === active ? "active" : ""}" data-r="${lab}">${lab}</button>`).join("");
-    rEl.querySelectorAll(".range").forEach(b =>
-      b.addEventListener("click", () => { active = b.dataset.r; draw(); }));
-  };
-  draw();
+  mountDetailChart(p);
 }
 
 window.addEventListener("hashchange", route);

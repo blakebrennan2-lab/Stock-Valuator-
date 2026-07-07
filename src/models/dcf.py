@@ -149,6 +149,24 @@ class DCFModel(ValuationModel):
             result.flags.append("Could not bridge EV to equity (missing shares)")
             return result
 
+        # --- 4b. Sensitivity: fair value across growth x WACC ----------- #
+        # An analyst never trusts one point estimate; show how the value moves
+        # when the two assumptions that matter most are stressed together.
+        growth_steps = []
+        for d in (-0.02, 0.0, 0.02):
+            g_s = max(cfg.growth_floor, min(cfg.growth_cap, applied_growth + d))
+            if g_s not in growth_steps:   # cap/floor can collapse steps together
+                growth_steps.append(g_s)
+        wacc_steps = [wacc.wacc - 0.01, wacc.wacc, wacc.wacc + 0.01]
+        sens_grid = []
+        for g_s in growth_steps:
+            row = []
+            for w_s in wacc_steps:
+                scn = self._run_scenario(
+                    fcf0, g_s, w_s, data, max(0.0, min(cfg.terminal_growth, g_s)))
+                row.append(scn["per_share"] if scn else None)
+            sens_grid.append(row)
+
         # --- 5. Bull / bear ------------------------------------------- #
         bull = self._run_scenario(
             fcf0, min(cfg.growth_cap, applied_growth + cfg.growth_delta),
@@ -194,6 +212,13 @@ class DCFModel(ValuationModel):
             "terminal_share": terminal_share,
             "market_multiple": market_mult,
             "dcf_multiple": dcf_mult,
+            "sensitivity": {
+                "growth_values": growth_steps,   # rows
+                "wacc_values": wacc_steps,       # columns
+                "grid": sens_grid,               # per-share fair values
+                "base_row": growth_steps.index(applied_growth),
+                "base_col": 1,                   # middle WACC column = base
+            },
             "scenarios": {
                 "bear": bear["per_share"] if bear else None,
                 "base": base_scn["per_share"],
