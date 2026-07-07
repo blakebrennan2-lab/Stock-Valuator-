@@ -3,14 +3,66 @@
 const root = document.getElementById("app");
 let DATA = { as_of: "", count: 0, picks: [], etfs: [] };
 let homeTab = "stocks";   // "stocks" | "etfs"
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- motion helpers ---------- */
+// Eased count-up on a key figure; always lands on the exact final string.
+function countUp(el, target, fmt, dur = 700) {
+  if (!el || target == null) return;
+  if (reduceMotion) { el.textContent = fmt(target); return; }
+  const t0 = performance.now(), from = target * 0.92;
+  const tick = now => {
+    const p = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(from + (target - from) * e);
+    if (p < 1) requestAnimationFrame(tick); else el.textContent = fmt(target);
+  };
+  requestAnimationFrame(tick);
+}
+// Eased accordion expand/collapse on native <details>.
+function animateAccordions(scope) {
+  scope.querySelectorAll("details.acc").forEach(d => {
+    const sum = d.querySelector("summary"), body = d.querySelector(".acc-body");
+    if (!sum || !body) return;
+    sum.addEventListener("click", e => {
+      if (reduceMotion || !body.animate) return;   // native toggle
+      e.preventDefault();
+      body.style.overflow = "hidden";
+      if (d.open) {
+        const a = body.animate(
+          [{ height: body.offsetHeight + "px", opacity: 1 }, { height: "0px", opacity: 0 }],
+          { duration: 240, easing: "cubic-bezier(.4,0,.2,1)" });
+        a.onfinish = () => { d.open = false; body.style.overflow = ""; };
+      } else {
+        d.open = true;
+        const a = body.animate(
+          [{ height: "0px", opacity: 0 }, { height: body.offsetHeight + "px", opacity: 1 }],
+          { duration: 300, easing: "cubic-bezier(.4,0,.2,1)" });
+        a.onfinish = () => { body.style.overflow = ""; };
+      }
+    });
+  });
+}
 
 /* ---------- data ---------- */
+function skeletonHome() {
+  const card = `<div class="sk-card"><div style="flex:1">
+      <div class="sk a"></div><div class="sk b"></div></div><div class="sk c"></div></div>`;
+  root.innerHTML = `
+    <header class="mast"><div class="kicker">Daily Value Screen</div>
+      <h1 class="title-lg">Quality Dips</h1><div class="rule"></div>
+      <div class="sub">&nbsp;</div></header>
+    <div class="tabs-home"><button class="htab active">Stocks</button>
+      <button class="htab">ETFs</button></div>
+    <div class="list">${card.repeat(3)}</div>`;
+}
 async function load() {
+  skeletonHome();
   try {
     const r = await fetch("results.json?t=" + Date.now(), { cache: "no-store" });
     DATA = await r.json();
   } catch (e) {
-    root.innerHTML = `<div class="empty"><div class="big">Couldn't load data</div>
+    root.innerHTML = `<div class="empty">
+      <div class="big">Couldn't load data</div>
       <div>Check your connection, or check back after the next refresh.</div>
       <button class="retry" onclick="load()">Try again</button></div>`;
     return;
@@ -18,10 +70,15 @@ async function load() {
   route();
 }
 function route() {
-  const tk = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
-  const p = [...(DATA.picks || []), ...(DATA.etfs || [])].find(x => x.ticker === tk);
-  p ? renderDetail(p) : renderHome();
-  window.scrollTo(0, 0);
+  const render = () => {
+    const tk = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+    const p = [...(DATA.picks || []), ...(DATA.etfs || [])].find(x => x.ticker === tk);
+    p ? renderDetail(p) : renderHome();
+    window.scrollTo(0, 0);
+  };
+  // Smooth list <-> detail crossfade where the browser supports it.
+  if (document.startViewTransition && !reduceMotion) document.startViewTransition(render);
+  else render();
 }
 
 /* ---------- format ---------- */
@@ -83,7 +140,7 @@ function mountChart(host, readout, data, label, intrinsic) {
   const col = last >= first ? "var(--green)" : "var(--red)";
   const line = smooth(data.map((d, i) => [xs(i), ys(d[1])]));
   const area = `${line} L${xs(data.length - 1).toFixed(1)},${H - padB} L${padX},${H - padB} Z`;
-  const ivl = intrinsic != null ? `<line x1="${padX}" y1="${ys(intrinsic).toFixed(1)}" x2="${W - padX}" y2="${ys(intrinsic).toFixed(1)}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>` : "";
+  const ivl = intrinsic != null ? `<line x1="${padX}" y1="${ys(intrinsic).toFixed(1)}" x2="${W - padX}" y2="${ys(intrinsic).toFixed(1)}" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>` : "";
   const gid = "g" + Math.random().toString(36).slice(2, 7);
   host.innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
     <defs><linearGradient id="${gid}" x1="0" x2="0" y1="0" y2="1">
@@ -97,6 +154,22 @@ function mountChart(host, readout, data, label, intrinsic) {
   const cross = host.querySelector(".cross"), vline = cross.querySelector(".cvline"), dot = cross.querySelector(".cdot");
   const anc = host.querySelector(".anchor"), aline = anc.querySelector(".cvline"), adot = anc.querySelector(".cdot");
   dot.style.background = col;
+
+  // Draw-in: the price line traces itself, the fill fades up behind it.
+  if (!reduceMotion) {
+    const stroke = svg.querySelector("path:last-of-type");
+    const fill = svg.querySelector("path:first-of-type");
+    try {
+      const L = stroke.getTotalLength();
+      stroke.style.strokeDasharray = L; stroke.style.strokeDashoffset = L;
+      fill.style.opacity = "0";
+      requestAnimationFrame(() => {
+        stroke.style.transition = "stroke-dashoffset .55s cubic-bezier(.3,.6,.3,1)";
+        fill.style.transition = "opacity .45s ease .2s";
+        stroke.style.strokeDashoffset = "0"; fill.style.opacity = "1";
+      });
+    } catch (e) { /* older engines: draw instantly */ }
+  }
 
   const out = (price, chg, dateLabel) => {
     readout.price.textContent = usd(price);
@@ -161,10 +234,17 @@ function stockCard(p) {
         <div class="nm">${esc(p.name)}</div></div>
       ${sparkline(p.history || [])}
       <div class="rt"><div class="px">${usd(p.price)}</div>
-        <div class="up ${p.upside >= 0 ? "pos" : "neg"}">${low ? "see range" : pct(p.upside)}</div>
-        ${low ? '<div class="lowflag">⚠ low confidence</div>' : ""}</div>
+        ${low ? '<div class="lowpill">⚠ wide range</div>'
+              : `<div class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</div>`}</div>
     </button>`;
 }
+// Editorial "patience" illustration: the price line dips, gold waits at the bottom.
+const dipArt = `<svg class="dipart" viewBox="0 0 210 86" aria-hidden="true">
+  <line x1="8" y1="78" x2="202" y2="78" stroke="var(--line-strong)" stroke-width="1"/>
+  <path d="M8 30 C 46 24, 68 30, 92 56 C 101 66 110 68 119 60 C 142 40 170 22 202 16"
+        fill="none" stroke="var(--muted)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="105" cy="63" r="7" fill="var(--gold)"/>
+</svg>`;
 function etfCard(e) {
   return `
     <button class="card" onclick="location.hash='#/${encodeURIComponent(e.ticker)}'">
@@ -189,16 +269,21 @@ function renderHome() {
   if (homeTab === "stocks") {
     body = DATA.picks.length
       ? `<div class="list">${DATA.picks.map(stockCard).join("")}</div>`
-      : `<div class="empty"><div class="dot">🟢</div><div class="big">Nothing today</div>
+      : `<div class="empty">${dipArt}
+         <div class="big">Nothing worth buying today.</div>
          <div>No strong company pulled back on sentiment while staying at/below fair
-         value. The screen ran fine — it's just being patient.</div></div>`;
+         value. The screen ran fine — it's just being patient so you don't overpay.</div></div>`;
   } else {
     body = (DATA.etfs || []).length
       ? `<div class="list">${DATA.etfs.map(etfCard).join("")}</div>`
-      : `<div class="empty"><div class="dot">🟢</div><div class="big">No ETF dips today</div>
+      : `<div class="empty">${dipArt}
+         <div class="big">No ETF dips today.</div>
          <div>No quality ETF has pulled back within its uptrend right now.</div></div>`;
   }
-  root.innerHTML = `<div class="title-lg">Quality Dips</div><div class="sub">${sub}</div>
+  root.innerHTML = `
+    <header class="mast"><div class="kicker">Daily Value Screen</div>
+      <h1 class="title-lg">Quality Dips</h1><div class="rule"></div>
+      <div class="sub">${sub}</div></header>
     ${tabs}${body}
     <footer>Screens the S&P 500 for quality companies in a sentiment dip.
       Mechanical model output — not investment advice.</footer>`;
@@ -250,7 +335,7 @@ function renderEtfDetail(e) {
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
       <div class="nm">${esc(e.name)} · ETF</div>
-      <div class="price">${usd(e.price)}</div>
+      <div class="price" id="dprice">${usd(e.price)}</div>
       <div class="row"><span class="up neg">▼ ${Math.abs(Math.round((e.drawdown || 0) * 100))}% from 52-wk high</span>
         <span class="pill">${esc(e.category || "ETF")}</span></div>
     </div>
@@ -264,6 +349,7 @@ function renderEtfDetail(e) {
     <footer>ETFs are screened on trend + pullback, not DCF (a fund has no earnings).
       Mechanical model output — not investment advice.</footer>`;
   mountDetailChart(e);
+  countUp(document.getElementById("dprice"), e.price, usd);
 }
 
 function renderDetail(p) {
@@ -293,11 +379,27 @@ function renderDetail(p) {
 
   // verdict header — always visible
   const header = low
-    ? `<div class="fv">Fair value ${usd(p.range_low)}–${usd(p.range_high)}</div>
+    ? `<div class="fv">Fair value <b>${usd(p.range_low)}–${usd(p.range_high)}</b></div>
        <div class="lowbanner">⚠ LOW confidence — the models disagree. Treat the value as a wide range, not a target.</div>`
-    : `<div class="fv">Fair value ${usd(p.intrinsic)} <span class="rng">(${usd(p.range_low)}–${usd(p.range_high)})</span></div>
-       <div class="row"><span class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)} upside</span>
+    : `<div class="fv">Fair value <b id="dfv">${usd(p.intrinsic)}</b> <span class="rng">(${usd(p.range_low)}–${usd(p.range_high)})</span></div>
+       <div class="row"><span class="up ${p.upside >= 0 ? "pos" : "neg"}" id="dup">${pct(p.upside)} upside</span>
          <span class="pill">${esc(p.confidence)} confidence</span></div>`;
+
+  // value runway: where today's price sits against the model range
+  let runway = "";
+  if (p.range_low != null && p.range_high != null && p.price != null) {
+    const min = Math.min(p.range_low, p.price) * 0.97;
+    const max = Math.max(p.range_high, p.price) * 1.03;
+    const X = v => ((v - min) / (max - min) * 100).toFixed(1) + "%";
+    const bw = ((p.range_high - p.range_low) / (max - min) * 100).toFixed(1) + "%";
+    runway = `<div class="vbar"><div class="vtrack">
+        <div class="vband${low ? " warn" : ""}" style="left:${X(p.range_low)};width:${bw}"></div>
+        ${p.intrinsic != null && !low ? `<div class="vtick fv" style="left:${X(p.intrinsic)}"></div>` : ""}
+        <div class="vtick pr" style="left:${X(p.price)}"></div></div>
+      <div class="vcap"><span><i class="ipr"></i>price</span>
+        ${p.intrinsic != null && !low ? '<span><i class="ifv"></i>fair value</span>' : ""}
+        <span><i class="ibd"></i>model range</span></div></div>`;
+  }
 
   root.innerHTML = `
     <div class="nav"><button class="back" onclick="location.hash=''" aria-label="Back to list">
@@ -305,9 +407,10 @@ function renderDetail(p) {
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
       <div class="nm">${esc(p.name)}</div>
-      <div class="price">${usd(p.price)}</div>
+      <div class="price" id="dprice">${usd(p.price)}</div>
       ${header}
     </div>
+    ${runway}
     ${p.thesis ? `<div class="thesis">${esc(p.thesis)}</div>` : ""}
     <div class="chartread">
       <span class="cprice" id="cprice"></span>
@@ -341,6 +444,12 @@ function renderDetail(p) {
     <footer>Mechanical model output — not investment advice or legal due diligence.</footer>`;
 
   mountDetailChart(p);
+  animateAccordions(root);
+  countUp(document.getElementById("dprice"), p.price, usd);
+  if (!low) {
+    countUp(document.getElementById("dfv"), p.intrinsic, usd);
+    countUp(document.getElementById("dup"), p.upside, v => pct(v) + " upside");
+  }
 }
 
 window.addEventListener("hashchange", route);

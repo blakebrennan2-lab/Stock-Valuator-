@@ -4,18 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
   <title>Quality Dips</title>
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#0c0a07">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Quality Dips">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <!-- minimal inline bg so there's no white flash before the stylesheet loads -->
-  <style>html,body{margin:0;background:#000;color:#fff;font-family:-apple-system,system-ui,sans-serif}</style>
+  <!-- critical inline styles: ink background + branded splash, no flash of white -->
+  <style>
+    html, body { margin: 0; background: #0c0a07; color: #f5f1e6;
+      font-family: -apple-system, system-ui, sans-serif; }
+    .splash { min-height: 88vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 14px;
+      animation: splashin .5s ease; }
+    .splash svg { width: 76px; height: 76px; }
+    .splash .wd { font-family: ui-serif, Georgia, serif; font-size: 24px;
+      font-weight: 700; letter-spacing: -0.3px; }
+    .splash .kk { color: #d9a441; font-size: 10px; font-weight: 700;
+      letter-spacing: 2.4px; text-transform: uppercase; }
+    @keyframes splashin { from { opacity: 0; transform: scale(.96); }
+      to { opacity: 1; transform: none; } }
+  </style>
 </head>
 <body>
-  <div id="app" class="screen"><div class="loading">Loading…</div></div>
+  <div id="app" class="screen">
+    <div class="splash">
+      <svg viewBox="0 0 192 192" aria-hidden="true">
+        <rect width="192" height="192" rx="42" fill="#161310"/>
+        <path d="M24 62 C 62 56, 76 64, 96 118 C 104 138 112 138 122 120 C 138 90 152 62 168 44"
+              fill="none" stroke="#f5f1e6" stroke-width="10" stroke-linecap="round"/>
+        <circle cx="101" cy="127" r="15" fill="#d9a441"/>
+      </svg>
+      <div class="wd">Quality Dips</div>
+      <div class="kk">Daily Value Screen</div>
+    </div>
+  </div>
   <script>
     // Load CSS + JS with a cache-busting query so iOS never serves a stale app.
     (function () {

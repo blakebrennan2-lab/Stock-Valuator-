@@ -1,20 +1,41 @@
 """Generate PNG app icons in pure Python (no Pillow needed).
 
-Dark rounded-feel square + green rising chart line. iOS masks/rounds the icon
-itself, so a full-bleed square is correct. Writes apple-touch-icon (180) plus
-192/512 for the PWA manifest.
+Ink & gold brand mark: warm near-black ink, a paper-white price line that
+dips, and a gold coin waiting at the bottom of the dip. iOS masks/rounds the
+icon itself, so a full-bleed square is correct. Writes apple-touch-icon (180)
+plus 192/512 for the PWA manifest.
 """
 
 import math
 import struct
 import zlib
 
-BG = (11, 15, 20)
-GREEN = (46, 204, 113)
-# chart + arrow points in a 192 space (matches icon.svg)
-CHART = [(30, 130), (75, 95), (105, 118), (162, 55)]
-ARROW = [(132, 55), (162, 55), (162, 85)]
-STROKE_R = 7  # radius in 192 space
+BG = (12, 10, 7)          # warm ink
+PAPER = (245, 241, 230)   # paper-white line
+GOLD = (217, 164, 65)     # champagne gold coin
+
+# The dip curve from icon.svg: three cubic beziers in 192-space.
+_CURVES = [
+    ((24, 62), (62, 56), (76, 64), (96, 118)),
+    ((96, 118), (104, 138), (112, 138), (122, 120)),
+    ((122, 120), (138, 90), (152, 62), (168, 44)),
+]
+
+
+def _bezier_points(p0, p1, p2, p3, n=40):
+    pts = []
+    for i in range(n + 1):
+        t = i / n
+        mt = 1 - t
+        x = mt**3 * p0[0] + 3 * mt**2 * t * p1[0] + 3 * mt * t**2 * p2[0] + t**3 * p3[0]
+        y = mt**3 * p0[1] + 3 * mt**2 * t * p1[1] + 3 * mt * t**2 * p2[1] + t**3 * p3[1]
+        pts.append((x, y))
+    return pts
+
+
+CHART = [pt for c in _CURVES for pt in _bezier_points(*c)]
+COIN = (101, 127, 15)     # cx, cy, r in 192-space
+STROKE_R = 5              # stroke-width 10 -> radius 5 in 192 space
 
 
 def _disk(px, size, cx, cy, r, color):
@@ -41,8 +62,9 @@ def _polyline(px, size, pts, r, color, s):
 def make(path, size):
     s = size / 192.0
     px = [[BG] * size for _ in range(size)]
-    _polyline(px, size, CHART, STROKE_R, GREEN, s)
-    _polyline(px, size, ARROW, STROKE_R, GREEN, s)
+    _polyline(px, size, CHART, STROKE_R, PAPER, s)
+    cx, cy, r = COIN
+    _disk(px, size, cx * s, cy * s, r * s, GOLD)
 
     raw = bytearray()
     for y in range(size):

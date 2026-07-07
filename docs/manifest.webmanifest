@@ -1,15 +1,30 @@
 {
-  "name": "Strong Buys",
-  "short_name": "Strong Buys",
-  "description": "Quality-compounder stock picks, undervalued and ranked by upside.",
+  "name": "Quality Dips",
+  "short_name": "Quality Dips",
+  "description": "The daily value screen: quality S&P 500 companies in a sentiment dip, valued honestly.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
-  "background_color": "#0b0f14",
-  "theme_color": "#0b0f14",
+  "background_color": "#0c0a07",
+  "theme_color": "#0c0a07",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ]
 }
