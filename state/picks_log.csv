@@ -42,3 +42,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-09,1,BKNG,Booking Holdings Inc.,174.35,186.29,6.4%,medium,2
 2026-07-09,2,TDG,TransDigm Group Incorporated,1294.82,1334.76,3.0%,medium,2
 2026-07-09,3,RSG,"Republic Services, Inc.",218.84,243.53,10.1%,low,1
+2026-07-10,1,BKNG,Booking Holdings Inc.,178.61,187.57,4.8%,medium,2
+2026-07-10,2,TDG,TransDigm Group Incorporated,1293.85,1330.13,2.7%,medium,2
+2026-07-10,3,RSG,"Republic Services, Inc.",218.25,244.59,10.8%,low,1
