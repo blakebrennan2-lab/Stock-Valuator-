@@ -344,6 +344,45 @@ function stockRow(p, i) {
               : `<span class="chip ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</span>`}</div>
     </button>`;
 }
+// Hero: today's #1 pick gets the front page, not a whisper in a list.
+function heroSpark(hist) {
+  const data = sliceDays(hist || [], 90);
+  if (data.length < 2) return "";
+  const w = 340, h = 92, pad = 4;
+  const vals = data.map(d => d[1]);
+  const lo = Math.min(...vals), hi = Math.max(...vals);
+  const xs = i => pad + (w - 2 * pad) * i / (vals.length - 1);
+  const ys = v => pad + (h - 2 * pad) * (1 - (hi === lo ? .5 : (v - lo) / (hi - lo)));
+  const col = vals[vals.length - 1] >= vals[0] ? "var(--green)" : "var(--red)";
+  const line = smooth(vals.map((v, i) => [xs(i), ys(v)]));
+  return `<svg class="hspark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+    <defs><linearGradient id="hg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="${col}" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+    <path d="${line} L${xs(vals.length - 1).toFixed(1)},${h - pad} L${pad},${h - pad} Z" fill="url(#hg)"/>
+    <path d="${line}" fill="none" stroke="${col}" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+function heroCard(p) {
+  const low = p.confidence === "low";
+  const why = (p.thesis || "").split(". ")[0];
+  const verdict = low
+    ? `<span class="chip warn">wide range ${usd(p.range_low)}–${usd(p.range_high)}</span>`
+    : `Worth <b>${usd(p.intrinsic)}</b>
+       <span class="chip ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</span>
+       <span class="hconf">${esc(p.confidence)} confidence</span>`;
+  return `
+    <button class="hero" onclick="location.hash='#/${encodeURIComponent(p.ticker)}'">
+      <div class="hk">Top pick today</div>
+      <div class="hrow"><div>
+          <div class="htk">${esc(p.ticker)}</div>
+          <div class="hnm">${esc(p.name)}</div></div>
+        <div class="hpx">${usd(p.price)}</div></div>
+      ${heroSpark(p.history)}
+      <div class="hverdict">${verdict}</div>
+      ${why ? `<div class="hwhy">${esc(why)}.</div>` : ""}
+    </button>`;
+}
 // Editorial "patience" illustration: the price line dips and recovers.
 const dipArt = `<svg class="dipart" viewBox="0 0 210 86" aria-hidden="true">
   <line x1="8" y1="78" x2="202" y2="78" stroke="var(--line-strong)" stroke-width="1"/>
@@ -376,6 +415,9 @@ function freshness() {
 }
 function renderHome() {
   const f = freshness();
+  const d = new Date((DATA.as_of || "") + "T12:00:00");
+  const dateStr = isNaN(d) ? "" : " · " + d.toLocaleDateString(undefined,
+    { weekday: "short", month: "short", day: "numeric" });
   const tabs = `<div class="tabs-home" role="tablist">
     <button class="htab ${homeTab === "stocks" ? "active" : ""}" data-tab="stocks"
       role="tab" aria-selected="${homeTab === "stocks"}">Stocks</button>
@@ -384,25 +426,33 @@ function renderHome() {
 
   let body;
   if (homeTab === "stocks") {
-    const n = DATA.picks.length;
-    body = n
-      ? `<div class="curated">Today's screen — <b>${n} name${n > 1 ? "s" : ""}</b> cleared all seven quality-dip gates.</div>
-         <div class="list">${DATA.picks.map(stockRow).join("")}</div>`
-      : `<div class="empty">${dipArt}
+    const picks = DATA.picks || [];
+    if (picks.length) {
+      const rest = picks.slice(1);
+      body = heroCard(picks[0])
+        + (rest.length
+          ? `<div class="curated">Also cleared all seven gates today:</div>
+             <div class="list">${rest.map(stockRow).join("")}</div>`
+          : "")
+        + `<div class="meta-strip">S&amp;P 500 · 7 quality gates · valued 3 ways · refreshed hourly</div>`;
+    } else {
+      body = `<div class="empty">${dipArt}
          <div class="big">Nothing worth buying today.</div>
          <div>No strong company pulled back on sentiment while staying at/below fair
          value. The screen ran fine — it's just being patient so you don't overpay.</div></div>`;
+    }
   } else {
     const etfs = DATA.etfs || [];
     body = etfs.length
       ? `<div class="curated">Quality funds in a pullback — <b>${etfs.length}</b> today.</div>
-         <div class="list">${etfs.map(etfRow).join("")}</div>`
+         <div class="list">${etfs.map(etfRow).join("")}</div>
+         <div class="meta-strip">Screened on trend + pullback · funds have no earnings to value</div>`
       : `<div class="empty">${dipArt}
          <div class="big">No ETF dips today.</div>
          <div>No quality ETF has pulled back within its uptrend right now.</div></div>`;
   }
   root.innerHTML = `
-    <header class="mast"><div class="kicker">Daily Value Screen</div>
+    <header class="mast"><div class="kicker">Daily Value Screen${dateStr}</div>
       <h1 class="title-lg">Quality Dips</h1><div class="rule"></div>
       <div class="sub">${f.live ? '<span class="livedot"></span>' : ""}${f.text}</div></header>
     ${tabs}${body}`;
@@ -429,8 +479,8 @@ function mountDetailChart(p) {
   };
   const fb = { "1D": 5, "1W": 7, "1M": 30 };
   const rEl = document.getElementById("ranges"), cEl = document.getElementById("chart");
-  const readout = { price: document.getElementById("cprice"),
-    chg: document.getElementById("cchg"), date: document.getElementById("cdate") };
+  const readout = { price: document.getElementById("dprice"),
+    chg: document.getElementById("dchg"), date: document.getElementById("ddate") };
   let active = "1D";
   const draw = () => {
     let [data, label] = seriesFor(active);
@@ -453,21 +503,20 @@ function renderEtfDetail(e) {
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
-      <div class="nm">${esc(e.name)} · ETF</div>
+      <div class="nm"><b>${esc(e.ticker)}</b> · ${esc(e.name)} · ETF</div>
       <div class="price" id="dprice">${usd(e.price)}</div>
-      <div class="row"><span class="up neg">▼ ${Math.abs(Math.round((e.drawdown || 0) * 100))}% from 52-wk high</span>
+      <div class="chgline"><span class="chg" id="dchg"></span>
+        <span class="cdate" id="ddate"></span></div>
+      <div class="verdict"><span class="chip neg">▼${Math.abs(Math.round((e.drawdown || 0) * 100))}% from 52-wk high</span>
         <span class="pill">${esc(e.category || "ETF")}</span></div>
     </div>
     ${e.thesis ? `<div class="thesis">${esc(e.thesis)}</div>` : ""}
-    <div class="chartread"><span class="cprice" id="cprice"></span>
-      <span class="chg" id="cchg"></span><span class="cdate" id="cdate"></span></div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
     <div class="chart-note">one finger scrubs · add a second to measure</div>
     <div class="sec"><h3>Fund facts</h3><div class="grid">${statsGrid}</div></div>
     <footer>ETFs are screened on trend + pullback, not DCF (a fund has no earnings).</footer>`;
   mountDetailChart(e);
-  countUp(document.getElementById("dprice"), e.price, usd);
 }
 
 function renderDetail(p) {
@@ -503,10 +552,9 @@ function renderDetail(p) {
        <div class="lowbanner">⚠ The models disagree — treat the value as a wide range, not a target.</div>`
     : `<div class="verdict">Worth <b id="dfv">${usd(p.intrinsic)}</b>
          <span class="up ${p.upside >= 0 ? "pos" : "neg"}" id="dup">${pct(p.upside)}</span>
-         <span class="pill">${esc(p.confidence)} confidence</span>
-         <span class="rng">range ${usd(p.range_low)}–${usd(p.range_high)}</span></div>`;
+         <span class="pill">${esc(p.confidence)} confidence</span></div>`;
 
-  // value runway: where today's price sits against the model range
+  // value runway: price vs the model range, $-labeled at the band's ends
   let runway = "";
   if (p.range_low != null && p.range_high != null && p.price != null) {
     const min = Math.min(p.range_low, p.price) * 0.97;
@@ -517,9 +565,9 @@ function renderDetail(p) {
         <div class="vband${low ? " warn" : ""}" style="left:${X(p.range_low)};width:${bw}"></div>
         ${p.intrinsic != null && !low ? `<div class="vtick fv" style="left:${X(p.intrinsic)}"></div>` : ""}
         <div class="vtick pr" style="left:${X(p.price)}"></div></div>
-      <div class="vcap"><span><i class="ipr"></i>price</span>
-        ${p.intrinsic != null && !low ? '<span><i class="ifv"></i>fair value</span>' : ""}
-        <span><i class="ibd"></i>model range</span></div></div>`;
+      <div class="vlab"><span>${usd(p.range_low)}</span>
+        <span class="vleg"><i class="ipr"></i>price <i class="ifv"></i>fair value</span>
+        <span>${usd(p.range_high)}</span></div></div>`;
   }
 
   root.innerHTML = `
@@ -527,36 +575,31 @@ function renderDetail(p) {
       <svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor"
         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Quality Dips</button></div>
     <div class="dh">
-      <div class="nm">${esc(p.name)}</div>
+      <div class="nm"><b>${esc(p.ticker)}</b> · ${esc(p.name)}</div>
       <div class="price" id="dprice">${usd(p.price)}</div>
+      <div class="chgline"><span class="chg" id="dchg"></span>
+        <span class="cdate" id="ddate"></span></div>
       ${header}
     </div>
     ${runway}
     ${p.thesis ? `<div class="thesis clamp" id="thesis"><div class="tx">${esc(p.thesis)}</div>
       <div class="thmore">more ▾</div></div>` : ""}
     <div class="ribbon">${(p.stats || []).map(s =>
-      `<div class="rchip"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div></div>`).join("")}</div>
-    <div class="chartread">
-      <span class="cprice" id="cprice"></span>
-      <span class="chg" id="cchg"></span>
-      <span class="cdate" id="cdate"></span>
-    </div>
+      `<div class="rchip"><div class="l">${esc(s.label)}</div>
+       <div class="v">${esc(String(s.value).split("  (")[0])}</div></div>`).join("")}</div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
     <div id="dipctx"></div>
 
     <div class="accordions">
+      <div class="agroup">Valuation</div>
       ${acc("How we valued it", `<div class="methods">${methods}</div>`)}
-      ${health ? acc("Financial health", `<div class="grid">${health}</div>
-        <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div>`) : ""}
-      ${analyst ? acc("Catalysts & Street view", `<div class="grid">${analyst}</div>
-        <div class="src-note">Consensus and dates via Yahoo Finance — the Street's view, not ours.</div>`) : ""}
-      ${acc("All key stats", `<div class="grid">${statsGrid}</div>`)}
       ${acc("DCF — discounted cash flow", `<div class="report">${p.dcf_html || ""}</div>`)}
       ${acc("DDM — dividend discount", `<div class="report">${p.ddm_html || ""}</div>`)}
       ${acc("Comps — peer multiples", `<div class="report">${p.comps_html || ""}</div>`)}
       ${acc("Reconciliation & confidence",
           `<p class="recsent">${esc(rec.sentence)}</p><div class="grid">${recVals}</div>`)}
+      <div class="agroup">Quality &amp; risk</div>
       ${acc("Quality checklist", `<ul class="bullets good">${checklist}</ul>`)}
       ${capital ? acc("Capital allocation", `<ul class="bullets cap">${capital}</ul>`) : ""}
       ${acc("Risks", `<ul class="bullets risk">${risks}</ul>`)}
@@ -564,6 +607,12 @@ function renderDetail(p) {
       ${manual ? acc("Needs your own research", `<p class="recsent">The models can't
           judge these — check them yourself before buying:</p>
           <ul class="bullets manual">${manual}</ul>`) : ""}
+      <div class="agroup">More data</div>
+      ${health ? acc("Financial health", `<div class="grid">${health}</div>
+        <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div>`) : ""}
+      ${analyst ? acc("Catalysts & Street view", `<div class="grid">${analyst}</div>
+        <div class="src-note">Consensus and dates via Yahoo Finance — the Street's view, not ours.</div>`) : ""}
+      ${acc("All key stats", `<div class="grid">${statsGrid}</div>`)}
     </div>
 
     <div class="sec"><h3>News</h3>
@@ -580,7 +629,6 @@ function renderDetail(p) {
     th.classList.toggle("clamp");
     th.querySelector(".thmore").textContent = th.classList.contains("clamp") ? "more ▾" : "less ▴";
   });
-  countUp(document.getElementById("dprice"), p.price, usd);
   if (!low) {
     countUp(document.getElementById("dfv"), p.intrinsic, usd);
     countUp(document.getElementById("dup"), p.upside, pct);
