@@ -41,6 +41,8 @@ class DCFConfig:
     growth_floor: float = -0.05        # min base growth
     fade: bool = True                  # fade growth from g0 -> terminal over horizon
     normalize_base: bool = True        # use median FCF as base (smooths cyclical peaks)
+    normalize_working_capital: bool = True  # measure erratic FCF ex-WC swings
+    wc_cv_threshold: float = 0.5       # raw-FCF coeff. of variation above this = erratic
     cost_of_equity_floor: float = 0.09  # equity holders demand >= this
     wacc_floor: float = 0.09           # no equity valued below a 9% discount rate
     default_beta: float = 1.0          # used only inside CAPM if beta present-but-odd
@@ -89,11 +91,14 @@ class DCFModel(ValuationModel):
 
         # --- 1. FCF history (oldest -> newest) -------------------------- #
         # periods are most-recent-first; reverse for a chronological series.
-        fcf_series = [
-            (p.fiscal_year, p.free_cash_flow)
+        # Carry each year's working-capital swing so erratic series can be
+        # normalized to cash earnings power below.
+        rows = [
+            (p.fiscal_year, p.free_cash_flow, p.change_in_working_capital)
             for p in reversed(data.periods)
             if p.free_cash_flow is not None
         ]
+        fcf_series = [(y, f) for y, f, _ in rows]
         if len(fcf_series) < 2:
             result.flags.append("Insufficient FCF history (<2 years); cannot run DCF")
             return result
@@ -114,6 +119,25 @@ class DCFModel(ValuationModel):
 
         # --- 1b. Robust base level --------------------------------------- #
         values = [f for _, f in fcf_series]
+
+        # Working-capital normalization: hardware/retail names swing billions
+        # of working capital between years, so raw FCF measures order timing,
+        # not earnings power (Dell: raw 0.6->5.9->1.9->8.6B is noise; ex-WC
+        # 3.8->5.3->6.1->7.7B is the business). Only when the raw series is
+        # genuinely erratic (CV above threshold) AND every year has a reported
+        # WC swing do we measure level and trend on the ex-WC series.
+        wc_normalized = False
+        mean_fcf = statistics.fmean(values) if values else 0.0
+        if (cfg.normalize_working_capital and len(values) >= 3 and mean_fcf > 0
+                and statistics.pstdev(values) / mean_fcf > cfg.wc_cv_threshold
+                and all(w is not None for _, _, w in rows)):
+            adjusted = [f - w for _, f, w in rows]
+            if any(a > 0 for a in adjusted):
+                values = adjusted
+                wc_normalized = True
+                result.flags.append(
+                    "FCF normalized for working-capital swings (raw series erratic)")
+
         positive_fcf = [f for f in values if f and f > 0]
         if cfg.normalize_base and positive_fcf:
             fcf0 = statistics.median(positive_fcf)   # robust to a one-off spike year
@@ -129,7 +153,8 @@ class DCFModel(ValuationModel):
                if values[i] and values[i] > 0 and values[i + 1] is not None]
         if yoy:
             raw_growth = statistics.median(yoy)
-            growth_method = f"median YoY FCF growth over {len(yoy)} yrs"
+            growth_method = (f"median YoY FCF growth over {len(yoy)} yrs"
+                             + (" (WC-normalized)" if wc_normalized else ""))
         else:
             raw_growth = cfg.terminal_growth
             growth_method = "fallback (insufficient FCF history)"
@@ -201,6 +226,8 @@ class DCFModel(ValuationModel):
 
         result.audit = {
             "fcf_history": fcf_series,
+            "fcf_wc_normalized": wc_normalized,
+            "fcf_used": [(rows[i][0], values[i]) for i in range(len(values))],
             "fcf0": fcf0,
             "growth": {
                 "method": growth_method, "raw": raw_growth,

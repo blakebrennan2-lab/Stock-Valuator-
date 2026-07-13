@@ -184,6 +184,50 @@ def test_spike_does_not_inflate_growth():
     print(f"  one-off spike ignored by median; growth={res.audit['growth']['applied']:.1%}  OK")
 
 
+def test_working_capital_normalization():
+    # Erratic raw FCF driven purely by WC swings (the Dell case): level and
+    # trend must be measured ex-WC. Raw [50, 300, 60, 310] with WC swings
+    # [-100, +150, -95, +155] -> adjusted [150, 150, 155, 155].
+    def _p(y, fcf, wc):
+        return FinancialPeriod(fiscal_year=str(y), free_cash_flow=fcf,
+                               change_in_working_capital=wc)
+    data = CompanyData(
+        ticker="WC", beta=1.0, market_cap=10_000.0, total_debt=0.0,
+        cash_and_equivalents=0.0, shares_outstanding=100.0,
+        periods=[_p(2026, 310.0, 155.0), _p(2025, 60.0, -95.0),
+                 _p(2024, 300.0, 150.0), _p(2023, 50.0, -100.0)],
+    )
+    res = DCFModel().value(data)
+    assert res.ok
+    assert res.audit["fcf_wc_normalized"] is True
+    assert abs(res.audit["fcf0"] - 152.5) < 1e-9, res.audit["fcf0"]
+    assert "WC-normalized" in res.audit["growth"]["method"]
+    assert res.audit["growth"]["applied"] < 0.04, res.audit["growth"]  # ~1.7%
+    # Same numbers WITHOUT WC data -> no normalization, no fabrication.
+    for p in data.periods:
+        p.change_in_working_capital = None
+    res2 = DCFModel().value(data)
+    assert res2.audit["fcf_wc_normalized"] is False
+    print("  erratic FCF measured ex-WC; untouched when WC data missing  OK")
+
+
+def test_smooth_series_not_wc_normalized():
+    # A steady compounder (CV well under threshold) must NOT be re-based even
+    # when WC data exists — the fix only fires on genuinely erratic series.
+    def _p(y, fcf, wc):
+        return FinancialPeriod(fiscal_year=str(y), free_cash_flow=fcf,
+                               change_in_working_capital=wc)
+    data = CompanyData(
+        ticker="SMOOTH", beta=1.0, market_cap=10_000.0, total_debt=0.0,
+        cash_and_equivalents=0.0, shares_outstanding=100.0,
+        periods=[_p(2026, 146.41, 3.0), _p(2025, 133.1, -2.0),
+                 _p(2024, 121.0, 2.5), _p(2023, 110.0, -1.5)],
+    )
+    res = DCFModel().value(data)
+    assert res.ok and res.audit["fcf_wc_normalized"] is False
+    print("  smooth compounder untouched by WC normalization  OK")
+
+
 def test_sensitivity_grid():
     # Grid must anchor on the base case and move the right way: value falls as
     # WACC rises (left->right) and rises with growth (top->bottom).
@@ -215,6 +259,8 @@ if __name__ == "__main__":
         test_negative_fcf_skips,
         test_missing_beta_uses_fallback,
         test_spike_does_not_inflate_growth,
+        test_working_capital_normalization,
+        test_smooth_series_not_wc_normalized,
         test_sensitivity_grid,
     ]
     failed = 0

@@ -82,6 +82,27 @@ def test_blend_inconclusive_when_survivors_diverge():
     print("  divergent survivors -> inconclusive, no MoS, not ranked  OK")
 
 
+def test_blend_demotes_relative_only_comps():
+    # The Dell case: cash-flow DCF says $194, Comps says $742 off a peer group
+    # at extreme multiples. The relative-only comp must NOT anchor the verdict:
+    # blend = DCF alone -> an honest OVERVALUED margin, not a +42% "buy".
+    dcf = _res("DCF", 194, 160, 240)
+    comps = _res("Comps", 742, 380, 1100)
+    comps.relative_only = True
+    b = Blender().blend([dcf, comps], price=427, ticker="DELL")
+    assert b.ok and not b.inconclusive
+    assert b.models_used == ["DCF"], b.models_used
+    assert abs(b.intrinsic_value - 194) < 1e-9
+    assert b.margin_of_safety < -1.0            # deeply negative = overvalued
+    assert any("context only" in n for n in b.notes), b.notes
+    # But when the relative-only comp is ALL that survived, it still values
+    # (flagged low), rather than silently vanishing.
+    only = _res("Comps", 130, 110, 150); only.relative_only = True
+    b2 = Blender().blend([only, _res("DCF", None, ok=False)], price=100, ticker="T")
+    assert b2.ok and b2.models_used == ["Comps"]
+    print("  extreme-peer Comps demoted to context; DCF anchors verdict  OK")
+
+
 def test_blend_lone_method_far_from_price_is_inconclusive():
     # Only DCF fires (DDM/Comps n/a) and it lands at $84 vs a $365 price -- a
     # lone, uncorroborated method that wildly disagrees with the market. This is
@@ -199,6 +220,7 @@ if __name__ == "__main__":
         test_blend_renormalizes_when_model_missing,
         test_blend_excludes_broken_method,
         test_blend_inconclusive_when_survivors_diverge,
+        test_blend_demotes_relative_only_comps,
         test_blend_lone_method_far_from_price_is_inconclusive,
         test_blend_lone_method_near_price_still_values,
         test_blend_none_valid,

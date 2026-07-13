@@ -131,7 +131,13 @@ async function initNews(p) {
       ts: null, date: n.date || "", link: n.link || "" }));
   if (!location.hash.includes(p.ticker)) return;   // user navigated away mid-fetch
   if (items.length) {
-    list.innerHTML = items.slice(0, 8).map(n => newsRow(n)).join("");
+    const first = items.slice(0, 3), rest = items.slice(3, 8);
+    list.innerHTML = first.map(n => newsRow(n)).join("")
+      + (rest.length ? `<button class="morebtn" id="nmore">More news (${rest.length})</button>` : "");
+    const mb = document.getElementById("nmore");
+    if (mb) mb.addEventListener("click", () => {
+      mb.outerHTML = rest.map(n => newsRow(n)).join("");
+    });
     note.textContent = live
       ? "Live headlines via Yahoo Finance — tap to read the source."
       : "Headlines from the last data refresh (live feed unreachable).";
@@ -239,7 +245,7 @@ function mountChart(host, readout, data, label, intrinsic) {
   const col = last >= first ? "var(--green)" : "var(--red)";
   const line = smooth(data.map((d, i) => [xs(i), ys(d[1])]));
   const area = `${line} L${xs(data.length - 1).toFixed(1)},${H - padB} L${padX},${H - padB} Z`;
-  const ivl = intrinsic != null ? `<line x1="${padX}" y1="${ys(intrinsic).toFixed(1)}" x2="${W - padX}" y2="${ys(intrinsic).toFixed(1)}" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>` : "";
+  const ivl = intrinsic != null ? `<line x1="${padX}" y1="${ys(intrinsic).toFixed(1)}" x2="${W - padX}" y2="${ys(intrinsic).toFixed(1)}" stroke="var(--accent)" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>` : "";
   const gid = "g" + Math.random().toString(36).slice(2, 7);
   host.innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
     <defs><linearGradient id="${gid}" x1="0" x2="0" y1="0" y2="1">
@@ -325,39 +331,51 @@ function mountChart(host, readout, data, label, intrinsic) {
 }
 
 /* ---------- views ---------- */
-function stockCard(p) {
+function stockRow(p, i) {
   const low = p.confidence === "low";
   return `
-    <button class="card" onclick="location.hash='#/${encodeURIComponent(p.ticker)}'">
+    <button class="row" style="animation-delay:${45 * (i + 1)}ms"
+      onclick="location.hash='#/${encodeURIComponent(p.ticker)}'">
       <div class="id"><div class="tk">${esc(p.ticker)}</div>
         <div class="nm">${esc(p.name)}</div></div>
       ${sparkline(p.history || [])}
       <div class="rt"><div class="px">${usd(p.price)}</div>
-        ${low ? '<div class="lowpill">⚠ wide range</div>'
-              : `<div class="up ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</div>`}</div>
+        ${low ? '<span class="chip warn">wide range</span>'
+              : `<span class="chip ${p.upside >= 0 ? "pos" : "neg"}">${pct(p.upside)}</span>`}</div>
     </button>`;
 }
-// Editorial "patience" illustration: the price line dips, gold waits at the bottom.
+// Editorial "patience" illustration: the price line dips and recovers.
 const dipArt = `<svg class="dipart" viewBox="0 0 210 86" aria-hidden="true">
   <line x1="8" y1="78" x2="202" y2="78" stroke="var(--line-strong)" stroke-width="1"/>
   <path d="M8 30 C 46 24, 68 30, 92 56 C 101 66 110 68 119 60 C 142 40 170 22 202 16"
         fill="none" stroke="var(--muted)" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="105" cy="63" r="7" fill="var(--gold)"/>
+  <circle cx="105" cy="63" r="7" fill="var(--accent)"/>
 </svg>`;
-function etfCard(e) {
+function etfRow(e, i) {
   return `
-    <button class="card" onclick="location.hash='#/${encodeURIComponent(e.ticker)}'">
+    <button class="row" style="animation-delay:${45 * (i + 1)}ms"
+      onclick="location.hash='#/${encodeURIComponent(e.ticker)}'">
       <div class="id"><div class="tk">${esc(e.ticker)}</div>
         <div class="nm">${esc(e.name)}</div></div>
       ${sparkline(e.history || [])}
       <div class="rt"><div class="px">${usd(e.price)}</div>
-        <div class="up neg">▼ ${Math.abs(Math.round((e.drawdown || 0) * 100))}% off high</div></div>
+        <span class="chip neg">▼${Math.abs(Math.round((e.drawdown || 0) * 100))}% off high</span></div>
     </button>`;
 }
+// "Prices 2026-07-13 22:14Z" -> live freshness ("14m ago") + pulse when recent.
+function freshness() {
+  const raw = DATA.price_as_of || "";
+  const d = new Date(raw.replace(" ", "T").replace("Z", ":00Z"));
+  if (isNaN(d)) return { text: DATA.as_of ? `Updated ${DATA.as_of}` : "", live: false };
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  const text = mins < 2 ? "Prices updated just now"
+    : mins < 90 ? `Prices updated ${mins}m ago`
+    : mins < 60 * 36 ? `Prices updated ${Math.round(mins / 60)}h ago`
+    : `Prices as of ${raw}`;
+  return { text: `${text} · analysis ${DATA.as_of}`, live: mins < 90 };
+}
 function renderHome() {
-  const sub = DATA.price_as_of
-    ? `Prices ${DATA.price_as_of} · analysis ${DATA.as_of}`
-    : (DATA.as_of ? `Updated ${DATA.as_of}` : "");
+  const f = freshness();
   const tabs = `<div class="tabs-home" role="tablist">
     <button class="htab ${homeTab === "stocks" ? "active" : ""}" data-tab="stocks"
       role="tab" aria-selected="${homeTab === "stocks"}">Stocks</button>
@@ -366,15 +384,19 @@ function renderHome() {
 
   let body;
   if (homeTab === "stocks") {
-    body = DATA.picks.length
-      ? `<div class="list">${DATA.picks.map(stockCard).join("")}</div>`
+    const n = DATA.picks.length;
+    body = n
+      ? `<div class="curated">Today's screen — <b>${n} name${n > 1 ? "s" : ""}</b> cleared all seven quality-dip gates.</div>
+         <div class="list">${DATA.picks.map(stockRow).join("")}</div>`
       : `<div class="empty">${dipArt}
          <div class="big">Nothing worth buying today.</div>
          <div>No strong company pulled back on sentiment while staying at/below fair
          value. The screen ran fine — it's just being patient so you don't overpay.</div></div>`;
   } else {
-    body = (DATA.etfs || []).length
-      ? `<div class="list">${DATA.etfs.map(etfCard).join("")}</div>`
+    const etfs = DATA.etfs || [];
+    body = etfs.length
+      ? `<div class="curated">Quality funds in a pullback — <b>${etfs.length}</b> today.</div>
+         <div class="list">${etfs.map(etfRow).join("")}</div>`
       : `<div class="empty">${dipArt}
          <div class="big">No ETF dips today.</div>
          <div>No quality ETF has pulled back within its uptrend right now.</div></div>`;
@@ -382,10 +404,8 @@ function renderHome() {
   root.innerHTML = `
     <header class="mast"><div class="kicker">Daily Value Screen</div>
       <h1 class="title-lg">Quality Dips</h1><div class="rule"></div>
-      <div class="sub">${sub}</div></header>
-    ${tabs}${body}
-    <footer>Screens the S&P 500 for quality companies in a sentiment dip.
-      Mechanical model output — not investment advice.</footer>`;
+      <div class="sub">${f.live ? '<span class="livedot"></span>' : ""}${f.text}</div></header>
+    ${tabs}${body}`;
   root.querySelectorAll(".htab").forEach(b =>
     b.addEventListener("click", () => { homeTab = b.dataset.tab; renderHome(); }));
 }
@@ -443,10 +463,9 @@ function renderEtfDetail(e) {
       <span class="chg" id="cchg"></span><span class="cdate" id="cdate"></span></div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
-    <div class="chart-note">one finger scrubs · add a second to measure · prices ${DATA.price_as_of || DATA.as_of}</div>
+    <div class="chart-note">one finger scrubs · add a second to measure</div>
     <div class="sec"><h3>Fund facts</h3><div class="grid">${statsGrid}</div></div>
-    <footer>ETFs are screened on trend + pullback, not DCF (a fund has no earnings).
-      Mechanical model output — not investment advice.</footer>`;
+    <footer>ETFs are screened on trend + pullback, not DCF (a fund has no earnings).</footer>`;
   mountDetailChart(e);
   countUp(document.getElementById("dprice"), e.price, usd);
 }
@@ -477,13 +496,15 @@ function renderDetail(p) {
   const mind = (p.change_mind || []).map(t => `<li>${esc(t)}</li>`).join("");
   const manual = (p.manual || []).map(t => `<li>${esc(t)}</li>`).join("");
 
-  // verdict header — always visible
+  // verdict — one compact line: worth · upside · confidence (honesty intact)
   const header = low
-    ? `<div class="fv">Fair value <b>${usd(p.range_low)}–${usd(p.range_high)}</b></div>
-       <div class="lowbanner">⚠ LOW confidence — the models disagree. Treat the value as a wide range, not a target.</div>`
-    : `<div class="fv">Fair value <b id="dfv">${usd(p.intrinsic)}</b> <span class="rng">(${usd(p.range_low)}–${usd(p.range_high)})</span></div>
-       <div class="row"><span class="up ${p.upside >= 0 ? "pos" : "neg"}" id="dup">${pct(p.upside)} upside</span>
-         <span class="pill">${esc(p.confidence)} confidence</span></div>`;
+    ? `<div class="verdict">Fair value <b>${usd(p.range_low)}–${usd(p.range_high)}</b>
+         <span class="pill" style="color:var(--amber);border-color:rgba(217,176,79,.45);background:rgba(217,176,79,.08)">low confidence</span></div>
+       <div class="lowbanner">⚠ The models disagree — treat the value as a wide range, not a target.</div>`
+    : `<div class="verdict">Worth <b id="dfv">${usd(p.intrinsic)}</b>
+         <span class="up ${p.upside >= 0 ? "pos" : "neg"}" id="dup">${pct(p.upside)}</span>
+         <span class="pill">${esc(p.confidence)} confidence</span>
+         <span class="rng">range ${usd(p.range_low)}–${usd(p.range_high)}</span></div>`;
 
   // value runway: where today's price sits against the model range
   let runway = "";
@@ -511,7 +532,10 @@ function renderDetail(p) {
       ${header}
     </div>
     ${runway}
-    ${p.thesis ? `<div class="thesis">${esc(p.thesis)}</div>` : ""}
+    ${p.thesis ? `<div class="thesis clamp" id="thesis"><div class="tx">${esc(p.thesis)}</div>
+      <div class="thmore">more ▾</div></div>` : ""}
+    <div class="ribbon">${(p.stats || []).map(s =>
+      `<div class="rchip"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div></div>`).join("")}</div>
     <div class="chartread">
       <span class="cprice" id="cprice"></span>
       <span class="chg" id="cchg"></span>
@@ -519,17 +543,15 @@ function renderDetail(p) {
     </div>
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
-    <div class="chart-note">one finger scrubs · add a second to measure · prices ${DATA.price_as_of || DATA.as_of}</div>
     <div id="dipctx"></div>
 
-    <div class="sec"><h3>Key stats</h3><div class="grid">${statsGrid}</div></div>
-    ${health ? `<div class="sec"><h3>Financial health</h3><div class="grid">${health}</div>
-      <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div></div>` : ""}
-    ${analyst ? `<div class="sec"><h3>Catalysts &amp; Street view</h3><div class="grid">${analyst}</div>
-      <div class="src-note">Consensus and dates via Yahoo Finance — the Street's view, not ours.</div></div>` : ""}
-
     <div class="accordions">
-      ${acc("How we valued it", `<div class="methods">${methods}</div>`, true)}
+      ${acc("How we valued it", `<div class="methods">${methods}</div>`)}
+      ${health ? acc("Financial health", `<div class="grid">${health}</div>
+        <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div>`) : ""}
+      ${analyst ? acc("Catalysts & Street view", `<div class="grid">${analyst}</div>
+        <div class="src-note">Consensus and dates via Yahoo Finance — the Street's view, not ours.</div>`) : ""}
+      ${acc("All key stats", `<div class="grid">${statsGrid}</div>`)}
       ${acc("DCF — discounted cash flow", `<div class="report">${p.dcf_html || ""}</div>`)}
       ${acc("DDM — dividend discount", `<div class="report">${p.ddm_html || ""}</div>`)}
       ${acc("Comps — peer multiples", `<div class="report">${p.comps_html || ""}</div>`)}
@@ -549,14 +571,19 @@ function renderDetail(p) {
         ${'<div class="sk-news"><div class="sk a"></div><div class="sk b"></div></div>'.repeat(3)}
       </div>
       <div class="src-note" id="nnote">Fetching live headlines…</div></div>
-    <footer>Mechanical model output — not investment advice or legal due diligence.</footer>`;
+    <footer>Prices, statements &amp; headlines via Yahoo Finance.</footer>`;
 
   mountDetailChart(p);
   animateAccordions(root);
+  const th = document.getElementById("thesis");
+  if (th) th.addEventListener("click", () => {
+    th.classList.toggle("clamp");
+    th.querySelector(".thmore").textContent = th.classList.contains("clamp") ? "more ▾" : "less ▴";
+  });
   countUp(document.getElementById("dprice"), p.price, usd);
   if (!low) {
     countUp(document.getElementById("dfv"), p.intrinsic, usd);
-    countUp(document.getElementById("dup"), p.upside, v => pct(v) + " upside");
+    countUp(document.getElementById("dup"), p.upside, pct);
   }
   initNews(p);
 }

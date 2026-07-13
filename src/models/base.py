@@ -32,6 +32,8 @@ class ValuationResult:
 
     ok: bool = False
     low_reliability: bool = False  # value is technically computed but fragile
+    relative_only: bool = False    # priced off an extreme-multiple peer group;
+                                   # context only, must not anchor intrinsic value
     assumptions: Dict[str, Any] = field(default_factory=dict)
     audit: Dict[str, Any] = field(default_factory=dict)
     flags: List[str] = field(default_factory=list)

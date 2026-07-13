@@ -175,6 +175,27 @@ def test_target_multiples_in_audit():
     print("  target's own P/E, EV/EBITDA, P/B recorded for the peer table  OK")
 
 
+def test_extreme_peer_group_flagged_relative_only():
+    # Individually-sane peers (all under the 60x/50x caps) whose MEDIAN is
+    # extreme (44x P/E, 32x EV/EBITDA) = a richly-priced sector. The comp must
+    # be flagged relative-only so the blender can't anchor a "buy" on it.
+    syms, table = _peers([40, 44, 50], [30, 32, 34], [2, 3, 4])
+    res = CompsModel(FakeProvider(table)).value(
+        _target(eps=5, ebitda=1000, bvps=10), peer_symbols=syms
+    )
+    assert res.ok
+    assert res.relative_only is True
+    assert res.low_reliability is True
+    assert any("extreme multiples" in f for f in res.flags), res.flags
+    # Sane medians -> no flag.
+    syms2, table2 = _peers([10, 12, 14], [8, 9, 10], [1, 2, 3])
+    res2 = CompsModel(FakeProvider(table2)).value(
+        _target(eps=5, ebitda=1000, bvps=10), peer_symbols=syms2
+    )
+    assert res2.ok and res2.relative_only is False
+    print("  extreme peer medians -> relative-only; sane medians -> anchor  OK")
+
+
 def test_peer_selection_industry_and_dual_class():
     # Target FOO (Broadcasting). FOOA = its own other share class (exclude).
     # BAR/BAZ = real broadcasting peers. QUX = unrelated industry (exclude).
@@ -203,6 +224,7 @@ if __name__ == "__main__":
     tests = [
         test_handworked,
         test_target_multiples_in_audit,
+        test_extreme_peer_group_flagged_relative_only,
         test_peer_selection_industry_and_dual_class,
         test_negative_target_eps_drops_pe,
         test_negative_target_book_drops_pb,

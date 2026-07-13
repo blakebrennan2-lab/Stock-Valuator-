@@ -39,6 +39,11 @@ class CompsConfig:
     max_pe: float = 60.0             # drop P/E above this as non-meaningful
     max_ev_ebitda: float = 50.0      # drop EV/EBITDA above this
     max_pb: float = 25.0             # drop P/B above this
+    # When the peer group's MEDIAN sits above these, the whole group is at
+    # extreme multiples: the comp can contextualize but not anchor intrinsic
+    # value (relative-to-a-bubble is not intrinsic value).
+    extreme_pe: float = 35.0
+    extreme_ev_ebitda: float = 25.0
 
 
 def _sane(v, cap) -> bool:
@@ -202,6 +207,22 @@ class CompsModel(ValuationModel):
             "pb": (data.price / target_bvps
                    if data.price and target_bvps and target_bvps > 0 else None),
         }
+
+        # Extreme peer group: medians this high mean the whole sector is being
+        # priced richly — the comp is relative context, not intrinsic anchor.
+        extreme = []
+        pe_med = audit_multiples["pe"].get("median")
+        if pe_med and "implied" in audit_multiples["pe"] and pe_med > cfg.extreme_pe:
+            extreme.append(f"P/E {pe_med:.0f}x")
+        ev_med = audit_multiples["ev_ebitda"].get("median")
+        if ev_med and "implied" in audit_multiples["ev_ebitda"] and ev_med > cfg.extreme_ev_ebitda:
+            extreme.append(f"EV/EBITDA {ev_med:.0f}x")
+        if extreme:
+            result.relative_only = True
+            result.low_reliability = True
+            result.flags.append(
+                f"Peer group at extreme multiples ({', '.join(extreme)}) — "
+                "relative value only, cannot anchor intrinsic value")
 
         valid_values = list(implied.values())
         reconciled = statistics.median(valid_values)

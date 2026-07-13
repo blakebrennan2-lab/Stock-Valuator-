@@ -90,6 +90,17 @@ class Blender:
             note = f"{m} ${v:,.0f} excluded — far from price & peers (likely broken input)"
             out.notes.append(note + (" — DCF growth suspect" if m == "DCF" else ""))
 
+        # A method priced off an extreme-multiple peer group may contextualize
+        # but never anchor the verdict: when any grounded method survived,
+        # demote the relative-only one instead of blending bubble math in.
+        rel_flag = {r.model: getattr(r, "relative_only", False) for r in valid}
+        if any(not rel_flag.get(m, False) for m, _ in kept):
+            for m, v in [kv for kv in kept if rel_flag.get(kv[0], False)]:
+                kept.remove((m, v))
+                out.notes.append(
+                    f"{m} ${v:,.0f} shown for context only — peer group at "
+                    "extreme multiples")
+
         kept_vals = [v for _, v in kept]
         out.models_used = [m for m, _ in kept]
         out.model_values = dict(kept)

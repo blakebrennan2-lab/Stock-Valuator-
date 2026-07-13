@@ -10,9 +10,9 @@ import math
 import struct
 import zlib
 
-BG = (12, 10, 7)          # warm ink
-PAPER = (245, 241, 230)   # paper-white line
-GOLD = (217, 164, 65)     # champagne gold coin
+BG = (10, 12, 15)         # cool graphite ink
+PAPER = (238, 241, 245)   # porcelain line
+ACCENT = (94, 156, 204)   # steel-blue coin
 
 # The dip curve from icon.svg: three cubic beziers in 192-space.
 _CURVES = [
@@ -64,7 +64,7 @@ def make(path, size):
     px = [[BG] * size for _ in range(size)]
     _polyline(px, size, CHART, STROKE_R, PAPER, s)
     cx, cy, r = COIN
-    _disk(px, size, cx * s, cy * s, r * s, GOLD)
+    _disk(px, size, cx * s, cy * s, r * s, ACCENT)
 
     raw = bytearray()
     for y in range(size):
