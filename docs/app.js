@@ -43,6 +43,105 @@ function animateAccordions(scope) {
   });
 }
 
+/* ---------- news (live-first, honest fallback) ---------- */
+// Real headlines only, straight from Yahoo's feed via a CORS relay. If the
+// relay is down we fall back to the headlines baked at the last hourly
+// refresh; if there are none, we say so. Nothing is ever generated.
+async function fetchLiveNews(tk) {
+  const y = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(tk)}&newsCount=10&quotesCount=0`;
+  const ctl = new AbortController();
+  const to = setTimeout(() => ctl.abort(), 6000);
+  try {
+    const r = await fetch("https://corsproxy.io/?url=" + encodeURIComponent(y),
+                          { signal: ctl.signal });
+    const j = await r.json();
+    clearTimeout(to);
+    return (j.news || [])
+      .filter(n => n.title)
+      .map(n => ({ title: n.title, publisher: n.publisher || "", link: n.link || "",
+                   ts: n.providerPublishTime || null,
+                   // Yahoo lists the article's true subject first — the story
+                   // is primarily about this name only when it leads that list.
+                   primary: (n.relatedTickers || [tk])[0] === tk,
+                   date: n.providerPublishTime
+                     ? new Date(n.providerPublishTime * 1000).toISOString().slice(0, 10) : "" }))
+      .sort((a, b) => (b.primary ? 1 : 0) - (a.primary ? 1 : 0));
+  } catch (e) { clearTimeout(to); return null; }   // null = live feed unreachable
+}
+function relTime(n) {
+  const d = n.ts ? new Date(n.ts * 1000) : (n.date ? new Date(n.date + "T12:00:00") : null);
+  if (!d || isNaN(d)) return "";
+  const s = (Date.now() - d.getTime()) / 1000;
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + "m ago";
+  if (s < 86400) return Math.round(s / 3600) + "h ago";
+  if (s < 86400 * 8) return Math.round(s / 86400) + "d ago";
+  return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+function newsRow(n, extra = "") {
+  const meta = [esc(n.publisher), relTime(n)].filter(Boolean).join(" · ");
+  const inner = `<div class="nsrc">${meta}${extra}</div><div class="nti">${esc(n.title)}</div>`;
+  return /^https?:\/\//.test(n.link)
+    ? `<a class="news" href="${esc(n.link)}" target="_blank" rel="noopener">${inner}<span class="ngo">›</span></a>`
+    : `<div class="news">${inner}</div>`;
+}
+// Pair the recent move with the headlines around it — context, never causation.
+function renderDipContext(host, p, items) {
+  if (!host) return;
+  const hist = p.history || [];
+  if (hist.length < 20) { host.innerHTML = ""; return; }
+  const win = hist.slice(-180);
+  let hiI = 0;
+  win.forEach((d, i) => { if (d[1] > win[hiI][1]) hiI = i; });
+  const cur = win[win.length - 1][1], hi = win[hiI][1], dd = cur / hi - 1;
+  if (dd > -0.03) { host.innerHTML = ""; return; }   // no meaningful recent dip
+  const hiDate = win[hiI][0];
+  // Prefer stories actually about this name (leads Yahoo's ticker list, or the
+  // company/ticker appears in the headline); fall back to any dated coverage.
+  const nameKey = (p.name || "").split(/[\s-]/)[0].toLowerCase();
+  const isAbout = n => n.primary === true
+    || (nameKey.length > 2 && n.title.toLowerCase().includes(nameKey))
+    || n.title.toUpperCase().includes(p.ticker);
+  const dated = (items || []).filter(n => n.date && n.date >= hiDate);
+  const strict = dated.filter(isAbout);
+  const around = (strict.length ? strict : dated).slice(0, 3);
+  const byDate = new Map(hist.map((d, i) => [d[0], i]));
+  const badge = n => {
+    const i = byDate.get(n.date);
+    if (i == null || i === 0) return "";
+    const chg = hist[i][1] / hist[i - 1][1] - 1;
+    return ` · <span class="${chg >= 0 ? "pos" : "neg"}">${(chg >= 0 ? "+" : "")}${(chg * 100).toFixed(1)}% that day</span>`;
+  };
+  host.innerHTML = `<div class="dipx">
+    <div class="dxk">The dip in context</div>
+    <div class="dxline">Down <b>${Math.abs(dd * 100).toFixed(0)}%</b> since ${fmtDate(hiDate)}.</div>
+    ${around.length ? around.map(n => newsRow(n, badge(n))).join("")
+      : `<div class="dxnone">No headlines dated since the pre-dip high — often a sign
+         the move is sentiment rather than news. Verify before buying.</div>`}
+    <div class="dxcap">Headlines shown for context around the move — not a claim of cause.</div>
+  </div>`;
+}
+async function initNews(p) {
+  const list = document.getElementById("nlist");
+  const note = document.getElementById("nnote");
+  const dip = document.getElementById("dipctx");
+  if (!list) return;
+  let items = await fetchLiveNews(p.ticker);
+  const live = !!(items && items.length);
+  if (!live) items = (p.news || []).map(n => ({ title: n.title, publisher: n.publisher || "",
+      ts: null, date: n.date || "", link: n.link || "" }));
+  if (!location.hash.includes(p.ticker)) return;   // user navigated away mid-fetch
+  if (items.length) {
+    list.innerHTML = items.slice(0, 8).map(n => newsRow(n)).join("");
+    note.textContent = live
+      ? "Live headlines via Yahoo Finance — tap to read the source."
+      : "Headlines from the last data refresh (live feed unreachable).";
+  } else {
+    list.innerHTML = `<div class="nempty">No recent news for ${esc(p.ticker)} — a quiet tape.</div>`;
+    note.textContent = "";
+  }
+  renderDipContext(dip, p, items);
+}
+
 /* ---------- data ---------- */
 function skeletonHome() {
   const card = `<div class="sk-card"><div style="flex:1">
@@ -368,14 +467,15 @@ function renderDetail(p) {
     `<div class="stat"><div class="l">${esc(k)}</div><div class="v">${usd(v)}</div></div>`).join("");
   const checklist = (p.profile || []).map(t => `<li>${esc(t)}</li>`).join("");
   const risks = (p.risks || []).map(t => `<li>${esc(t)}</li>`).join("");
-  const health = (p.health || []).map(s =>
-    `<div class="stat"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div>
-     ${s.src ? `<div class="s">${esc(s.src)}</div>` : ""}</div>`).join("");
+  const statCell = s =>
+    `<div class="stat"><div class="l">${esc(s.label)}</div>
+     <div class="v${s.value === "not available" ? " na" : ""}">${esc(s.value)}</div>
+     ${s.src ? `<div class="s">${esc(s.src)}</div>` : ""}</div>`;
+  const health = (p.health || []).map(statCell).join("");
+  const analyst = (p.analyst || []).map(statCell).join("");
   const capital = (p.capital || []).map(t => `<li>${esc(t)}</li>`).join("");
   const mind = (p.change_mind || []).map(t => `<li>${esc(t)}</li>`).join("");
   const manual = (p.manual || []).map(t => `<li>${esc(t)}</li>`).join("");
-  const news = (p.news || []).slice(0, 3).map(n =>
-    `<li>${esc(n.title)} <span class="nm">(${esc([n.publisher, n.date].filter(Boolean).join(" · "))})</span></li>`).join("");
 
   // verdict header — always visible
   const header = low
@@ -420,10 +520,13 @@ function renderDetail(p) {
     <div class="chart-wrap"><div id="chart"></div></div>
     <div class="ranges" id="ranges"></div>
     <div class="chart-note">one finger scrubs · add a second to measure · prices ${DATA.price_as_of || DATA.as_of}</div>
+    <div id="dipctx"></div>
 
     <div class="sec"><h3>Key stats</h3><div class="grid">${statsGrid}</div></div>
     ${health ? `<div class="sec"><h3>Financial health</h3><div class="grid">${health}</div>
       <div class="src-note">Computed from the latest reported annual statements (Yahoo Finance).</div></div>` : ""}
+    ${analyst ? `<div class="sec"><h3>Catalysts &amp; Street view</h3><div class="grid">${analyst}</div>
+      <div class="src-note">Consensus and dates via Yahoo Finance — the Street's view, not ours.</div></div>` : ""}
 
     <div class="accordions">
       ${acc("How we valued it", `<div class="methods">${methods}</div>`, true)}
@@ -434,13 +537,18 @@ function renderDetail(p) {
           `<p class="recsent">${esc(rec.sentence)}</p><div class="grid">${recVals}</div>`)}
       ${acc("Quality checklist", `<ul class="bullets good">${checklist}</ul>`)}
       ${capital ? acc("Capital allocation", `<ul class="bullets cap">${capital}</ul>`) : ""}
-      ${acc("Risks", `<ul class="bullets risk">${risks}</ul>` +
-          (news ? `<div class="newshead">Recent news</div><ul class="bullets">${news}</ul>` : ""))}
+      ${acc("Risks", `<ul class="bullets risk">${risks}</ul>`)}
       ${mind ? acc("What would change our mind", `<ul class="bullets mind">${mind}</ul>`) : ""}
       ${manual ? acc("Needs your own research", `<p class="recsent">The models can't
           judge these — check them yourself before buying:</p>
           <ul class="bullets manual">${manual}</ul>`) : ""}
     </div>
+
+    <div class="sec"><h3>News</h3>
+      <div class="nlist" id="nlist">
+        ${'<div class="sk-news"><div class="sk a"></div><div class="sk b"></div></div>'.repeat(3)}
+      </div>
+      <div class="src-note" id="nnote">Fetching live headlines…</div></div>
     <footer>Mechanical model output — not investment advice or legal due diligence.</footer>`;
 
   mountDetailChart(p);
@@ -450,6 +558,7 @@ function renderDetail(p) {
     countUp(document.getElementById("dfv"), p.intrinsic, usd);
     countUp(document.getElementById("dup"), p.upside, v => pct(v) + " upside");
   }
+  initNews(p);
 }
 
 window.addEventListener("hashchange", route);

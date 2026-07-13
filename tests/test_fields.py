@@ -13,7 +13,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.data.provider import CompanyData, FinancialPeriod
 from src.valuation.blender import BlendResult
 from src.web.fields import (
-    MANUAL_RESEARCH, _capital_allocation, _change_mind, _health_stats,
+    MANUAL_RESEARCH, _analyst_context, _capital_allocation, _change_mind,
+    _health_stats,
 )
 
 
@@ -128,6 +129,32 @@ def test_change_mind_tied_to_numbers():
     print("  every change-our-mind bullet cites the live figure  OK")
 
 
+def test_analyst_context_labels_missing_as_not_available():
+    blend = BlendResult(ticker="TST", price=50.0, ok=True, intrinsic_value=70.0)
+    # Full context -> everything formatted, Street target cites our fair value.
+    full = _by_label(_analyst_context({
+        "next_earnings": "2026-07-30", "ex_dividend": "2026-07-01",
+        "rating": "buy", "rating_mean": 2.5, "n_analysts": 24,
+        "target_mean": 63.0, "target_low": 40.0, "target_high": 75.0,
+    }, blend, _data()))
+    assert full["Next earnings"]["value"] == "2026-07-30"
+    assert full["Street rating"]["value"] == "Buy (2.5/5, 24 analysts)"
+    assert "our fair value: $70.00" in full["Street target"]["src"]
+    # Empty context -> explicit 'not available', never a fabricated value.
+    empty = _by_label(_analyst_context({}, blend, _data()))
+    assert empty["Next earnings"]["value"] == "not available"
+    assert empty["Street rating"]["value"] == "not available"
+    assert empty["Street target"]["value"] == "not available"
+    # Non-payer -> dividend rows are absent (not applicable != not available).
+    d = _data()
+    d.last_dividend = 0
+    for p in d.periods:
+        p.dividend_per_share = None
+    nopay = _by_label(_analyst_context({}, blend, d))
+    assert "Ex-dividend" not in nopay and "Dividend paid" not in nopay
+    print("  analyst context: formatted, 'not available' labeled, never faked  OK")
+
+
 def test_manual_research_is_static_not_computed():
     # The qualitative list must exist and clearly be judgment work, not data.
     assert len(MANUAL_RESEARCH) >= 4
@@ -146,6 +173,7 @@ if __name__ == "__main__":
         test_liquidity_and_debt_omitted_when_missing,
         test_debt_trend_directions,
         test_change_mind_tied_to_numbers,
+        test_analyst_context_labels_missing_as_not_available,
         test_manual_research_is_static_not_computed,
     ]
     failed = 0

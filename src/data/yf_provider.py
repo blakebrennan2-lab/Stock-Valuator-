@@ -413,14 +413,76 @@ class YFinanceProvider(DataProvider):
             self.cache.set(cache_key, json.dumps(out))
         return out
 
-    def get_news(self, ticker: str, limit: int = 4) -> List[dict]:
-        """Recent headlines from Yahoo (real source) -> [{title, publisher, date}].
+    def get_analyst_context(self, ticker: str) -> dict:
+        """Catalyst dates + Street consensus for a pick: next earnings date,
+        ex-dividend/pay dates, analyst rating, price targets, forward estimates.
+        Fetched only for top picks (cheap). Missing keys come back ABSENT — the
+        UI labels them 'not available', never fakes a value."""
+        ticker = ticker.upper().strip()
+        cache_key = f"yf:analyst:v1:{ticker}"
+        if self.cache is not None:
+            cached = self.cache.get(cache_key)
+            if cached is not None:
+                try:
+                    return json.loads(cached)
+                except Exception:
+                    pass
+
+        t = yf.Ticker(self._yahoo_symbol(ticker))
+        out: dict = {}
+
+        # Catalyst dates from the calendar (earnings + dividends).
+        try:
+            cal = t.calendar or {}
+            ed = cal.get("Earnings Date")
+            if ed:  # list of date(s); take the first upcoming
+                out["next_earnings"] = str(ed[0] if isinstance(ed, (list, tuple)) else ed)[:10]
+            for key, src in (("ex_dividend", "Ex-Dividend Date"),
+                             ("dividend_pay", "Dividend Date")):
+                if cal.get(src):
+                    out[key] = str(cal[src])[:10]
+        except Exception:
+            pass
+
+        # Street consensus from .info (free tier exposes these).
+        try:
+            info = t.info or {}
+        except Exception:
+            info = {}
+        for key, src in (("rating", "recommendationKey"),
+                         ("rating_mean", "recommendationMean"),
+                         ("n_analysts", "numberOfAnalystOpinions"),
+                         ("target_mean", "targetMeanPrice"),
+                         ("target_low", "targetLowPrice"),
+                         ("target_high", "targetHighPrice"),
+                         ("forward_eps", "forwardEps")):
+            v = info.get(src)
+            if v is not None and v != "none":
+                out[key] = v
+
+        # Next-year revenue estimate when the endpoint serves it.
+        try:
+            est = t.revenue_estimate
+            if est is not None and not est.empty and "avg" in est.columns:
+                v = est["avg"].get("+1y") or est["avg"].get("0y")
+                if v:
+                    out["revenue_est"] = float(v)
+        except Exception:
+            pass
+
+        if self.cache is not None and out:
+            self.cache.set(cache_key, json.dumps(out))
+        return out
+
+    def get_news(self, ticker: str, limit: int = 8) -> List[dict]:
+        """Recent headlines from Yahoo (real source)
+        -> [{title, publisher, date, link}].
 
         Best-effort: returns [] if unavailable. Not a comprehensive litigation
         check -- just real, dated headlines the digest can surface verbatim.
         """
         ticker = ticker.upper().strip()
-        cache_key = f"yf:news:{ticker}"
+        cache_key = f"yf:news:v2:{ticker}"  # v2: + link, 8 items
         if self.cache is not None:
             cached = self.cache.get(cache_key)
             if cached is not None:
@@ -441,7 +503,11 @@ class YFinanceProvider(DataProvider):
                 continue
             prov = (c.get("provider") or {}).get("displayName") or c.get("publisher")
             date = c.get("pubDate") or c.get("displayTime") or ""
-            out.append({"title": title, "publisher": prov, "date": str(date)[:10]})
+            link = ((c.get("canonicalUrl") or {}).get("url")
+                    or (c.get("clickThroughUrl") or {}).get("url")
+                    or c.get("link") or "")
+            out.append({"title": title, "publisher": prov,
+                        "date": str(date)[:10], "link": link})
 
         if self.cache is not None and out:
             self.cache.set(cache_key, json.dumps(out))

@@ -39,8 +39,10 @@ def export_results(scan_result, path: str = DEFAULT_PATH, as_of: Optional[str] =
             provider and hasattr(provider, "get_news")) else None
         ownership = provider.get_ownership(b.ticker) if (
             provider and hasattr(provider, "get_ownership")) else None
+        analyst = provider.get_analyst_context(b.ticker) if (
+            provider and hasattr(provider, "get_analyst_context")) else None
         picks.append(stock_payload(b, data, comps, results, history, news,
-                                   intraday, ownership))
+                                   intraday, ownership, analyst))
 
     etfs = build_etf_payloads(provider) if provider else []
     payload = {"as_of": as_of, "count": len(picks), "picks": picks, "etfs": etfs}

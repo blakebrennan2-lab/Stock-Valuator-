@@ -47,6 +47,11 @@ def main() -> None:
         intra = provider.get_intraday(p["ticker"])
         if intra:
             p["intraday"] = intra
+        # Refresh headlines too, so the app's fallback news (used when the
+        # client's live fetch fails) is at most an hour old, not a day.
+        news = provider.get_news(p["ticker"])
+        if news:
+            p["news"] = news
         print(f"  {p['ticker']}: {p['price']} (upside {round((p.get('upside') or 0)*100)}%)")
 
     for e in data.get("etfs", []):

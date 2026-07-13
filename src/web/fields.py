@@ -262,6 +262,59 @@ def _change_mind(blend: BlendResult, data: CompanyData,
     return out
 
 
+def _analyst_context(ctx: Optional[dict], blend: BlendResult,
+                     data: CompanyData) -> list:
+    """Catalyst dates + Street consensus, formatted for the UI. Anything the
+    free tier didn't return is explicitly 'not available' — never invented."""
+    ctx = ctx or {}
+    na = "not available"
+    out = [{"label": "Next earnings", "value": ctx.get("next_earnings") or na,
+            "src": "Yahoo Finance calendar"}]
+
+    pays = bool((data.latest and data.latest.dividend_per_share)
+                or data.last_dividend)
+    if pays:
+        out.append({"label": "Ex-dividend", "value": ctx.get("ex_dividend") or na,
+                    "src": "own shares before this date for the payout"})
+        out.append({"label": "Dividend paid", "value": ctx.get("dividend_pay") or na,
+                    "src": "Yahoo Finance calendar"})
+
+    if ctx.get("rating"):
+        label = ctx["rating"].replace("_", " ").title()
+        extra = []
+        if ctx.get("rating_mean") is not None:
+            extra.append(f"{ctx['rating_mean']:.1f}/5")
+        if ctx.get("n_analysts"):
+            extra.append(f"{ctx['n_analysts']:.0f} analysts")
+        out.append({"label": "Street rating",
+                    "value": label + (f" ({', '.join(extra)})" if extra else ""),
+                    "src": "analyst consensus via Yahoo Finance"})
+    else:
+        out.append({"label": "Street rating", "value": na,
+                    "src": "analyst consensus via Yahoo Finance"})
+
+    if ctx.get("target_mean") is not None:
+        rng = ""
+        if ctx.get("target_low") is not None and ctx.get("target_high") is not None:
+            rng = f" (range {_money(ctx['target_low'])}–{_money(ctx['target_high'])})"
+        src = "mean analyst target"
+        if blend.intrinsic_value:
+            src += f" — our fair value: {_money(blend.intrinsic_value)}"
+        out.append({"label": "Street target", "value": _money(ctx["target_mean"]) + rng,
+                    "src": src})
+    else:
+        out.append({"label": "Street target", "value": na,
+                    "src": "mean analyst target"})
+
+    if ctx.get("forward_eps") is not None:
+        out.append({"label": "Forward EPS (est.)", "value": f"${ctx['forward_eps']:,.2f}",
+                    "src": "consensus estimate, next 12m"})
+    if ctx.get("revenue_est") is not None:
+        out.append({"label": "Revenue (est.)", "value": _money(ctx["revenue_est"]),
+                    "src": "consensus estimate, next fiscal year"})
+    return out
+
+
 # Qualitative work the models CANNOT do — listed so nobody mistakes this app
 # for complete due diligence. Never auto-filled.
 MANUAL_RESEARCH = [
@@ -277,7 +330,8 @@ def stock_payload(blend: BlendResult, data: CompanyData,
                   comps: Optional[ValuationResult], results: dict,
                   history: list, news: Optional[list],
                   intraday: Optional[list] = None,
-                  ownership: Optional[dict] = None) -> dict:
+                  ownership: Optional[dict] = None,
+                  analyst: Optional[dict] = None) -> dict:
     latest = data.latest
     revenue = latest.revenue if latest else None
     prev_rev = data.periods[1].revenue if len(data.periods) > 1 else None
@@ -370,6 +424,7 @@ def stock_payload(blend: BlendResult, data: CompanyData,
         "history": history,
         "stats": stats,
         "health": _health_stats(data, ownership),
+        "analyst": _analyst_context(analyst, blend, data),
         "capital": _capital_allocation(data),
         "change_mind": _change_mind(blend, data, net_margin, rev_yoy),
         "manual": MANUAL_RESEARCH,
