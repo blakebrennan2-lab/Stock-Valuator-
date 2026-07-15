@@ -8867,6 +8867,18 @@
       ],
       "news": [
         {
+          "title": "Dow Jones Futures Rise; Goldman, CrowdStrike Jump, But AI Stocks Need To Do This",
+          "publisher": "Investor's Business Daily",
+          "date": "2026-07-14",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-goldman-crowdstrike-ai-stocks-asml-morgan-stanley/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "What You Actually Pay To Join The AAPL Run",
+          "publisher": "Trefis",
+          "date": "2026-07-14",
+          "link": "https://www.trefis.com/articles/607058/what-you-actually-pay-to-join-the-aapl-run/2026-07-14"
+        },
+        {
           "title": "Everpure and NetApp Stocks Trade Up, What You Need To Know",
           "publisher": "StockStory",
           "date": "2026-07-14",
@@ -8901,18 +8913,6 @@
           "publisher": "Zacks",
           "date": "2026-07-14",
           "link": "https://finance.yahoo.com/markets/stocks/articles/global-pc-slump-tests-lenovo-172200809.html"
-        },
-        {
-          "title": "Insider Alert: Top Dell Insiders Cashes Out $27 Million in Shares",
-          "publisher": "GuruFocus.com",
-          "date": "2026-07-14",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/insider-alert-top-dell-insiders-170710149.html"
-        },
-        {
-          "title": "Dell Stock Soars Billion-Dollar AI Opportunity Attracts Big Investors",
-          "publisher": "GuruFocus.com",
-          "date": "2026-07-14",
-          "link": "https://finance.yahoo.com/technology/ai/articles/dell-stock-soars-billion-dollar-170414977.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.9B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.376</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.2% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>89.6% / 10.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$4.2B</td><td>1.104</td><td>$3.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$4.5B</td><td>1.220</td><td>$3.7B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$4.7B</td><td>1.347</td><td>$3.5B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.9B</td><td>1.488</td><td>$3.3B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$5.0B</td><td>1.643</td><td>$3.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$17.3B</b> \u00b7\n   terminal value <b>$64.9B</b> \u2192\n   PV <b>$39.5B</b></p>\n<p>Enterprise value <b>$56.8B</b> \u2212 debt $31.5B\n   + cash $11.5B = equity <b>$36.9B</b><br>\n   \u00f7 325M shares = <b>$113.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.4%</th><th>WACC 10.4%</th><th>WACC 11.4%</th></tr><tr><td>growth 6.0%</td><td>$130</td><td>$106</td><td>$87</td></tr><tr><td>growth 8.0%</td><td>$139</td><td><b>$113</b></td><td>$94</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -16153,7 +16153,7 @@
         ],
         [
           "2025-01-08",
-          192.53
+          192.54
         ],
         [
           "2025-01-10",
@@ -26576,6 +26576,12 @@
       ],
       "news": [
         {
+          "title": "Is GE Vernova Inc. (GEV) Among the Ray Dalio Stock Portfolio: 10 Best Stocks to Buy?",
+          "publisher": "Insider Monkey",
+          "date": "2026-07-14",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-inc-gev-among-214504724.html"
+        },
+        {
           "title": "The Power Plant Signal Hiding Inside Caterpillar Stock",
           "publisher": "Trefis",
           "date": "2026-07-14",
@@ -26616,12 +26622,6 @@
           "publisher": "StockStory",
           "date": "2026-07-07",
           "link": "https://finance.yahoo.com/markets/stocks/articles/hubbell-cummins-willscot-mobile-mini-220952794.html"
-        },
-        {
-          "title": "Why GE Vernova, Caterpillar Stocks Are Getting Crushed",
-          "publisher": "Barrons.com",
-          "date": "2026-07-07",
-          "link": "https://www.barrons.com/articles/ge-vernova-caterpillar-siemens-energy-stock-d105e8e3?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.7B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.222</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.9% / 8.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$1.9B</td><td>1.098</td><td>$1.7B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.0B</td><td>1.206</td><td>$1.6B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.1B</td><td>1.324</td><td>$1.6B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.2B</td><td>1.454</td><td>$1.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.2B</td><td>1.597</td><td>$1.4B</td></tr></table>\n<p>Sum of PV (explicit): <b>$7.8B</b> \u00b7\n   terminal value <b>$31.1B</b> \u2192\n   PV <b>$19.5B</b></p>\n<p>Enterprise value <b>$27.2B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$22.0B</b><br>\n   \u00f7 138M shares = <b>$159.10/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$181</td><td>$151</td><td>$128</td></tr><tr><td>growth 8.0%</td><td>$191</td><td><b>$159</b></td><td>$135</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37048,7 +37048,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -64163,7 +64163,7 @@
         ],
         [
           "2024-01-22",
-          62.05
+          62.04
         ],
         [
           "2024-01-23",
@@ -70336,5 +70336,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-14 20:43Z"
+  "price_as_of": "2026-07-15 00:05Z"
 }
