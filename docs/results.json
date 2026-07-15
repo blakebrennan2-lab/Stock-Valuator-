@@ -8867,10 +8867,22 @@
       ],
       "news": [
         {
-          "title": "Dow Jones Futures Rise; Goldman, CrowdStrike Jump, But AI Stocks Need To Do This",
+          "title": "Zacks Investment Ideas feature highlights: QQQ, SPY, SanDisk, Micron and Dell",
+          "publisher": "Zacks",
+          "date": "2026-07-15",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-080100799.html"
+        },
+        {
+          "title": "Dow Jones Futures: Goldman, CrowdStrike Jump, But AI Stocks Need To Do This",
           "publisher": "Investor's Business Daily",
-          "date": "2026-07-14",
+          "date": "2026-07-15",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-goldman-crowdstrike-ai-stocks-asml-morgan-stanley/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Cisco Stock: Market Risk, Not Portfolio Diversification",
+          "publisher": "Trefis",
+          "date": "2026-07-15",
+          "link": "https://www.trefis.com/articles/607062/cisco-stock-market-risk-not-portfolio-diversification/2026-07-14"
         },
         {
           "title": "What You Actually Pay To Join The AAPL Run",
@@ -8901,18 +8913,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-07-14",
           "link": "https://finance.yahoo.com/technology/articles/dell-technologies-inc-dell-shares-185515566.html"
-        },
-        {
-          "title": "What IBM\u2019s Bad Quarter Means for Tech Stocks",
-          "publisher": "Barrons.com",
-          "date": "2026-07-14",
-          "link": "https://www.barrons.com/articles/ibm-stock-tech-ai-dell-21aaea0a?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Global PC Slump Tests Lenovo: Does Diversification Offer Support?",
-          "publisher": "Zacks",
-          "date": "2026-07-14",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/global-pc-slump-tests-lenovo-172200809.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.9B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.376</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.2% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>89.6% / 10.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$4.2B</td><td>1.104</td><td>$3.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$4.5B</td><td>1.220</td><td>$3.7B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$4.7B</td><td>1.347</td><td>$3.5B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.9B</td><td>1.488</td><td>$3.3B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$5.0B</td><td>1.643</td><td>$3.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$17.3B</b> \u00b7\n   terminal value <b>$64.9B</b> \u2192\n   PV <b>$39.5B</b></p>\n<p>Enterprise value <b>$56.8B</b> \u2212 debt $31.5B\n   + cash $11.5B = equity <b>$36.9B</b><br>\n   \u00f7 325M shares = <b>$113.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.4%</th><th>WACC 10.4%</th><th>WACC 11.4%</th></tr><tr><td>growth 6.0%</td><td>$130</td><td>$106</td><td>$87</td></tr><tr><td>growth 8.0%</td><td>$139</td><td><b>$113</b></td><td>$94</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -8924,7 +8924,7 @@
       "name": "Booking Holdings Inc.",
       "price": 174.85,
       "intrinsic": 178.93005616397483,
-      "upside": 0.022802485775336518,
+      "upside": 0.022802519886518068,
       "confidence": "medium",
       "range_low": 161.33181717094968,
       "range_high": 196.528295157,
@@ -17658,10 +17658,6 @@
         [
           "2026-07-13",
           175.8
-        ],
-        [
-          "2026-07-14",
-          174.85
         ]
       ],
       "stats": [
@@ -17836,7 +17832,7 @@
       "name": "Cummins Inc.",
       "price": 675.54,
       "intrinsic": 751.304787,
-      "upside": 0.10084430484622518,
+      "upside": 0.10084427560022996,
       "confidence": "low",
       "range_low": 751.304787,
       "range_high": 751.304787,
@@ -26445,10 +26441,6 @@
         [
           "2026-07-13",
           664.39
-        ],
-        [
-          "2026-07-14",
-          675.54
         ]
       ],
       "stats": [
@@ -31676,10 +31668,6 @@
         [
           "2026-07-13",
           367.13
-        ],
-        [
-          "2026-07-14",
-          372.15
         ]
       ],
       "intraday": {
@@ -37048,7 +37036,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40417,10 +40405,6 @@
         [
           "2026-07-13",
           585.62
-        ],
-        [
-          "2026-07-14",
-          600.31
         ]
       ],
       "intraday": {
@@ -49158,10 +49142,6 @@
         [
           "2026-07-13",
           56.74
-        ],
-        [
-          "2026-07-14",
-          56.95
         ]
       ],
       "intraday": {
@@ -54302,7 +54282,7 @@
         ],
         [
           "2022-12-07",
-          63.07
+          63.08
         ],
         [
           "2022-12-08",
@@ -54698,7 +54678,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -57899,10 +57879,6 @@
         [
           "2026-07-13",
           181.28
-        ],
-        [
-          "2026-07-14",
-          183.62
         ]
       ],
       "intraday": {
@@ -64163,7 +64139,7 @@
         ],
         [
           "2024-01-22",
-          62.04
+          62.05
         ],
         [
           "2024-01-23",
@@ -66640,10 +66616,6 @@
         [
           "2026-07-13",
           115.58
-        ],
-        [
-          "2026-07-14",
-          117.11
         ]
       ],
       "intraday": {
@@ -70336,5 +70308,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-15 00:05Z"
+  "price_as_of": "2026-07-15 09:19Z"
 }
