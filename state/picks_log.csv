@@ -57,3 +57,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-15,1,BKNG,Booking Holdings Inc.,180.76,186.41,3.0%,medium,2
 2026-07-15,2,CMI,Cummins Inc.,661.08,752.73,12.2%,low,1
 2026-07-15,3,ORLY,"O'Reilly Automotive, Inc.",83.84,86.14,2.7%,low,1
+2026-07-16,1,BKNG,Booking Holdings Inc.,181.41,186.84,2.9%,medium,2
+2026-07-16,2,CMI,Cummins Inc.,645.42,762.32,15.3%,low,1
+2026-07-16,3,TDG,TransDigm Group Incorporated,1229.07,1326.38,7.3%,medium,2
