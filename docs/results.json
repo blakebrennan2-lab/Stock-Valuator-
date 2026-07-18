@@ -8023,7 +8023,7 @@
         ],
         [
           "2025-10-24",
-          227.73
+          227.74
         ],
         [
           "2025-10-27",
@@ -8912,12 +8912,6 @@
       ],
       "news": [
         {
-          "title": "Semiconductor stocks trim losses as investors buy the dip",
-          "publisher": "Yahoo Finance",
-          "date": "2026-07-17",
-          "link": "https://finance.yahoo.com/markets/article/semiconductor-stocks-trim-losses-as-investors-buy-the-dip-130920103.html"
-        },
-        {
           "title": "Chip Stocks Enter Bear Market. Astera Labs Continues Slump.",
           "publisher": "Investor's Business Daily",
           "date": "2026-07-17",
@@ -8940,6 +8934,12 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-07-17",
           "link": "https://247wallst.com/investing/2026/07/17/amd-falls-5-intel-drops-4-nvidia-slides-3-before-recovering-as-rotation-hits-semiconductor-stocks/"
+        },
+        {
+          "title": "Semiconductor stocks trim losses as investors buy the dip",
+          "publisher": "Yahoo Finance",
+          "date": "2026-07-17",
+          "link": "https://finance.yahoo.com/markets/article/semiconductor-stocks-trim-losses-as-investors-buy-the-dip-130920103.html"
         },
         {
           "title": "Here is What to Know Beyond Why Applied Materials, Inc. (AMAT) is a Trending Stock",
@@ -15502,7 +15502,7 @@
         ],
         [
           "2024-05-02",
-          136.38
+          136.37
         ],
         [
           "2024-05-03",
@@ -23555,7 +23555,7 @@
         ],
         [
           "2023-06-15",
-          222.43
+          222.44
         ],
         [
           "2023-06-16",
@@ -37280,7 +37280,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -46969,7 +46969,7 @@
         ],
         [
           "2024-02-08",
-          100.97
+          100.96
         ],
         [
           "2024-02-09",
@@ -55662,7 +55662,7 @@
         ],
         [
           "2024-01-22",
-          62.05
+          62.04
         ],
         [
           "2024-01-23",
@@ -70592,5 +70592,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-18 19:55Z"
+  "price_as_of": "2026-07-18 22:33Z"
 }
