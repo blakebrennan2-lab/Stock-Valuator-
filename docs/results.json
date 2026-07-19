@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-18",
+  "as_of": "2026-07-19",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 529.66,
       "intrinsic": 612.7356060246051,
-      "upside": 0.13558153314945084,
+      "upside": 0.13558148932064693,
       "confidence": "low",
       "range_low": 612.7356060246051,
       "range_high": 612.7356060246051,
@@ -8023,7 +8023,7 @@
         ],
         [
           "2025-10-24",
-          227.74
+          227.73
         ],
         [
           "2025-10-27",
@@ -8962,14 +8962,14 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.4% / 1.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.573</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.761</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.1B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.3%, payout 21%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>KLAC, LRCX</b><br>\n   Basis: same industry & size \u2014 Semiconductor Materials & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>AMAT<div class='peernm'>this company \u2014 at today's price</div></td><td><b>61.2x</b></td><td><b>42.1x</b></td><td><b>21.0x</b></td></tr><tr><td>KLAC<div class='peernm'>KLA Corporation</div></td><td>62.0x</td><td>47.7x</td><td>47.7x</td></tr><tr><td>LRCX<div class='peernm'>Lam Research Corporation</div></td><td>59.2x</td><td>49.8x</td><td>37.0x</td></tr></table>\n<p>Median P/E: dropped<br>\n   Median EV/EBITDA: 48.8x \u2192 <b>$612.74</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: EV/EBITDA $613<br>\n   Reconciled (median): <b>$612.74/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>KLAC, LRCX</b><br>\n   Basis: same industry & size \u2014 Semiconductor Materials & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>AMAT<div class='peernm'>this company \u2014 at today's price</div></td><td><b>61.2x</b></td><td><b>42.1x</b></td><td><b>21.0x</b></td></tr><tr><td>KLAC<div class='peernm'>KLA Corporation</div></td><td>60.3x</td><td>47.7x</td><td>47.7x</td></tr><tr><td>LRCX<div class='peernm'>Lam Research Corporation</div></td><td>59.2x</td><td>49.8x</td><td>37.0x</td></tr></table>\n<p>Median P/E: dropped<br>\n   Median EV/EBITDA: 48.8x \u2192 <b>$612.74</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: EV/EBITDA $613<br>\n   Reconciled (median): <b>$612.74/share</b></p>\n"
     },
     {
       "ticker": "BKNG",
       "name": "Booking Holdings Inc.",
       "price": 181.68,
       "intrinsic": 186.2771257140248,
-      "upside": 0.024678999209495733,
+      "upside": 0.024678959890557732,
       "confidence": "medium",
       "range_low": 161.04820472358458,
       "range_high": 211.50604670446504,
@@ -16190,7 +16190,7 @@
         ],
         [
           "2025-01-08",
-          192.54
+          192.53
         ],
         [
           "2025-01-10",
@@ -17927,7 +17927,7 @@
       "name": "Cummins Inc.",
       "price": 648.48,
       "intrinsic": 758.847475,
-      "upside": 0.14544094586497772,
+      "upside": 0.1454409201269333,
       "confidence": "low",
       "range_low": 758.847475,
       "range_high": 758.847475,
@@ -25031,7 +25031,7 @@
         ],
         [
           "2024-12-03",
-          365.98
+          365.99
         ],
         [
           "2024-12-04",
@@ -46193,7 +46193,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -46969,7 +46969,7 @@
         ],
         [
           "2024-02-08",
-          100.97
+          100.96
         ],
         [
           "2024-02-09",
@@ -54722,7 +54722,7 @@
         ],
         [
           "2023-02-13",
-          44.97
+          44.96
         ],
         [
           "2023-02-14",
@@ -70591,6 +70591,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-07-19 15:33Z"
+  ]
 }
