@@ -5947,7 +5947,7 @@
         ],
         [
           "2023-10-03",
-          133.7
+          133.69
         ],
         [
           "2023-10-04",
@@ -8915,6 +8915,12 @@
           "link": "https://finance.yahoo.com/technology/article/amd-micron-sk-hynix-climb-as-semiconductor-complex-attempt-recovery-133110868.html"
         },
         {
+          "title": "Applied Materials (AMAT) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+          "publisher": "Zacks",
+          "date": "2026-07-20",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-sees-more-214503078.html"
+        },
+        {
           "title": "3 Stocks to Buy From the Prospering Semiconductor Industry",
           "publisher": "Zacks",
           "date": "2026-07-20",
@@ -8949,12 +8955,6 @@
           "publisher": "MT Newswires",
           "date": "2026-07-17",
           "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-decline-204601881.html"
-        },
-        {
-          "title": "Micron, Nvidia, Netflix, SK Hynix, Alphabet, Intuitive Surgical, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "date": "2026-07-17",
-          "link": "https://www.barrons.com/articles/stock-movers-34bb7bed?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.3% / 1.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.573</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.761</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.1B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13058,7 +13058,7 @@
         ],
         [
           "2021-12-29",
-          196.99
+          197.0
         ],
         [
           "2021-12-30",
@@ -23208,7 +23208,7 @@
         ],
         [
           "2023-05-11",
-          278.28
+          278.27
         ],
         [
           "2023-05-12",
@@ -23488,7 +23488,7 @@
         ],
         [
           "2023-08-22",
-          267.02
+          267.03
         ],
         [
           "2023-08-23",
@@ -24428,7 +24428,7 @@
         ],
         [
           "2024-07-30",
-          387.09
+          387.1
         ],
         [
           "2024-07-31",
@@ -25188,7 +25188,7 @@
         ],
         [
           "2025-05-02",
-          400.83
+          400.82
         ],
         [
           "2025-05-05",
@@ -45930,7 +45930,7 @@
         ],
         [
           "2023-05-02",
-          73.14
+          73.13
         ],
         [
           "2023-05-03",
@@ -46706,7 +46706,7 @@
         ],
         [
           "2024-02-08",
-          100.96
+          100.97
         ],
         [
           "2024-02-09",
@@ -70325,5 +70325,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-20 20:50Z"
+  "price_as_of": "2026-07-21 00:15Z"
 }
