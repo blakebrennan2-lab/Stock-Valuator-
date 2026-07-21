@@ -5971,7 +5971,7 @@
         ],
         [
           "2023-10-03",
-          133.7
+          133.69
         ],
         [
           "2023-10-04",
@@ -8948,12 +8948,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-applied-materials-amat-stock-191026429.html"
         },
         {
-          "title": "Strength in Chipmakers Boosts Stocks",
-          "publisher": "Barchart",
-          "date": "2026-07-21",
-          "link": "https://www.barchart.com/story/news/3385589/strength-in-chipmakers-boosts-stocks"
-        },
-        {
           "title": "Is AMAT's Installed Base Business Built for Long-Term Growth?",
           "publisher": "Zacks",
           "date": "2026-07-21",
@@ -8982,6 +8976,12 @@
           "publisher": "Zacks",
           "date": "2026-07-20",
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-buy-prospering-semiconductor-170100363.html"
+        },
+        {
+          "title": "AMD, Micron, SK Hynix climb as semiconductor complex attempt recovery",
+          "publisher": "Yahoo Finance",
+          "date": "2026-07-20",
+          "link": "https://finance.yahoo.com/technology/article/amd-micron-sk-hynix-climb-as-semiconductor-complex-attempt-recovery-133110868.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.5% / 1.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.405</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.573</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.762</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.1B</b> \u2192\n   PV <b>$30.1B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.4B</b><br>\n   \u00f7 794M shares = <b>$67.31/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$73</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13121,7 +13121,7 @@
         ],
         [
           "2021-12-29",
-          196.99
+          197.0
         ],
         [
           "2021-12-30",
@@ -13409,7 +13409,7 @@
         ],
         [
           "2022-04-12",
-          174.58
+          174.59
         ],
         [
           "2022-04-13",
@@ -17854,6 +17854,12 @@
       ],
       "news": [
         {
+          "title": "How Long Bloom Energy Stock Sits Underwater",
+          "publisher": "Trefis",
+          "date": "2026-07-21",
+          "link": "https://www.trefis.com/articles/608191/how-long-bloom-energy-stock-sits-underwater/2026-07-21"
+        },
+        {
           "title": "Ford Gears Up to Report Q2 Earnings: Here's What to Expect",
           "publisher": "Zacks",
           "date": "2026-07-21",
@@ -17894,12 +17900,6 @@
           "publisher": "Trefis",
           "date": "2026-07-17",
           "link": "https://www.trefis.com/articles/607752/blooms-billion-dollar-ai-deal-gets-a-brutal-welcome/2026-07-17"
-        },
-        {
-          "title": "5 Quality Stocks With Recent Dividend Hikes to Watch Now",
-          "publisher": "Zacks",
-          "date": "2026-07-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/5-quality-stocks-recent-dividend-121000473.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$2.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.222</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.8% / 8.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$2.4B</td><td>1.098</td><td>$2.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.6B</td><td>1.206</td><td>$2.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.7B</td><td>1.324</td><td>$2.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.8B</td><td>1.454</td><td>$1.9B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.9B</td><td>1.596</td><td>$1.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$10.2B</b> \u00b7\n   terminal value <b>$40.7B</b> \u2192\n   PV <b>$25.5B</b></p>\n<p>Enterprise value <b>$35.7B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$30.4B</b><br>\n   \u00f7 138M shares = <b>$220.23/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$248</td><td>$209</td><td>$179</td></tr><tr><td>growth 8.0%</td><td>$262</td><td><b>$220</b></td><td>$189</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -23692,7 +23692,7 @@
         ],
         [
           "2023-08-15",
-          735.59
+          735.58
         ],
         [
           "2023-08-16",
@@ -70689,5 +70689,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-21 21:19Z"
+  "price_as_of": "2026-07-21 23:04Z"
 }
