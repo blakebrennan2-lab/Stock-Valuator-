@@ -5947,7 +5947,7 @@
         ],
         [
           "2023-10-03",
-          133.69
+          133.7
         ],
         [
           "2023-10-04",
@@ -8915,6 +8915,18 @@
           "link": "https://finance.yahoo.com/technology/article/amd-micron-sk-hynix-climb-as-semiconductor-complex-attempt-recovery-133110868.html"
         },
         {
+          "title": "Stocks to Watch: GM, Novartis, Swatch, Micron",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-07-21",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026/card/stocks-to-watch-gm-novartis-swatch-micron-TDbyzf46n3fovkKH4Nxc?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Zacks Industry Outlook Highlights Applied Materials, Lam Research and FormFactor",
+          "publisher": "Zacks",
+          "date": "2026-07-21",
+          "link": "https://finance.yahoo.com/technology/articles/zacks-industry-outlook-highlights-applied-085700546.html"
+        },
+        {
           "title": "Applied Materials (AMAT) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
           "publisher": "Zacks",
           "date": "2026-07-20",
@@ -8943,18 +8955,6 @@
           "publisher": "Bloomberg",
           "date": "2026-07-19",
           "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-needs-justify-ai-130000854.html"
-        },
-        {
-          "title": "Chip Stocks Enter Bear Market. Astera Labs Continues Slump.",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-07-17",
-          "link": "https://www.investors.com/news/technology/chip-stocks-sox-index-bear-market-astera-labs/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "S&P 500 Posts Weekly Decline Amid Worries Over Artificial Intelligence, Middle East",
-          "publisher": "MT Newswires",
-          "date": "2026-07-17",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-decline-204601881.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.3% / 1.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.573</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.761</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.1B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13058,7 +13058,7 @@
         ],
         [
           "2021-12-29",
-          197.0
+          196.99
         ],
         [
           "2021-12-30",
@@ -21420,7 +21420,7 @@
         ],
         [
           "2021-08-02",
-          211.08
+          211.07
         ],
         [
           "2021-08-03",
@@ -23488,7 +23488,7 @@
         ],
         [
           "2023-08-22",
-          267.03
+          267.02
         ],
         [
           "2023-08-23",
@@ -25188,7 +25188,7 @@
         ],
         [
           "2025-05-02",
-          400.82
+          400.83
         ],
         [
           "2025-05-05",
@@ -37021,7 +37021,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -45930,7 +45930,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -70325,5 +70325,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-21 00:15Z"
+  "price_as_of": "2026-07-21 10:08Z"
 }
