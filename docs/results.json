@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-07-25",
+  "as_of": "2026-07-26",
   "count": 3,
   "picks": [
     {
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
       "price": 536.25,
-      "intrinsic": 555.3844254509935,
-      "upside": 0.034452578383802536,
+      "intrinsic": 554.6528936009935,
+      "upside": 0.03317911763069637,
       "confidence": "low",
-      "range_low": 555.3844254509935,
-      "range_high": 555.3844254509935,
+      "range_low": 554.6528936009935,
+      "range_high": 554.6528936009935,
       "intraday": {
         "day": [
           [
@@ -204,10 +204,6 @@
           [
             "2026-07-24 10:17",
             548.21
-          ],
-          [
-            "2026-07-24 10:18",
-            546.26
           ],
           [
             "2026-07-24 10:19",
@@ -3727,7 +3723,7 @@
           ]
         ]
       },
-      "thesis": "AMAT is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($536.25 vs $555.38, low confidence). Valued with DCF and Comps.",
+      "thesis": "AMAT is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($536.25 vs $554.65, low confidence). Valued with DCF and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -3750,7 +3746,7 @@
       ],
       "reconciliation": {
         "values": {
-          "Comps": 555.3844254509935
+          "Comps": 554.6528936009935
         },
         "spread": 0.0,
         "confidence": "low",
@@ -5963,7 +5959,7 @@
         ],
         [
           "2023-10-03",
-          133.7
+          133.69
         ],
         [
           "2023-10-04",
@@ -8031,7 +8027,7 @@
         ],
         [
           "2025-10-24",
-          227.74
+          227.73
         ],
         [
           "2025-10-27",
@@ -8772,6 +8768,10 @@
         [
           "2026-07-23",
           562.8
+        ],
+        [
+          "2026-07-24",
+          536.25
         ]
       ],
       "stats": [
@@ -8797,7 +8797,7 @@
         },
         {
           "label": "P/E",
-          "value": "61.9  (peers 58.8)"
+          "value": "61.9  (peers 58.6)"
         },
         {
           "label": "Cash vs debt",
@@ -8879,7 +8879,7 @@
         {
           "label": "Street target",
           "value": "$627.66 (range $358.00\u2013$900.00)",
-          "src": "mean analyst target \u2014 our fair value: $555.38"
+          "src": "mean analyst target \u2014 our fair value: $554.65"
         },
         {
           "label": "Forward EPS (est.)",
@@ -8900,7 +8900,7 @@
         "Reinvestment: capex 8% of revenue (FY2025)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$555.38) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$554.65) \u2014 the discount that makes it a buy is gone",
         "Net margin (25%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +4% YoY) turns negative",
         "Free cash flow (now $5.7B) turns negative",
@@ -8914,12 +8914,12 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "3% below intrinsic value ($536.25 vs $555.38)",
-        "low confidence across 1 models \u2014 Comps $555.38",
+        "3% below intrinsic value ($536.25 vs $554.65)",
+        "low confidence across 1 models \u2014 Comps $554.65",
         "Free cash flow grew +7%/yr over 4y",
         "Net margin 25% on $28.4B revenue",
         "Net cash $191.0M",
-        "P/E 61.9 vs peer median 58.8"
+        "P/E 61.9 vs peer median 58.6"
       ],
       "risks": [
         "Volatile: beta 1.57",
@@ -8987,7 +8987,7 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.4% / 1.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.573</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.761</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.1B</b> \u2192\n   PV <b>$30.1B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.36/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.3%, payout 21%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>KLAC, LRCX</b><br>\n   Basis: same industry & size \u2014 Semiconductor Materials & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>AMAT<div class='peernm'>this company \u2014 at today's price</div></td><td><b>61.9x</b></td><td><b>42.7x</b></td><td><b>21.2x</b></td></tr><tr><td>KLAC<div class='peernm'>KLA Corporation</div></td><td>59.8x</td><td>47.2x</td><td>47.2x</td></tr><tr><td>LRCX<div class='peernm'>Lam Research Corporation</div></td><td>57.8x</td><td>48.5x</td><td>36.1x</td></tr></table>\n<p>Median P/E: 58.8x \u2192 <b>$509.26</b><br>\n   Median EV/EBITDA: 47.9x \u2192 <b>$601.51</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $509 \u00b7 EV/EBITDA $602<br>\n   Reconciled (median): <b>$555.38/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>KLAC, LRCX</b><br>\n   Basis: same industry & size \u2014 Semiconductor Materials & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>AMAT<div class='peernm'>this company \u2014 at today's price</div></td><td><b>61.9x</b></td><td><b>42.7x</b></td><td><b>21.2x</b></td></tr><tr><td>KLAC<div class='peernm'>KLA Corporation</div></td><td>59.5x</td><td>47.2x</td><td>47.2x</td></tr><tr><td>LRCX<div class='peernm'>Lam Research Corporation</div></td><td>57.8x</td><td>48.5x</td><td>36.1x</td></tr></table>\n<p>Median P/E: 58.6x \u2192 <b>$507.80</b><br>\n   Median EV/EBITDA: 47.9x \u2192 <b>$601.51</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $508 \u00b7 EV/EBITDA $602<br>\n   Reconciled (median): <b>$554.65/share</b></p>\n"
     },
     {
       "ticker": "BKNG",
@@ -9211,10 +9211,6 @@
           [
             "2026-07-24 10:22",
             175.32
-          ],
-          [
-            "2026-07-24 10:23",
-            175.28
           ],
           [
             "2026-07-24 10:24",
@@ -17760,6 +17756,10 @@
         [
           "2026-07-23",
           172.83
+        ],
+        [
+          "2026-07-24",
+          177.46
         ]
       ],
       "stats": [
@@ -17969,7 +17969,7 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.4B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.075</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.7% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>6.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>87.7% / 12.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.0B</td><td>1.093</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.6B</td><td>1.195</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.0B</td><td>1.306</td><td>$6.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.4B</td><td>1.427</td><td>$6.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.6B</td><td>1.560</td><td>$6.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$34.2B</b> \u00b7\n   terminal value <b>$144.8B</b> \u2192\n   PV <b>$92.9B</b></p>\n<p>Enterprise value <b>$127.0B</b> \u2212 debt $19.3B\n   + cash $17.2B = equity <b>$124.9B</b><br>\n   \u00f7 775M shares = <b>$161.23/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.3%</th><th>WACC 9.3%</th><th>WACC 10.3%</th></tr><tr><td>growth 6.0%</td><td>$181</td><td>$154</td><td>$134</td></tr><tr><td>growth 8.0%</td><td>$190</td><td><b>$161</b></td><td>$140</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.9%, payout 23%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (6): <b>ABNB, CCL, EXPE, HLT, MAR, RCL</b><br>\n   Basis: same industry & size \u2014 Hotels, Resorts & Cruise Lines</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BKNG<div class='peernm'>this company \u2014 at today's price</div></td><td><b>26.8x</b></td><td><b>15.1x</b></td><td><b>\u2013</b></td></tr><tr><td>ABNB<div class='peernm'>Airbnb, Inc.</div></td><td>34.8x</td><td>28.4x</td><td>11.0x</td></tr><tr><td>CCL<div class='peernm'>Carnival Corporation Ltd.</div></td><td>11.9x</td><td>8.2x</td><td>2.8x</td></tr><tr><td>EXPE<div class='peernm'>Expedia Group, Inc.</div></td><td>23.0x</td><td>12.1x</td><td>54.2x</td></tr><tr><td>HLT<div class='peernm'>Hilton Worldwide Holdings Inc.</div></td><td>49.5x</td><td>28.8x</td><td>-12.6x</td></tr><tr><td>MAR<div class='peernm'>Marriott International, Inc.</div></td><td>38.2x</td><td>24.4x</td><td>-24.2x</td></tr><tr><td>RCL<div class='peernm'>Royal Caribbean Cruises Ltd.</div></td><td>17.9x</td><td>14.5x</td><td>8.0x</td></tr></table>\n<p>Median P/E: 28.9x \u2192 <b>$191.47</b><br>\n   Median EV/EBITDA: 19.5x \u2192 <b>$228.97</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $191 \u00b7 EV/EBITDA $229<br>\n   Reconciled (median): <b>$210.22/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (6): <b>ABNB, CCL, EXPE, HLT, MAR, RCL</b><br>\n   Basis: same industry & size \u2014 Hotels, Resorts & Cruise Lines</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BKNG<div class='peernm'>this company \u2014 at today's price</div></td><td><b>26.8x</b></td><td><b>15.1x</b></td><td><b>\u2013</b></td></tr><tr><td>ABNB<div class='peernm'>Airbnb, Inc.</div></td><td>34.8x</td><td>28.4x</td><td>11.0x</td></tr><tr><td>CCL<div class='peernm'>Carnival Corporation Ltd.</div></td><td>11.9x</td><td>8.2x</td><td>2.8x</td></tr><tr><td>EXPE<div class='peernm'>Expedia Group, Inc.</div></td><td>23.0x</td><td>12.1x</td><td>54.2x</td></tr><tr><td>HLT<div class='peernm'>Hilton Worldwide Holdings Inc.</div></td><td>49.5x</td><td>28.8x</td><td>-12.6x</td></tr><tr><td>MAR<div class='peernm'>Marriott International, Inc.</div></td><td>39.2x</td><td>24.4x</td><td>-24.2x</td></tr><tr><td>RCL<div class='peernm'>Royal Caribbean Cruises Ltd.</div></td><td>17.9x</td><td>14.5x</td><td>8.0x</td></tr></table>\n<p>Median P/E: 28.9x \u2192 <b>$191.47</b><br>\n   Median EV/EBITDA: 19.5x \u2192 <b>$228.97</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $191 \u00b7 EV/EBITDA $229<br>\n   Reconciled (median): <b>$210.22/share</b></p>\n"
     },
     {
       "ticker": "MSI",
@@ -21708,7 +21708,7 @@
         ],
         [
           "2021-08-02",
-          211.08
+          211.07
         ],
         [
           "2021-08-03",
@@ -22356,7 +22356,7 @@
         ],
         [
           "2022-03-23",
-          215.81
+          215.8
         ],
         [
           "2022-03-24",
@@ -23084,7 +23084,7 @@
         ],
         [
           "2022-12-12",
-          259.58
+          259.57
         ],
         [
           "2022-12-13",
@@ -23204,7 +23204,7 @@
         ],
         [
           "2023-01-26",
-          247.36
+          247.37
         ],
         [
           "2023-01-27",
@@ -23476,7 +23476,7 @@
         ],
         [
           "2023-05-04",
-          280.19
+          280.2
         ],
         [
           "2023-05-05",
@@ -23776,7 +23776,7 @@
         ],
         [
           "2023-08-22",
-          267.03
+          267.02
         ],
         [
           "2023-08-23",
@@ -24716,7 +24716,7 @@
         ],
         [
           "2024-07-30",
-          387.1
+          387.09
         ],
         [
           "2024-07-31",
@@ -25192,7 +25192,7 @@
         ],
         [
           "2025-01-21",
-          460.18
+          460.19
         ],
         [
           "2025-01-22",
@@ -26701,6 +26701,10 @@
         [
           "2026-07-23",
           407.02
+        ],
+        [
+          "2026-07-24",
+          417.83
         ]
       ],
       "stats": [
@@ -31970,6 +31974,10 @@
         [
           "2026-07-23",
           371.52
+        ],
+        [
+          "2026-07-24",
+          371.9
         ]
       ],
       "intraday": {
@@ -32133,10 +32141,6 @@
           [
             "2026-07-24 10:09",
             372.71
-          ],
-          [
-            "2026-07-24 10:10",
-            372.66
           ],
           [
             "2026-07-24 10:11",
@@ -37338,7 +37342,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -40739,6 +40743,10 @@
         [
           "2026-07-23",
           580.17
+        ],
+        [
+          "2026-07-24",
+          561.19
         ]
       ],
       "intraday": {
@@ -49508,6 +49516,10 @@
         [
           "2026-07-23",
           108.76
+        ],
+        [
+          "2026-07-24",
+          109.41
         ]
       ],
       "intraday": {
@@ -61129,7 +61141,7 @@
           ],
           [
             "2026-07-24 10:15",
-            106.27
+            106.26
           ],
           [
             "2026-07-24 10:20",
@@ -67046,6 +67058,10 @@
         [
           "2026-07-23",
           178.45
+        ],
+        [
+          "2026-07-24",
+          175.88
         ]
       ],
       "intraday": {
@@ -67245,10 +67261,6 @@
           [
             "2026-07-24 10:18",
             175.89
-          ],
-          [
-            "2026-07-24 10:19",
-            176.13
           ],
           [
             "2026-07-24 10:20",
@@ -69898,7 +69910,7 @@
           ],
           [
             "2026-07-24 10:15",
-            176.13
+            175.89
           ],
           [
             "2026-07-24 10:20",
@@ -70765,6 +70777,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-07-26 13:44Z"
+  ]
 }

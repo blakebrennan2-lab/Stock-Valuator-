@@ -84,3 +84,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-25,1,AMAT,"Applied Materials, Inc.",536.25,555.38,3.4%,low,1
 2026-07-25,2,BKNG,Booking Holdings Inc.,177.46,185.73,4.5%,medium,2
 2026-07-25,3,MSI,"Motorola Solutions, Inc.",417.83,586.11,28.7%,low,1
+2026-07-26,1,AMAT,"Applied Materials, Inc.",536.25,554.65,3.3%,low,1
+2026-07-26,2,BKNG,Booking Holdings Inc.,177.46,185.73,4.5%,medium,2
+2026-07-26,3,MSI,"Motorola Solutions, Inc.",417.83,586.11,28.7%,low,1
