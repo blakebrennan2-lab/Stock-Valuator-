@@ -87,3 +87,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-26,1,AMAT,"Applied Materials, Inc.",536.25,554.65,3.3%,low,1
 2026-07-26,2,BKNG,Booking Holdings Inc.,177.46,185.73,4.5%,medium,2
 2026-07-26,3,MSI,"Motorola Solutions, Inc.",417.83,586.11,28.7%,low,1
+2026-07-27,1,AMAT,"Applied Materials, Inc.",494.69,534.65,7.5%,low,1
+2026-07-27,2,CMI,Cummins Inc.,644.70,811.40,20.5%,low,1
+2026-07-27,3,TDG,TransDigm Group Incorporated,1276.63,1319.49,3.2%,medium,2
