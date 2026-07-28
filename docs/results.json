@@ -5927,7 +5927,7 @@
         ],
         [
           "2023-10-03",
-          133.7
+          133.69
         ],
         [
           "2023-10-04",
@@ -7995,7 +7995,7 @@
         ],
         [
           "2025-10-24",
-          227.74
+          227.73
         ],
         [
           "2025-10-27",
@@ -8921,12 +8921,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-dips-214503711.html"
         },
         {
-          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
-          "publisher": "Barchart",
-          "date": "2026-07-27",
-          "link": "https://www.barchart.com/story/news/3487110/stocks-settle-mixed-as-ai-angst-offsets-easing-geopolitical-tensions"
-        },
-        {
           "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today\u2019s Market",
           "publisher": "Barrons.com",
           "date": "2026-07-27",
@@ -8955,6 +8949,12 @@
           "publisher": "Zacks",
           "date": "2026-07-27",
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-semiconductor-stocks-likely-outpace-145200239.html"
+        },
+        {
+          "title": "Are Computer and Technology Stocks Lagging  Applied Materials (AMAT) This Year?",
+          "publisher": "Zacks",
+          "date": "2026-07-27",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/computer-technology-stocks-lagging-applied-134004679.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.572</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.760</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.2B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.43/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$60</td></tr><tr><td>growth -1.4%</td><td>$74</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13850,7 +13850,7 @@
         ],
         [
           "2022-10-04",
-          203.66
+          203.65
         ],
         [
           "2022-10-05",
@@ -17659,10 +17659,6 @@
         [
           "2026-07-23",
           665.03
-        ],
-        [
-          "2026-07-24",
-          664.65
         ],
         [
           "2026-07-27",
@@ -26608,10 +26604,6 @@
           1213.83
         ],
         [
-          "2026-07-24",
-          1236.71
-        ],
-        [
           "2026-07-27",
           1286.27
         ]
@@ -26774,6 +26766,12 @@
       ],
       "news": [
         {
+          "title": "Why TransDigm (TDG) Stock Is Trading Up Today",
+          "publisher": "StockStory",
+          "date": "2026-07-28",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-transdigm-tdg-stock-trading-030902124.html"
+        },
+        {
           "title": "Update: Wall Street Wavers as Oil Slides; Fed Decision, Major Earnings in Focus",
           "publisher": "MT Newswires",
           "date": "2026-07-27",
@@ -26814,12 +26812,6 @@
           "publisher": "Investing.com",
           "date": "2026-07-15",
           "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-stays-bullish-aerospace-190818551.html"
-        },
-        {
-          "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Allstate, AMC Entertainment, Boeing, CAVA Group, Check Point Software, Digital Realty Trust, FedEx, IBM, UPS, and More",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-07-15",
-          "link": "https://247wallst.com/investing/2026/07/15/here-are-wednesdays-top-wall-street-analyst-research-calls-allstate-amc-entertainment-boeing-cava-group-check-point-software-digital-realty-trust-fedex-ibm-ups-and-more/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.884</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>70.4% / 29.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$1.6B</td><td>1.090</td><td>$1.5B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$1.8B</td><td>1.188</td><td>$1.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$1.8B</td><td>1.295</td><td>$1.4B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$1.9B</td><td>1.412</td><td>$1.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.0B</td><td>1.539</td><td>$1.3B</td></tr></table>\n<p>Sum of PV (explicit): <b>$7.1B</b> \u00b7\n   terminal value <b>$31.1B</b> \u2192\n   PV <b>$20.2B</b></p>\n<p>Enterprise value <b>$27.2B</b> \u2212 debt $30.0B\n   + cash $2.8B = equity <b>$20.5M</b><br>\n   \u00f7 56M shares = <b>$0.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 6.0%</td><td>$64</td><td>$-21</td><td>$-83</td></tr><tr><td>growth 8.0%</td><td>$90</td><td><b>$0</b></td><td>$-65</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37210,7 +37202,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -46119,7 +46111,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -46895,7 +46887,7 @@
         ],
         [
           "2024-02-08",
-          100.96
+          100.97
         ],
         [
           "2024-02-09",
@@ -51900,7 +51892,7 @@
           ],
           [
             "2026-07-24 10:15",
-            175.89
+            176.13
           ],
           [
             "2026-07-24 10:20",
@@ -58093,10 +58085,6 @@
         [
           "2026-07-23",
           108.76
-        ],
-        [
-          "2026-07-24",
-          109.41
         ],
         [
           "2026-07-27",
@@ -70534,5 +70522,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-28 03:19Z"
+  "price_as_of": "2026-07-28 06:34Z"
 }
