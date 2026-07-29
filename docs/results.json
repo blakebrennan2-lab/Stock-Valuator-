@@ -5951,7 +5951,7 @@
         ],
         [
           "2023-10-03",
-          133.69
+          133.7
         ],
         [
           "2023-10-04",
@@ -8768,10 +8768,6 @@
         [
           "2026-07-27",
           516.89
-        ],
-        [
-          "2026-07-28",
-          476.46
         ]
       ],
       "stats": [
@@ -8943,6 +8939,12 @@
           "link": "https://finance.yahoo.com/markets/article/micron-sk-hynix-stocks-sink-as-ai-chip-sell-off-deepens-125622548.html"
         },
         {
+          "title": "Kulicke and Soffa, Applied Materials, AMD, Intel, and KLA Corporation Stocks Trade Down, What You Need To Know",
+          "publisher": "StockStory",
+          "date": "2026-07-29",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-applied-materials-amd-101302909.html"
+        },
+        {
           "title": "Is Amkor Technology Stock A Smart Buy Right Now",
           "publisher": "Trefis",
           "date": "2026-07-28",
@@ -8977,12 +8979,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-07-28",
           "link": "https://finance.yahoo.com/technology/articles/applied-materials-amat-rose-ai-133054061.html"
-        },
-        {
-          "title": "HSBC Delivers Massive Price Target Hike for Applied Materials Stock",
-          "publisher": "GuruFocus.com",
-          "date": "2026-07-28",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-delivers-massive-price-target-122353410.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.572</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.760</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.2B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.43/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$60</td></tr><tr><td>growth -1.4%</td><td>$74</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17733,16 +17729,8 @@
           665.03
         ],
         [
-          "2026-07-24",
-          664.65
-        ],
-        [
           "2026-07-27",
           661.84
-        ],
-        [
-          "2026-07-28",
-          641.6
         ]
       ],
       "stats": [
@@ -17964,7 +17952,7 @@
       "name": "TransDigm Group Incorporated",
       "price": 1307.97,
       "intrinsic": 1319.489013662941,
-      "upside": 0.008729927146448022,
+      "upside": 0.008729904943250629,
       "confidence": "medium",
       "range_low": 845.900815031642,
       "range_high": 1793.0772122942403,
@@ -26676,16 +26664,8 @@
           1213.83
         ],
         [
-          "2026-07-24",
-          1236.71
-        ],
-        [
           "2026-07-27",
           1286.27
-        ],
-        [
-          "2026-07-28",
-          1307.97
         ]
       ],
       "stats": [
@@ -40715,10 +40695,6 @@
         [
           "2026-07-27",
           548.55
-        ],
-        [
-          "2026-07-28",
-          529.6
         ]
       ],
       "intraday": {
@@ -45651,7 +45627,7 @@
         ],
         [
           "2022-09-28",
-          60.52
+          60.51
         ],
         [
           "2022-09-29",
@@ -45719,7 +45695,7 @@
         ],
         [
           "2022-10-21",
-          60.52
+          60.51
         ],
         [
           "2022-10-24",
@@ -70746,5 +70722,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-29 09:43Z"
+  "price_as_of": "2026-07-29 12:07Z"
 }
