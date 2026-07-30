@@ -8015,7 +8015,7 @@
         ],
         [
           "2025-10-24",
-          227.73
+          227.74
         ],
         [
           "2025-10-27",
@@ -8937,12 +8937,6 @@
       ],
       "news": [
         {
-          "title": "Stocks Plunge on a Rout in Chipmakers and a Hawkish Fed Hold",
-          "publisher": "Barchart",
-          "date": "2026-07-29",
-          "link": "https://www.barchart.com/story/news/3535091/stocks-plunge-on-a-rout-in-chipmakers-and-a-hawkish-fed-hold"
-        },
-        {
           "title": "KLA Stock Is Having Its Worst Month Ever. Why Earnings Can\u2019t Stop the Selloff.",
           "publisher": "Barrons.com",
           "date": "2026-07-29",
@@ -8983,6 +8977,12 @@
           "publisher": "Zacks",
           "date": "2026-07-29",
           "link": "https://finance.yahoo.com/markets/stocks/articles/logitech-q1-earnings-beat-estimates-125100737.html"
+        },
+        {
+          "title": "MANH Q2 Earnings Beat Estimates, Cloud Growth Fuels Revenues",
+          "publisher": "Zacks",
+          "date": "2026-07-29",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/manh-q2-earnings-beat-estimates-123000263.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.567</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.120</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.254</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.404</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.572</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.760</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$53.2B</b> \u2192\n   PV <b>$30.2B</b></p>\n<p>Enterprise value <b>$53.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.5B</b><br>\n   \u00f7 794M shares = <b>$67.43/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.0%</th><th>WACC 12.0%</th><th>WACC 13.0%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$60</td></tr><tr><td>growth -1.4%</td><td>$74</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$81</td><td>$74</td><td>$68</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -23749,7 +23749,7 @@
         ],
         [
           "2023-08-15",
-          735.59
+          735.58
         ],
         [
           "2023-08-16",
@@ -45671,7 +45671,7 @@
         ],
         [
           "2022-09-28",
-          60.52
+          60.51
         ],
         [
           "2022-09-29",
@@ -45739,7 +45739,7 @@
         ],
         [
           "2022-10-21",
-          60.52
+          60.51
         ],
         [
           "2022-10-24",
@@ -46263,7 +46263,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -70770,5 +70770,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-30 02:55Z"
+  "price_as_of": "2026-07-30 05:49Z"
 }
