@@ -90,3 +90,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-27,1,AMAT,"Applied Materials, Inc.",494.69,534.65,7.5%,low,1
 2026-07-27,2,CMI,Cummins Inc.,644.70,811.40,20.5%,low,1
 2026-07-27,3,TDG,TransDigm Group Incorporated,1276.63,1319.49,3.2%,medium,2
+2026-07-30,1,ETN,Eaton Corporation plc,381.15,441.20,13.6%,low,1
+2026-07-30,2,CMI,Cummins Inc.,628.63,793.70,20.8%,low,1
+2026-07-30,3,MSI,"Motorola Solutions, Inc.",422.94,568.74,25.6%,low,1
