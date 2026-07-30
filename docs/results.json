@@ -7143,7 +7143,7 @@
         ],
         [
           "2024-12-02",
-          365.33
+          365.34
         ],
         [
           "2024-12-03",
@@ -8964,6 +8964,12 @@
       ],
       "news": [
         {
+          "title": "Eaton vs. Tesla: A Difference in Absolute Revenue and Revenue Volatility",
+          "publisher": "Motley Fool",
+          "date": "2026-07-30",
+          "link": "https://www.fool.com/coverage/charts/2026/07/30/eaton-vs-tesla-a-difference-in-absolute-revenue-and-revenue-volatility/"
+        },
+        {
           "title": "2 Stocks From Top Growth Sectors to Buy in August for the Rest of 2026",
           "publisher": "Zacks",
           "date": "2026-07-30",
@@ -9004,12 +9010,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-07-25",
           "link": "https://247wallst.com/investing/2026/07/25/3-major-reasons-to-buy-vertiv-before-july-29-q2-earnings/"
-        },
-        {
-          "title": "Grid to Rack: How Eaton and nVent Electric Are Scaling Revenues Amid the AI Data Center Boom",
-          "publisher": "Motley Fool",
-          "date": "2026-07-24",
-          "link": "https://www.fool.com/coverage/charts/2026/07/24/grid-to-rack-how-eaton-and-nvent-electric-are-scaling-revenues-amid-the-ai-data-center-boom/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.181</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.2% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.4% / 6.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.7%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.097</td><td>$3.1B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.202</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.318</td><td>$2.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.446</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.585</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.5B</b> \u00b7\n   terminal value <b>$59.0B</b> \u2192\n   PV <b>$37.2B</b></p>\n<p>Enterprise value <b>$51.8B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$41.9B</b><br>\n   \u00f7 388M shares = <b>$107.78/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.7%</th><th>WACC 9.7%</th><th>WACC 10.7%</th></tr><tr><td>growth 6.0%</td><td>$123</td><td>$102</td><td>$86</td></tr><tr><td>growth 8.0%</td><td>$130</td><td><b>$108</b></td><td>$91</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13973,7 +13973,7 @@
         ],
         [
           "2022-10-04",
-          203.66
+          203.65
         ],
         [
           "2022-10-05",
@@ -21771,7 +21771,7 @@
       "history": [
         [
           "2021-08-02",
-          211.08
+          211.07
         ],
         [
           "2021-08-03",
@@ -23267,7 +23267,7 @@
         ],
         [
           "2023-01-26",
-          247.37
+          247.36
         ],
         [
           "2023-01-27",
@@ -23539,7 +23539,7 @@
         ],
         [
           "2023-05-04",
-          280.19
+          280.2
         ],
         [
           "2023-05-05",
@@ -23559,7 +23559,7 @@
         ],
         [
           "2023-05-11",
-          278.28
+          278.27
         ],
         [
           "2023-05-12",
@@ -23839,7 +23839,7 @@
         ],
         [
           "2023-08-22",
-          267.02
+          267.03
         ],
         [
           "2023-08-23",
@@ -24779,7 +24779,7 @@
         ],
         [
           "2024-07-30",
-          387.1
+          387.09
         ],
         [
           "2024-07-31",
@@ -25539,7 +25539,7 @@
         ],
         [
           "2025-05-02",
-          400.82
+          400.83
         ],
         [
           "2025-05-05",
@@ -44750,7 +44750,7 @@
         ],
         [
           "2021-09-13",
-          80.23
+          80.24
         ],
         [
           "2021-09-14",
@@ -53399,7 +53399,7 @@
       "name": "Technology Select Sector SPDR",
       "category": "Technology",
       "is_etf": true,
-      "price": 175.64,
+      "price": 175.73,
       "drawdown": -0.12132038444120152,
       "thesis": "Technology Select Sector SPDR is down 12% from its 52-week high but is still in a long-term uptrend (3y +100%, 5y +128%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -55967,7 +55967,7 @@
         ],
         [
           "2024-02-08",
-          100.96
+          100.97
         ],
         [
           "2024-02-09",
@@ -58443,7 +58443,7 @@
         ],
         [
           "2026-07-30",
-          175.64
+          175.73
         ]
       ],
       "intraday": {
@@ -70989,5 +70989,5 @@
       }
     }
   ],
-  "price_as_of": "2026-07-30 20:19Z"
+  "price_as_of": "2026-07-30 22:13Z"
 }
