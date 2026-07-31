@@ -93,3 +93,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-30,1,ETN,Eaton Corporation plc,381.15,441.20,13.6%,low,1
 2026-07-30,2,CMI,Cummins Inc.,628.63,793.70,20.8%,low,1
 2026-07-30,3,MSI,"Motorola Solutions, Inc.",422.94,568.74,25.6%,low,1
+2026-07-31,1,NFLX,"Netflix, Inc.",71.59,148.93,51.9%,low,1
+2026-07-31,2,CMI,Cummins Inc.,638.29,806.62,20.9%,low,1
+2026-07-31,3,REGN,"Regeneron Pharmaceuticals, Inc.",736.96,860.20,14.3%,medium,2
