@@ -14653,7 +14653,7 @@
         ],
         [
           "2023-06-15",
-          222.44
+          222.43
         ],
         [
           "2023-06-16",
@@ -22116,7 +22116,7 @@
         ],
         [
           "2021-12-16",
-          626.56
+          626.57
         ],
         [
           "2021-12-17",
@@ -22168,7 +22168,7 @@
         ],
         [
           "2022-01-05",
-          590.24
+          590.25
         ],
         [
           "2022-01-06",
@@ -22764,7 +22764,7 @@
         ],
         [
           "2022-08-10",
-          636.24
+          636.23
         ],
         [
           "2022-08-11",
@@ -23868,7 +23868,7 @@
         ],
         [
           "2023-09-15",
-          816.66
+          816.65
         ],
         [
           "2023-09-18",
@@ -24644,7 +24644,7 @@
         ],
         [
           "2024-06-25",
-          1062.42
+          1062.41
         ],
         [
           "2024-06-26",
@@ -24752,7 +24752,7 @@
         ],
         [
           "2024-08-02",
-          1073.33
+          1073.32
         ],
         [
           "2024-08-05",
@@ -25504,7 +25504,7 @@
         ],
         [
           "2025-05-05",
-          599.41
+          599.4
         ],
         [
           "2025-05-06",
@@ -26914,6 +26914,12 @@
       ],
       "news": [
         {
+          "title": "REGN Q2 Deep Dive: Pipeline Progress and Product Momentum Drive Outperformance",
+          "publisher": "StockStory",
+          "date": "2026-08-01",
+          "link": "https://finance.yahoo.com/healthcare/articles/regn-q2-deep-dive-pipeline-020357060.html"
+        },
+        {
           "title": "Is The Recent Pullback In Alnylam Stock An Opportunity Or A Trap?",
           "publisher": "Trefis",
           "date": "2026-07-31",
@@ -26954,12 +26960,6 @@
           "publisher": "Simply Wall St.",
           "date": "2026-07-30",
           "link": "https://finance.yahoo.com/markets/stocks/articles/regeneron-regn-stock-looks-cheap-220941843.html"
-        },
-        {
-          "title": "Regeneron Pharmaceuticals Inc (REGN) (Q2 2026) Earnings Call Highlights: Record Dupixent Sales ...",
-          "publisher": "GuruFocus.com",
-          "date": "2026-07-30",
-          "link": "https://finance.yahoo.com/healthcare/articles/regeneron-pharmaceuticals-inc-regn-q2-210444875.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.6B</b> \u00b7\n   growth applied <b>6.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.236</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.4%</td></tr>\n<tr><td>Weights (E/D)</td><td>96.6% / 3.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.4%</td><td>$3.8B</td><td>1.090</td><td>$3.5B</td></tr><tr><td>Y2</td><td>5.4%</td><td>$4.0B</td><td>1.188</td><td>$3.4B</td></tr><tr><td>Y3</td><td>4.4%</td><td>$4.2B</td><td>1.295</td><td>$3.3B</td></tr><tr><td>Y4</td><td>3.5%</td><td>$4.4B</td><td>1.412</td><td>$3.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.5B</td><td>1.539</td><td>$2.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$16.2B</b> \u00b7\n   terminal value <b>$70.6B</b> \u2192\n   PV <b>$45.9B</b></p>\n<p>Enterprise value <b>$62.1B</b> \u2212 debt $2.7B\n   + cash $3.1B = equity <b>$62.5B</b><br>\n   \u00f7 101M shares = <b>$617.77/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.4%</td><td>$698</td><td>$591</td><td>$512</td></tr><tr><td>growth 6.4%</td><td>$730</td><td><b>$618</b></td><td>$536</td></tr><tr><td>growth 8.0%</td><td>$757</td><td>$640</td><td>$555</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -47143,7 +47143,7 @@
         ],
         [
           "2024-02-08",
-          100.96
+          100.97
         ],
         [
           "2024-02-09",
@@ -70974,5 +70974,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-01 00:06Z"
+  "price_as_of": "2026-08-01 04:25Z"
 }
