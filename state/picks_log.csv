@@ -96,3 +96,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-07-31,1,NFLX,"Netflix, Inc.",71.59,148.93,51.9%,low,1
 2026-07-31,2,CMI,Cummins Inc.,638.29,806.62,20.9%,low,1
 2026-07-31,3,REGN,"Regeneron Pharmaceuticals, Inc.",736.96,860.20,14.3%,medium,2
+2026-08-01,1,CMI,Cummins Inc.,634.20,803.59,21.1%,low,1
+2026-08-01,2,UAL,"United Airlines Holdings, Inc.",121.33,188.87,35.8%,low,1
+2026-08-01,3,FOXA,Fox Corporation,58.23,107.30,45.7%,low,2
