@@ -7,7 +7,7 @@
       "name": "Cummins Inc.",
       "price": 634.2,
       "intrinsic": 803.58893,
-      "upside": 0.2107905219650051,
+      "upside": 0.21079050677436378,
       "confidence": "low",
       "range_low": 803.58893,
       "range_high": 803.58893,
@@ -9001,7 +9001,7 @@
       "name": "United Airlines Holdings, Inc.",
       "price": 121.33,
       "intrinsic": 188.8698812971245,
-      "upside": 0.35760006218711365,
+      "upside": 0.35760005249231913,
       "confidence": "low",
       "range_low": 188.8698812971245,
       "range_high": 188.8698812971245,
@@ -17990,7 +17990,7 @@
       "name": "Fox Corporation",
       "price": 58.23,
       "intrinsic": 107.29536823295709,
-      "upside": 0.4572925098353506,
+      "upside": 0.45729251410173855,
       "confidence": "low",
       "range_low": 100.65500981999999,
       "range_high": 113.9357266459142,
@@ -71010,5 +71010,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-08-02 14:40Z"
 }
