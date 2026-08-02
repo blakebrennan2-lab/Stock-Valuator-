@@ -4179,7 +4179,7 @@
         ],
         [
           "2021-12-29",
-          197.0
+          196.99
         ],
         [
           "2021-12-30",
@@ -17933,6 +17933,12 @@
       ],
       "news": [
         {
+          "title": "How Investors May Respond To United Airlines (UAL) Joining a US$20 Billion Dulles Airport Overhaul",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-02",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-united-airlines-001925204.html"
+        },
+        {
           "title": "United (UAL) Partners In $20 Billion Dulles Overhaul",
           "publisher": "Simply Wall St.",
           "date": "2026-08-01",
@@ -17973,12 +17979,6 @@
           "publisher": "Motley Fool",
           "date": "2026-07-29",
           "link": "https://www.fool.com/coverage/filings/2026/07/29/united-airlines-insider-sheds-13-794-shares-for-usd1-6-million-according-to-latest-sec-filing/"
-        },
-        {
-          "title": "The Strategic Buyers That Could Scoop Up Distressed eVTOL Darling Archer Aviation",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-07-29",
-          "link": "https://247wallst.com/investing/2026/07/29/the-strategic-buyers-that-could-scoop-up-distressed-evtol-darling-archer-aviation/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.6B</b> \u00b7\n   growth applied <b>-5.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.258</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>55.9% / 44.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-5.0%</td><td>$1.6B</td><td>1.090</td><td>$1.4B</td></tr><tr><td>Y2</td><td>-3.8%</td><td>$1.5B</td><td>1.188</td><td>$1.3B</td></tr><tr><td>Y3</td><td>-2.5%</td><td>$1.5B</td><td>1.295</td><td>$1.1B</td></tr><tr><td>Y4</td><td>-1.2%</td><td>$1.5B</td><td>1.412</td><td>$1.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$1.5B</td><td>1.539</td><td>$943.0M</td></tr></table>\n<p>Sum of PV (explicit): <b>$5.8B</b> \u00b7\n   terminal value <b>$16.1B</b> \u2192\n   PV <b>$10.5B</b></p>\n<p>Enterprise value <b>$16.3B</b> \u2212 debt $31.0B\n   + cash $5.9B = equity <b>$-8.8B</b><br>\n   \u00f7 325M shares = <b>$-27.13/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$-21</td><td><b>$-27</b></td><td>$-32</td></tr><tr><td>growth -3.0%</td><td>$-18</td><td>$-25</td><td>$-30</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -71011,5 +71011,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-02 00:03Z"
+  "price_as_of": "2026-08-02 04:28Z"
 }
