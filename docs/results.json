@@ -5659,7 +5659,7 @@
         ],
         [
           "2023-06-15",
-          222.44
+          222.43
         ],
         [
           "2023-06-16",
@@ -8964,6 +8964,12 @@
       ],
       "news": [
         {
+          "title": "Cummins Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "date": "2026-08-05",
+          "link": "https://www.marketbeat.com/instant-alerts/cummins-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Cummins Inc. Q2 2026 Earnings Call Summary",
           "publisher": "Moby",
           "date": "2026-08-04",
@@ -9004,12 +9010,6 @@
           "publisher": "The Wall Street Journal",
           "date": "2026-08-04",
           "link": "https://www.wsj.com/business/earnings/cummins-raises-outlook-as-profit-sales-climb-a2a7de49?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Cummins (NYSE:CMI) Posts Better-Than-Expected Sales In Q2 CY2026 But Stock Drops",
-          "publisher": "StockStory",
-          "date": "2026-08-04",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cummins-nyse-cmi-posts-better-122842719.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$2.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.222</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.5% / 8.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$2.4B</td><td>1.098</td><td>$2.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.6B</td><td>1.205</td><td>$2.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.7B</td><td>1.323</td><td>$2.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.8B</td><td>1.453</td><td>$1.9B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.9B</td><td>1.595</td><td>$1.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$10.2B</b> \u00b7\n   terminal value <b>$40.8B</b> \u2192\n   PV <b>$25.6B</b></p>\n<p>Enterprise value <b>$35.8B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$30.5B</b><br>\n   \u00f7 138M shares = <b>$221.10/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$250</td><td>$210</td><td>$180</td></tr><tr><td>growth 8.0%</td><td>$263</td><td><b>$221</b></td><td>$190</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37455,7 +37455,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -46024,7 +46024,7 @@
         ],
         [
           "2022-12-07",
-          63.08
+          63.07
         ],
         [
           "2022-12-08",
@@ -46420,7 +46420,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -47196,7 +47196,7 @@
         ],
         [
           "2024-02-08",
-          100.97
+          100.96
         ],
         [
           "2024-02-09",
@@ -71027,5 +71027,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-05 03:18Z"
+  "price_as_of": "2026-08-05 06:35Z"
 }
