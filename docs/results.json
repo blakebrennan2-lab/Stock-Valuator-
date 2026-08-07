@@ -4919,7 +4919,7 @@
         ],
         [
           "2022-10-04",
-          203.66
+          203.65
         ],
         [
           "2022-10-05",
@@ -5619,7 +5619,7 @@
         ],
         [
           "2023-06-15",
-          222.44
+          222.43
         ],
         [
           "2023-06-16",
@@ -26931,6 +26931,12 @@
       ],
       "news": [
         {
+          "title": "Fox (FOXA) Q4 2026 Earnings Call Transcript",
+          "publisher": "Motley Fool",
+          "date": "2026-08-07",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/06/fox-foxa-q4-2026-earnings-call-transcript/"
+        },
+        {
           "title": "Roku beats second quarter estimates ahead of Fox acquisition",
           "publisher": "Investing.com",
           "date": "2026-08-06",
@@ -26971,12 +26977,6 @@
           "publisher": "MT Newswires",
           "date": "2026-08-06",
           "link": "https://finance.yahoo.com/media-advertising/articles/fox-fiscal-fourth-quarter-results-152207609.html"
-        },
-        {
-          "title": "Fox (FOXA) Reports Q4 Earnings: What Key Metrics Have to Say",
-          "publisher": "Zacks",
-          "date": "2026-08-06",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/fox-foxa-reports-q4-earnings-140003994.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>3.6%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.55</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.6% / 23.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>3.6%</td><td>$1.6B</td><td>1.090</td><td>$1.5B</td></tr><tr><td>Y2</td><td>3.3%</td><td>$1.6B</td><td>1.188</td><td>$1.4B</td></tr><tr><td>Y3</td><td>3.1%</td><td>$1.7B</td><td>1.295</td><td>$1.3B</td></tr><tr><td>Y4</td><td>2.8%</td><td>$1.7B</td><td>1.412</td><td>$1.2B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$1.8B</td><td>1.539</td><td>$1.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$6.5B</b> \u00b7\n   terminal value <b>$28.1B</b> \u2192\n   PV <b>$18.3B</b></p>\n<p>Enterprise value <b>$24.8B</b> \u2212 debt $7.5B\n   + cash $5.4B = equity <b>$22.7B</b><br>\n   \u00f7 199M shares = <b>$113.94/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 1.6%</td><td>$112</td><td>$95</td><td>$83</td></tr><tr><td>growth 3.6%</td><td>$137</td><td><b>$114</b></td><td>$97</td></tr><tr><td>growth 5.6%</td><td>$143</td><td>$120</td><td>$102</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37419,7 +37419,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -45820,7 +45820,7 @@
         ],
         [
           "2022-09-28",
-          60.51
+          60.52
         ],
         [
           "2022-09-29",
@@ -45888,7 +45888,7 @@
         ],
         [
           "2022-10-21",
-          60.51
+          60.52
         ],
         [
           "2022-10-24",
@@ -71111,5 +71111,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-07 00:09Z"
+  "price_as_of": "2026-08-07 03:54Z"
 }
