@@ -18003,6 +18003,12 @@
       ],
       "news": [
         {
+          "title": "Transdigm Group Q3 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "date": "2026-08-09",
+          "link": "https://www.marketbeat.com/instant-alerts/transdigm-group-q3-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "TransDigm Group (TDG) Is Spending $1.07 Billion On An Aerospace Materials Deal",
           "publisher": "Simply Wall St.",
           "date": "2026-08-07",
@@ -18043,12 +18049,6 @@
           "publisher": "Zacks",
           "date": "2026-08-04",
           "link": "https://finance.yahoo.com/markets/stocks/articles/transdigm-group-tdg-beats-q3-125005714.html"
-        },
-        {
-          "title": "TransDigm (NYSE:TDG) Surprises With Q2 CY2026 Sales, Full-Year Outlook Slightly Exceeds Expectations",
-          "publisher": "StockStory",
-          "date": "2026-08-04",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/transdigm-nyse-tdg-surprises-q2-121659497.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.906</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>69.3% / 30.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$1.6B</td><td>1.090</td><td>$1.5B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$1.8B</td><td>1.188</td><td>$1.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$1.8B</td><td>1.295</td><td>$1.4B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$1.9B</td><td>1.412</td><td>$1.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.0B</td><td>1.539</td><td>$1.3B</td></tr></table>\n<p>Sum of PV (explicit): <b>$7.1B</b> \u00b7\n   terminal value <b>$31.1B</b> \u2192\n   PV <b>$20.2B</b></p>\n<p>Enterprise value <b>$27.2B</b> \u2212 debt $30.0B\n   + cash $2.8B = equity <b>$20.5M</b><br>\n   \u00f7 55M shares = <b>$0.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 6.0%</td><td>$65</td><td>$-21</td><td>$-84</td></tr><tr><td>growth 8.0%</td><td>$91</td><td><b>$0</b></td><td>$-66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22988,7 +22988,7 @@
         ],
         [
           "2022-10-18",
-          127.73
+          127.74
         ],
         [
           "2022-10-19",
@@ -25548,7 +25548,7 @@
         ],
         [
           "2025-05-08",
-          245.9
+          245.91
         ],
         [
           "2025-05-09",
@@ -25628,7 +25628,7 @@
         ],
         [
           "2025-06-06",
-          249.5
+          249.49
         ],
         [
           "2025-06-09",
@@ -71177,5 +71177,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-09 08:53Z"
+  "price_as_of": "2026-08-09 09:48Z"
 }
