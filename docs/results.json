@@ -5924,7 +5924,7 @@
         ],
         [
           "2023-09-13",
-          141.46
+          141.47
         ],
         [
           "2023-09-14",
@@ -8160,7 +8160,7 @@
         ],
         [
           "2025-12-04",
-          142.2
+          142.19
         ],
         [
           "2025-12-05",
@@ -9008,6 +9008,18 @@
       ],
       "news": [
         {
+          "title": "3 Boring but Brilliant Stocks to Buy in August",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-08-10",
+          "link": "https://247wallst.com/investing/2026/08/10/3-boring-but-brilliant-stocks-to-buy-in-august/"
+        },
+        {
+          "title": "Looking to Generate Passive Income From Stocks? 3 Unstoppable Dividend Stocks to Buy Now.",
+          "publisher": "Motley Fool",
+          "date": "2026-08-10",
+          "link": "https://www.fool.com/investing/2026/08/10/looking-to-generate-passive-income-from-stocks-3-u/"
+        },
+        {
           "title": "I've Been Writing About Procter & Gamble Stock for Years. Here's Why My Conviction Has Never Been Higher.",
           "publisher": "Motley Fool",
           "date": "2026-08-10",
@@ -9042,18 +9054,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-09",
           "link": "https://247wallst.com/personal-finance/2026/08/08/how-a-52-year-old-can-turn-425000-into-a-monthly-paycheck-machine-by-62/"
-        },
-        {
-          "title": "How Much Do You Need Invested to Out-Earn the Average Social Security Check With Dividends?",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-08",
-          "link": "https://247wallst.com/personal-finance/2026/08/08/how-much-do-you-need-invested-to-out-earn-the-average-social-security-check-with-dividends/"
-        },
-        {
-          "title": "Why PG, JNJ, and KO Could Surprise Investors Next Year",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-08",
-          "link": "https://247wallst.com/investing/2026/08/08/why-pg-jnj-and-ko-could-surprise-investors-next-year/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$14.6B</b> \u00b7\n   growth applied <b>7.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.377</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>90.6% / 9.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.9%</td><td>$15.7B</td><td>1.090</td><td>$14.4B</td></tr><tr><td>Y2</td><td>6.5%</td><td>$16.8B</td><td>1.188</td><td>$14.1B</td></tr><tr><td>Y3</td><td>5.2%</td><td>$17.6B</td><td>1.295</td><td>$13.6B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$18.3B</td><td>1.412</td><td>$13.0B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$18.8B</td><td>1.539</td><td>$12.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$67.3B</b> \u00b7\n   terminal value <b>$296.0B</b> \u2192\n   PV <b>$192.4B</b></p>\n<p>Enterprise value <b>$259.7B</b> \u2212 debt $35.0B\n   + cash $9.9B = equity <b>$234.6B</b><br>\n   \u00f7 2,329M shares = <b>$100.76/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.9%</td><td>$115</td><td>$96</td><td>$82</td></tr><tr><td>growth 7.9%</td><td>$121</td><td><b>$101</b></td><td>$86</td></tr><tr><td>growth 8.0%</td><td>$122</td><td>$101</td><td>$86</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -71261,5 +71261,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-10 11:53Z"
+  "price_as_of": "2026-08-10 13:24Z"
 }
