@@ -111,3 +111,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-08-09,1,PG,The Procter & Gamble Company,145.79,151.03,3.5%,low,2
 2026-08-09,2,CMI,Cummins Inc.,644.26,742.90,13.3%,low,1
 2026-08-09,3,TDG,TransDigm Group Incorporated,1225.25,1335.50,8.3%,medium,2
+2026-08-10,1,CMI,Cummins Inc.,642.79,744.03,13.6%,low,1
+2026-08-10,2,TDG,Transdigm Group Incorporated,1221.35,1339.70,8.8%,medium,2
+2026-08-10,3,EXC,Exelon Corporation,44.71,45.64,2.0%,medium,2
