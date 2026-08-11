@@ -114,3 +114,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-08-10,1,CMI,Cummins Inc.,642.79,744.03,13.6%,low,1
 2026-08-10,2,TDG,Transdigm Group Incorporated,1221.35,1339.70,8.8%,medium,2
 2026-08-10,3,EXC,Exelon Corporation,44.71,45.64,2.0%,medium,2
+2026-08-11,1,ADBE,Adobe Inc.,269.98,361.67,25.4%,medium,2
+2026-08-11,2,CMI,Cummins Inc.,647.68,760.01,14.8%,low,1
+2026-08-11,3,TDG,TransDigm Group Incorporated,1238.49,1332.14,7.0%,medium,2
