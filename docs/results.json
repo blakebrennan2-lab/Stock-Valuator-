@@ -4111,7 +4111,7 @@
         ],
         [
           "2021-12-29",
-          196.99
+          197.0
         ],
         [
           "2021-12-30",
@@ -5579,7 +5579,7 @@
         ],
         [
           "2023-06-15",
-          222.44
+          222.43
         ],
         [
           "2023-06-16",
@@ -8678,14 +8678,6 @@
           639.43
         ],
         [
-          "2026-07-21",
-          660.45
-        ],
-        [
-          "2026-07-22",
-          660.75
-        ],
-        [
           "2026-07-23",
           665.03
         ],
@@ -8708,10 +8700,6 @@
         [
           "2026-07-30",
           632.98
-        ],
-        [
-          "2026-07-31",
-          634.2
         ],
         [
           "2026-08-03",
@@ -12273,7 +12261,7 @@
           ],
           [
             "2026-07-22 14:30",
-            1196.35
+            1196.39
           ],
           [
             "2026-07-22 15:30",
@@ -26977,6 +26965,12 @@
       ],
       "news": [
         {
+          "title": "Keurig Dr Pepper (KDP) Stock May Be Fully Priced On Strong Q2 Growth",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-14",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-kdp-stock-121118430.html"
+        },
+        {
           "title": "Did New 7UP Formula, Dr Pepper Shakes and Board Addition Just Shift Keurig Dr Pepper's (KDP) Investment Narrative?",
           "publisher": "Simply Wall St.",
           "date": "2026-08-14",
@@ -27017,12 +27011,6 @@
           "publisher": "Trefis",
           "date": "2026-08-12",
           "link": "https://www.trefis.com/articles/611130/the-debates-that-matter-for-ko-stock/2026-08-12"
-        },
-        {
-          "title": "Coca-Cola Trades at a Valuation Premium: Justified or Overstretched?",
-          "publisher": "Zacks",
-          "date": "2026-08-12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-trades-valuation-premium-130700233.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>-5.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.411</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>72.2% / 27.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-5.0%</td><td>$1.5B</td><td>1.090</td><td>$1.3B</td></tr><tr><td>Y2</td><td>-3.8%</td><td>$1.4B</td><td>1.188</td><td>$1.2B</td></tr><tr><td>Y3</td><td>-2.5%</td><td>$1.4B</td><td>1.295</td><td>$1.1B</td></tr><tr><td>Y4</td><td>-1.2%</td><td>$1.4B</td><td>1.412</td><td>$962.0M</td></tr><tr><td>Y5</td><td>0.0%</td><td>$1.4B</td><td>1.539</td><td>$882.6M</td></tr></table>\n<p>Sum of PV (explicit): <b>$5.4B</b> \u00b7\n   terminal value <b>$15.1B</b> \u2192\n   PV <b>$9.8B</b></p>\n<p>Enterprise value <b>$15.2B</b> \u2212 debt $16.1B\n   + cash $1.0B = equity <b>$129.5M</b><br>\n   \u00f7 1,361M shares = <b>$0.10/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$1</td><td><b>$0</b></td><td>$-1</td></tr><tr><td>growth -3.0%</td><td>$2</td><td>$1</td><td>$-1</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32267,7 +32255,7 @@
           ],
           [
             "2026-08-13 10:15",
-            400.98
+            400.99
           ],
           [
             "2026-08-13 10:16",
@@ -45282,7 +45270,7 @@
         ],
         [
           "2022-03-08",
-          61.14
+          61.13
         ],
         [
           "2022-03-09",
@@ -49661,6 +49649,10 @@
           110.8
         ],
         [
+          "2026-07-21",
+          110.03
+        ],
+        [
           "2026-07-22",
           109.2
         ],
@@ -49687,6 +49679,10 @@
         [
           "2026-07-30",
           106.58
+        ],
+        [
+          "2026-07-31",
+          108.24
         ],
         [
           "2026-08-03",
@@ -52691,7 +52687,7 @@
           ],
           [
             "2026-08-13 12:40",
-            111.62
+            111.63
           ],
           [
             "2026-08-13 12:45",
@@ -53499,5 +53495,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-14 11:50Z"
+  "price_as_of": "2026-08-14 13:21Z"
 }
