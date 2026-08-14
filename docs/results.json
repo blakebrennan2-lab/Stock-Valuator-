@@ -31,7 +31,7 @@
           ],
           [
             "2026-08-14 09:34",
-            513.42
+            513.36
           ],
           [
             "2026-08-14 09:35",
@@ -8027,7 +8027,7 @@
         ],
         [
           "2025-10-24",
-          227.73
+          227.74
         ],
         [
           "2025-10-27",
@@ -8997,10 +8997,16 @@
       ],
       "news": [
         {
-          "title": "Earnings live updates: Applied Materials stock falls after solid earnings fail to impress",
-          "publisher": "Yahoo Finance",
-          "date": "2026-08-10",
-          "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-applied-materials-stock-falls-after-solid-earnings-fail-to-impress-202302733.html"
+          "title": "Stock Market Today: Nasdaq Slips On Retail Sales Gloom; Nvidia Eyes Robotics Wave",
+          "publisher": "Investor's Business Daily",
+          "date": "2026-08-14",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-applied-materials-stock-amat/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Update: S&P Logs Third Consecutive Weekly Gain Despite Pullback From Record High",
+          "publisher": "MT Newswires",
+          "date": "2026-08-14",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-logs-third-consecutive-weekly-203827209.html"
         },
         {
           "title": "S&P 500 ends lower as investors weigh data, Middle East tensions",
@@ -9031,12 +9037,6 @@
           "publisher": "StockStory",
           "date": "2026-08-14",
           "link": "https://finance.yahoo.com/markets/stocks/articles/entegris-penguin-solutions-seagate-applied-194900566.html"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Sinks On Retail Sales Gloom; Nvidia Eyes Robotics Wave (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-08-14",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-applied-materials-stock-amat/?src=A00220&yptr=yahoo"
         },
         {
           "title": "Applied Materials Stock Drops 4.5% Despite Record $9.12 Billion Revenue",
@@ -53570,5 +53570,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-14 20:37Z"
+  "price_as_of": "2026-08-14 21:31Z"
 }
