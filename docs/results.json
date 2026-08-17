@@ -5895,7 +5895,7 @@
         ],
         [
           "2023-10-03",
-          133.69
+          133.7
         ],
         [
           "2023-10-04",
@@ -8937,6 +8937,18 @@
       ],
       "news": [
         {
+          "title": "S&P 500's Best Stock In 2026 Leads Index With A Bullish Move",
+          "publisher": "Investor's Business Daily",
+          "date": "2026-08-17",
+          "link": "https://www.investors.com/news/sandisk-sp-500-best-stock-2026-leads-with-bullish-move/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
+          "publisher": "Trefis",
+          "date": "2026-08-17",
+          "link": "https://www.trefis.com/articles/611672/own-klac-stock-here-is-how-to-collect-21-a-year-on-it/2026-08-17"
+        },
+        {
           "title": "Why Applied Materials (AMAT) Could Be a Major Winner of the AI Memory Surge",
           "publisher": "Insider Monkey",
           "date": "2026-08-17",
@@ -8955,6 +8967,12 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-keep-163820780.html"
         },
         {
+          "title": "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
+          "publisher": "Barchart",
+          "date": "2026-08-17",
+          "link": "https://www.barchart.com/story/news/3887971/stock-indices-waver-on-strength-in-chipmakers-vs-weakness-in-software-companies"
+        },
+        {
           "title": "Stock Market News for Aug 17, 2026",
           "publisher": "Zacks",
           "date": "2026-08-17",
@@ -8965,24 +8983,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-17",
           "link": "https://247wallst.com/investing/2026/08/17/kla-corporation-had-a-tough-month-60-returns-will-come-according-to-this-wall-street-stalwart/"
-        },
-        {
-          "title": "S&P 500 nears record as weak retail data and Iran tensions shape critical week",
-          "publisher": "InvestorsHub",
-          "date": "2026-08-17",
-          "link": "https://investorshub.advfn.com/market-news/article/34363/sp-500-nears-record-as-weak-retail-data-and-iran-tensions-shape-critical-week"
-        },
-        {
-          "title": "Applied Materials Trades More Than 25% Below Its High With Revenue at a Record",
-          "publisher": "Motley Fool",
-          "date": "2026-08-16",
-          "link": "https://www.fool.com/investing/2026/08/16/applied-materials-trades-more-than-25-below-its-hi/"
-        },
-        {
-          "title": "AMAT Q2 Deep Dive: AI Demand and Advanced Packaging Drive Guidance Upside, Market Reacts Cautiously",
-          "publisher": "StockStory",
-          "date": "2026-08-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amat-q2-deep-dive-ai-093300961.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.3% / 1.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.260</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.414</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.586</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.780</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.0B</b> \u2192\n   PV <b>$29.2B</b></p>\n<p>Enterprise value <b>$52.2B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.4B</b><br>\n   \u00f7 794M shares = <b>$66.02/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17934,6 +17934,12 @@
       ],
       "news": [
         {
+          "title": "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
+          "publisher": "Trefis",
+          "date": "2026-08-17",
+          "link": "https://www.trefis.com/articles/611672/own-klac-stock-here-is-how-to-collect-21-a-year-on-it/2026-08-17"
+        },
+        {
           "title": "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
           "publisher": "24/7 Wall St.",
           "date": "2026-08-17",
@@ -17974,12 +17980,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-13",
           "link": "https://247wallst.com/investing/2026/08/13/lam-research-applied-materials-and-camtek-rise-after-sandisk-issues-bullish-financial-targets/"
-        },
-        {
-          "title": "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
-          "publisher": "Zacks",
-          "date": "2026-08-13",
-          "link": "https://finance.yahoo.com/technology/ai/articles/teradyne-drives-robotics-ai-outpace-155400182.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.458</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.8% / 2.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.114</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.241</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.383</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.541</td><td>$2.3B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.717</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.1B</b> \u00b7\n   terminal value <b>$33.6B</b> \u2192\n   PV <b>$19.6B</b></p>\n<p>Enterprise value <b>$32.7B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.2B</b><br>\n   \u00f7 1,307M shares = <b>$21.59/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.4%</th><th>WACC 11.4%</th><th>WACC 12.4%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$19</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$19</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22351,7 +22351,7 @@
         ],
         [
           "2022-04-12",
-          174.58
+          174.59
         ],
         [
           "2022-04-13",
@@ -37276,7 +37276,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -53234,5 +53234,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-17 20:33Z"
+  "price_as_of": "2026-08-17 21:32Z"
 }
