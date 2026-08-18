@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 535.31,
       "intrinsic": 542.9996704350636,
-      "upside": 0.01416146877273196,
+      "upside": 0.014161464276585224,
       "confidence": "low",
       "range_low": 542.9996704350636,
       "range_high": 542.9996704350636,
@@ -2513,7 +2513,7 @@
           ],
           [
             "2026-08-14 09:30",
-            513.36
+            513.42
           ],
           [
             "2026-08-14 09:35",
@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-07-21 15:30",
-            564.33
+            564.46
           ],
           [
             "2026-07-22 09:30",
@@ -3359,7 +3359,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.44
+            436.4
           ],
           [
             "2026-07-30 09:30",
@@ -7963,7 +7963,7 @@
         ],
         [
           "2025-10-24",
-          227.73
+          227.74
         ],
         [
           "2025-10-27",
@@ -8768,10 +8768,6 @@
         [
           "2026-08-14",
           507.18
-        ],
-        [
-          "2026-08-17",
-          535.31
         ]
       ],
       "stats": [
@@ -8994,7 +8990,7 @@
       "name": "KLA Corporation",
       "price": 205.76,
       "intrinsic": 207.32616072000002,
-      "upside": 0.007554117665253223,
+      "upside": 0.007554091169976243,
       "confidence": "low",
       "range_low": 207.32616072000002,
       "range_high": 207.32616072000002,
@@ -9118,7 +9114,7 @@
           ],
           [
             "2026-08-17 09:59",
-            208.43
+            208.5
           ],
           [
             "2026-08-17 10:00",
@@ -9230,7 +9226,7 @@
           ],
           [
             "2026-08-17 10:27",
-            204.13
+            204.09
           ],
           [
             "2026-08-17 10:28",
@@ -11808,7 +11804,7 @@
           ],
           [
             "2026-08-14 15:55",
-            203.72
+            203.75
           ],
           [
             "2026-08-17 09:30",
@@ -11832,7 +11828,7 @@
           ],
           [
             "2026-08-17 09:55",
-            208.43
+            208.5
           ],
           [
             "2026-08-17 10:00",
@@ -12402,7 +12398,7 @@
           ],
           [
             "2026-07-31 15:30",
-            182.8
+            182.82
           ],
           [
             "2026-08-03 09:30",
@@ -12430,7 +12426,7 @@
           ],
           [
             "2026-08-03 15:30",
-            182.71
+            182.75
           ],
           [
             "2026-08-04 09:30",
@@ -12486,7 +12482,7 @@
           ],
           [
             "2026-08-05 15:30",
-            192.84
+            192.67
           ],
           [
             "2026-08-06 09:30",
@@ -12682,7 +12678,7 @@
           ],
           [
             "2026-08-14 15:30",
-            203.72
+            203.75
           ],
           [
             "2026-08-17 09:30",
@@ -13434,7 +13430,7 @@
         ],
         [
           "2022-04-25",
-          31.71
+          31.72
         ],
         [
           "2022-04-26",
@@ -16086,7 +16082,7 @@
         ],
         [
           "2024-12-12",
-          63.88
+          63.87
         ],
         [
           "2024-12-13",
@@ -17755,10 +17751,6 @@
         [
           "2026-08-14",
           203.49
-        ],
-        [
-          "2026-08-17",
-          205.76
         ]
       ],
       "stats": [
@@ -17934,6 +17926,12 @@
       ],
       "news": [
         {
+          "title": "KLA (KLAC) Could Be 12% Undervalued On Its Dividend Decision",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-18",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-could-12-undervalued-031938958.html"
+        },
+        {
           "title": "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
           "publisher": "Trefis",
           "date": "2026-08-17",
@@ -17974,12 +17972,6 @@
           "publisher": "Zacks",
           "date": "2026-08-13",
           "link": "https://finance.yahoo.com/markets/stocks/articles/kla-drops-9-month-buy-174200956.html"
-        },
-        {
-          "title": "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-13",
-          "link": "https://247wallst.com/investing/2026/08/13/lam-research-applied-materials-and-camtek-rise-after-sandisk-issues-bullish-financial-targets/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.458</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.8% / 2.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.114</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.241</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.383</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.541</td><td>$2.3B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.717</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.1B</b> \u00b7\n   terminal value <b>$33.6B</b> \u2192\n   PV <b>$19.6B</b></p>\n<p>Enterprise value <b>$32.7B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.2B</b><br>\n   \u00f7 1,307M shares = <b>$21.59/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.4%</th><th>WACC 11.4%</th><th>WACC 12.4%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$19</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$19</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17991,7 +17983,7 @@
       "name": "Cummins Inc.",
       "price": 641.16,
       "intrinsic": 765.4039285,
-      "upside": 0.16232468991759133,
+      "upside": 0.16232465483092962,
       "confidence": "low",
       "range_low": 765.4039285,
       "range_high": 765.4039285,
@@ -18515,7 +18507,7 @@
           ],
           [
             "2026-08-17 11:43",
-            638.55
+            638.54
           ],
           [
             "2026-08-17 11:44",
@@ -21463,7 +21455,7 @@
           ],
           [
             "2026-08-06 15:30",
-            643.56
+            643.54
           ],
           [
             "2026-08-07 09:30",
@@ -26630,14 +26622,6 @@
           639.43
         ],
         [
-          "2026-07-21",
-          660.45
-        ],
-        [
-          "2026-07-22",
-          660.75
-        ],
-        [
           "2026-07-23",
           665.03
         ],
@@ -26660,10 +26644,6 @@
         [
           "2026-07-30",
           632.98
-        ],
-        [
-          "2026-07-31",
-          634.2
         ],
         [
           "2026-08-03",
@@ -26704,10 +26684,6 @@
         [
           "2026-08-14",
           631.26
-        ],
-        [
-          "2026-08-17",
-          641.16
         ]
       ],
       "stats": [
@@ -31972,10 +31948,6 @@
         [
           "2026-08-14",
           401.48
-        ],
-        [
-          "2026-08-17",
-          405.49
         ]
       ],
       "intraday": {
@@ -40741,10 +40713,6 @@
         [
           "2026-08-14",
           587.82
-        ],
-        [
-          "2026-08-17",
-          594.07
         ]
       ],
       "intraday": {
@@ -41531,7 +41499,7 @@
           ],
           [
             "2026-08-17 12:45",
-            598.25
+            598.24
           ],
           [
             "2026-08-17 12:46",
@@ -49510,10 +49478,6 @@
         [
           "2026-08-14",
           44.31
-        ],
-        [
-          "2026-08-17",
-          44.18
         ]
       ],
       "intraday": {
@@ -49844,7 +49808,7 @@
           ],
           [
             "2026-08-17 10:51",
-            44.1
+            44.09
           ],
           [
             "2026-08-17 10:52",
@@ -53234,5 +53198,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-18 03:02Z"
+  "price_as_of": "2026-08-18 04:42Z"
 }
