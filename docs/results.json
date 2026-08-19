@@ -1889,7 +1889,7 @@
           ],
           [
             "2026-08-14 09:30",
-            513.42
+            513.36
           ],
           [
             "2026-08-14 09:35",
@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-07-21 15:30",
-            564.46
+            564.33
           ],
           [
             "2026-07-22 09:30",
@@ -3359,7 +3359,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.4
+            436.44
           ],
           [
             "2026-07-30 09:30",
@@ -5943,7 +5943,7 @@
         ],
         [
           "2023-10-03",
-          133.69
+          133.7
         ],
         [
           "2023-10-04",
@@ -8993,16 +8993,16 @@
       ],
       "news": [
         {
+          "title": "Top Research Reports for NVIDIA, Applied Materials & ConocoPhillips",
+          "publisher": "Zacks",
+          "date": "2026-08-19",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-nvidia-applied-203000539.html"
+        },
+        {
           "title": "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What\u2019s Prompting the Selloff in Chip Equipment Stocks?",
           "publisher": "24/7 Wall St.",
           "date": "2026-08-19",
           "link": "https://247wallst.com/investing/2026/08/19/applied-materials-falls-4-lam-research-and-teradyne-sink-5-whats-prompting-the-selloff-in-chip-equipment-stocks/"
-        },
-        {
-          "title": "Stocks Supported by Lower Bond Yields",
-          "publisher": "Barchart",
-          "date": "2026-08-19",
-          "link": "https://www.barchart.com/story/news/3931839/stocks-supported-by-lower-bond-yields"
         },
         {
           "title": "ASX vs. AMAT: Which AI Semiconductor Stock is the Better Buy?",
@@ -12458,7 +12458,7 @@
           ],
           [
             "2026-07-31 15:30",
-            182.82
+            182.8
           ],
           [
             "2026-08-03 09:30",
@@ -12486,7 +12486,7 @@
           ],
           [
             "2026-08-03 15:30",
-            182.75
+            182.71
           ],
           [
             "2026-08-04 09:30",
@@ -12542,7 +12542,7 @@
           ],
           [
             "2026-08-05 15:30",
-            192.67
+            192.84
           ],
           [
             "2026-08-06 09:30",
@@ -12738,7 +12738,7 @@
           ],
           [
             "2026-08-14 15:30",
-            203.75
+            203.72
           ],
           [
             "2026-08-17 09:30",
@@ -13034,7 +13034,7 @@
         ],
         [
           "2021-10-22",
-          32.68
+          32.67
         ],
         [
           "2021-10-25",
@@ -18052,12 +18052,6 @@
           "link": "https://247wallst.com/investing/2026/08/19/applied-materials-falls-4-lam-research-and-teradyne-sink-5-whats-prompting-the-selloff-in-chip-equipment-stocks/"
         },
         {
-          "title": "Stocks Supported by Lower Bond Yields",
-          "publisher": "Barchart",
-          "date": "2026-08-19",
-          "link": "https://www.barchart.com/story/news/3931839/stocks-supported-by-lower-bond-yields"
-        },
-        {
           "title": "Is KLA (KLAC) a Buy as Wall Street Analysts Look Optimistic?",
           "publisher": "Zacks",
           "date": "2026-08-19",
@@ -18092,6 +18086,12 @@
           "publisher": "Zacks",
           "date": "2026-08-18",
           "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-amat-stock-150000295.html"
+        },
+        {
+          "title": "Lam Research's DRAM Push Gains Steam: Can It Boost Growth Further?",
+          "publisher": "Zacks",
+          "date": "2026-08-18",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lam-researchs-dram-push-gains-124600984.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.458</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.8% / 2.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.114</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.241</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.383</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.541</td><td>$2.3B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.717</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.1B</b> \u00b7\n   terminal value <b>$33.6B</b> \u2192\n   PV <b>$19.6B</b></p>\n<p>Enterprise value <b>$32.7B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.2B</b><br>\n   \u00f7 1,307M shares = <b>$21.59/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.4%</th><th>WACC 11.4%</th><th>WACC 12.4%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$19</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$19</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -23711,7 +23711,7 @@
         ],
         [
           "2023-06-15",
-          222.43
+          222.44
         ],
         [
           "2023-06-16",
@@ -37500,7 +37500,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -41219,7 +41219,7 @@
           ],
           [
             "2026-08-19 10:29",
-            561.22
+            561.21
           ],
           [
             "2026-08-19 10:30",
@@ -42435,7 +42435,7 @@
           ],
           [
             "2026-08-19 15:33",
-            563.31
+            563.3
           ],
           [
             "2026-08-19 15:34",
@@ -53578,5 +53578,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-19 21:31Z"
+  "price_as_of": "2026-08-19 22:31Z"
 }
