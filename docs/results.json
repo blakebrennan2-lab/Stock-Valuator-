@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-07-21 15:30",
-            564.33
+            564.46
           ],
           [
             "2026-07-22 09:30",
@@ -3359,7 +3359,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.44
+            436.4
           ],
           [
             "2026-07-30 09:30",
@@ -5919,7 +5919,7 @@
         ],
         [
           "2023-10-03",
-          133.7
+          133.69
         ],
         [
           "2023-10-04",
@@ -7987,7 +7987,7 @@
         ],
         [
           "2025-10-24",
-          227.74
+          227.73
         ],
         [
           "2025-10-27",
@@ -8796,10 +8796,6 @@
         [
           "2026-08-17",
           535.31
-        ],
-        [
-          "2026-08-18",
-          514.33
         ]
       ],
       "stats": [
@@ -8971,12 +8967,6 @@
           "link": "https://finance.yahoo.com/markets/article/global-bond-sell-off-pressures-stocks-alphacheck-135011383.html"
         },
         {
-          "title": "Stocks Finish Lower as Chipmakers and AI Stocks Fall",
-          "publisher": "Barchart",
-          "date": "2026-08-18",
-          "link": "https://www.barchart.com/story/news/3915336/stocks-finish-lower-as-chipmakers-and-ai-stocks-fall"
-        },
-        {
           "title": "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
           "publisher": "24/7 Wall St.",
           "date": "2026-08-18",
@@ -9011,6 +9001,12 @@
           "publisher": "Investor's Business Daily",
           "date": "2026-08-17",
           "link": "https://www.investors.com/news/sandisk-sp-500-best-stock-2026-leads-with-bullish-move/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
+          "publisher": "Trefis",
+          "date": "2026-08-17",
+          "link": "https://www.trefis.com/articles/611672/own-klac-stock-here-is-how-to-collect-21-a-year-on-it/2026-08-17"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.3% / 1.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.260</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.414</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.586</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.780</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.0B</b> \u2192\n   PV <b>$29.2B</b></p>\n<p>Enterprise value <b>$52.2B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.4B</b><br>\n   \u00f7 794M shares = <b>$66.02/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9022,7 +9018,7 @@
       "name": "KLA Corporation",
       "price": 194.79,
       "intrinsic": 207.32616072000002,
-      "upside": 0.06046592186114739,
+      "upside": 0.06046588947803106,
       "confidence": "low",
       "range_low": 207.32616072000002,
       "range_high": 207.32616072000002,
@@ -9194,7 +9190,7 @@
           ],
           [
             "2026-08-18 10:11",
-            196.11
+            196.15
           ],
           [
             "2026-08-18 10:12",
@@ -10474,7 +10470,7 @@
           ],
           [
             "2026-08-18 15:31",
-            193.94
+            193.96
           ],
           [
             "2026-08-18 15:32",
@@ -12430,7 +12426,7 @@
           ],
           [
             "2026-07-31 15:30",
-            182.8
+            182.82
           ],
           [
             "2026-08-03 09:30",
@@ -12458,7 +12454,7 @@
           ],
           [
             "2026-08-03 15:30",
-            182.71
+            182.75
           ],
           [
             "2026-08-04 09:30",
@@ -12514,7 +12510,7 @@
           ],
           [
             "2026-08-05 15:30",
-            192.84
+            192.67
           ],
           [
             "2026-08-06 09:30",
@@ -12710,7 +12706,7 @@
           ],
           [
             "2026-08-14 15:30",
-            203.72
+            203.75
           ],
           [
             "2026-08-17 09:30",
@@ -17990,12 +17986,6 @@
       ],
       "news": [
         {
-          "title": "Stocks Finish Lower as Chipmakers and AI Stocks Fall",
-          "publisher": "Barchart",
-          "date": "2026-08-18",
-          "link": "https://www.barchart.com/story/news/3915336/stocks-finish-lower-as-chipmakers-and-ai-stocks-fall"
-        },
-        {
           "title": "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
           "publisher": "24/7 Wall St.",
           "date": "2026-08-18",
@@ -18036,6 +18026,12 @@
           "publisher": "Simply Wall St.",
           "date": "2026-08-18",
           "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-could-12-undervalued-031938958.html"
+        },
+        {
+          "title": "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
+          "publisher": "Trefis",
+          "date": "2026-08-17",
+          "link": "https://www.trefis.com/articles/611672/own-klac-stock-here-is-how-to-collect-21-a-year-on-it/2026-08-17"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.458</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.8% / 2.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.114</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.241</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.383</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.541</td><td>$2.3B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.717</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.1B</b> \u00b7\n   terminal value <b>$33.6B</b> \u2192\n   PV <b>$19.6B</b></p>\n<p>Enterprise value <b>$32.7B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.2B</b><br>\n   \u00f7 1,307M shares = <b>$21.59/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.4%</th><th>WACC 11.4%</th><th>WACC 12.4%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$19</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$19</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32068,10 +32064,6 @@
         [
           "2026-08-17",
           405.49
-        ],
-        [
-          "2026-08-18",
-          398.55
         ]
       ],
       "intraday": {
@@ -37396,7 +37388,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40865,10 +40857,6 @@
         [
           "2026-08-17",
           594.07
-        ],
-        [
-          "2026-08-18",
-          569.77
         ]
       ],
       "intraday": {
@@ -53414,5 +53402,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-19 03:04Z"
+  "price_as_of": "2026-08-19 04:43Z"
 }
