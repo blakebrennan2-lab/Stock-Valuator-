@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-07-21 15:30",
-            564.46
+            564.33
           ],
           [
             "2026-07-22 09:30",
@@ -3359,7 +3359,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.4
+            436.44
           ],
           [
             "2026-07-30 09:30",
@@ -5919,7 +5919,7 @@
         ],
         [
           "2023-10-03",
-          133.69
+          133.7
         ],
         [
           "2023-10-04",
@@ -7987,7 +7987,7 @@
         ],
         [
           "2025-10-24",
-          227.73
+          227.74
         ],
         [
           "2025-10-27",
@@ -8796,6 +8796,10 @@
         [
           "2026-08-17",
           535.31
+        ],
+        [
+          "2026-08-18",
+          514.33
         ]
       ],
       "stats": [
@@ -9190,7 +9194,7 @@
           ],
           [
             "2026-08-18 10:11",
-            196.15
+            196.11
           ],
           [
             "2026-08-18 10:12",
@@ -10470,7 +10474,7 @@
           ],
           [
             "2026-08-18 15:31",
-            193.96
+            193.94
           ],
           [
             "2026-08-18 15:32",
@@ -12426,7 +12430,7 @@
           ],
           [
             "2026-07-31 15:30",
-            182.82
+            182.8
           ],
           [
             "2026-08-03 09:30",
@@ -12454,7 +12458,7 @@
           ],
           [
             "2026-08-03 15:30",
-            182.75
+            182.71
           ],
           [
             "2026-08-04 09:30",
@@ -12510,7 +12514,7 @@
           ],
           [
             "2026-08-05 15:30",
-            192.67
+            192.84
           ],
           [
             "2026-08-06 09:30",
@@ -12706,7 +12710,7 @@
           ],
           [
             "2026-08-14 15:30",
-            203.75
+            203.72
           ],
           [
             "2026-08-17 09:30",
@@ -17807,10 +17811,6 @@
         [
           "2026-08-17",
           205.76
-        ],
-        [
-          "2026-08-18",
-          194.79
         ]
       ],
       "stats": [
@@ -26718,14 +26718,6 @@
           639.43
         ],
         [
-          "2026-07-21",
-          660.45
-        ],
-        [
-          "2026-07-22",
-          660.75
-        ],
-        [
           "2026-07-23",
           665.03
         ],
@@ -26748,10 +26740,6 @@
         [
           "2026-07-30",
           632.98
-        ],
-        [
-          "2026-07-31",
-          634.2
         ],
         [
           "2026-08-03",
@@ -26796,10 +26784,6 @@
         [
           "2026-08-17",
           641.16
-        ],
-        [
-          "2026-08-18",
-          620.81
         ]
       ],
       "stats": [
@@ -26964,6 +26948,12 @@
       ],
       "news": [
         {
+          "title": "Cummins (CMI) Lands A Large BESS Project, Is The Stock Still 17% Undervalued?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-19",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cummins-cmi-lands-large-bess-051049925.html"
+        },
+        {
           "title": "Enpro, Valmont, Cummins, Regal Rexnord, and FTAI Infrastructure Shares Are Falling, What You Need To Know",
           "publisher": "StockStory",
           "date": "2026-08-18",
@@ -27004,12 +26994,6 @@
           "publisher": "Trefis",
           "date": "2026-08-13",
           "link": "https://www.trefis.com/articles/611368/caterpillars-falling-multiple-rests-on-margin-not-its-backlog/2026-08-13"
-        },
-        {
-          "title": "3 Large-Cap Stocks We Find Risky",
-          "publisher": "StockStory",
-          "date": "2026-08-13",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-stocks-risky-120500749.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$2.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.246</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.5% / 8.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$2.4B</td><td>1.099</td><td>$2.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.6B</td><td>1.208</td><td>$2.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.7B</td><td>1.327</td><td>$2.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.8B</td><td>1.459</td><td>$1.9B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.9B</td><td>1.603</td><td>$1.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$10.2B</b> \u00b7\n   terminal value <b>$40.2B</b> \u2192\n   PV <b>$25.1B</b></p>\n<p>Enterprise value <b>$35.2B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$30.0B</b><br>\n   \u00f7 138M shares = <b>$217.66/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$245</td><td>$207</td><td>$177</td></tr><tr><td>growth 8.0%</td><td>$258</td><td><b>$218</b></td><td>$187</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37388,7 +37372,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -42119,7 +42103,7 @@
           ],
           [
             "2026-08-18 14:44",
-            567.27
+            567.28
           ],
           [
             "2026-08-18 14:45",
@@ -53402,5 +53386,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-19 04:43Z"
+  "price_as_of": "2026-08-19 05:37Z"
 }
