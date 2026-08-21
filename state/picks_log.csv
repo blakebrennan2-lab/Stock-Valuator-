@@ -129,3 +129,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-08-20,1,AMAT,"Applied Materials, Inc.",494.72,501.86,1.4%,low,1
 2026-08-20,2,PG,The Procter & Gamble Company,144.58,148.71,2.8%,low,2
 2026-08-20,3,CRM,"Salesforce, Inc.",206.41,262.99,21.5%,medium,2
+2026-08-21,1,AMAT,"Applied Materials, Inc.",493.05,494.72,0.3%,low,1
+2026-08-21,2,KLAC,KLA Corporation,185.49,187.31,1.0%,low,1
+2026-08-21,3,ADBE,Adobe Inc.,273.25,343.36,20.4%,medium,2
