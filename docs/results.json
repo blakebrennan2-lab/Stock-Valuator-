@@ -5747,7 +5747,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -6075,7 +6075,7 @@
         ],
         [
           "2023-11-20",
-          149.04
+          149.03
         ],
         [
           "2023-11-21",
@@ -6183,7 +6183,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -8243,7 +8243,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -14927,7 +14927,7 @@
         ],
         [
           "2023-09-13",
-          141.46
+          141.47
         ],
         [
           "2023-09-14",
@@ -22145,7 +22145,7 @@
         ],
         [
           "2021-11-12",
-          301.43
+          301.44
         ],
         [
           "2021-11-15",
@@ -24281,7 +24281,7 @@
         ],
         [
           "2023-12-29",
-          258.66
+          258.67
         ],
         [
           "2024-01-02",
@@ -27086,6 +27086,12 @@
       ],
       "news": [
         {
+          "title": "Marc Benioff's Salesforce Spent a Record $27 Billion on Stock Buybacks in a Single Quarter to Fight What He Calls the \"SaaSpocalypse.\" Here's Why the Size of That Repurchase Matters.",
+          "publisher": "Motley Fool",
+          "date": "2026-08-21",
+          "link": "https://www.fool.com/investing/2026/08/21/marc-benioffs-salesforce-spent-a-record-27-billion/"
+        },
+        {
           "title": "Marc Benioff Says Wall Street's Fears That AI Will Kill Salesforce Are \"Dead Wrong,\" Even as CRM Stock Has Fallen Over 25% in 2026. Should Investors Bet on His Conviction?",
           "publisher": "Motley Fool",
           "date": "2026-08-21",
@@ -27126,12 +27132,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-20",
           "link": "https://247wallst.com/investing/2026/08/20/why-salesforce-stock-could-pop-on-august-26th/"
-        },
-        {
-          "title": "Earnings Preview: Elastic (ESTC) Q1 Earnings Expected to Decline",
-          "publisher": "Zacks",
-          "date": "2026-08-20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-elastic-estc-q1-140002893.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.152</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.1% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>90.8% / 9.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.5%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.095</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.199</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.313</td><td>$10.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.438</td><td>$9.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.575</td><td>$9.0B</td></tr></table>\n<p>Sum of PV (explicit): <b>$50.0B</b> \u00b7\n   terminal value <b>$206.8B</b> \u2192\n   PV <b>$131.3B</b></p>\n<p>Enterprise value <b>$181.3B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$171.4B</b><br>\n   \u00f7 819M shares = <b>$209.34/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.5%</th><th>WACC 9.5%</th><th>WACC 10.5%</th></tr><tr><td>growth 6.0%</td><td>$235</td><td>$200</td><td>$173</td></tr><tr><td>growth 8.0%</td><td>$246</td><td><b>$209</b></td><td>$182</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -45935,7 +45935,7 @@
         ],
         [
           "2022-09-28",
-          60.52
+          60.51
         ],
         [
           "2022-09-29",
@@ -46003,7 +46003,7 @@
         ],
         [
           "2022-10-21",
-          60.52
+          60.51
         ],
         [
           "2022-10-24",
@@ -71266,5 +71266,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-21 06:57Z"
+  "price_as_of": "2026-08-21 07:50Z"
 }
