@@ -13538,7 +13538,7 @@
         ],
         [
           "2022-04-25",
-          31.72
+          31.71
         ],
         [
           "2022-04-26",
@@ -16190,7 +16190,7 @@
         ],
         [
           "2024-12-12",
-          63.87
+          63.88
         ],
         [
           "2024-12-13",
@@ -18054,6 +18054,12 @@
       ],
       "news": [
         {
+          "title": "KLA (KLAC) Stock Looks Overvalued After Strong Earnings Based Optimism",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-22",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-stock-looks-overvalued-210912972.html"
+        },
+        {
           "title": "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
           "publisher": "Zacks",
           "date": "2026-08-21",
@@ -18094,12 +18100,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-18",
           "link": "https://247wallst.com/investing/2026/08/18/applied-materials-rockets-98-in-2026-how-does-amat-compare-to-lam-research-and-kla-as-ai-capex-powers-chip-gear-stocks/"
-        },
-        {
-          "title": "Billionaire Joel Greenblatt\u2019s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-18",
-          "link": "https://247wallst.com/investing/2026/08/18/billionaire-joel-greenblatts-5-biggest-moves-this-quarter-reveal-a-surprising-defensive-shift/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.458</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.5% / 2.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.114</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.241</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.383</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.540</td><td>$2.3B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.716</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.1B</b> \u00b7\n   terminal value <b>$33.7B</b> \u2192\n   PV <b>$19.6B</b></p>\n<p>Enterprise value <b>$32.8B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.3B</b><br>\n   \u00f7 1,307M shares = <b>$21.63/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.4%</th><th>WACC 11.4%</th><th>WACC 12.4%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$20</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$20</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37563,7 +37563,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -55389,7 +55389,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -71311,5 +71311,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-22 21:28Z"
+  "price_as_of": "2026-08-22 22:28Z"
 }
