@@ -6183,7 +6183,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6467,7 +6467,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8243,7 +8243,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -13034,7 +13034,7 @@
         ],
         [
           "2021-10-22",
-          32.68
+          32.67
         ],
         [
           "2021-10-25",
@@ -27117,6 +27117,12 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-systems-adbe-outpaces-stock-214502597.html"
         },
         {
+          "title": "Adobe Stock Has Soared 45% From Its 2026 Lows, But It May Already Be Too Late to Buy ADBE",
+          "publisher": "Barchart",
+          "date": "2026-08-21",
+          "link": "https://www.barchart.com/story/news/3977002/adobe-stock-has-soared-45-from-its-2026-lows-but-it-may-already-be-too-late-to-buy-adbe"
+        },
+        {
           "title": "What Adobe Stock's Low Earnings Multiple Is Actually Priced On",
           "publisher": "Trefis",
           "date": "2026-08-21",
@@ -27151,12 +27157,6 @@
           "publisher": "Simply Wall St.",
           "date": "2026-08-20",
           "link": "https://finance.yahoo.com/media-advertising/articles/latest-news-e-commerce-ai-123746040.html"
-        },
-        {
-          "title": "Meta Has Quietly Become One of Microsoft\u2019s Largest AI Customers",
-          "publisher": "Bloomberg",
-          "date": "2026-08-20",
-          "link": "https://finance.yahoo.com/technology/ai/articles/meta-quietly-become-one-microsoft-110000871.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.2% / 5.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.228</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.361</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.508</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.671</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.7B</b> \u00b7\n   terminal value <b>$121.4B</b> \u2192\n   PV <b>$72.6B</b></p>\n<p>Enterprise value <b>$106.3B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$105.1B</b><br>\n   \u00f7 398M shares = <b>$264.30/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$288</td><td>$253</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$301</td><td><b>$264</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -71311,5 +71311,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-22 03:00Z"
+  "price_as_of": "2026-08-22 04:40Z"
 }
