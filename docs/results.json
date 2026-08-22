@@ -1571,7 +1571,7 @@
           ],
           [
             "2026-08-21 15:59",
-            492.41
+            492.51
           ]
         ],
         "week": [
@@ -3133,7 +3133,7 @@
           ],
           [
             "2026-08-21 15:55",
-            492.41
+            492.51
           ]
         ],
         "month": [
@@ -3303,7 +3303,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.4
+            436.44
           ],
           [
             "2026-07-30 09:30",
@@ -3779,7 +3779,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.41
+            492.51
           ]
         ]
       },
@@ -6467,7 +6467,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -9306,7 +9306,7 @@
           ],
           [
             "2026-08-21 10:31",
-            184.12
+            184.11
           ],
           [
             "2026-08-21 10:32",
@@ -10644,7 +10644,7 @@
           ],
           [
             "2026-08-17 09:55",
-            208.5
+            208.43
           ],
           [
             "2026-08-17 10:00",
@@ -12406,7 +12406,7 @@
           ],
           [
             "2026-07-31 15:30",
-            182.82
+            182.8
           ],
           [
             "2026-08-03 09:30",
@@ -12434,7 +12434,7 @@
           ],
           [
             "2026-08-03 15:30",
-            182.75
+            182.71
           ],
           [
             "2026-08-04 09:30",
@@ -12490,7 +12490,7 @@
           ],
           [
             "2026-08-05 15:30",
-            192.67
+            192.84
           ],
           [
             "2026-08-06 09:30",
@@ -12686,7 +12686,7 @@
           ],
           [
             "2026-08-14 15:30",
-            203.75
+            203.72
           ],
           [
             "2026-08-17 09:30",
@@ -13034,7 +13034,7 @@
         ],
         [
           "2021-10-22",
-          32.68
+          32.67
         ],
         [
           "2021-10-25",
@@ -27111,6 +27111,12 @@
       ],
       "news": [
         {
+          "title": "Adobe Stock Looks Cheap for a Reason. Here\u2019s Why I\u2019m Buying.",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-08-22",
+          "link": "https://247wallst.com/investing/2026/08/22/adobe-stock-looks-cheap-for-a-reason-heres-why-im-buying/"
+        },
+        {
           "title": "Stocks making big moves this week: Bally's, Adobe, Novavax, Semtech, and STAAR Surgical",
           "publisher": "StockStory",
           "date": "2026-08-22",
@@ -27151,12 +27157,6 @@
           "publisher": "GuruFocus.com",
           "date": "2026-08-20",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-looks-30-overvalued-earnings-182751529.html"
-        },
-        {
-          "title": "Salesforce Stock Is Priced For A Wider Year Than The One It Just Had",
-          "publisher": "Trefis",
-          "date": "2026-08-20",
-          "link": "https://www.trefis.com/articles/612233/salesforce-stock-is-priced-for-a-wider-year-than-the-one-it-just-had/2026-08-20"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.2% / 5.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.228</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.361</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.508</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.671</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.7B</b> \u00b7\n   terminal value <b>$121.4B</b> \u2192\n   PV <b>$72.6B</b></p>\n<p>Enterprise value <b>$106.3B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$105.1B</b><br>\n   \u00f7 398M shares = <b>$264.30/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$288</td><td>$253</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$301</td><td><b>$264</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32241,7 +32241,7 @@
           ],
           [
             "2026-08-21 09:34",
-            419.51
+            419.5
           ],
           [
             "2026-08-21 09:35",
@@ -33109,7 +33109,7 @@
           ],
           [
             "2026-08-21 13:11",
-            424.62
+            424.61
           ],
           [
             "2026-08-21 13:12",
@@ -34675,7 +34675,7 @@
           ],
           [
             "2026-08-19 15:00",
-            412.51
+            412.5
           ],
           [
             "2026-08-19 15:05",
@@ -35035,7 +35035,7 @@
           ],
           [
             "2026-08-21 09:30",
-            419.51
+            419.5
           ],
           [
             "2026-08-21 09:35",
@@ -37563,7 +37563,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -43176,7 +43176,7 @@
           ],
           [
             "2026-08-18 14:40",
-            567.28
+            567.27
           ],
           [
             "2026-08-18 14:45",
@@ -43284,7 +43284,7 @@
           ],
           [
             "2026-08-19 10:25",
-            561.22
+            561.21
           ],
           [
             "2026-08-19 10:30",
@@ -43808,7 +43808,7 @@
           ],
           [
             "2026-08-20 14:50",
-            560.07
+            560.06
           ],
           [
             "2026-08-20 14:55",
@@ -44738,7 +44738,7 @@
           ],
           [
             "2026-08-19 09:30",
-            561.22
+            561.21
           ],
           [
             "2026-08-19 10:30",
@@ -52197,7 +52197,7 @@
           ],
           [
             "2026-08-19 12:10",
-            43.88
+            43.89
           ],
           [
             "2026-08-19 12:15",
@@ -71311,5 +71311,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-22 15:28Z"
+  "price_as_of": "2026-08-22 16:32Z"
 }
