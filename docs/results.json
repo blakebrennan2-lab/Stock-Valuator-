@@ -979,7 +979,7 @@
           ],
           [
             "2026-08-24 13:31",
-            483.38
+            483.41
           ],
           [
             "2026-08-24 13:32",
@@ -2821,7 +2821,7 @@
           ],
           [
             "2026-08-21 15:55",
-            492.51
+            492.41
           ],
           [
             "2026-08-24 09:30",
@@ -3219,7 +3219,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.44
+            436.4
           ],
           [
             "2026-07-30 09:30",
@@ -3695,7 +3695,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.51
+            492.41
           ],
           [
             "2026-08-24 09:30",
@@ -5683,7 +5683,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6403,7 +6403,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8937,6 +8937,12 @@
       ],
       "news": [
         {
+          "title": "Applied Materials Drops 34%. Here\u2019s Why You Should Buy the Dip in AMAT Stock.",
+          "publisher": "Barchart",
+          "date": "2026-08-24",
+          "link": "https://www.barchart.com/story/news/4007742/applied-materials-drops-34-heres-why-you-should-buy-the-dip-in-amat-stock"
+        },
+        {
           "title": "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom",
           "publisher": "Insider Monkey",
           "date": "2026-08-24",
@@ -8977,12 +8983,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-08-20",
           "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-first-trust-nasdaq-semiconductor-etf-ftxl-right-now/"
-        },
-        {
-          "title": "Applied Materials (AMAT) Q3 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "date": "2026-08-20",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/20/applied-materials-amat-q3-2026-earnings-call-transcript/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.586</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.779</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.09/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17934,6 +17934,12 @@
       ],
       "news": [
         {
+          "title": "Bank of America raises price targets on 10 software stocks",
+          "publisher": "TheStreet",
+          "date": "2026-08-25",
+          "link": "https://www.thestreet.com/investing/bank-of-america-raises-price-targets-10-software-stocks"
+        },
+        {
           "title": "Adobe Rises 16% in a Month: Should You Buy, Sell or Hold the Stock?",
           "publisher": "Zacks",
           "date": "2026-08-24",
@@ -17974,12 +17980,6 @@
           "publisher": "StockStory",
           "date": "2026-08-22",
           "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-075339221.html"
-        },
-        {
-          "title": "Adobe Systems (ADBE) Outpaces Stock Market Gains: What You Should Know",
-          "publisher": "Zacks",
-          "date": "2026-08-21",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-systems-adbe-outpaces-stock-214502597.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.3% / 5.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.228</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.361</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.508</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.672</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.7B</b> \u00b7\n   terminal value <b>$121.3B</b> \u2192\n   PV <b>$72.6B</b></p>\n<p>Enterprise value <b>$106.2B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$105.0B</b><br>\n   \u00f7 398M shares = <b>$264.20/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$288</td><td>$253</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$301</td><td><b>$264</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -19075,7 +19075,7 @@
           ],
           [
             "2026-08-24 13:59",
-            27.14
+            27.15
           ],
           [
             "2026-08-24 14:00",
@@ -19677,7 +19677,7 @@
           ],
           [
             "2026-08-18 11:55",
-            25.94
+            25.95
           ],
           [
             "2026-08-18 12:00",
@@ -21021,7 +21021,7 @@
           ],
           [
             "2026-08-24 13:55",
-            27.14
+            27.15
           ],
           [
             "2026-08-24 14:00",
@@ -21259,7 +21259,7 @@
           ],
           [
             "2026-07-31 15:30",
-            23.96
+            23.97
           ],
           [
             "2026-08-03 09:30",
@@ -55786,7 +55786,7 @@
         ],
         [
           "2024-02-08",
-          100.97
+          100.96
         ],
         [
           "2024-02-09",
@@ -59509,7 +59509,7 @@
           ],
           [
             "2026-08-24 14:23",
-            181.07
+            181.06
           ],
           [
             "2026-08-24 14:24",
@@ -70820,5 +70820,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-24 23:27Z"
+  "price_as_of": "2026-08-25 01:41Z"
 }
