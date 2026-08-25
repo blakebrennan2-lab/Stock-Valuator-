@@ -5803,7 +5803,7 @@
         ],
         [
           "2023-08-29",
-          146.51
+          146.5
         ],
         [
           "2023-08-30",
@@ -6427,7 +6427,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8965,6 +8965,12 @@
       ],
       "news": [
         {
+          "title": "Stock Picks That Billionaires Love",
+          "publisher": "Kiplinger",
+          "date": "2026-08-25",
+          "link": "https://www.kiplinger.com/investing/stocks/stocks-to-buy/604302/stock-picks-that-billionaires-love"
+        },
+        {
           "title": "Applied Materials Drops 34%. Here\u2019s Why You Should Buy the Dip in AMAT Stock.",
           "publisher": "Barchart",
           "date": "2026-08-24",
@@ -9005,12 +9011,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-08-21",
           "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html"
-        },
-        {
-          "title": "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-20",
-          "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-first-trust-nasdaq-semiconductor-etf-ftxl-right-now/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.586</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.779</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.09/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -24508,7 +24508,7 @@
         ],
         [
           "2024-04-26",
-          33.06
+          33.05
         ],
         [
           "2024-04-29",
@@ -27195,7 +27195,7 @@
         ],
         [
           "2021-09-30",
-          124.32
+          124.33
         ],
         [
           "2021-10-01",
@@ -64699,7 +64699,7 @@
         ],
         [
           "2024-01-22",
-          62.05
+          62.04
         ],
         [
           "2024-01-23",
@@ -71048,5 +71048,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-25 22:34Z"
+  "price_as_of": "2026-08-25 23:30Z"
 }
