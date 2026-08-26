@@ -5707,7 +5707,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6427,7 +6427,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -27008,6 +27008,12 @@
       ],
       "news": [
         {
+          "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku",
+          "publisher": "Stocktwits",
+          "date": "2026-08-26",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-eyes-sixth-week-of-gains-netflix-reportedly-mulls-adding-rival-streamers-to-compete-with-you-tube-roku/cZYNmeQRJoz"
+        },
+        {
           "title": "The Hidden Engine That Could Drive Walt Disney Stock Higher",
           "publisher": "Trefis",
           "date": "2026-08-25",
@@ -27048,12 +27054,6 @@
           "publisher": "TheStreet",
           "date": "2026-08-22",
           "link": "https://www.thestreet.com/retail/comcast-launches-xfinity-shield-as-internet-customers-leave"
-        },
-        {
-          "title": "Sky accused of massaging Bake Off maker accounts",
-          "publisher": "The Telegraph",
-          "date": "2026-08-22",
-          "link": "https://uk.finance.yahoo.com/news/sky-accused-massaging-bake-off-163000493.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$12.8B</b> \u00b7\n   growth applied <b>2.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.647</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.4%</td></tr>\n<tr><td>Weights (E/D)</td><td>49.2% / 50.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>2.5%</td><td>$13.1B</td><td>1.090</td><td>$12.0B</td></tr><tr><td>Y2</td><td>2.5%</td><td>$13.4B</td><td>1.188</td><td>$11.3B</td></tr><tr><td>Y3</td><td>2.5%</td><td>$13.8B</td><td>1.295</td><td>$10.6B</td></tr><tr><td>Y4</td><td>2.5%</td><td>$14.1B</td><td>1.412</td><td>$10.0B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.5B</td><td>1.539</td><td>$9.4B</td></tr></table>\n<p>Sum of PV (explicit): <b>$53.4B</b> \u00b7\n   terminal value <b>$228.0B</b> \u2192\n   PV <b>$148.2B</b></p>\n<p>Enterprise value <b>$201.6B</b> \u2212 debt $98.9B\n   + cash $9.5B = equity <b>$112.1B</b><br>\n   \u00f7 3,539M shares = <b>$31.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 0.5%</td><td>$23</td><td>$17</td><td>$13</td></tr><tr><td>growth 2.5%</td><td>$42</td><td><b>$32</b></td><td>$24</td></tr><tr><td>growth 4.5%</td><td>$45</td><td>$34</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -27195,7 +27195,7 @@
         ],
         [
           "2021-09-30",
-          124.33
+          124.32
         ],
         [
           "2021-10-01",
@@ -55178,7 +55178,7 @@
         ],
         [
           "2023-05-02",
-          73.13
+          73.14
         ],
         [
           "2023-05-03",
@@ -55954,7 +55954,7 @@
         ],
         [
           "2024-02-08",
-          100.97
+          100.96
         ],
         [
           "2024-02-09",
@@ -71048,5 +71048,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-26 05:40Z"
+  "price_as_of": "2026-08-26 06:59Z"
 }
