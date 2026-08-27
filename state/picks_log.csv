@@ -138,3 +138,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-08-26,1,AMAT,"Applied Materials, Inc.",476.06,492.31,3.3%,low,1
 2026-08-26,2,ADBE,Adobe Inc.,272.73,343.21,20.5%,medium,2
 2026-08-26,3,CMCSA,Comcast Corporation,27.21,27.64,1.5%,medium,2
+2026-08-27,1,AMAT,"Applied Materials, Inc.",482.36,495.71,2.7%,low,1
+2026-08-27,2,ADBE,Adobe Inc.,289.15,349.00,17.1%,medium,2
+2026-08-27,3,CMI,Cummins Inc.,573.87,720.06,20.3%,low,1
