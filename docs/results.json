@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 482.36,
       "intrinsic": 495.70928879803876,
-      "upside": 0.02692967249092137,
+      "upside": 0.02692970204138138,
       "confidence": "low",
       "range_low": 495.70928879803876,
       "range_high": 495.70928879803876,
@@ -1885,7 +1885,7 @@
           ],
           [
             "2026-08-21 15:55",
-            492.41
+            492.51
           ],
           [
             "2026-08-24 09:30",
@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.4
+            436.44
           ],
           [
             "2026-07-30 09:30",
@@ -3667,7 +3667,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.41
+            492.51
           ],
           [
             "2026-08-24 09:30",
@@ -6447,7 +6447,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8993,6 +8993,12 @@
       ],
       "news": [
         {
+          "title": "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
+          "publisher": "Simply Wall St.",
+          "date": "2026-08-27",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-applied-materials-amat-231303414.html"
+        },
+        {
           "title": "What Does Applied Materials (AMAT) Gain From Its New Board Appointment?",
           "publisher": "Simply Wall St.",
           "date": "2026-08-27",
@@ -9033,12 +9039,6 @@
           "publisher": "Zacks",
           "date": "2026-08-27",
           "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123003648.html"
-        },
-        {
-          "title": "Applied Materials (AMAT) Enters a New AI-Driven Growth Cycle",
-          "publisher": "Insider Monkey",
-          "date": "2026-08-26",
-          "link": "https://finance.yahoo.com/technology/ai/articles/applied-materials-amat-enters-ai-182910853.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.586</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.780</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.11/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9050,7 +9050,7 @@
       "name": "Adobe Inc.",
       "price": 289.15,
       "intrinsic": 349.00143664623226,
-      "upside": 0.17149338186507557,
+      "upside": 0.17149339935358696,
       "confidence": "medium",
       "range_low": 263.51693589246446,
       "range_high": 434.4859374,
@@ -18103,7 +18103,7 @@
       "name": "Cummins Inc.",
       "price": 573.87,
       "intrinsic": 720.0558580000001,
-      "upside": 0.2030201634718178,
+      "upside": 0.20302017025297578,
       "confidence": "low",
       "range_low": 720.0558580000001,
       "range_high": 720.0558580000001,
@@ -21443,7 +21443,7 @@
           ],
           [
             "2026-08-06 15:30",
-            643.54
+            643.56
           ],
           [
             "2026-08-07 09:30",
@@ -22163,7 +22163,7 @@
         ],
         [
           "2021-12-02",
-          193.72
+          193.73
         ],
         [
           "2021-12-03",
@@ -23451,7 +23451,7 @@
         ],
         [
           "2023-03-16",
-          215.03
+          215.04
         ],
         [
           "2023-03-17",
@@ -33747,7 +33747,7 @@
         "week": [
           [
             "2026-08-21 09:30",
-            419.51
+            419.5
           ],
           [
             "2026-08-21 09:35",
@@ -37503,7 +37503,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -42550,7 +42550,7 @@
           ],
           [
             "2026-08-27 15:55",
-            571.37
+            571.39
           ],
           [
             "2026-08-27 15:56",
@@ -43816,7 +43816,7 @@
           ],
           [
             "2026-08-26 15:55",
-            555.58
+            555.55
           ],
           [
             "2026-08-27 09:30",
@@ -44582,7 +44582,7 @@
           ],
           [
             "2026-08-19 09:30",
-            561.22
+            561.21
           ],
           [
             "2026-08-19 10:30",
@@ -44746,7 +44746,7 @@
           ],
           [
             "2026-08-26 15:30",
-            555.58
+            555.55
           ],
           [
             "2026-08-27 09:30",
@@ -46596,7 +46596,7 @@
         ],
         [
           "2023-06-07",
-          30.13
+          30.14
         ],
         [
           "2023-06-08",
@@ -60842,7 +60842,7 @@
           ],
           [
             "2026-08-25 09:35",
-            112.58
+            112.59
           ],
           [
             "2026-08-25 09:40",
@@ -71246,5 +71246,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-08-28 04:10Z"
 }
