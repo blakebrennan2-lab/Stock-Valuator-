@@ -144,3 +144,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-08-28,1,AMAT,"Applied Materials, Inc.",461.67,486.93,5.2%,low,1
 2026-08-28,2,KLAC,KLA Corporation,175.54,178.22,1.5%,low,1
 2026-08-28,3,ADBE,Adobe Inc.,291.52,378.93,23.1%,medium,2
+2026-08-29,1,AMAT,"Applied Materials, Inc.",461.67,485.25,4.9%,low,1
+2026-08-29,2,ADBE,Adobe Inc.,291.52,378.93,23.1%,medium,2
+2026-08-29,3,CMCSA,Comcast Corporation,27.06,27.64,2.1%,medium,2
