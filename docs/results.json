@@ -3163,7 +3163,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.4
+            436.44
           ],
           [
             "2026-07-30 09:30",
@@ -3639,7 +3639,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.41
+            492.51
           ],
           [
             "2026-08-24 09:30",
@@ -6447,7 +6447,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8997,6 +8997,12 @@
       ],
       "news": [
         {
+          "title": "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
+          "publisher": "MarketBeat",
+          "date": "2026-08-29",
+          "link": "https://www.marketbeat.com/articles/these-3-garp-stocks-show-why-growth-and-value-do-not-have-to-clash/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "How Far Applied Materials Stock Can Move On You In A Year",
           "publisher": "Trefis",
           "date": "2026-08-28",
@@ -9037,12 +9043,6 @@
           "publisher": "Zacks",
           "date": "2026-08-27",
           "link": "https://finance.yahoo.com/markets/stocks/articles/crwd-q2-earnings-beat-estimates-150400518.html"
-        },
-        {
-          "title": "NVIDIA Q2 Earnings Beat on Blackwell Ultra & Data Center Strength",
-          "publisher": "Zacks",
-          "date": "2026-08-27",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q2-earnings-beat-blackwell-144500017.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.585</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.779</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.15/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -19893,7 +19893,7 @@
           ],
           [
             "2026-08-24 13:55",
-            27.15
+            27.14
           ],
           [
             "2026-08-24 14:00",
@@ -21323,7 +21323,7 @@
           ],
           [
             "2026-07-31 15:30",
-            23.97
+            23.96
           ],
           [
             "2026-08-03 09:30",
@@ -24592,7 +24592,7 @@
         ],
         [
           "2024-04-26",
-          33.05
+          33.06
         ],
         [
           "2024-04-29",
@@ -33018,7 +33018,7 @@
           ],
           [
             "2026-08-28 12:50",
-            410.71
+            410.75
           ],
           [
             "2026-08-28 12:51",
@@ -33482,7 +33482,7 @@
           ],
           [
             "2026-08-28 14:46",
-            408.0
+            408.01
           ],
           [
             "2026-08-28 14:47",
@@ -33662,7 +33662,7 @@
           ],
           [
             "2026-08-28 15:31",
-            409.15
+            409.16
           ],
           [
             "2026-08-28 15:32",
@@ -33734,7 +33734,7 @@
           ],
           [
             "2026-08-28 15:49",
-            408.7
+            408.71
           ],
           [
             "2026-08-28 15:50",
@@ -35328,7 +35328,7 @@
           ],
           [
             "2026-08-28 15:45",
-            408.7
+            408.71
           ],
           [
             "2026-08-28 15:50",
@@ -43541,7 +43541,7 @@
           ],
           [
             "2026-08-26 15:55",
-            555.58
+            555.55
           ],
           [
             "2026-08-27 09:30",
@@ -44591,7 +44591,7 @@
           ],
           [
             "2026-08-19 09:30",
-            561.22
+            561.21
           ],
           [
             "2026-08-19 10:30",
@@ -44755,7 +44755,7 @@
           ],
           [
             "2026-08-26 15:30",
-            555.58
+            555.55
           ],
           [
             "2026-08-27 09:30",
@@ -53646,5 +53646,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-30 12:44Z"
+  "price_as_of": "2026-08-30 17:18Z"
 }
