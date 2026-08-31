@@ -3163,7 +3163,7 @@
           ],
           [
             "2026-07-29 15:30",
-            436.44
+            436.4
           ],
           [
             "2026-07-30 09:30",
@@ -3639,7 +3639,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.51
+            492.41
           ],
           [
             "2026-08-24 09:30",
@@ -5727,7 +5727,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -18054,6 +18054,12 @@
       ],
       "news": [
         {
+          "title": "Michael Burry Bought Beaten-Down Stocks And Shorted AI Favorites \u2014 Here\u2019s How His August Bets Fared",
+          "publisher": "Stocktwits",
+          "date": "2026-08-31",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-beaten-down-shorted-ai-how-august-bets-fared/cZYyK0uRJro"
+        },
+        {
           "title": "Adobe Stock and Two AI Software Names Investors May Want to Watch",
           "publisher": "Simply Wall St.",
           "date": "2026-08-28",
@@ -18094,12 +18100,6 @@
           "publisher": "StockStory",
           "date": "2026-08-28",
           "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-varonis-systems-fastly-adobe-044907322.html"
-        },
-        {
-          "title": "Figma Stock Price Prediction: Wall Street\u2019s $30 Target May Be Too Low",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-08-27",
-          "link": "https://247wallst.com/investing/2026/08/27/figma-stock-price-prediction-wall-streets-30-target-may-be-too-low/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.6% / 5.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.229</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.362</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.510</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.674</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.6B</b> \u00b7\n   terminal value <b>$121.0B</b> \u2192\n   PV <b>$72.3B</b></p>\n<p>Enterprise value <b>$105.9B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$104.7B</b><br>\n   \u00f7 398M shares = <b>$263.41/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$287</td><td>$252</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$300</td><td><b>$263</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -19893,7 +19893,7 @@
           ],
           [
             "2026-08-24 13:55",
-            27.14
+            27.15
           ],
           [
             "2026-08-24 14:00",
@@ -21323,7 +21323,7 @@
           ],
           [
             "2026-07-31 15:30",
-            23.96
+            23.97
           ],
           [
             "2026-08-03 09:30",
@@ -33018,7 +33018,7 @@
           ],
           [
             "2026-08-28 12:50",
-            410.75
+            410.71
           ],
           [
             "2026-08-28 12:51",
@@ -33482,7 +33482,7 @@
           ],
           [
             "2026-08-28 14:46",
-            408.01
+            408.0
           ],
           [
             "2026-08-28 14:47",
@@ -33662,7 +33662,7 @@
           ],
           [
             "2026-08-28 15:31",
-            409.16
+            409.15
           ],
           [
             "2026-08-28 15:32",
@@ -33734,7 +33734,7 @@
           ],
           [
             "2026-08-28 15:49",
-            408.71
+            408.7
           ],
           [
             "2026-08-28 15:50",
@@ -35328,7 +35328,7 @@
           ],
           [
             "2026-08-28 15:45",
-            408.71
+            408.7
           ],
           [
             "2026-08-28 15:50",
@@ -36112,7 +36112,7 @@
         ],
         [
           "2021-09-30",
-          124.32
+          124.33
         ],
         [
           "2021-10-01",
@@ -43541,7 +43541,7 @@
           ],
           [
             "2026-08-26 15:55",
-            555.55
+            555.58
           ],
           [
             "2026-08-27 09:30",
@@ -44591,7 +44591,7 @@
           ],
           [
             "2026-08-19 09:30",
-            561.21
+            561.22
           ],
           [
             "2026-08-19 10:30",
@@ -44755,7 +44755,7 @@
           ],
           [
             "2026-08-26 15:30",
-            555.55
+            555.58
           ],
           [
             "2026-08-27 09:30",
@@ -53646,5 +53646,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-30 23:21Z"
+  "price_as_of": "2026-08-31 05:09Z"
 }
