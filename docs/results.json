@@ -5663,7 +5663,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -5991,7 +5991,7 @@
         ],
         [
           "2023-11-20",
-          149.03
+          149.04
         ],
         [
           "2023-11-21",
@@ -6603,7 +6603,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -8159,7 +8159,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -8766,10 +8766,6 @@
           482.36
         ],
         [
-          "2026-08-28",
-          461.67
-        ],
-        [
           "2026-08-31",
           458.39
         ]
@@ -8937,6 +8933,12 @@
       ],
       "news": [
         {
+          "title": "Is Applied Materials Stock Outperforming the Dow?",
+          "publisher": "Barchart",
+          "date": "2026-08-31",
+          "link": "https://www.barchart.com/story/news/4359442/is-applied-materials-stock-outperforming-the-dow"
+        },
+        {
           "title": "Does ASML's Dominant Position in EUV Signal Further Upside?",
           "publisher": "Zacks",
           "date": "2026-08-31",
@@ -8977,12 +8979,6 @@
           "publisher": "MarketBeat",
           "date": "2026-08-27",
           "link": "https://www.marketbeat.com/instant-alerts/event-applied-materials-sees-ai-driving-its-biggest-semiconductor-growth-inflection-yet-2026-08-27/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "SNPS Q3 Earnings Beat Estimates on EDA and Ansys Strength",
-          "publisher": "Zacks",
-          "date": "2026-08-27",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/snps-q3-earnings-beat-estimates-151100379.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.585</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.779</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.16/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$58</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17754,10 +17750,6 @@
           289.15
         ],
         [
-          "2026-08-28",
-          291.52
-        ],
-        [
           "2026-08-31",
           292.79
         ]
@@ -17934,6 +17926,24 @@
       ],
       "news": [
         {
+          "title": "Adobe's $4 Billion Saudi AI Giveaway Barely Moves Shares",
+          "publisher": "GuruFocus.com",
+          "date": "2026-09-01",
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobes-4-billion-saudi-ai-022622719.html"
+        },
+        {
+          "title": "43-Year-Old Tech Giant Makes $4 Billion Bet on Key Market",
+          "publisher": "GuruFocus.com",
+          "date": "2026-09-01",
+          "link": "https://finance.yahoo.com/technology/ai/articles/43-old-tech-giant-makes-021323523.html"
+        },
+        {
+          "title": "Adobe Just Put $4 Billion Behind a Saudi AI Push",
+          "publisher": "GuruFocus.com",
+          "date": "2026-09-01",
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-just-put-4-billion-020025069.html"
+        },
+        {
           "title": "Adobe's Options Price A Year That Runs Past Its Own Range",
           "publisher": "Trefis",
           "date": "2026-08-31",
@@ -17962,24 +17972,6 @@
           "publisher": "Barchart",
           "date": "2026-08-31",
           "link": "https://www.barchart.com/story/news/4356049/is-adobe-stock-underperforming-the-s-p-500"
-        },
-        {
-          "title": "Michael Burry Bought Beaten-Down Stocks And Shorted AI Favorites \u2014 Here\u2019s How His August Bets Fared",
-          "publisher": "Stocktwits",
-          "date": "2026-08-31",
-          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-beaten-down-shorted-ai-how-august-bets-fared/cZYyK0uRJro"
-        },
-        {
-          "title": "Adobe Stock and Two AI Software Names Investors May Want to Watch",
-          "publisher": "Simply Wall St.",
-          "date": "2026-08-28",
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-stock-two-ai-software-221421493.html"
-        },
-        {
-          "title": "Is Adobe Stock\u2019s AI Strategy Worth The Near-Term Risk?",
-          "publisher": "Trefis",
-          "date": "2026-08-28",
-          "link": "https://www.trefis.com/articles/613489/is-adobe-stocks-ai-strategy-worth-the-near-term-risk/2026-08-28"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.6% / 5.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.109</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.229</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.362</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.510</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.674</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.6B</b> \u00b7\n   terminal value <b>$120.9B</b> \u2192\n   PV <b>$72.3B</b></p>\n<p>Enterprise value <b>$105.9B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$104.7B</b><br>\n   \u00f7 398M shares = <b>$263.33/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.9%</th><th>WACC 10.9%</th><th>WACC 11.9%</th></tr><tr><td>growth 6.0%</td><td>$287</td><td>$252</td><td>$224</td></tr><tr><td>growth 8.0%</td><td>$300</td><td><b>$263</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -26749,10 +26741,6 @@
         [
           "2026-08-27",
           26.41
-        ],
-        [
-          "2026-08-28",
-          27.06
         ],
         [
           "2026-08-31",
@@ -37288,7 +37276,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40789,10 +40777,6 @@
         [
           "2026-08-27",
           573.0
-        ],
-        [
-          "2026-08-28",
-          553.11
         ],
         [
           "2026-08-31",
@@ -46325,7 +46309,7 @@
         ],
         [
           "2023-06-07",
-          30.14
+          30.13
         ],
         [
           "2023-06-08",
@@ -49558,10 +49542,6 @@
         [
           "2026-08-27",
           43.18
-        ],
-        [
-          "2026-08-28",
-          42.73
         ],
         [
           "2026-08-31",
@@ -58329,10 +58309,6 @@
           111.41
         ],
         [
-          "2026-08-28",
-          112.99
-        ],
-        [
           "2026-08-31",
           111.46
         ]
@@ -62055,5 +62031,5 @@
       }
     }
   ],
-  "price_as_of": "2026-08-31 23:42Z"
+  "price_as_of": "2026-09-01 04:46Z"
 }
