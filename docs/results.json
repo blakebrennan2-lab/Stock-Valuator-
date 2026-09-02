@@ -5691,7 +5691,7 @@
         ],
         [
           "2023-07-27",
-          142.44
+          142.45
         ],
         [
           "2023-07-28",
@@ -6407,7 +6407,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8790,10 +8790,6 @@
           482.36
         ],
         [
-          "2026-08-28",
-          461.67
-        ],
-        [
           "2026-08-31",
           458.39
         ],
@@ -8965,6 +8961,12 @@
       ],
       "news": [
         {
+          "title": "Applied Materials\u2019 stock buybacks: History & investor impact explained",
+          "publisher": "TheStreet",
+          "date": "2026-09-02",
+          "link": "https://www.thestreet.com/investing/stocks/applied-materials-stock-buybacks-history-investor-impact-explained"
+        },
+        {
           "title": "Entegris, Penguin Solutions, Teradyne, Applied Materials, and KLA Corporation Stocks Trade Down, What You Need To Know",
           "publisher": "StockStory",
           "date": "2026-09-01",
@@ -9005,12 +9007,6 @@
           "publisher": "Trefis",
           "date": "2026-08-28",
           "link": "https://www.trefis.com/articles/613535/how-far-applied-materials-stock-can-move-on-you-in-a-year/2026-08-28"
-        },
-        {
-          "title": "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
-          "publisher": "Simply Wall St.",
-          "date": "2026-08-27",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-applied-materials-amat-231303414.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.618</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.0% / 2.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.122</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.259</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.413</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.585</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.778</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.0B</b> \u00b7\n   terminal value <b>$52.1B</b> \u2192\n   PV <b>$29.3B</b></p>\n<p>Enterprise value <b>$52.3B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.5B</b><br>\n   \u00f7 794M shares = <b>$66.19/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.2%</th><th>WACC 12.2%</th><th>WACC 13.2%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$63</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$72</td><td><b>$66</b></td><td>$61</td></tr><tr><td>growth 0.6%</td><td>$79</td><td>$72</td><td>$66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17804,10 +17800,6 @@
         [
           "2026-08-27",
           289.15
-        ],
-        [
-          "2026-08-28",
-          291.52
         ],
         [
           "2026-08-31",
@@ -26824,10 +26816,6 @@
         [
           "2026-08-27",
           46.7
-        ],
-        [
-          "2026-08-28",
-          46.86
         ],
         [
           "2026-08-31",
@@ -40889,10 +40877,6 @@
           573.0
         ],
         [
-          "2026-08-28",
-          553.11
-        ],
-        [
           "2026-08-31",
           556.63
         ],
@@ -49686,10 +49670,6 @@
           43.18
         ],
         [
-          "2026-08-28",
-          42.73
-        ],
-        [
           "2026-08-31",
           42.23
         ],
@@ -56520,7 +56500,7 @@
         ],
         [
           "2024-09-12",
-          125.8
+          125.79
         ],
         [
           "2024-09-13",
@@ -58481,10 +58461,6 @@
         [
           "2026-08-27",
           178.8
-        ],
-        [
-          "2026-08-28",
-          177.14
         ],
         [
           "2026-08-31",
@@ -67280,10 +67256,6 @@
           115.88
         ],
         [
-          "2026-08-28",
-          117.21
-        ],
-        [
           "2026-08-31",
           116.59
         ],
@@ -71038,5 +71010,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-01 23:56Z"
+  "price_as_of": "2026-09-02 04:15Z"
 }
