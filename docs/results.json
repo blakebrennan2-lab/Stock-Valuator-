@@ -5707,7 +5707,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -6427,7 +6427,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8203,7 +8203,7 @@
         ],
         [
           "2026-01-21",
-          324.09
+          324.08
         ],
         [
           "2026-01-22",
@@ -9003,12 +9003,6 @@
           "link": "https://www.investopedia.com/market-update-memory-other-ai-related-stocks-lead-the-markets-top-performers-friday-12108315"
         },
         {
-          "title": "Stocks Pressured by Strong US Payroll Report",
-          "publisher": "Barchart",
-          "date": "2026-09-04",
-          "link": "https://www.barchart.com/story/news/4446299/stocks-pressured-by-strong-us-payroll-report"
-        },
-        {
           "title": "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
           "publisher": "Simply Wall St.",
           "date": "2026-09-03",
@@ -9043,6 +9037,12 @@
           "publisher": "Zacks",
           "date": "2026-09-02",
           "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-amat-stock-150800193.html"
+        },
+        {
+          "title": "Applied Materials\u2019 stock buybacks: History & investor impact explained",
+          "publisher": "TheStreet",
+          "date": "2026-09-02",
+          "link": "https://www.thestreet.com/investing/stocks/applied-materials-stock-buybacks-history-investor-impact-explained"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.579</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.6B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.8B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.0B</b><br>\n   \u00f7 794M shares = <b>$66.72/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18060,6 +18060,30 @@
           "link": "https://finance.yahoo.com/video/adobe-appoints-ceo-succeed-narayen-135828187.html"
         },
         {
+          "title": "Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-flagged-another-risk-225229766.html"
+        },
+        {
+          "title": "Adobe (ADBE) Shares Climbed, So What Is Catching Attention Now?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-shares-climbed-catching-221310931.html"
+        },
+        {
+          "title": "Looking Ahead to the Q3 Earnings Season: What to Expect",
+          "publisher": "Zacks",
+          "date": "2026-09-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/looking-ahead-q3-earnings-season-220500101.html"
+        },
+        {
+          "title": "Stocks to Watch Recap: Tesla, Lululemon, AMC, Volkswagen",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-09-04",
+          "link": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026/card/stocks-to-watch-volkswagen-lululemon-amc-hckSUh7fSpTgHLWgPDdS?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain",
           "publisher": "Investor's Business Daily",
           "date": "2026-09-04",
@@ -18076,30 +18100,6 @@
           "publisher": "MT Newswires",
           "date": "2026-09-04",
           "link": "https://finance.yahoo.com/markets/stocks/articles/docusign-iam-platform-needs-show-194228714.html"
-        },
-        {
-          "title": "Adobe Stock Sinks After Company Names Insider as New CEO",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-04",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-stock-sinks-company-names-192207394.html"
-        },
-        {
-          "title": "Is Autodesk Stock's Pullback A Foundation To Build On?",
-          "publisher": "Trefis",
-          "date": "2026-09-04",
-          "link": "https://www.trefis.com/articles/614376/is-autodesk-stocks-pullback-a-foundation-to-build-on/2026-09-04"
-        },
-        {
-          "title": "Adobe Picks an Insider to Lead Its AI Fight",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-04",
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-picks-insider-lead-ai-182320730.html"
-        },
-        {
-          "title": "Adobe\u2019s New CEO Is an Inside Hire. Wall Street Isn\u2019t Pleased.",
-          "publisher": "Barrons.com",
-          "date": "2026-09-04",
-          "link": "https://www.barrons.com/articles/adobe-stock-ceo-software-ai-e86d038b?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.1% / 5.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.228</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.361</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.508</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.671</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.7B</b> \u00b7\n   terminal value <b>$121.5B</b> \u2192\n   PV <b>$72.7B</b></p>\n<p>Enterprise value <b>$106.4B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$105.2B</b><br>\n   \u00f7 398M shares = <b>$264.56/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$288</td><td>$253</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$301</td><td><b>$265</b></td><td>$236</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37510,7 +37510,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -62469,5 +62469,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-04 21:20Z"
+  "price_as_of": "2026-09-04 23:53Z"
 }
