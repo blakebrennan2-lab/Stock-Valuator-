@@ -3523,7 +3523,7 @@
           ],
           [
             "2026-08-21 15:30",
-            492.51
+            492.41
           ],
           [
             "2026-08-24 09:30",
@@ -6139,7 +6139,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6423,7 +6423,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -6643,7 +6643,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -18038,6 +18038,24 @@
       ],
       "news": [
         {
+          "title": "U.S. Futures Steady as Investors Await Jobs Report; Lululemon and Adobe in Focus: Dow Jones, S&P, Nasdaq, Wall Street",
+          "publisher": "InvestorsHub",
+          "date": "2026-09-04",
+          "link": "https://investorshub.advfn.com/market-news/article/35662/u-s-futures-steady-as-investors-await-jobs-report-lululemon-and-adobe-in-focus-dow-jones-sp-nasdaq-wall-street"
+        },
+        {
+          "title": "Lululemon slumps, Adobe names new CEO,  NFP ahead - what\u2019s moving markets",
+          "publisher": "Investing.com",
+          "date": "2026-09-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-slumps-adobe-names-ceo-072027623.html"
+        },
+        {
+          "title": "RBC Raised Adobe\u2019s Target Before an \u201cIn-Line\u201d Quarter \u2014 Because Its Peers Got More Expensive",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raised-adobe-target-line-040411681.html"
+        },
+        {
           "title": "Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock",
           "publisher": "BeInCrypto",
           "date": "2026-09-04",
@@ -18066,24 +18084,6 @@
           "publisher": "Barrons.com",
           "date": "2026-09-03",
           "link": "https://www.barrons.com/articles/adobe-new-ceo-stock-a16b9aad?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Adobe Inc. (ADBE): Can New AI Strategy Revive Growth and Unlock Higher Valuation?",
-          "publisher": "Insider Monkey",
-          "date": "2026-09-03",
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-inc-adbe-ai-strategy-192606188.html"
-        },
-        {
-          "title": "Adobe (ADBE) Brings AI Guided Content Creation Into One Marketing Workflow",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-03",
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-brings-ai-guided-130644743.html"
-        },
-        {
-          "title": "E-Commerce Update - Alibaba Lawsuit Highlights Regulatory Challenges For Global Companies",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-03",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/e-commerce-alibaba-lawsuit-highlights-123717691.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.5% / 5.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.229</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.362</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.509</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.673</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.6B</b> \u00b7\n   terminal value <b>$121.1B</b> \u2192\n   PV <b>$72.4B</b></p>\n<p>Enterprise value <b>$106.0B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$104.8B</b><br>\n   \u00f7 398M shares = <b>$263.70/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$287</td><td>$252</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$300</td><td><b>$264</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -20281,7 +20281,7 @@
           ],
           [
             "2026-08-31 15:55",
-            45.93
+            45.9
           ],
           [
             "2026-09-01 09:30",
@@ -21779,7 +21779,7 @@
           ],
           [
             "2026-08-31 15:30",
-            45.93
+            45.9
           ],
           [
             "2026-09-01 09:30",
@@ -32596,7 +32596,7 @@
           ],
           [
             "2026-09-03 11:14",
-            412.92
+            412.91
           ],
           [
             "2026-09-03 11:15",
@@ -34038,7 +34038,7 @@
           ],
           [
             "2026-08-28 15:45",
-            408.71
+            408.7
           ],
           [
             "2026-08-28 15:50",
@@ -34510,7 +34510,7 @@
           ],
           [
             "2026-09-01 12:35",
-            399.45
+            399.44
           ],
           [
             "2026-09-01 12:40",
@@ -35066,7 +35066,7 @@
           ],
           [
             "2026-09-03 11:10",
-            412.92
+            412.91
           ],
           [
             "2026-09-03 11:15",
@@ -37474,7 +37474,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -44429,7 +44429,7 @@
           ],
           [
             "2026-08-19 09:30",
-            561.21
+            561.22
           ],
           [
             "2026-08-19 10:30",
@@ -44593,7 +44593,7 @@
           ],
           [
             "2026-08-26 15:30",
-            555.55
+            555.58
           ],
           [
             "2026-08-27 09:30",
@@ -50402,7 +50402,7 @@
           ],
           [
             "2026-09-03 11:55",
-            43.06
+            43.05
           ],
           [
             "2026-09-03 11:56",
@@ -57136,7 +57136,7 @@
         ],
         [
           "2025-03-07",
-          131.73
+          131.74
         ],
         [
           "2025-03-10",
@@ -60111,7 +60111,7 @@
           ],
           [
             "2026-09-03 15:38",
-            174.37
+            174.36
           ],
           [
             "2026-09-03 15:39",
@@ -62409,5 +62409,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-04 04:09Z"
+  "price_as_of": "2026-09-04 09:28Z"
 }
