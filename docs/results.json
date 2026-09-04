@@ -6139,7 +6139,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -18038,6 +18038,24 @@
       ],
       "news": [
         {
+          "title": "Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock",
+          "publisher": "BeInCrypto",
+          "date": "2026-09-04",
+          "link": "https://beincrypto.com/adobe-anil-chakravarthy-new-ceo/"
+        },
+        {
+          "title": "ADBE Stock Dips Over 1% Overnight After Naming New CEO Ahead Of Q3 Earnings \u2014 Retail Watches Cautiously",
+          "publisher": "Stocktwits",
+          "date": "2026-09-04",
+          "link": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-dips-over-1-overnight-after-naming-new-ceo-ahead-of-q3-earnings-retail-watches-cautiously/cZswYQmRJwR"
+        },
+        {
+          "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-09-03",
+          "link": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Adobe names longtime exec Anil Chakravarthy CEO, Narayen shifts to executive chair",
           "publisher": "Investing.com",
           "date": "2026-09-03",
@@ -18066,24 +18084,6 @@
           "publisher": "Simply Wall St.",
           "date": "2026-09-03",
           "link": "https://finance.yahoo.com/markets/stocks/articles/e-commerce-alibaba-lawsuit-highlights-123717691.html"
-        },
-        {
-          "title": "Jim Cramer Warns Google\u2019s New AI Tool: \u2018Could Be Tough for Adobe\u2019",
-          "publisher": "Benzinga",
-          "date": "2026-09-03",
-          "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-warns-google-ai-110102776.html"
-        },
-        {
-          "title": "Tim Cook's Legacy at Apple Will Be Defined by This Nearly $879 Billion Investment, Not AI",
-          "publisher": "Motley Fool",
-          "date": "2026-09-03",
-          "link": "https://www.fool.com/investing/2026/09/03/tim-cook-legacy-aapl-879-billion-investment-not-ai/"
-        },
-        {
-          "title": "Adobe Poised for Solid Third Quarter as ARR Seen Topping Views, RBC Says",
-          "publisher": "MT Newswires",
-          "date": "2026-09-02",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-poised-solid-third-quarter-201743662.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.5% / 5.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.229</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.362</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.509</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.673</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.6B</b> \u00b7\n   terminal value <b>$121.1B</b> \u2192\n   PV <b>$72.4B</b></p>\n<p>Enterprise value <b>$106.0B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$104.8B</b><br>\n   \u00f7 398M shares = <b>$263.70/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$287</td><td>$252</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$300</td><td><b>$264</b></td><td>$235</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32180,7 +32180,7 @@
         "day": [
           [
             "2026-09-03 09:30",
-            410.5
+            410.53
           ],
           [
             "2026-09-03 09:31",
@@ -37474,7 +37474,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -57136,7 +57136,7 @@
         ],
         [
           "2025-03-07",
-          131.74
+          131.73
         ],
         [
           "2025-03-10",
@@ -62409,5 +62409,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-03 23:54Z"
+  "price_as_of": "2026-09-04 04:09Z"
 }
