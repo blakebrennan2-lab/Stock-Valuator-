@@ -6035,7 +6035,7 @@
         ],
         [
           "2023-11-20",
-          149.03
+          149.04
         ],
         [
           "2023-11-21",
@@ -18054,6 +18054,12 @@
       ],
       "news": [
         {
+          "title": "AI Hardware Rallied While Adobe and Palantir Sank. Which Side Is Right?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-05",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-hardware-rallied-while-adobe-220725248.html"
+        },
+        {
           "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI \u2014 What It Means for Investors",
           "publisher": "Insider Monkey",
           "date": "2026-09-05",
@@ -18094,12 +18100,6 @@
           "publisher": "The Wall Street Journal",
           "date": "2026-09-04",
           "link": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026/card/stocks-to-watch-volkswagen-lululemon-amc-hckSUh7fSpTgHLWgPDdS?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-09-04",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-august-jobs-report-lululemon-lulu/?src=A00220&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.6B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.397</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>94.1% / 5.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.2B</td><td>1.108</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.8B</td><td>1.228</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.3B</td><td>1.361</td><td>$6.8B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.6B</td><td>1.508</td><td>$6.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.9B</td><td>1.671</td><td>$5.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$33.7B</b> \u00b7\n   terminal value <b>$121.5B</b> \u2192\n   PV <b>$72.7B</b></p>\n<p>Enterprise value <b>$106.4B</b> \u2212 debt $6.6B\n   + cash $5.4B = equity <b>$105.2B</b><br>\n   \u00f7 398M shares = <b>$264.56/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.8%</th><th>WACC 10.8%</th><th>WACC 11.8%</th></tr><tr><td>growth 6.0%</td><td>$288</td><td>$253</td><td>$225</td></tr><tr><td>growth 8.0%</td><td>$301</td><td><b>$265</b></td><td>$236</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37510,7 +37510,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -62469,5 +62469,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-05 21:04Z"
+  "price_as_of": "2026-09-05 23:43Z"
 }
