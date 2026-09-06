@@ -162,3 +162,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-04,1,AMAT,"Applied Materials, Inc.",454.46,475.28,4.4%,low,1
 2026-09-04,2,ADBE,Adobe Inc.,268.20,364.06,26.3%,medium,2
 2026-09-04,3,MNST,Monster Beverage Corporation,43.86,51.33,14.6%,low,1
+2026-09-06,1,AMAT,"Applied Materials, Inc.",454.71,491.71,7.5%,low,1
+2026-09-06,2,CMI,Cummins Inc.,560.75,719.21,22.0%,low,1
+2026-09-06,3,TDG,TransDigm Group Incorporated,1162.05,1317.72,11.8%,medium,2
