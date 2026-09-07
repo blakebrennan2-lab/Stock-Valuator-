@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-06",
+  "as_of": "2026-09-07",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 454.71,
       "intrinsic": 491.70628051045355,
-      "upside": 0.07524062742694396,
+      "upside": 0.07524061004884204,
       "confidence": "low",
       "range_low": 491.70628051045355,
       "range_high": 491.70628051045355,
@@ -5707,7 +5707,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6143,7 +6143,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -8203,7 +8203,7 @@
         ],
         [
           "2026-01-21",
-          324.09
+          324.08
         ],
         [
           "2026-01-22",
@@ -13074,7 +13074,7 @@
         ],
         [
           "2021-12-02",
-          193.73
+          193.72
         ],
         [
           "2021-12-03",
@@ -13890,7 +13890,7 @@
         ],
         [
           "2022-09-26",
-          185.63
+          185.64
         ],
         [
           "2022-09-27",
@@ -16062,7 +16062,7 @@
         ],
         [
           "2024-11-21",
-          356.18
+          356.19
         ],
         [
           "2024-11-22",
@@ -17868,7 +17868,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$77.2B"
+          "value": "$77.4B"
         },
         {
           "label": "P/E",
@@ -18058,18 +18058,18 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-walking-fine-105820258.html"
         }
       ],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$2.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.226</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>90.5% / 9.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.7%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$2.4B</td><td>1.097</td><td>$2.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.6B</td><td>1.204</td><td>$2.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.7B</td><td>1.321</td><td>$2.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.8B</td><td>1.450</td><td>$2.0B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.9B</td><td>1.591</td><td>$1.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$10.2B</b> \u00b7\n   terminal value <b>$41.1B</b> \u2192\n   PV <b>$25.9B</b></p>\n<p>Enterprise value <b>$36.1B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$30.8B</b><br>\n   \u00f7 138M shares = <b>$223.71/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.7%</th><th>WACC 9.7%</th><th>WACC 10.7%</th></tr><tr><td>growth 6.0%</td><td>$253</td><td>$212</td><td>$182</td></tr><tr><td>growth 8.0%</td><td>$266</td><td><b>$224</b></td><td>$192</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$2.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.226</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.4% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>90.5% / 9.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.7%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$2.4B</td><td>1.097</td><td>$2.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$2.6B</td><td>1.204</td><td>$2.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$2.7B</td><td>1.321</td><td>$2.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$2.8B</td><td>1.450</td><td>$2.0B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.9B</td><td>1.591</td><td>$1.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$10.2B</b> \u00b7\n   terminal value <b>$41.1B</b> \u2192\n   PV <b>$25.9B</b></p>\n<p>Enterprise value <b>$36.1B</b> \u2212 debt $8.1B\n   + cash $2.8B = equity <b>$30.8B</b><br>\n   \u00f7 138M shares = <b>$223.13/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.7%</th><th>WACC 9.7%</th><th>WACC 10.7%</th></tr><tr><td>growth 6.0%</td><td>$252</td><td>$212</td><td>$181</td></tr><tr><td>growth 8.0%</td><td>$265</td><td><b>$223</b></td><td>$191</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.4%, payout 37%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>CAT, PCAR, WAB</b><br>\n   Basis: same industry & size \u2014 Construction Machinery & Heavy Transportation Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CMI<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.4x</b></td><td><b>15.3x</b></td><td><b>6.3x</b></td></tr><tr><td>CAT<div class='peernm'>Caterpillar Inc.</div></td><td>35.1x</td><td>25.4x</td><td>19.3x</td></tr><tr><td>PCAR<div class='peernm'>PACCAR Inc</div></td><td>26.3x</td><td>21.9x</td><td>3.2x</td></tr><tr><td>WAB<div class='peernm'>Westinghouse Air Brake Technologies Corporation</div></td><td>38.0x</td><td>20.4x</td><td>4.3x</td></tr></table>\n<p>Median P/E: 35.1x \u2192 <b>$719.21</b><br>\n   Median EV/EBITDA: 21.9x \u2192 <b>$821.94</b><br>\n   Median P/B: 4.3x \u2192 <b>$379.76</b></p>\n<p>Implied by method: P/E $719 \u00b7 EV/EBITDA $822 \u00b7 P/B $380<br>\n   Reconciled (median): <b>$719.21/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>CAT, PCAR, WAB</b><br>\n   Basis: same industry & size \u2014 Construction Machinery & Heavy Transportation Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CMI<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.4x</b></td><td><b>15.3x</b></td><td><b>6.3x</b></td></tr><tr><td>CAT<div class='peernm'>Caterpillar Inc.</div></td><td>35.1x</td><td>25.4x</td><td>19.3x</td></tr><tr><td>PCAR<div class='peernm'>PACCAR Inc</div></td><td>26.3x</td><td>21.9x</td><td>3.2x</td></tr><tr><td>WAB<div class='peernm'>Westinghouse Air Brake Technologies Corporation</div></td><td>38.0x</td><td>20.4x</td><td>4.3x</td></tr></table>\n<p>Median P/E: 35.1x \u2192 <b>$719.21</b><br>\n   Median EV/EBITDA: 21.9x \u2192 <b>$820.01</b><br>\n   Median P/B: 4.3x \u2192 <b>$379.76</b></p>\n<p>Implied by method: P/E $719 \u00b7 EV/EBITDA $820 \u00b7 P/B $380<br>\n   Reconciled (median): <b>$719.21/share</b></p>\n"
     },
     {
       "ticker": "TDG",
       "name": "TransDigm Group Incorporated",
       "price": 1162.05,
-      "intrinsic": 1317.722222766896,
-      "upside": 0.1181373215455814,
+      "intrinsic": 1315.0276758566465,
+      "upside": 0.11633038502934362,
       "confidence": "medium",
-      "range_low": 842.3672332395518,
+      "range_low": 836.9781394190525,
       "range_high": 1793.0772122942403,
       "intraday": {
         "day": [
@@ -21799,7 +21799,7 @@
           ]
         ]
       },
-      "thesis": "TDG is down 21% from its 52-week high while earnings grew 34%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($1,162.05 vs $1,317.72, medium confidence). Valued with DCF and DDM and Comps.",
+      "thesis": "TDG is down 21% from its 52-week high while earnings grew 34%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($1,162.05 vs $1,315.03, medium confidence). Valued with DCF and DDM and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -21823,11 +21823,11 @@
       "reconciliation": {
         "values": {
           "DDM": 1793.0772122942403,
-          "Comps": 842.3672332395518
+          "Comps": 836.9781394190525
         },
-        "spread": 1.1286169992610888,
+        "spread": 1.1423226340640358,
         "confidence": "medium",
-        "sentence": "The methods land between $842.37 and $1,793.08 (a 113% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
+        "sentence": "The methods land between $836.98 and $1,793.08 (a 114% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
       },
       "history": [
         [
@@ -26870,7 +26870,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$64.2B"
+          "value": "$65.0B"
         },
         {
           "label": "P/E",
@@ -26951,7 +26951,7 @@
         {
           "label": "Street target",
           "value": "$1,522.79 (range $1,350.00\u2013$1,972.00)",
-          "src": "mean analyst target \u2014 our fair value: $1,317.72"
+          "src": "mean analyst target \u2014 our fair value: $1,315.03"
         },
         {
           "label": "Forward EPS (est.)",
@@ -26972,7 +26972,7 @@
         "Reinvestment: capex 3% of revenue (FY2025)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$1,317.72) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$1,315.03) \u2014 the discount that makes it a buy is gone",
         "Net margin (23%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +11% YoY) turns negative",
         "Free cash flow (now $1.8B) turns negative"
@@ -26985,8 +26985,8 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "12% below intrinsic value ($1,162.05 vs $1,317.72)",
-        "medium confidence across 2 models \u2014 DDM $1,793.08, Comps $842.37",
+        "12% below intrinsic value ($1,162.05 vs $1,315.03)",
+        "medium confidence across 2 models \u2014 DDM $1,793.08, Comps $836.98",
         "Free cash flow grew +30%/yr over 4y",
         "Net margin 23% on $8.8B revenue",
         "Net debt $27.2B (6.0x EBITDA)",
@@ -27057,9 +27057,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/astronics-stock-gains-3-8-152100324.html"
         }
       ],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.893</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>68.1% / 31.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$1.6B</td><td>1.090</td><td>$1.5B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$1.8B</td><td>1.188</td><td>$1.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$1.8B</td><td>1.295</td><td>$1.4B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$1.9B</td><td>1.412</td><td>$1.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.0B</td><td>1.539</td><td>$1.3B</td></tr></table>\n<p>Sum of PV (explicit): <b>$7.1B</b> \u00b7\n   terminal value <b>$31.1B</b> \u2192\n   PV <b>$20.2B</b></p>\n<p>Enterprise value <b>$27.2B</b> \u2212 debt $30.0B\n   + cash $2.8B = equity <b>$20.5M</b><br>\n   \u00f7 55M shares = <b>$0.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 6.0%</td><td>$65</td><td>$-21</td><td>$-84</td></tr><tr><td>growth 8.0%</td><td>$91</td><td><b>$0</b></td><td>$-66</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$1.5B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.893</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>68.4% / 31.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$1.6B</td><td>1.090</td><td>$1.5B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$1.8B</td><td>1.188</td><td>$1.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$1.8B</td><td>1.295</td><td>$1.4B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$1.9B</td><td>1.412</td><td>$1.4B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$2.0B</td><td>1.539</td><td>$1.3B</td></tr></table>\n<p>Sum of PV (explicit): <b>$7.1B</b> \u00b7\n   terminal value <b>$31.1B</b> \u2192\n   PV <b>$20.2B</b></p>\n<p>Enterprise value <b>$27.2B</b> \u2212 debt $30.0B\n   + cash $2.8B = equity <b>$20.5M</b><br>\n   \u00f7 56M shares = <b>$0.37/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 6.0%</td><td>$64</td><td>$-21</td><td>$-83</td></tr><tr><td>growth 8.0%</td><td>$90</td><td><b>$0</b></td><td>$-65</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$90.0000</b> \u00b7 growth <b>8.0%</b>\n   \u00b7 discount rate <b>9.0%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$97.2000</td><td>1.090</td><td>$89.1743</td></tr><tr><td>Y2</td><td>$104.9760</td><td>1.188</td><td>$88.3562</td></tr><tr><td>Y3</td><td>$113.3741</td><td>1.295</td><td>$87.5456</td></tr><tr><td>Y4</td><td>$122.4440</td><td>1.412</td><td>$86.7424</td></tr><tr><td>Y5</td><td>$132.2395</td><td>1.539</td><td>$85.9466</td></tr></table>\n<p>Stage-1 PV <b>$437.77</b> \u00b7 terminal value\n   <b>$2,085.32</b> \u2192 PV <b>$1,355.31</b></p>\n<p>Two-stage value <b>$1,793.08/share</b>\n   (single-stage Gordon ref: $1,419.23)</p>\n",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (9): <b>AXON, GD, HONA, HWM, LHX, LMT, NOC, RTX, TXT</b><br>\n   Basis: same industry & size \u2014 Aerospace & Defense</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>TDG<div class='peernm'>this company \u2014 at today's price</div></td><td><b>36.2x</b></td><td><b>20.0x</b></td><td><b>\u2013</b></td></tr><tr><td>AXON<div class='peernm'>Axon Enterprise, Inc.</div></td><td>213.1x</td><td>260.7x</td><td>11.4x</td></tr><tr><td>GD<div class='peernm'>General Dynamics Corporation</div></td><td>21.9x</td><td>15.4x</td><td>3.6x</td></tr><tr><td>HONA<div class='peernm'>Honeywell Aerospace Inc.</div></td><td>49.1x</td><td>18.7x</td><td>-9.0x</td></tr><tr><td>HWM<div class='peernm'>Howmet Aerospace Inc.</div></td><td>55.9x</td><td>38.5x</td><td>18.1x</td></tr><tr><td>LHX<div class='peernm'>L3Harris Technologies, Inc.</div></td><td>25.9x</td><td>29.7x</td><td>2.5x</td></tr><tr><td>LMT<div class='peernm'>Lockheed Martin Corporation</div></td><td>19.4x</td><td>14.3x</td><td>13.8x</td></tr><tr><td>NOC<div class='peernm'>Northrop Grumman Corporation</div></td><td>16.4x</td><td>12.1x</td><td>4.1x</td></tr><tr><td>RTX<div class='peernm'>RTX Corporation</div></td><td>35.4x</td><td>19.1x</td><td>4.1x</td></tr><tr><td>TXT<div class='peernm'>Textron Inc.</div></td><td>14.9x</td><td>9.7x</td><td>1.7x</td></tr></table>\n<p>Median P/E: 23.9x \u2192 <b>$767.22</b><br>\n   Median EV/EBITDA: 17.1x \u2192 <b>$917.52</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $767 \u00b7 EV/EBITDA $918<br>\n   Reconciled (median): <b>$842.37/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (9): <b>AXON, GD, HONA, HWM, LHX, LMT, NOC, RTX, TXT</b><br>\n   Basis: same industry & size \u2014 Aerospace & Defense</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>TDG<div class='peernm'>this company \u2014 at today's price</div></td><td><b>36.2x</b></td><td><b>20.2x</b></td><td><b>\u2013</b></td></tr><tr><td>AXON<div class='peernm'>Axon Enterprise, Inc.</div></td><td>213.1x</td><td>260.7x</td><td>11.4x</td></tr><tr><td>GD<div class='peernm'>General Dynamics Corporation</div></td><td>21.9x</td><td>15.4x</td><td>3.6x</td></tr><tr><td>HONA<div class='peernm'>Honeywell Aerospace Inc.</div></td><td>49.1x</td><td>18.7x</td><td>-9.0x</td></tr><tr><td>HWM<div class='peernm'>Howmet Aerospace Inc.</div></td><td>55.9x</td><td>38.5x</td><td>18.1x</td></tr><tr><td>LHX<div class='peernm'>L3Harris Technologies, Inc.</div></td><td>25.9x</td><td>29.7x</td><td>2.5x</td></tr><tr><td>LMT<div class='peernm'>Lockheed Martin Corporation</div></td><td>19.4x</td><td>14.3x</td><td>13.8x</td></tr><tr><td>NOC<div class='peernm'>Northrop Grumman Corporation</div></td><td>16.4x</td><td>12.1x</td><td>4.1x</td></tr><tr><td>RTX<div class='peernm'>RTX Corporation</div></td><td>35.4x</td><td>19.1x</td><td>4.1x</td></tr><tr><td>TXT<div class='peernm'>Textron Inc.</div></td><td>14.9x</td><td>9.7x</td><td>1.7x</td></tr></table>\n<p>Median P/E: 23.9x \u2192 <b>$767.22</b><br>\n   Median EV/EBITDA: 17.1x \u2192 <b>$906.74</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $767 \u00b7 EV/EBITDA $907<br>\n   Reconciled (median): <b>$836.98/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -37421,7 +37421,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -62379,6 +62379,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-09-07 16:22Z"
+  ]
 }
