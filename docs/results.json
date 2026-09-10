@@ -5667,7 +5667,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -8965,6 +8965,12 @@
       ],
       "news": [
         {
+          "title": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
+          "publisher": "MarketBeat",
+          "date": "2026-09-10",
+          "link": "https://www.marketbeat.com/instant-alerts/event-applied-materials-eyes-nearly-40-growth-as-ai-fuels-chip-equipment-demand-2026-09-10/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
           "publisher": "StockStory",
           "date": "2026-09-09",
@@ -9005,12 +9011,6 @@
           "publisher": "Investopedia",
           "date": "2026-09-04",
           "link": "https://www.investopedia.com/market-update-memory-other-ai-related-stocks-lead-the-markets-top-performers-friday-12108315"
-        },
-        {
-          "title": "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-03",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-still-look-230836239.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -12883,7 +12883,7 @@
         ],
         [
           "2021-10-08",
-          220.47
+          220.46
         ],
         [
           "2021-10-11",
@@ -24480,7 +24480,7 @@
         ],
         [
           "2024-05-02",
-          136.37
+          136.38
         ],
         [
           "2024-05-03",
@@ -35940,7 +35940,7 @@
         ],
         [
           "2021-09-30",
-          124.32
+          124.33
         ],
         [
           "2021-10-01",
@@ -63299,7 +63299,7 @@
         ],
         [
           "2022-09-16",
-          83.94
+          83.95
         ],
         [
           "2022-09-19",
@@ -65483,7 +65483,7 @@
         ],
         [
           "2024-11-18",
-          135.63
+          135.64
         ],
         [
           "2024-11-19",
@@ -71036,5 +71036,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-10 05:46Z"
+  "price_as_of": "2026-09-10 11:04Z"
 }
