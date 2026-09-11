@@ -177,3 +177,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-10,1,AMAT,"Applied Materials, Inc.",457.72,490.37,6.7%,low,1
 2026-09-10,2,KLAC,KLA Corporation,178.84,186.46,4.1%,low,1
 2026-09-10,3,MCD,McDonald's Corporation,253.96,266.76,4.8%,medium,2
+2026-09-11,1,AMAT,"Applied Materials, Inc.",463.00,477.10,3.0%,low,1
+2026-09-11,2,MCD,McDonald's Corporation,253.04,267.47,5.4%,medium,2
+2026-09-11,3,BKNG,Booking Holdings Inc.,174.64,175.36,0.4%,medium,2
