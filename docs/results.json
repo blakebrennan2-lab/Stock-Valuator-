@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 454.01,
       "intrinsic": 490.3718404017577,
-      "upside": 0.07415154713276716,
+      "upside": 0.07415156704750166,
       "confidence": "low",
       "range_low": 490.3718404017577,
       "range_high": 490.3718404017577,
@@ -6095,7 +6095,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6599,7 +6599,7 @@
         ],
         [
           "2024-07-02",
-          236.61
+          236.62
         ],
         [
           "2024-07-03",
@@ -8792,10 +8792,6 @@
         [
           "2026-09-09",
           468.85
-        ],
-        [
-          "2026-09-10",
-          454.01
         ]
       ],
       "stats": [
@@ -9018,7 +9014,7 @@
       "name": "KLA Corporation",
       "price": 177.18,
       "intrinsic": 186.45918678,
-      "upside": 0.04976528249673813,
+      "upside": 0.04976524321619163,
       "confidence": "low",
       "range_low": 186.45918678,
       "range_high": 186.45918678,
@@ -16070,7 +16066,7 @@
         ],
         [
           "2024-12-12",
-          63.87
+          63.88
         ],
         [
           "2024-12-13",
@@ -17807,10 +17803,6 @@
         [
           "2026-09-09",
           182.91
-        ],
-        [
-          "2026-09-10",
-          177.18
         ]
       ],
       "stats": [
@@ -17986,6 +17978,12 @@
       ],
       "news": [
         {
+          "title": "KLA (KLAC) Dips More Than Broader Market: What You Should Know",
+          "publisher": "Zacks",
+          "date": "2026-09-10",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-dips-more-broader-221504615.html"
+        },
+        {
           "title": "Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof",
           "publisher": "24/7 Wall St.",
           "date": "2026-09-10",
@@ -18026,12 +18024,6 @@
           "publisher": "StockStory",
           "date": "2026-09-05",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-western-digital-shares-skyrocket-022210546.html"
-        },
-        {
-          "title": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
-          "publisher": "StockStory",
-          "date": "2026-09-05",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/formfactor-entegris-penguin-solutions-teradyne-021410145.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.444</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.4% / 2.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.113</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.239</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.380</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.536</td><td>$2.4B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.710</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.2B</b> \u00b7\n   terminal value <b>$33.9B</b> \u2192\n   PV <b>$19.8B</b></p>\n<p>Enterprise value <b>$33.0B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.5B</b><br>\n   \u00f7 1,307M shares = <b>$21.81/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.3%</th><th>WACC 11.3%</th><th>WACC 12.3%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$20</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$20</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18043,7 +18035,7 @@
       "name": "McDonald's Corporation",
       "price": 253.05,
       "intrinsic": 266.75659963273375,
-      "upside": 0.05138240853214865,
+      "upside": 0.0513824199723822,
       "confidence": "medium",
       "range_low": 142.84848457944113,
       "range_high": 390.6647146860264,
@@ -24744,7 +24736,7 @@
         ],
         [
           "2024-08-08",
-          256.87
+          256.86
         ],
         [
           "2024-08-09",
@@ -25700,7 +25692,7 @@
         ],
         [
           "2025-07-24",
-          285.47
+          285.48
         ],
         [
           "2025-07-25",
@@ -26833,10 +26825,6 @@
         [
           "2026-09-09",
           253.48
-        ],
-        [
-          "2026-09-10",
-          253.05
         ]
       ],
       "stats": [
@@ -27007,6 +26995,12 @@
       ],
       "news": [
         {
+          "title": "America\u2019s Fast-Food Chains Are Making a Big Pivot\u2014Back to Humans",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-09-11",
+          "link": "https://www.wsj.com/business/hospitality/americas-fast-food-chains-are-making-a-big-pivotback-to-humans-3b8bb5b8?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "New Whoppers, Higher Quality: Inside Burger King\u2019s Big Revamp",
           "publisher": "WSJ",
           "date": "2026-09-10",
@@ -27047,12 +27041,6 @@
           "publisher": "Zacks",
           "date": "2026-09-08",
           "link": "https://finance.yahoo.com/markets/stocks/articles/mcds-slower-expansion-pace-help-131600463.html"
-        },
-        {
-          "title": "Why Franchise Models Are Winning the Restaurant Stock Divide",
-          "publisher": "MarketBeat",
-          "date": "2026-09-07",
-          "link": "https://www.marketbeat.com/articles/why-franchise-models-are-winning-the-restaurant-stock-divide/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.9B</b> \u00b7\n   growth applied <b>7.7%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.414</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.3%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.6% / 23.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.7%</td><td>$7.5B</td><td>1.090</td><td>$6.8B</td></tr><tr><td>Y2</td><td>6.4%</td><td>$7.9B</td><td>1.188</td><td>$6.7B</td></tr><tr><td>Y3</td><td>5.1%</td><td>$8.3B</td><td>1.295</td><td>$6.4B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$8.7B</td><td>1.412</td><td>$6.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$8.9B</td><td>1.539</td><td>$5.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$31.9B</b> \u00b7\n   terminal value <b>$140.0B</b> \u2192\n   PV <b>$91.0B</b></p>\n<p>Enterprise value <b>$122.9B</b> \u2212 debt $54.8B\n   + cash $774.0M = equity <b>$68.8B</b><br>\n   \u00f7 708M shares = <b>$97.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.7%</td><td>$120</td><td>$90</td><td>$67</td></tr><tr><td>growth 7.7%</td><td>$129</td><td><b>$97</b></td><td>$74</td></tr><tr><td>growth 8.0%</td><td>$130</td><td>$98</td><td>$75</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32107,10 +32095,6 @@
         [
           "2026-09-09",
           403.35
-        ],
-        [
-          "2026-09-10",
-          396.36
         ]
       ],
       "intraday": {
@@ -37371,7 +37355,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40904,10 +40888,6 @@
         [
           "2026-09-09",
           574.29
-        ],
-        [
-          "2026-09-10",
-          560.28
         ]
       ],
       "intraday": {
@@ -49701,10 +49681,6 @@
         [
           "2026-09-09",
           42.94
-        ],
-        [
-          "2026-09-10",
-          42.52
         ]
       ],
       "intraday": {
@@ -58498,10 +58474,6 @@
         [
           "2026-09-09",
           112.46
-        ],
-        [
-          "2026-09-10",
-          111.96
         ]
       ],
       "intraday": {
@@ -63306,7 +63278,7 @@
         ],
         [
           "2022-09-16",
-          83.94
+          83.95
         ],
         [
           "2022-09-19",
@@ -65302,7 +65274,7 @@
         ],
         [
           "2024-09-12",
-          125.79
+          125.8
         ],
         [
           "2024-09-13",
@@ -67295,10 +67267,6 @@
         [
           "2026-09-09",
           171.79
-        ],
-        [
-          "2026-09-10",
-          170.55
         ]
       ],
       "intraday": {
@@ -71047,5 +71015,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-10 22:25Z"
+  "price_as_of": "2026-09-11 00:54Z"
 }
