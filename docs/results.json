@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 456.49,
       "intrinsic": 477.08085781049977,
-      "upside": 0.04316010058546219,
+      "upside": 0.04316012105500074,
       "confidence": "low",
       "range_low": 477.08085781049977,
       "range_high": 477.08085781049977,
@@ -5663,7 +5663,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -8159,7 +8159,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -8969,6 +8969,12 @@
       ],
       "news": [
         {
+          "title": "Prediction: Applied Materials Books Its First $10 Billion Quarter This Fall",
+          "publisher": "Motley Fool",
+          "date": "2026-09-13",
+          "link": "https://www.fool.com/investing/2026/09/13/prediction-applied-materials-books-its-first-usd10-billion-quarter-this-fall/"
+        },
+        {
           "title": "Applied Materials vs. ASML: Which Tech Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
           "date": "2026-09-13",
@@ -9009,12 +9015,6 @@
           "publisher": "Motley Fool",
           "date": "2026-09-11",
           "link": "https://www.fool.com/coverage/better-buy/2026/09/11/applied-materials-vs-intel-which-tech-stock-is-a-better-buy-in-2026/"
-        },
-        {
-          "title": "Is Applied Materials Stock Amplifying A Risk You Already Own?",
-          "publisher": "Trefis",
-          "date": "2026-09-10",
-          "link": "https://www.trefis.com/articles/614895/is-applied-materials-stock-amplifying-a-risk-you-already-own/2026-09-10"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.579</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.6B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.8B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.72/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9026,7 +9026,7 @@
       "name": "KLA Corporation",
       "price": 180.64,
       "intrinsic": 185.59738165074182,
-      "upside": 0.02671040726248318,
+      "upside": 0.026710410551061627,
       "confidence": "low",
       "range_low": 185.59738165074182,
       "range_high": 185.59738165074182,
@@ -18055,7 +18055,7 @@
       "name": "McDonald's Corporation",
       "price": 252.53,
       "intrinsic": 267.6866290950033,
-      "upside": 0.056620792552265035,
+      "upside": 0.05662079711245966,
       "confidence": "medium",
       "range_low": 142.84848457944113,
       "range_high": 392.5247736105655,
@@ -27023,6 +27023,12 @@
       ],
       "news": [
         {
+          "title": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+          "publisher": "Motley Fool",
+          "date": "2026-09-13",
+          "link": "https://www.fool.com/investing/2026/09/13/mcdonalds-yields-29-the-highest-in-over-6-years-is/"
+        },
+        {
           "title": "Prediction: This High-Yield Dow Dividend Stock Will Become a Dividend King Before the End of the Year.",
           "publisher": "Motley Fool",
           "date": "2026-09-12",
@@ -27063,12 +27069,6 @@
           "publisher": "WSJ",
           "date": "2026-09-10",
           "link": "https://finance.yahoo.com/video/whoppers-higher-quality-inside-burger-160000172.html"
-        },
-        {
-          "title": "McDonald's Corporation (MCD) is Attracting Investor Attention: Here is What You Should Know",
-          "publisher": "Zacks",
-          "date": "2026-09-10",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-corporation-mcd-attracting-investor-130004196.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.9B</b> \u00b7\n   growth applied <b>7.7%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.414</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.3%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.5% / 23.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.7%</td><td>$7.5B</td><td>1.090</td><td>$6.8B</td></tr><tr><td>Y2</td><td>6.4%</td><td>$7.9B</td><td>1.188</td><td>$6.7B</td></tr><tr><td>Y3</td><td>5.1%</td><td>$8.3B</td><td>1.295</td><td>$6.4B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$8.7B</td><td>1.412</td><td>$6.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$8.9B</td><td>1.539</td><td>$5.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$31.9B</b> \u00b7\n   terminal value <b>$140.0B</b> \u2192\n   PV <b>$91.0B</b></p>\n<p>Enterprise value <b>$122.9B</b> \u2212 debt $54.8B\n   + cash $774.0M = equity <b>$68.8B</b><br>\n   \u00f7 708M shares = <b>$97.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.7%</td><td>$120</td><td>$90</td><td>$67</td></tr><tr><td>growth 7.7%</td><td>$129</td><td><b>$97</b></td><td>$74</td></tr><tr><td>growth 8.0%</td><td>$130</td><td>$98</td><td>$75</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -71082,5 +71082,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-09-13 19:16Z"
 }
