@@ -183,3 +183,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-12,1,AMAT,"Applied Materials, Inc.",456.49,477.08,4.3%,low,1
 2026-09-12,2,KLAC,KLA Corporation,180.64,185.60,2.7%,low,1
 2026-09-12,3,MCD,McDonald's Corporation,252.53,267.69,5.7%,medium,2
+2026-09-13,1,AMAT,"Applied Materials, Inc.",456.49,477.08,4.3%,low,1
+2026-09-13,2,KLAC,KLA Corporation,180.64,185.60,2.7%,low,1
+2026-09-13,3,MCD,McDonald's Corporation,252.53,267.69,5.7%,medium,2
