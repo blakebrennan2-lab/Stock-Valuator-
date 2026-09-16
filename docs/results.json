@@ -5623,7 +5623,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6059,7 +6059,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -23999,7 +23999,7 @@
         ],
         [
           "2023-12-14",
-          134.42
+          134.43
         ],
         [
           "2023-12-15",
@@ -25767,7 +25767,7 @@
         ],
         [
           "2025-09-22",
-          216.3
+          216.31
         ],
         [
           "2025-09-23",
@@ -26911,6 +26911,18 @@
       ],
       "news": [
         {
+          "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Airbnb, Booking Holdings, Credicorp, Dutch Bros, Expedia, Hartford Financial Services, Group, Meritage Homes, Patchex, Yum! Brands, and More",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-09-16",
+          "link": "https://247wallst.com/investing/2026/09/16/here-are-wednesdays-top-wall-street-analyst-research-calls-airbnb-booking-holdings-credicorp-dutch-bros-expedia-hartford-financial-services-group-meritage-homes-patchex-yum-brands/"
+        },
+        {
+          "title": "This stock is Morgan Stanley\u2019s preferred online travel pick in new sector coverage",
+          "publisher": "Investing.com",
+          "date": "2026-09-16",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-morgan-stanley-preferred-online-113023631.html"
+        },
+        {
           "title": "Booking Holdings (BKNG) Registers a Bigger Fall Than the Market: Important Facts to Note",
           "publisher": "Zacks",
           "date": "2026-09-15",
@@ -26945,18 +26957,6 @@
           "publisher": "Barrons.com",
           "date": "2026-09-10",
           "link": "https://www.barrons.com/articles/retail-consumer-stocks-tjx-carnival-economy-bedeaa95?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Booking (BKNG) Stock Trades Down, Here Is Why",
-          "publisher": "StockStory",
-          "date": "2026-09-10",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/booking-bkng-stock-trades-down-001038441.html"
-        },
-        {
-          "title": "Booking Holdings (BKNG) Declines More Than Market: Some Information for Investors",
-          "publisher": "Zacks",
-          "date": "2026-09-08",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-bkng-declines-more-220003667.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.4B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.068</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>6.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>87.0% / 13.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.0B</td><td>1.092</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.6B</td><td>1.194</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.0B</td><td>1.304</td><td>$6.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.4B</td><td>1.424</td><td>$6.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.6B</td><td>1.556</td><td>$6.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$34.2B</b> \u00b7\n   terminal value <b>$146.0B</b> \u2192\n   PV <b>$93.8B</b></p>\n<p>Enterprise value <b>$128.0B</b> \u2212 debt $19.3B\n   + cash $17.2B = equity <b>$125.9B</b><br>\n   \u00f7 751M shares = <b>$167.60/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.2%</th><th>WACC 9.2%</th><th>WACC 10.2%</th></tr><tr><td>growth 6.0%</td><td>$189</td><td>$160</td><td>$139</td></tr><tr><td>growth 8.0%</td><td>$197</td><td><b>$168</b></td><td>$145</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -63086,7 +63086,7 @@
         ],
         [
           "2022-09-16",
-          83.95
+          83.94
         ],
         [
           "2022-09-19",
@@ -70811,5 +70811,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-16 07:33Z"
+  "price_as_of": "2026-09-16 13:22Z"
 }
