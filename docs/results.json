@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 421.17,
       "intrinsic": 438.3118162278522,
-      "upside": 0.03910872486937742,
+      "upside": 0.039108694234259084,
       "confidence": "low",
       "range_low": 438.3118162278522,
       "range_high": 438.3118162278522,
@@ -5623,7 +5623,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -6343,7 +6343,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8768,6 +8768,10 @@
         [
           "2026-09-14",
           424.21
+        ],
+        [
+          "2026-09-15",
+          421.17
         ]
       ],
       "stats": [
@@ -8932,6 +8936,12 @@
       ],
       "news": [
         {
+          "title": "Bank of America makes bold chip call after AI sell-off",
+          "publisher": "TheStreet",
+          "date": "2026-09-16",
+          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-makes-bold-chip-call-after-ai-sell-off"
+        },
+        {
           "title": "Applied Materials Stock Already Fell Without A Shock, So What Would A Real One Do?",
           "publisher": "Trefis",
           "date": "2026-09-15",
@@ -8972,12 +8982,6 @@
           "publisher": "InvestorsHub",
           "date": "2026-09-14",
           "link": "https://investorshub.advfn.com/market-news/article/36197/applied-materials-shares-fall-5-8-as-semiconductor-stocks-decline"
-        },
-        {
-          "title": "ASML Fell For a Month Straight: A Prominent Wall Street Ratings Agency Says It Will Return 70% From Today",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-09-14",
-          "link": "https://247wallst.com/investing/2026/09/14/asml-fell-for-a-month-straight-a-prominent-wall-street-ratings-agency-says-it-will-return-70-from-today/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.9% / 2.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.256</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.408</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.579</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.769</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.6B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.8B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.0B</b><br>\n   \u00f7 794M shares = <b>$66.81/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -8989,7 +8993,7 @@
       "name": "McDonald's Corporation",
       "price": 252.78,
       "intrinsic": 265.3106396130194,
-      "upside": 0.04723006823735579,
+      "upside": 0.04723007283838924,
       "confidence": "medium",
       "range_low": 142.84848457944113,
       "range_high": 387.7727946465977,
@@ -12806,7 +12810,7 @@
         ],
         [
           "2021-10-08",
-          220.46
+          220.47
         ],
         [
           "2021-10-11",
@@ -12970,7 +12974,7 @@
         ],
         [
           "2021-12-07",
-          232.61
+          232.62
         ],
         [
           "2021-12-08",
@@ -17751,6 +17755,10 @@
         [
           "2026-09-14",
           257.49
+        ],
+        [
+          "2026-09-15",
+          252.78
         ]
       ],
       "stats": [
@@ -17921,6 +17929,12 @@
       ],
       "news": [
         {
+          "title": "WEN, CMG, SBUX, MCD, CAVA Stocks: Seaport Sees One Stock Stand Out Amid Restaurant Traffic Weakness, Valuation Risks",
+          "publisher": "Stocktwits",
+          "date": "2026-09-16",
+          "link": "https://stocktwits.com/news-articles/markets/equity/wen-cmg-sbux-mcd-cava-stocks-seaport-sees-one-stock-stand-out-amid-restaurant-traffic-weakness-valuation-risks/cZtYEZRRB2B"
+        },
+        {
           "title": "Jim Cramer Likes McDonald\u2019s (MCD) but Sees Jersey Mike\u2019s (JMKE) as the Lower-Risk Bet",
           "publisher": "Insider Monkey",
           "date": "2026-09-15",
@@ -17961,12 +17975,6 @@
           "publisher": "QSR",
           "date": "2026-09-15",
           "link": "https://www.qsrmagazine.com/story/workplace-violence-is-a-big-issue-in-qsr-heres-how-to-start-countering-it/"
-        },
-        {
-          "title": "How Investors May Respond To McDonald's (MCD) US$20 Billion Delivery Push And App Strategy",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-15",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-mcdonalds-mcd-032343160.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.9B</b> \u00b7\n   growth applied <b>7.7%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.414</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.3%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.6% / 23.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.7%</td><td>$7.5B</td><td>1.090</td><td>$6.8B</td></tr><tr><td>Y2</td><td>6.4%</td><td>$7.9B</td><td>1.188</td><td>$6.7B</td></tr><tr><td>Y3</td><td>5.1%</td><td>$8.3B</td><td>1.295</td><td>$6.4B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$8.7B</td><td>1.412</td><td>$6.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$8.9B</td><td>1.539</td><td>$5.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$31.9B</b> \u00b7\n   terminal value <b>$140.0B</b> \u2192\n   PV <b>$91.0B</b></p>\n<p>Enterprise value <b>$122.9B</b> \u2212 debt $54.8B\n   + cash $774.0M = equity <b>$68.8B</b><br>\n   \u00f7 708M shares = <b>$97.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.7%</td><td>$120</td><td>$90</td><td>$67</td></tr><tr><td>growth 7.7%</td><td>$129</td><td><b>$97</b></td><td>$74</td></tr><tr><td>growth 8.0%</td><td>$130</td><td>$98</td><td>$75</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17978,7 +17986,7 @@
       "name": "Booking Holdings Inc.",
       "price": 171.32,
       "intrinsic": 181.24240733047537,
-      "upside": 0.054746609673877115,
+      "upside": 0.054746569262701474,
       "confidence": "medium",
       "range_low": 167.6011280051737,
       "range_high": 194.88368665577707,
@@ -24623,7 +24631,7 @@
         ],
         [
           "2024-08-02",
-          130.68
+          130.67
         ],
         [
           "2024-08-05",
@@ -25759,7 +25767,7 @@
         ],
         [
           "2025-09-22",
-          216.31
+          216.3
         ],
         [
           "2025-09-23",
@@ -26740,6 +26748,10 @@
         [
           "2026-09-14",
           175.35
+        ],
+        [
+          "2026-09-15",
+          171.32
         ]
       ],
       "stats": [
@@ -31999,6 +32011,10 @@
         [
           "2026-09-14",
           392.84
+        ],
+        [
+          "2026-09-15",
+          394.15
         ]
       ],
       "intraday": {
@@ -37219,7 +37235,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40764,6 +40780,10 @@
         [
           "2026-09-14",
           541.5
+        ],
+        [
+          "2026-09-15",
+          542.11
         ]
       ],
       "intraday": {
@@ -49529,6 +49549,10 @@
         [
           "2026-09-14",
           41.82
+        ],
+        [
+          "2026-09-15",
+          41.32
         ]
       ],
       "intraday": {
@@ -58294,6 +58318,10 @@
         [
           "2026-09-14",
           112.85
+        ],
+        [
+          "2026-09-15",
+          110.88
         ]
       ],
       "intraday": {
@@ -63058,7 +63086,7 @@
         ],
         [
           "2022-09-16",
-          83.94
+          83.95
         ],
         [
           "2022-09-19",
@@ -67059,6 +67087,10 @@
         [
           "2026-09-14",
           169.93
+        ],
+        [
+          "2026-09-15",
+          168.85
         ]
       ],
       "intraday": {
@@ -70779,5 +70811,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-16 01:15Z"
+  "price_as_of": "2026-09-16 07:33Z"
 }
