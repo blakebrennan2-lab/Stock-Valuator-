@@ -192,3 +192,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-15,1,AMAT,"Applied Materials, Inc.",417.63,438.31,4.7%,low,1
 2026-09-15,2,MCD,McDonald's Corporation,254.12,265.31,4.2%,medium,2
 2026-09-15,3,BKNG,Booking Holdings Inc.,171.40,181.24,5.4%,medium,2
+2026-09-16,1,AMAT,"Applied Materials, Inc.",418.89,439.50,4.7%,low,1
+2026-09-16,2,MCD,McDonald's Corporation,251.55,258.41,2.7%,medium,2
+2026-09-16,3,BKNG,Booking Holdings Inc.,172.24,180.50,4.6%,medium,2
