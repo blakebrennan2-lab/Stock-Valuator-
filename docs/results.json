@@ -5647,7 +5647,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -6367,7 +6367,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8964,6 +8964,12 @@
       ],
       "news": [
         {
+          "title": "Michael Burry reveals his verdict on the ongoing AI bubble",
+          "publisher": "TheStreet",
+          "date": "2026-09-16",
+          "link": "https://www.thestreet.com/investing/stocks/michael-burry-has-a-strong-verdict-on-the-ongoing-ai-bubble-anthropic-openai-elon-musk-sam-altman-dario-amodei"
+        },
+        {
           "title": "Is This Applied Materials Dip The Same Bet It Used To Be?",
           "publisher": "Trefis",
           "date": "2026-09-16",
@@ -9004,12 +9010,6 @@
           "publisher": "Trefis",
           "date": "2026-09-15",
           "link": "https://www.trefis.com/articles/615391/applied-materials-stock-already-fell-without-a-shock-so-what-would-a-real-one-do/2026-09-15"
-        },
-        {
-          "title": "Can Applied Materials Sustain Strong AGS Growth Beyond 2026?",
-          "publisher": "Zacks",
-          "date": "2026-09-15",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sustain-strong-ags-142200963.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.9% / 2.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.256</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.408</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.579</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.769</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.6B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.8B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.0B</b><br>\n   \u00f7 794M shares = <b>$66.80/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13026,7 +13026,7 @@
         ],
         [
           "2021-12-07",
-          232.62
+          232.61
         ],
         [
           "2021-12-08",
@@ -16662,7 +16662,7 @@
         ],
         [
           "2025-07-24",
-          285.48
+          285.47
         ],
         [
           "2025-07-25",
@@ -17985,6 +17985,12 @@
       ],
       "news": [
         {
+          "title": "Chipotle Stock Looks Expensive Until You Price The New Restaurants",
+          "publisher": "Trefis",
+          "date": "2026-09-17",
+          "link": "https://www.trefis.com/articles/615512/chipotle-stock-looks-expensive-until-you-price-the-new-restaurants/2026-09-16"
+        },
+        {
           "title": "McDonald's Investors Brace for Major Update",
           "publisher": "GuruFocus.com",
           "date": "2026-09-16",
@@ -18025,12 +18031,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-09-15",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-likes-mcdonald-mcd-214316046.html"
-        },
-        {
-          "title": "McDonald's target falls to $325, but Jefferies keeps faith in recovery",
-          "publisher": "Proactive",
-          "date": "2026-09-15",
-          "link": "https://www.proactiveinvestors.com/companies/news/1098590/mcdonald-s-target-falls-to-325-but-jefferies-keeps-faith-in-recovery-1098590.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.9B</b> \u00b7\n   growth applied <b>7.7%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.414</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.3%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.5% / 23.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.7%</td><td>$7.5B</td><td>1.090</td><td>$6.8B</td></tr><tr><td>Y2</td><td>6.4%</td><td>$7.9B</td><td>1.188</td><td>$6.7B</td></tr><tr><td>Y3</td><td>5.1%</td><td>$8.3B</td><td>1.295</td><td>$6.4B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$8.7B</td><td>1.412</td><td>$6.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$8.9B</td><td>1.539</td><td>$5.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$31.9B</b> \u00b7\n   terminal value <b>$140.0B</b> \u2192\n   PV <b>$91.0B</b></p>\n<p>Enterprise value <b>$122.9B</b> \u2212 debt $54.8B\n   + cash $774.0M = equity <b>$68.8B</b><br>\n   \u00f7 708M shares = <b>$97.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.7%</td><td>$120</td><td>$90</td><td>$67</td></tr><tr><td>growth 7.7%</td><td>$129</td><td><b>$97</b></td><td>$74</td></tr><tr><td>growth 8.0%</td><td>$130</td><td>$98</td><td>$75</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22407,7 +22407,7 @@
         ],
         [
           "2022-04-18",
-          85.93
+          85.94
         ],
         [
           "2022-04-19",
@@ -24311,7 +24311,7 @@
         ],
         [
           "2024-03-11",
-          137.22
+          137.21
         ],
         [
           "2024-03-12",
@@ -24483,7 +24483,7 @@
         ],
         [
           "2024-05-10",
-          149.09
+          149.08
         ],
         [
           "2024-05-13",
@@ -24711,7 +24711,7 @@
         ],
         [
           "2024-08-02",
-          130.68
+          130.67
         ],
         [
           "2024-08-05",
@@ -35919,7 +35919,7 @@
         ],
         [
           "2021-09-30",
-          124.32
+          124.33
         ],
         [
           "2021-10-01",
@@ -37343,7 +37343,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -58496,7 +58496,7 @@
         "day": [
           [
             "2026-09-16 09:30",
-            111.17
+            111.16
           ],
           [
             "2026-09-16 09:31",
@@ -65754,7 +65754,7 @@
         ],
         [
           "2025-03-07",
-          131.74
+          131.73
         ],
         [
           "2025-03-10",
@@ -71035,5 +71035,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-16 22:01Z"
+  "price_as_of": "2026-09-17 01:15Z"
 }
