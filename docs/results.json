@@ -5975,7 +5975,7 @@
         ],
         [
           "2023-11-20",
-          149.03
+          149.04
         ],
         [
           "2023-11-21",
@@ -6083,7 +6083,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6367,7 +6367,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -6587,7 +6587,7 @@
         ],
         [
           "2024-07-02",
-          236.61
+          236.62
         ],
         [
           "2024-07-03",
@@ -8964,52 +8964,52 @@
       ],
       "news": [
         {
+          "title": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Fed Interest-Rate Increase",
+          "publisher": "MT Newswires",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/economy/policy/articles/us-equity-futures-higher-pre-125642814.html"
+        },
+        {
+          "title": "Applied Materials (AMAT) Plans $5 Billion India Semiconductor Research Park",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/technology/articles/applied-materials-amat-plans-5-121203774.html"
+        },
+        {
+          "title": "Applied Materials vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "date": "2026-09-17",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/17/applied-materials-vs-marvell-technology-which-tech-stock-is-a-better-buy-in-2026/"
+        },
+        {
+          "title": "Dow futures rally 600 points after Fed rate hike selloff",
+          "publisher": "Quartz",
+          "date": "2026-09-17",
+          "link": "https://qz.com/dow-futures-rise-fed-rate-hike-market-recovery-091726"
+        },
+        {
+          "title": "Applied Materials Plans $5 Billion Investment in India Over Next Decade",
+          "publisher": "InvestorsHub",
+          "date": "2026-09-17",
+          "link": "https://investorshub.advfn.com/market-news/article/36450/applied-materials-plans-5-billion-investment-in-india-over-next-decade"
+        },
+        {
+          "title": "Modi pitches India as global chipmaking hub",
+          "publisher": "AFP",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/technology/articles/modi-pitches-india-global-chipmaking-091954560.html"
+        },
+        {
+          "title": "Applied Materials to invest $5 billion in India as Modi's flagship chip event kicks off",
+          "publisher": "Reuters",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/technology/articles/applied-materials-invest-5-billion-081539478.html"
+        },
+        {
           "title": "Michael Burry reveals his verdict on the ongoing AI bubble",
           "publisher": "TheStreet",
           "date": "2026-09-16",
           "link": "https://www.thestreet.com/investing/stocks/michael-burry-has-a-strong-verdict-on-the-ongoing-ai-bubble-anthropic-openai-elon-musk-sam-altman-dario-amodei"
-        },
-        {
-          "title": "Is This Applied Materials Dip The Same Bet It Used To Be?",
-          "publisher": "Trefis",
-          "date": "2026-09-16",
-          "link": "https://www.trefis.com/articles/615531/is-this-applied-materials-dip-the-same-bet-it-used-to-be/2026-09-16"
-        },
-        {
-          "title": "AMAT vs. LRCX: Which WFE Stock is a Safer Bet Right Now?",
-          "publisher": "Zacks",
-          "date": "2026-09-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amat-vs-lrcx-wfe-stock-152800438.html"
-        },
-        {
-          "title": "ACLS Falls 22.4% in Past Month as Recovery Meets Fresh Margin Pressure",
-          "publisher": "Zacks",
-          "date": "2026-09-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/acls-falls-22-4-past-151100826.html"
-        },
-        {
-          "title": "Should Investors Buy ACLS as Growth Returns Despite Premium Valuation?",
-          "publisher": "Zacks",
-          "date": "2026-09-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-acls-growth-returns-151000492.html"
-        },
-        {
-          "title": "ACLS Invests $35M in Korea To Expand Its Manufacturing Infrastructure",
-          "publisher": "Zacks",
-          "date": "2026-09-16",
-          "link": "https://finance.yahoo.com/technology/articles/acls-invests-35m-korea-expand-150900695.html"
-        },
-        {
-          "title": "Bank of America makes bold chip call after AI sell-off",
-          "publisher": "TheStreet",
-          "date": "2026-09-16",
-          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-makes-bold-chip-call-after-ai-sell-off"
-        },
-        {
-          "title": "Applied Materials Stock Already Fell Without A Shock, So What Would A Real One Do?",
-          "publisher": "Trefis",
-          "date": "2026-09-15",
-          "link": "https://www.trefis.com/articles/615391/applied-materials-stock-already-fell-without-a-shock-so-what-would-a-real-one-do/2026-09-15"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.9% / 2.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.256</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.408</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.579</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.769</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.6B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.8B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$53.0B</b><br>\n   \u00f7 794M shares = <b>$66.80/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$70</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -12862,7 +12862,7 @@
         ],
         [
           "2021-10-08",
-          220.46
+          220.47
         ],
         [
           "2021-10-11",
@@ -13026,7 +13026,7 @@
         ],
         [
           "2021-12-07",
-          232.62
+          232.61
         ],
         [
           "2021-12-08",
@@ -17985,6 +17985,12 @@
       ],
       "news": [
         {
+          "title": "Has McDonald's (MCD) Fallen Far Enough to Look Reasonably Priced?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-fallen-far-enough-101016797.html"
+        },
+        {
           "title": "Chipotle Stock Looks Expensive Until You Price The New Restaurants",
           "publisher": "Trefis",
           "date": "2026-09-17",
@@ -18025,12 +18031,6 @@
           "publisher": "Stocktwits",
           "date": "2026-09-16",
           "link": "https://stocktwits.com/news-articles/markets/equity/wen-cmg-sbux-mcd-cava-stocks-seaport-sees-one-stock-stand-out-amid-restaurant-traffic-weakness-valuation-risks/cZtYEZRRB2B"
-        },
-        {
-          "title": "Jim Cramer Likes McDonald\u2019s (MCD) but Sees Jersey Mike\u2019s (JMKE) as the Lower-Risk Bet",
-          "publisher": "Insider Monkey",
-          "date": "2026-09-15",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-likes-mcdonald-mcd-214316046.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.9B</b> \u00b7\n   growth applied <b>7.7%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.414</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.3%</td></tr>\n<tr><td>Weights (E/D)</td><td>76.5% / 23.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>7.7%</td><td>$7.5B</td><td>1.090</td><td>$6.8B</td></tr><tr><td>Y2</td><td>6.4%</td><td>$7.9B</td><td>1.188</td><td>$6.7B</td></tr><tr><td>Y3</td><td>5.1%</td><td>$8.3B</td><td>1.295</td><td>$6.4B</td></tr><tr><td>Y4</td><td>3.8%</td><td>$8.7B</td><td>1.412</td><td>$6.1B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$8.9B</td><td>1.539</td><td>$5.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$31.9B</b> \u00b7\n   terminal value <b>$140.0B</b> \u2192\n   PV <b>$91.0B</b></p>\n<p>Enterprise value <b>$122.9B</b> \u2212 debt $54.8B\n   + cash $774.0M = equity <b>$68.8B</b><br>\n   \u00f7 708M shares = <b>$97.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 5.7%</td><td>$120</td><td>$90</td><td>$67</td></tr><tr><td>growth 7.7%</td><td>$129</td><td><b>$97</b></td><td>$74</td></tr><tr><td>growth 8.0%</td><td>$130</td><td>$98</td><td>$75</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -24079,7 +24079,7 @@
         ],
         [
           "2023-12-14",
-          134.43
+          134.42
         ],
         [
           "2023-12-15",
@@ -24311,7 +24311,7 @@
         ],
         [
           "2024-03-11",
-          137.21
+          137.22
         ],
         [
           "2024-03-12",
@@ -24711,7 +24711,7 @@
         ],
         [
           "2024-08-02",
-          130.68
+          130.67
         ],
         [
           "2024-08-05",
@@ -26995,6 +26995,12 @@
       ],
       "news": [
         {
+          "title": "Booking Holdings Inc. (BKNG) Is a Trending Stock: Facts to Know Before Betting on It",
+          "publisher": "Zacks",
+          "date": "2026-09-17",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-inc-bkng-trending-130002454.html"
+        },
+        {
           "title": "This Analyst Just Downgraded Expedia Stock. Here's Why.",
           "publisher": "Barchart",
           "date": "2026-09-16",
@@ -27035,12 +27041,6 @@
           "publisher": "MarketBeat",
           "date": "2026-09-13",
           "link": "https://www.marketbeat.com/instant-alerts/event-booking-ceo-details-ai-powered-connected-trip-strategy-at-global-tmt-conference-2026-09-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Booking Sees Resilient Travel Demand, Touts AI-Powered Connected Trip Growth",
-          "publisher": "MarketBeat",
-          "date": "2026-09-13",
-          "link": "https://www.marketbeat.com/instant-alerts/event-booking-sees-resilient-travel-demand-touts-ai-powered-connected-trip-growth-2026-09-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.4B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.068</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>6.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>87.0% / 13.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.0B</td><td>1.092</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.6B</td><td>1.194</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.0B</td><td>1.304</td><td>$6.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.4B</td><td>1.425</td><td>$6.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.6B</td><td>1.556</td><td>$6.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$34.2B</b> \u00b7\n   terminal value <b>$145.9B</b> \u2192\n   PV <b>$93.8B</b></p>\n<p>Enterprise value <b>$128.0B</b> \u2212 debt $19.3B\n   + cash $17.2B = equity <b>$125.9B</b><br>\n   \u00f7 751M shares = <b>$167.56/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.2%</th><th>WACC 9.2%</th><th>WACC 10.2%</th></tr><tr><td>growth 6.0%</td><td>$189</td><td>$160</td><td>$139</td></tr><tr><td>growth 8.0%</td><td>$197</td><td><b>$168</b></td><td>$145</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37343,7 +37343,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -71035,5 +71035,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-17 07:29Z"
+  "price_as_of": "2026-09-17 13:19Z"
 }
