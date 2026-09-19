@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 444.57,
       "intrinsic": 464.3395062687546,
-      "upside": 0.042575542252724474,
+      "upside": 0.04257552647931158,
       "confidence": "low",
       "range_low": 464.3395062687546,
       "range_high": 464.3395062687546,
@@ -5643,7 +5643,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6363,7 +6363,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8139,7 +8139,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -9026,7 +9026,7 @@
       "name": "KLA Corporation",
       "price": 176.99,
       "intrinsic": 181.47530808929326,
-      "upside": 0.024715803689867828,
+      "upside": 0.024715773420383173,
       "confidence": "low",
       "range_low": 181.47530808929326,
       "range_high": 181.47530808929326,
@@ -12902,7 +12902,7 @@
         ],
         [
           "2021-10-22",
-          32.67
+          32.68
         ],
         [
           "2021-10-25",
@@ -13406,7 +13406,7 @@
         ],
         [
           "2022-04-25",
-          31.72
+          31.71
         ],
         [
           "2022-04-26",
@@ -17998,6 +17998,12 @@
       ],
       "news": [
         {
+          "title": "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation",
+          "publisher": "Motley Fool",
+          "date": "2026-09-19",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/19/better-artificial-intelligence-stock-aehr-test-systems-vs-kla-corporation/"
+        },
+        {
           "title": "Chip Stocks Break Through Ceiling As Sector Rebounds. Macom Is A Standout.",
           "publisher": "Investor's Business Daily",
           "date": "2026-09-18",
@@ -18038,12 +18044,6 @@
           "publisher": "Zacks",
           "date": "2026-09-15",
           "link": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-vs-kla-semiconductor-170700674.html"
-        },
-        {
-          "title": "KLA Stock Jumps 40% Year to Date: 4 Reasons You Should Still Buy It",
-          "publisher": "Zacks",
-          "date": "2026-09-15",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-stock-jumps-40-date-162800629.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.444</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.4% / 2.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.113</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.239</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.380</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.536</td><td>$2.4B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.710</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.2B</b> \u00b7\n   terminal value <b>$33.9B</b> \u2192\n   PV <b>$19.8B</b></p>\n<p>Enterprise value <b>$33.0B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.5B</b><br>\n   \u00f7 1,307M shares = <b>$21.81/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.3%</th><th>WACC 11.3%</th><th>WACC 12.3%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$20</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$20</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18055,7 +18055,7 @@
       "name": "Salesforce, Inc.",
       "price": 237.92,
       "intrinsic": 243.35841561736058,
-      "upside": 0.022347349704608395,
+      "upside": 0.022347357228715052,
       "confidence": "medium",
       "range_low": 199.2701435068961,
       "range_high": 287.44668772782506,
@@ -24124,7 +24124,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -24380,7 +24380,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -24880,7 +24880,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -65304,7 +65304,7 @@
         ],
         [
           "2024-09-12",
-          125.79
+          125.8
         ],
         [
           "2024-09-13",
@@ -71072,5 +71072,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-09-19 17:08Z"
 }
