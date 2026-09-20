@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-20",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 444.57,
       "intrinsic": 464.3395062687546,
-      "upside": 0.04257552647931158,
+      "upside": 0.042575542252724474,
       "confidence": "low",
       "range_low": 464.3395062687546,
       "range_high": 464.3395062687546,
@@ -6363,7 +6363,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -6583,7 +6583,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -9026,7 +9026,7 @@
       "name": "KLA Corporation",
       "price": 176.99,
       "intrinsic": 181.47530808929326,
-      "upside": 0.024715773420383173,
+      "upside": 0.024715803689867828,
       "confidence": "low",
       "range_low": 181.47530808929326,
       "range_high": 181.47530808929326,
@@ -16058,7 +16058,7 @@
         ],
         [
           "2024-12-12",
-          63.87
+          63.88
         ],
         [
           "2024-12-13",
@@ -18055,7 +18055,7 @@
       "name": "Salesforce, Inc.",
       "price": 237.92,
       "intrinsic": 243.35841561736058,
-      "upside": 0.022347357228715052,
+      "upside": 0.022347349704608395,
       "confidence": "medium",
       "range_low": 199.2701435068961,
       "range_high": 287.44668772782506,
@@ -22664,7 +22664,7 @@
         ],
         [
           "2022-07-18",
-          164.75
+          164.74
         ],
         [
           "2022-07-19",
@@ -24380,7 +24380,7 @@
         ],
         [
           "2024-04-02",
-          298.7
+          298.69
         ],
         [
           "2024-04-03",
@@ -26949,12 +26949,12 @@
         },
         {
           "label": "Street rating",
-          "value": "Buy (1.8/5, 54 analysts)",
+          "value": "Buy (1.7/5, 53 analysts)",
           "src": "analyst consensus via Yahoo Finance"
         },
         {
           "label": "Street target",
-          "value": "$278.93 (range $160.00\u2013$475.00)",
+          "value": "$282.49 (range $160.00\u2013$475.00)",
           "src": "mean analyst target \u2014 our fair value: $243.36"
         },
         {
@@ -27063,7 +27063,7 @@
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.9% / 8.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.597</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.6B</b> \u00b7\n   terminal value <b>$198.3B</b> \u2192\n   PV <b>$124.2B</b></p>\n<p>Enterprise value <b>$173.8B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.0B</b><br>\n   \u00f7 823M shares = <b>$199.27/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$222</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$199</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.6%, payout 17%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (8): <b>ADBE, ADSK, CDNS, DDOG, INTU, ORCL, SNPS, WDAY</b><br>\n   Basis: same industry & size \u2014 Application Software</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CRM<div class='peernm'>this company \u2014 at today's price</div></td><td><b>30.5x</b></td><td><b>16.4x</b></td><td><b>3.8x</b></td></tr><tr><td>ADBE<div class='peernm'>Adobe Inc.</div></td><td>13.9x</td><td>10.2x</td><td>8.4x</td></tr><tr><td>ADSK<div class='peernm'>Autodesk, Inc.</div></td><td>28.1x</td><td>19.6x</td><td>13.4x</td></tr><tr><td>CDNS<div class='peernm'>Cadence Design Systems, Inc.</div></td><td>56.1x</td><td>36.7x</td><td>11.4x</td></tr><tr><td>DDOG<div class='peernm'>Datadog, Inc.</div></td><td>450.8x</td><td>951.2x</td><td>18.9x</td></tr><tr><td>INTU<div class='peernm'>Intuit Inc.</div></td><td>18.4x</td><td>12.0x</td><td>4.3x</td></tr><tr><td>ORCL<div class='peernm'>Oracle Corporation</div></td><td>23.1x</td><td>17.0x</td><td>11.3x</td></tr><tr><td>SNPS<div class='peernm'>Synopsys, Inc.</div></td><td>67.1x</td><td>39.0x</td><td>2.4x</td></tr><tr><td>WDAY<div class='peernm'>Workday, Inc.</div></td><td>40.6x</td><td>29.7x</td><td>7.2x</td></tr></table>\n<p>Median P/E: 25.6x \u2192 <b>$199.83</b><br>\n   Median EV/EBITDA: 19.6x \u2192 <b>$287.45</b><br>\n   Median P/B: 9.8x \u2192 <b>$608.68</b></p>\n<p>Implied by method: P/E $200 \u00b7 EV/EBITDA $287 \u00b7 P/B $609<br>\n   Reconciled (median): <b>$287.45/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (8): <b>ADBE, ADSK, CDNS, DDOG, INTU, ORCL, SNPS, WDAY</b><br>\n   Basis: same industry & size \u2014 Application Software</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CRM<div class='peernm'>this company \u2014 at today's price</div></td><td><b>30.5x</b></td><td><b>16.4x</b></td><td><b>3.8x</b></td></tr><tr><td>ADBE<div class='peernm'>Adobe Inc.</div></td><td>13.9x</td><td>10.2x</td><td>8.4x</td></tr><tr><td>ADSK<div class='peernm'>Autodesk, Inc.</div></td><td>28.1x</td><td>19.6x</td><td>13.4x</td></tr><tr><td>CDNS<div class='peernm'>Cadence Design Systems, Inc.</div></td><td>56.1x</td><td>36.7x</td><td>11.4x</td></tr><tr><td>DDOG<div class='peernm'>Datadog, Inc.</div></td><td>450.8x</td><td>951.2x</td><td>18.9x</td></tr><tr><td>INTU<div class='peernm'>Intuit Inc.</div></td><td>18.4x</td><td>12.0x</td><td>4.3x</td></tr><tr><td>ORCL<div class='peernm'>Oracle Corporation</div></td><td>23.1x</td><td>17.0x</td><td>11.3x</td></tr><tr><td>SNPS<div class='peernm'>Synopsys, Inc.</div></td><td>67.1x</td><td>39.0x</td><td>2.4x</td></tr><tr><td>WDAY<div class='peernm'>Workday, Inc.</div></td><td>39.6x</td><td>29.7x</td><td>7.2x</td></tr></table>\n<p>Median P/E: 25.6x \u2192 <b>$199.83</b><br>\n   Median EV/EBITDA: 19.6x \u2192 <b>$287.45</b><br>\n   Median P/B: 9.8x \u2192 <b>$608.68</b></p>\n<p>Implied by method: P/E $200 \u00b7 EV/EBITDA $287 \u00b7 P/B $609<br>\n   Reconciled (median): <b>$287.45/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -65492,7 +65492,7 @@
         ],
         [
           "2024-11-18",
-          135.64
+          135.63
         ],
         [
           "2024-11-19",
@@ -71072,6 +71072,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-09-20 15:54Z"
+  ]
 }
