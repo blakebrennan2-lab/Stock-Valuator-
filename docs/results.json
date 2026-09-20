@@ -5643,7 +5643,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -16058,7 +16058,7 @@
         ],
         [
           "2024-12-12",
-          63.88
+          63.87
         ],
         [
           "2024-12-13",
@@ -22664,7 +22664,7 @@
         ],
         [
           "2022-07-18",
-          164.74
+          164.75
         ],
         [
           "2022-07-19",
@@ -24292,7 +24292,7 @@
         ],
         [
           "2024-02-29",
-          303.03
+          303.04
         ],
         [
           "2024-03-01",
@@ -24380,7 +24380,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -27013,6 +27013,18 @@
       ],
       "news": [
         {
+          "title": "3 notable business takes that flew under the radar this week",
+          "publisher": "Yahoo Finance",
+          "date": "2026-09-20",
+          "link": "https://finance.yahoo.com/markets/article/3-notable-business-takes-that-flew-under-the-radar-this-week-120000112.html"
+        },
+        {
+          "title": "Tech titan unveils surprising new role for Slack in AI expansion",
+          "publisher": "TheStreet",
+          "date": "2026-09-20",
+          "link": "https://www.thestreet.com/technology/how-salesforce-is-turning-slack-into-ai-hub"
+        },
+        {
           "title": "Ross Gerber Sees Jensen Huang\u2019s Charisma As Part Of Nvidia\u2019s Edge, Says \u2018This Is Why I Own Nvidia\u2019 After Dreamforce Exchange With Marc Benioff: 'Big is Unnecessary'",
           "publisher": "Benzinga",
           "date": "2026-09-19",
@@ -27047,18 +27059,6 @@
           "publisher": "TheStreet",
           "date": "2026-09-18",
           "link": "https://www.thestreet.com/investing/stocks/salesforce-unveils-aiforce-benioff-challenges-microsoft-copilot"
-        },
-        {
-          "title": "Stock Market Falls On AI Fears, Hawkish Fed But Bounces Back: Weekly Review",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-09-18",
-          "link": "https://www.investors.com/news/stock-market-falls-on-ai-fears-hawkish-fed-bounces-back/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Dan Ives Says AI Leaders Can't 'Stop The Elevator' With Meta In The 'Ferrari Left Lane' As AI Race Accelerates",
-          "publisher": "Stocktwits",
-          "date": "2026-09-18",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-ai-leaders-cant-stop-the-elevator-with-meta-in-the-ferrari-left-lane/cZtuDjwRB3r"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.9% / 8.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.597</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.6B</b> \u00b7\n   terminal value <b>$198.3B</b> \u2192\n   PV <b>$124.2B</b></p>\n<p>Enterprise value <b>$173.8B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.0B</b><br>\n   \u00f7 823M shares = <b>$199.27/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$222</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$199</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -71073,5 +71073,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-20 11:13Z"
+  "price_as_of": "2026-09-20 15:54Z"
 }
