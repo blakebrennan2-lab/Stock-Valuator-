@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 472.46,
       "intrinsic": 487.83515263153,
-      "upside": 0.03151712436775742,
+      "upside": 0.03151710685175471,
       "confidence": "low",
       "range_low": 487.83515263153,
       "range_high": 487.83515263153,
@@ -6039,7 +6039,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -8768,10 +8768,6 @@
         [
           "2026-09-21",
           464.24
-        ],
-        [
-          "2026-09-22",
-          472.46
         ]
       ],
       "stats": [
@@ -8937,6 +8933,12 @@
       ],
       "news": [
         {
+          "title": "Applied Materials (AMAT) Stock Moves 1.77%: What You Should Know",
+          "publisher": "Zacks",
+          "date": "2026-09-22",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-moves-214502129.html"
+        },
+        {
           "title": "What Are AMAT Stock Bears Missing?",
           "publisher": "Trefis",
           "date": "2026-09-22",
@@ -8977,12 +8979,6 @@
           "publisher": "GuruFocus.com",
           "date": "2026-09-21",
           "link": "https://finance.yahoo.com/technology/articles/applied-materials-jumps-3-6-185847270.html"
-        },
-        {
-          "title": "3 of Wall Street\u2019s Favorite Stocks for Long-Term Investors",
-          "publisher": "StockStory",
-          "date": "2026-09-21",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-151825230.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -8994,7 +8990,7 @@
       "name": "KLA Corporation",
       "price": 188.32,
       "intrinsic": 186.50645038249652,
-      "upside": -0.009723829594112669,
+      "upside": -0.009723790323520462,
       "confidence": "low",
       "range_low": 186.50645038249652,
       "range_high": 186.50645038249652,
@@ -17755,10 +17751,6 @@
         [
           "2026-09-21",
           183.97
-        ],
-        [
-          "2026-09-22",
-          188.32
         ]
       ],
       "stats": [
@@ -17934,6 +17926,12 @@
       ],
       "news": [
         {
+          "title": "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
+          "publisher": "Zacks",
+          "date": "2026-09-22",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-stock-moves-2-221505648.html"
+        },
+        {
           "title": "LRCX Eyes Mid-40s Operating Margin: Is the Long-Term Goal Achievable?",
           "publisher": "Zacks",
           "date": "2026-09-22",
@@ -17974,12 +17972,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-09-18",
           "link": "https://247wallst.com/investing/2026/09/18/eisman-says-buy-micron-and-sk-hynix-in-this-knife-fight-you-want-to-be-the-one-selling-the-knives/"
-        },
-        {
-          "title": "KLA (KLAC) Is Getting Fresh Attention, What Is The Market Weighing?",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-18",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-getting-fresh-attention-061137434.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.444</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.5% / 2.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.113</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.240</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.380</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.536</td><td>$2.4B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.711</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.2B</b> \u00b7\n   terminal value <b>$33.9B</b> \u2192\n   PV <b>$19.8B</b></p>\n<p>Enterprise value <b>$33.0B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.5B</b><br>\n   \u00f7 1,307M shares = <b>$21.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.3%</th><th>WACC 11.3%</th><th>WACC 12.3%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$20</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$20</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17991,7 +17983,7 @@
       "name": "Salesforce, Inc.",
       "price": 233.28,
       "intrinsic": 244.8603457375698,
-      "upside": 0.04729368049934963,
+      "upside": 0.04729367551404618,
       "confidence": "medium",
       "range_low": 199.62108515679202,
       "range_high": 290.0996063183475,
@@ -24020,7 +24012,7 @@
         ],
         [
           "2023-12-28",
-          260.61
+          260.6
         ],
         [
           "2023-12-29",
@@ -24776,7 +24768,7 @@
         ],
         [
           "2024-09-30",
-          269.78
+          269.77
         ],
         [
           "2024-10-01",
@@ -26753,10 +26745,6 @@
         [
           "2026-09-21",
           236.42
-        ],
-        [
-          "2026-09-22",
-          233.28
         ]
       ],
       "stats": [
@@ -26917,6 +26905,12 @@
       ],
       "news": [
         {
+          "title": "$223 Billion Back To Shareholders: Inside The MSFT Machine",
+          "publisher": "Trefis",
+          "date": "2026-09-22",
+          "link": "https://www.trefis.com/articles/616107/223-billion-back-to-shareholders-inside-the-msft-machine/2026-09-22"
+        },
+        {
           "title": "How Far Could CRM Stock Swing In A Year?",
           "publisher": "Trefis",
           "date": "2026-09-22",
@@ -26957,12 +26951,6 @@
           "publisher": "NYSE",
           "date": "2026-09-22",
           "link": "https://finance.yahoo.com/video/handshake-coo-jon-stull-explains-153436522.html"
-        },
-        {
-          "title": "AI Alliances And Raised Targets Could Be A Game Changer For ServiceNow (NOW)",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-22",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-alliances-raised-targets-could-151802107.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.7% / 8.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.596</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.7B</b> \u00b7\n   terminal value <b>$198.7B</b> \u2192\n   PV <b>$124.5B</b></p>\n<p>Enterprise value <b>$174.1B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.3B</b><br>\n   \u00f7 823M shares = <b>$199.62/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$223</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$200</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32017,10 +32005,6 @@
         [
           "2026-09-21",
           398.38
-        ],
-        [
-          "2026-09-22",
-          400.07
         ]
       ],
       "intraday": {
@@ -40786,10 +40770,6 @@
         [
           "2026-09-21",
           40.66
-        ],
-        [
-          "2026-09-22",
-          40.53
         ]
       ],
       "intraday": {
@@ -45990,7 +45970,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -49555,10 +49535,6 @@
         [
           "2026-09-21",
           596.03
-        ],
-        [
-          "2026-09-22",
-          607.46
         ]
       ],
       "intraday": {
@@ -54139,7 +54115,7 @@
         ],
         [
           "2022-07-20",
-          73.36
+          73.35
         ],
         [
           "2022-07-21",
@@ -58324,10 +58300,6 @@
         [
           "2026-09-21",
           112.23
-        ],
-        [
-          "2026-09-22",
-          112.33
         ]
       ],
       "intraday": {
@@ -67093,10 +67065,6 @@
         [
           "2026-09-21",
           169.98
-        ],
-        [
-          "2026-09-22",
-          170.27
         ]
       ],
       "intraday": {
@@ -70817,5 +70785,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-22 21:57Z"
+  "price_as_of": "2026-09-23 00:17Z"
 }
