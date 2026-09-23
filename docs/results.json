@@ -5627,7 +5627,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6063,7 +6063,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6347,7 +6347,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -6567,7 +6567,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -8965,6 +8965,12 @@
       ],
       "news": [
         {
+          "title": "Trump-Xi Summit Is Coming: 3 Areas Investors Should Watch",
+          "publisher": "Barchart",
+          "date": "2026-09-23",
+          "link": "https://www.barchart.com/story/news/4761130/trump-xi-summit-is-coming-3-areas-investors-should-watch"
+        },
+        {
           "title": "How Far Can Applied Materials Stock Move On You In A Year?",
           "publisher": "Trefis",
           "date": "2026-09-23",
@@ -9005,12 +9011,6 @@
           "publisher": "Zacks",
           "date": "2026-09-22",
           "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-applied-materials-130004669.html"
-        },
-        {
-          "title": "LRCX Eyes Mid-40s Operating Margin: Is the Long-Term Goal Achievable?",
-          "publisher": "Zacks",
-          "date": "2026-09-22",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lrcx-eyes-mid-40s-operating-123700792.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.68/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9020,9 +9020,9 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 237.57,
+      "price": 237.58,
       "intrinsic": 245.1745356113238,
-      "upside": 0.031016794905489413,
+      "upside": 0.03097603004052896,
       "confidence": "medium",
       "range_low": 199.18219880466458,
       "range_high": 291.16687241798303,
@@ -10570,11 +10570,11 @@
           ],
           [
             "2026-09-23 15:55",
-            237.74
+            237.71
           ],
           [
             "2026-09-23 15:56",
-            237.71
+            237.74
           ],
           [
             "2026-09-23 15:57",
@@ -10582,11 +10582,11 @@
           ],
           [
             "2026-09-23 15:58",
-            237.59
+            237.56
           ],
           [
             "2026-09-23 15:59",
-            237.57
+            237.49
           ]
         ],
         "week": [
@@ -12148,7 +12148,7 @@
           ],
           [
             "2026-09-23 15:55",
-            237.57
+            237.49
           ]
         ],
         "month": [
@@ -12766,7 +12766,7 @@
           ],
           [
             "2026-09-23 15:30",
-            237.57
+            237.49
           ]
         ]
       },
@@ -17811,7 +17811,7 @@
         ],
         [
           "2026-09-23",
-          237.57
+          237.58
         ]
       ],
       "stats": [
@@ -17972,6 +17972,18 @@
       ],
       "news": [
         {
+          "title": "Salesforce vs. UiPath: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "date": "2026-09-23",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/23/salesforce-vs-uipath-which-technology-stock-is-a-better-buy-in-2026/"
+        },
+        {
+          "title": "Wells Fargo Raises Salesforce\u2019s Price Target. Can $1.5 Billion Agentforce ARR Drive Growth?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-23",
+          "link": "https://finance.yahoo.com/technology/ai/articles/wells-fargo-raises-salesforce-price-215900311.html"
+        },
+        {
           "title": "Trump Downplayed AI Safety Concerns, but His Investment Portfolio Bought Cybersecurity Stocks",
           "publisher": "Barrons.com",
           "date": "2026-09-23",
@@ -18006,18 +18018,6 @@
           "publisher": "Trefis",
           "date": "2026-09-23",
           "link": "https://www.trefis.com/articles/616304/what-microsofts-trailing-multiple-leaves-out/2026-09-23"
-        },
-        {
-          "title": "Trump's Latest Stock Disclosure Reveals a Surprising Trading Pattern",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-23",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/trumps-latest-stock-disclosure-reveals-121438043.html"
-        },
-        {
-          "title": "Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-09-23",
-          "link": "https://247wallst.com/investing/2026/09/23/salesforce-remains-down-over-12-months-this-wall-street-firm-doubled-down-on-its-belief-that-70-returns-await-investors/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.0% / 8.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.597</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.6B</b> \u00b7\n   terminal value <b>$198.3B</b> \u2192\n   PV <b>$124.1B</b></p>\n<p>Enterprise value <b>$173.8B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$163.9B</b><br>\n   \u00f7 823M shares = <b>$199.18/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$222</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$199</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -24278,7 +24278,7 @@
         ],
         [
           "2024-03-11",
-          137.21
+          137.22
         ],
         [
           "2024-03-12",
@@ -24678,7 +24678,7 @@
         ],
         [
           "2024-08-02",
-          130.68
+          130.67
         ],
         [
           "2024-08-05",
@@ -25814,7 +25814,7 @@
         ],
         [
           "2025-09-22",
-          216.31
+          216.3
         ],
         [
           "2025-09-23",
@@ -26982,6 +26982,12 @@
       ],
       "news": [
         {
+          "title": "Why LendingTree (TREE) Shares Are Sliding Today",
+          "publisher": "StockStory",
+          "date": "2026-09-23",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-lendingtree-tree-shares-sliding-205005493.html"
+        },
+        {
           "title": "Expedia (EXPE) Stock Trades Down, Here Is Why",
           "publisher": "StockStory",
           "date": "2026-09-23",
@@ -27022,12 +27028,6 @@
           "publisher": "StockStory",
           "date": "2026-09-23",
           "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-promising-094902572.html"
-        },
-        {
-          "title": "Who Was Caught Up in Yesterday\u2019s Muse Malaise?",
-          "publisher": "The Wall Street Journal",
-          "date": "2026-09-23",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026/card/who-was-caught-up-in-yesterday-s-muse-malaise--LpjiblmAHj62vU63zBGI?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$7.4B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.068</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.6% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>6.6%</td></tr>\n<tr><td>Weights (E/D)</td><td>85.9% / 14.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.2%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$8.0B</td><td>1.092</td><td>$7.4B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$8.6B</td><td>1.193</td><td>$7.2B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$9.0B</td><td>1.303</td><td>$6.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$9.4B</td><td>1.423</td><td>$6.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$9.6B</td><td>1.554</td><td>$6.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$34.3B</b> \u00b7\n   terminal value <b>$146.7B</b> \u2192\n   PV <b>$94.4B</b></p>\n<p>Enterprise value <b>$128.6B</b> \u2212 debt $19.3B\n   + cash $17.2B = equity <b>$126.5B</b><br>\n   \u00f7 751M shares = <b>$168.42/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.2%</th><th>WACC 9.2%</th><th>WACC 10.2%</th></tr><tr><td>growth 6.0%</td><td>$190</td><td>$161</td><td>$140</td></tr><tr><td>growth 8.0%</td><td>$199</td><td><b>$168</b></td><td>$146</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -27041,7 +27041,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 392.76,
+      "price": 392.88,
       "drawdown": -0.2285854424171081,
       "thesis": "SPDR Gold Shares is down 23% from its 52-week high but is still in a long-term uptrend (3y +129%, 5y +136%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -32085,7 +32085,7 @@
         ],
         [
           "2026-09-23",
-          392.76
+          392.88
         ]
       ],
       "intraday": {
@@ -33620,7 +33620,7 @@
           ],
           [
             "2026-09-23 15:52",
-            392.82
+            392.83
           ],
           [
             "2026-09-23 15:53",
@@ -33632,7 +33632,7 @@
           ],
           [
             "2026-09-23 15:55",
-            392.72
+            392.73
           ],
           [
             "2026-09-23 15:56",
@@ -33640,15 +33640,15 @@
           ],
           [
             "2026-09-23 15:57",
-            392.73
+            392.71
           ],
           [
             "2026-09-23 15:58",
-            392.68
+            392.69
           ],
           [
             "2026-09-23 15:59",
-            392.76
+            392.78
           ]
         ],
         "week": [
@@ -35210,7 +35210,7 @@
           ],
           [
             "2026-09-23 15:55",
-            392.76
+            392.78
           ]
         ],
         "month": [
@@ -35828,7 +35828,7 @@
           ],
           [
             "2026-09-23 15:30",
-            392.76
+            392.78
           ]
         ]
       }
@@ -35838,7 +35838,7 @@
       "name": "Utilities Select Sector SPDR",
       "category": "Utilities",
       "is_etf": true,
-      "price": 39.77,
+      "price": 39.75,
       "drawdown": -0.16433054393305435,
       "thesis": "Utilities Select Sector SPDR is down 16% from its 52-week high but is still in a long-term uptrend (3y +48%, 5y +39%) \u2014 a pullback on a quality Utilities fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -37830,7 +37830,7 @@
         ],
         [
           "2023-09-07",
-          28.41
+          28.4
         ],
         [
           "2023-09-08",
@@ -40878,7 +40878,7 @@
         ],
         [
           "2026-09-23",
-          39.77
+          39.75
         ]
       ],
       "intraday": {
@@ -42429,7 +42429,7 @@
           ],
           [
             "2026-09-23 15:56",
-            39.74
+            39.75
           ],
           [
             "2026-09-23 15:57",
@@ -42441,7 +42441,7 @@
           ],
           [
             "2026-09-23 15:59",
-            39.77
+            39.76
           ]
         ],
         "week": [
@@ -44003,7 +44003,7 @@
           ],
           [
             "2026-09-23 15:55",
-            39.77
+            39.76
           ]
         ],
         "month": [
@@ -44621,7 +44621,7 @@
           ],
           [
             "2026-09-23 15:30",
-            39.77
+            39.76
           ]
         ]
       }
@@ -46071,7 +46071,7 @@
         ],
         [
           "2023-02-17",
-          72.93
+          72.94
         ],
         [
           "2023-02-21",
@@ -47319,7 +47319,7 @@
         ],
         [
           "2024-05-16",
-          87.05
+          87.06
         ],
         [
           "2024-05-17",
@@ -51214,11 +51214,11 @@
           ],
           [
             "2026-09-23 15:54",
-            110.55
+            110.54
           ],
           [
             "2026-09-23 15:55",
-            110.63
+            110.62
           ],
           [
             "2026-09-23 15:56",
@@ -51226,7 +51226,7 @@
           ],
           [
             "2026-09-23 15:57",
-            110.62
+            110.61
           ],
           [
             "2026-09-23 15:58",
@@ -51234,7 +51234,7 @@
           ],
           [
             "2026-09-23 15:59",
-            110.65
+            110.64
           ]
         ],
         "week": [
@@ -52792,11 +52792,11 @@
           ],
           [
             "2026-09-23 15:50",
-            110.55
+            110.54
           ],
           [
             "2026-09-23 15:55",
-            110.65
+            110.64
           ]
         ],
         "month": [
@@ -53414,7 +53414,7 @@
           ],
           [
             "2026-09-23 15:30",
-            110.65
+            110.64
           ]
         ]
       }
@@ -62221,7 +62221,7 @@
       "name": "Vanguard Real Estate",
       "category": "Real estate",
       "is_etf": true,
-      "price": 91.43,
+      "price": 91.45,
       "drawdown": -0.0974950884086444,
       "thesis": "Vanguard Real Estate is down 10% from its 52-week high but is still in a long-term uptrend (3y +35%, 5y +1%) \u2014 a pullback on a quality Real estate fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -62653,7 +62653,7 @@
         ],
         [
           "2022-02-16",
-          86.94
+          86.93
         ],
         [
           "2022-02-17",
@@ -63509,7 +63509,7 @@
         ],
         [
           "2022-12-22",
-          71.3
+          71.29
         ],
         [
           "2022-12-23",
@@ -67261,7 +67261,7 @@
         ],
         [
           "2026-09-23",
-          91.43
+          91.45
         ]
       ],
       "intraday": {
@@ -68804,7 +68804,7 @@
           ],
           [
             "2026-09-23 15:54",
-            91.53
+            91.52
           ],
           [
             "2026-09-23 15:55",
@@ -68812,7 +68812,7 @@
           ],
           [
             "2026-09-23 15:56",
-            91.41
+            91.42
           ],
           [
             "2026-09-23 15:57",
@@ -68820,7 +68820,7 @@
           ],
           [
             "2026-09-23 15:58",
-            91.42
+            91.43
           ],
           [
             "2026-09-23 15:59",
@@ -70382,7 +70382,7 @@
           ],
           [
             "2026-09-23 15:50",
-            91.53
+            91.52
           ],
           [
             "2026-09-23 15:55",
@@ -71010,5 +71010,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-23 20:07Z"
+  "price_as_of": "2026-09-23 23:33Z"
 }
