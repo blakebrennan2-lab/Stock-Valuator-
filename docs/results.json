@@ -6059,7 +6059,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -6563,7 +6563,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -8119,7 +8119,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -8796,6 +8796,10 @@
         [
           "2026-09-23",
           474.38
+        ],
+        [
+          "2026-09-24",
+          474.25
         ]
       ],
       "stats": [
@@ -8961,6 +8965,18 @@
       ],
       "news": [
         {
+          "title": "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-25",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-behind-fresh-042530701.html"
+        },
+        {
+          "title": "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-25",
+          "link": "https://finance.yahoo.com/technology/ai/articles/asml-vs-applied-materials-ai-040717818.html"
+        },
+        {
           "title": "Richard Ross Names Semiconductor Equipment And Memory Buys",
           "publisher": " TheStreet",
           "date": "2026-09-24",
@@ -8995,18 +9011,6 @@
           "publisher": "Zacks",
           "date": "2026-09-23",
           "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003759.html"
-        },
-        {
-          "title": "Nvidia and AMD Get the Headlines. The Real AI Winners Might Be Applied Materials and Lam Research.",
-          "publisher": "Barchart",
-          "date": "2026-09-23",
-          "link": "https://www.barchart.com/story/news/4751640/nvidia-and-amd-get-the-headlines-the-real-ai-winners-might-be-applied-materials-and-lam-research"
-        },
-        {
-          "title": "Applied Materials (AMAT) Stock Moves 1.77%: What You Should Know",
-          "publisher": "Zacks",
-          "date": "2026-09-22",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-moves-214502129.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.1% / 1.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.7B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9018,7 +9022,7 @@
       "name": "Dell Technologies Inc.",
       "price": 536.02,
       "intrinsic": 586.1841609491236,
-      "upside": 0.08557747597256805,
+      "upside": 0.08557744265326105,
       "confidence": "low",
       "range_low": 586.1841609491236,
       "range_high": 586.1841609491236,
@@ -17807,6 +17811,10 @@
         [
           "2026-09-23",
           549.83
+        ],
+        [
+          "2026-09-24",
+          536.02
         ]
       ],
       "stats": [
@@ -17967,6 +17975,24 @@
       ],
       "news": [
         {
+          "title": "Dell vs. HPE: Which AI Server Stock Is the Better Buy?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-25",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-vs-hpe-ai-server-044317178.html"
+        },
+        {
+          "title": "Why Is Dell Technologies (DELL) Reworking Its AI Strategy Under John Roese?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-25",
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-dell-technologies-dell-reworking-021028479.html"
+        },
+        {
+          "title": "Titans of Tech Attend State Dinner Honoring China\u2019s Xi",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-09-25",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-24-2026/card/titans-of-tech-attend-state-dinner-honoring-china-s-xi-pgk4d9DY6Eju4Y3F7zXz?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "What Are Everpure Stock Bulls Not Worried About?",
           "publisher": "Trefis",
           "date": "2026-09-25",
@@ -17995,24 +18021,6 @@
           "publisher": "Zacks",
           "date": "2026-09-24",
           "link": "https://finance.yahoo.com/markets/stocks/articles/investors-chase-ai-fueled-surge-210500987.html"
-        },
-        {
-          "title": "Dell Top Executives Sell $32 Million in Stock as AI Rally Accelerates",
-          "publisher": "Barrons.com",
-          "date": "2026-09-24",
-          "link": "https://www.barrons.com/articles/dell-stock-price-insider-sale-7d523654?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Zscaler stock falls on CRO leadership change",
-          "publisher": "Investing.com",
-          "date": "2026-09-24",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zscaler-stock-falls-cro-leadership-205136908.html"
-        },
-        {
-          "title": "Why These S&P 500 Stocks Are Earning The Biggest EPS Upgrades",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-09-24",
-          "link": "https://www.investors.com/news/dell-stock-cien-mpc-vlo-psx-biggest-eps-estimate-upgrades/?src=A00220&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$5.7B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.409</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.5% / 8.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.7%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$6.2B</td><td>1.107</td><td>$5.6B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$6.6B</td><td>1.226</td><td>$5.4B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$6.9B</td><td>1.358</td><td>$5.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$7.2B</td><td>1.503</td><td>$4.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$7.4B</td><td>1.664</td><td>$4.4B</td></tr></table>\n<p>Sum of PV (explicit): <b>$25.2B</b> \u00b7\n   terminal value <b>$91.6B</b> \u2192\n   PV <b>$55.0B</b></p>\n<p>Enterprise value <b>$80.2B</b> \u2212 debt $31.5B\n   + cash $11.5B = equity <b>$60.2B</b><br>\n   \u00f7 315M shares = <b>$190.96/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.7%</th><th>WACC 10.7%</th><th>WACC 11.7%</th></tr><tr><td>growth 6.0%</td><td>$214</td><td>$180</td><td>$154</td></tr><tr><td>growth 8.0%</td><td>$226</td><td><b>$191</b></td><td>$163</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18024,7 +18032,7 @@
       "name": "KLA Corporation",
       "price": 187.11,
       "intrinsic": 186.696966,
-      "upside": -0.0022123230433214983,
+      "upside": -0.002212326312531288,
       "confidence": "low",
       "range_low": 186.696966,
       "range_high": 186.696966,
@@ -21880,7 +21888,7 @@
         ],
         [
           "2021-10-22",
-          32.67
+          32.68
         ],
         [
           "2021-10-25",
@@ -22384,7 +22392,7 @@
         ],
         [
           "2022-04-25",
-          31.72
+          31.71
         ],
         [
           "2022-04-26",
@@ -25708,7 +25716,7 @@
         ],
         [
           "2025-08-18",
-          87.87
+          87.86
         ],
         [
           "2025-08-19",
@@ -26809,6 +26817,10 @@
         [
           "2026-09-23",
           187.86
+        ],
+        [
+          "2026-09-24",
+          187.11
         ]
       ],
       "stats": [
@@ -32084,6 +32096,10 @@
         [
           "2026-09-23",
           392.88
+        ],
+        [
+          "2026-09-24",
+          391.69
         ]
       ],
       "intraday": {
@@ -40873,6 +40889,10 @@
         [
           "2026-09-23",
           39.75
+        ],
+        [
+          "2026-09-24",
+          39.36
         ]
       ],
       "intraday": {
@@ -47309,7 +47329,7 @@
         ],
         [
           "2024-05-16",
-          87.06
+          87.05
         ],
         [
           "2024-05-17",
@@ -49662,6 +49682,10 @@
         [
           "2026-09-23",
           110.65
+        ],
+        [
+          "2026-09-24",
+          110.32
         ]
       ],
       "intraday": {
@@ -58455,6 +58479,10 @@
         [
           "2026-09-23",
           601.41
+        ],
+        [
+          "2026-09-24",
+          600.52
         ]
       ],
       "intraday": {
@@ -67244,6 +67272,10 @@
         [
           "2026-09-23",
           170.1
+        ],
+        [
+          "2026-09-24",
+          168.83
         ]
       ],
       "intraday": {
@@ -70992,5 +71024,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-25 01:21Z"
+  "price_as_of": "2026-09-25 07:33Z"
 }
