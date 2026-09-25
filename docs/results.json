@@ -5951,7 +5951,7 @@
         ],
         [
           "2023-11-20",
-          149.04
+          149.03
         ],
         [
           "2023-11-21",
@@ -6059,7 +6059,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6343,7 +6343,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8796,10 +8796,6 @@
         [
           "2026-09-23",
           474.38
-        ],
-        [
-          "2026-09-24",
-          474.25
         ]
       ],
       "stats": [
@@ -9022,7 +9018,7 @@
       "name": "Dell Technologies Inc.",
       "price": 536.02,
       "intrinsic": 586.1841609491236,
-      "upside": 0.08557744265326105,
+      "upside": 0.08557747597256805,
       "confidence": "low",
       "range_low": 586.1841609491236,
       "range_high": 586.1841609491236,
@@ -17811,10 +17807,6 @@
         [
           "2026-09-23",
           549.83
-        ],
-        [
-          "2026-09-24",
-          536.02
         ]
       ],
       "stats": [
@@ -17975,6 +17967,42 @@
       ],
       "news": [
         {
+          "title": "What Are Everpure Stock Bulls Not Worried About?",
+          "publisher": "Trefis",
+          "date": "2026-09-25",
+          "link": "https://www.trefis.com/articles/616473/what-are-everpure-stock-bulls-not-worried-about/2026-09-24"
+        },
+        {
+          "title": "Is Arista Networks Stock Too Dependent On Demand Holding Up?",
+          "publisher": "Trefis",
+          "date": "2026-09-24",
+          "link": "https://www.trefis.com/articles/616451/is-arista-networks-stock-too-dependent-on-demand-holding-up/2026-09-24"
+        },
+        {
+          "title": "Is Dell Technologies (DELL) Stock a Buy After its $5 Billion AI-Fueled Bond Sale?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-24",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-buy-221346242.html"
+        },
+        {
+          "title": "What Changed In Dell's Story?",
+          "publisher": "Trefis",
+          "date": "2026-09-24",
+          "link": "https://www.trefis.com/articles/616461/what-changed-in-dells-story/2026-09-24"
+        },
+        {
+          "title": "Should Investors Chase the AI-Fueled Surge in Everpure (P) Stock?",
+          "publisher": "Zacks",
+          "date": "2026-09-24",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-chase-ai-fueled-surge-210500987.html"
+        },
+        {
+          "title": "Dell Top Executives Sell $32 Million in Stock as AI Rally Accelerates",
+          "publisher": "Barrons.com",
+          "date": "2026-09-24",
+          "link": "https://www.barrons.com/articles/dell-stock-price-insider-sale-7d523654?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Zscaler stock falls on CRO leadership change",
           "publisher": "Investing.com",
           "date": "2026-09-24",
@@ -17985,42 +18013,6 @@
           "publisher": "Investor's Business Daily",
           "date": "2026-09-24",
           "link": "https://www.investors.com/news/dell-stock-cien-mpc-vlo-psx-biggest-eps-estimate-upgrades/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Dell Slips 2.34% as $999 Googlebook Tests Premium AI PCs",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-24",
-          "link": "https://finance.yahoo.com/technology/ai/articles/dell-slips-2-34-999-180413951.html"
-        },
-        {
-          "title": "Lenovo's Global Footprint Strengthens Its Growth Resilience",
-          "publisher": "Zacks",
-          "date": "2026-09-24",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lenovos-global-footprint-strengthens-growth-165200926.html"
-        },
-        {
-          "title": "HPE vs. DELL: Which AI Infrastructure Stock is a Safer Bet?",
-          "publisher": "Zacks",
-          "date": "2026-09-24",
-          "link": "https://finance.yahoo.com/technology/ai/articles/hpe-vs-dell-ai-infrastructure-134500410.html"
-        },
-        {
-          "title": "1 Services Stock with Exciting Potential and 2 We Question",
-          "publisher": "StockStory",
-          "date": "2026-09-24",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/1-services-stock-exciting-potential-092054852.html"
-        },
-        {
-          "title": "Is the \"AI\" Chip Stock Momentum Rally Over?",
-          "publisher": "Zacks",
-          "date": "2026-09-23",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stock-momentum-rally-203300074.html"
-        },
-        {
-          "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-09-23",
-          "link": "https://finance.yahoo.com/video/qualcomm-targeting-agentic-ai-2-195058732.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$5.7B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.409</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.5% / 8.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>10.7%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$6.2B</td><td>1.107</td><td>$5.6B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$6.6B</td><td>1.226</td><td>$5.4B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$6.9B</td><td>1.358</td><td>$5.1B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$7.2B</td><td>1.503</td><td>$4.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$7.4B</td><td>1.664</td><td>$4.4B</td></tr></table>\n<p>Sum of PV (explicit): <b>$25.2B</b> \u00b7\n   terminal value <b>$91.6B</b> \u2192\n   PV <b>$55.0B</b></p>\n<p>Enterprise value <b>$80.2B</b> \u2212 debt $31.5B\n   + cash $11.5B = equity <b>$60.2B</b><br>\n   \u00f7 315M shares = <b>$190.96/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 9.7%</th><th>WACC 10.7%</th><th>WACC 11.7%</th></tr><tr><td>growth 6.0%</td><td>$214</td><td>$180</td><td>$154</td></tr><tr><td>growth 8.0%</td><td>$226</td><td><b>$191</b></td><td>$163</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18032,7 +18024,7 @@
       "name": "KLA Corporation",
       "price": 187.11,
       "intrinsic": 186.696966,
-      "upside": -0.002212326312531288,
+      "upside": -0.0022123230433214983,
       "confidence": "low",
       "range_low": 186.696966,
       "range_high": 186.696966,
@@ -18040,7 +18032,7 @@
         "day": [
           [
             "2026-09-24 09:30",
-            185.2
+            185.23
           ],
           [
             "2026-09-24 09:31",
@@ -26817,10 +26809,6 @@
         [
           "2026-09-23",
           187.86
-        ],
-        [
-          "2026-09-24",
-          187.11
         ]
       ],
       "stats": [
@@ -32096,17 +32084,13 @@
         [
           "2026-09-23",
           392.88
-        ],
-        [
-          "2026-09-24",
-          391.69
         ]
       ],
       "intraday": {
         "day": [
           [
             "2026-09-24 09:30",
-            391.8
+            392.02
           ],
           [
             "2026-09-24 09:31",
@@ -37840,7 +37824,7 @@
         ],
         [
           "2023-09-07",
-          28.4
+          28.41
         ],
         [
           "2023-09-08",
@@ -40889,10 +40873,6 @@
         [
           "2026-09-23",
           39.75
-        ],
-        [
-          "2026-09-24",
-          39.36
         ]
       ],
       "intraday": {
@@ -49682,10 +49662,6 @@
         [
           "2026-09-23",
           110.65
-        ],
-        [
-          "2026-09-24",
-          110.32
         ]
       ],
       "intraday": {
@@ -54906,7 +54882,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -58479,10 +58455,6 @@
         [
           "2026-09-23",
           601.41
-        ],
-        [
-          "2026-09-24",
-          600.52
         ]
       ],
       "intraday": {
@@ -64955,7 +64927,7 @@
         ],
         [
           "2024-05-30",
-          118.03
+          118.04
         ],
         [
           "2024-05-31",
@@ -67272,10 +67244,6 @@
         [
           "2026-09-23",
           170.1
-        ],
-        [
-          "2026-09-24",
-          168.83
         ]
       ],
       "intraday": {
@@ -71024,5 +70992,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-24 22:15Z"
+  "price_as_of": "2026-09-25 01:21Z"
 }
