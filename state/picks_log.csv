@@ -216,3 +216,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-24,1,AMAT,"Applied Materials, Inc.",469.23,487.79,3.8%,low,1
 2026-09-24,2,DELL,Dell Technologies Inc.,534.08,586.18,8.9%,low,1
 2026-09-24,3,KLAC,KLA Corporation,185.85,186.70,0.5%,low,1
+2026-09-25,1,AMAT,"Applied Materials, Inc.",483.89,496.47,2.5%,low,1
+2026-09-25,2,KLAC,KLA Corporation,188.20,189.81,0.8%,low,1
+2026-09-25,3,CRM,"Salesforce, Inc.",234.58,239.55,2.1%,medium,2
