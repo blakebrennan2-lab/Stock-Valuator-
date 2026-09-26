@@ -6343,7 +6343,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -24104,7 +24104,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -24860,7 +24860,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -27013,16 +27013,16 @@
       ],
       "news": [
         {
-          "title": "Can Palantir\u2019s AI moat survive the competition?",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-09-25",
-          "link": "https://finance.yahoo.com/video/palantir-ai-moat-survive-competition-172500938.html"
-        },
-        {
           "title": "What is Salesforce\u2019s (CRM) Economic Moat, and is it Widening or Narrowing?",
           "publisher": "Insider Monkey",
           "date": "2026-09-26",
           "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-economic-moat-widening-030951186.html"
+        },
+        {
+          "title": "Can Palantir\u2019s AI moat survive the competition?",
+          "publisher": "Yahoo Finance Video",
+          "date": "2026-09-25",
+          "link": "https://finance.yahoo.com/video/palantir-ai-moat-survive-competition-172500938.html"
         },
         {
           "title": "Here\u2019s The Actual Reason I Keep Buying Salesforce On Repeat",
@@ -37861,7 +37861,7 @@
         ],
         [
           "2023-09-07",
-          28.4
+          28.41
         ],
         [
           "2023-09-08",
@@ -46110,7 +46110,7 @@
         ],
         [
           "2023-02-17",
-          72.93
+          72.94
         ],
         [
           "2023-02-21",
@@ -71061,5 +71061,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-26 17:02Z"
+  "price_as_of": "2026-09-26 20:57Z"
 }
