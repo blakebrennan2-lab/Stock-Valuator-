@@ -5623,7 +5623,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6059,7 +6059,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6563,7 +6563,7 @@
         ],
         [
           "2024-07-02",
-          236.62
+          236.61
         ],
         [
           "2024-07-03",
@@ -8800,6 +8800,10 @@
         [
           "2026-09-24",
           474.25
+        ],
+        [
+          "2026-09-25",
+          485.0
         ]
       ],
       "stats": [
@@ -8965,6 +8969,12 @@
       ],
       "news": [
         {
+          "title": "3 Chip Equipment Stocks Retail Investors Are Watching After The US China Summit",
+          "publisher": "Simply Wall St.",
+          "date": "2026-09-26",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-equipment-stocks-retail-051214393.html"
+        },
+        {
           "title": "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
           "publisher": "Simply Wall St.",
           "date": "2026-09-25",
@@ -9005,12 +9015,6 @@
           "publisher": "Zacks",
           "date": "2026-09-23",
           "link": "https://finance.yahoo.com/technology/ai/articles/3-top-chip-equipment-stocks-144900138.html"
-        },
-        {
-          "title": "Wall Street Bulls Look Optimistic About Applied Materials (AMAT): Should You Buy?",
-          "publisher": "Zacks",
-          "date": "2026-09-23",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003759.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.771</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.6B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.66/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9022,7 +9026,7 @@
       "name": "KLA Corporation",
       "price": 187.92,
       "intrinsic": 189.80854409113545,
-      "upside": 0.009949731716126986,
+      "upside": 0.009949741362977627,
       "confidence": "low",
       "range_low": 189.80854409113545,
       "range_high": 189.80854409113545,
@@ -13382,7 +13386,7 @@
         ],
         [
           "2022-04-25",
-          31.71
+          31.72
         ],
         [
           "2022-04-26",
@@ -17815,6 +17819,10 @@
         [
           "2026-09-24",
           187.11
+        ],
+        [
+          "2026-09-25",
+          187.92
         ]
       ],
       "stats": [
@@ -18047,7 +18055,7 @@
       "name": "Salesforce, Inc.",
       "price": 234.02,
       "intrinsic": 239.5498413273188,
-      "upside": 0.023084303862104694,
+      "upside": 0.023084286026731047,
       "confidence": "medium",
       "range_low": 199.45928411271777,
       "range_high": 279.64039854191986,
@@ -24264,7 +24272,7 @@
         ],
         [
           "2024-02-29",
-          303.03
+          303.04
         ],
         [
           "2024-03-01",
@@ -26841,6 +26849,10 @@
         [
           "2026-09-24",
           238.22
+        ],
+        [
+          "2026-09-25",
+          234.02
         ]
       ],
       "stats": [
@@ -27007,6 +27019,12 @@
           "link": "https://finance.yahoo.com/video/palantir-ai-moat-survive-competition-172500938.html"
         },
         {
+          "title": "What is Salesforce\u2019s (CRM) Economic Moat, and is it Widening or Narrowing?",
+          "publisher": "Insider Monkey",
+          "date": "2026-09-26",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-economic-moat-widening-030951186.html"
+        },
+        {
           "title": "Here\u2019s The Actual Reason I Keep Buying Salesforce On Repeat",
           "publisher": "24/7 Wall St.",
           "date": "2026-09-25",
@@ -27041,12 +27059,6 @@
           "publisher": "Simply Wall St.",
           "date": "2026-09-25",
           "link": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-crwd-joined-founding-alliance-061018474.html"
-        },
-        {
-          "title": "Stock Market Today, Sept. 24: Oracle Stock Dips As it Issues Force Majeure Notice on Project Jupiter Data Center",
-          "publisher": "Motley Fool",
-          "date": "2026-09-24",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-today-sept-24-oracle-stock-dips-as-it-issues-force-majeure-notice-on-project-jupiter-data-center/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.8% / 8.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.596</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.7B</b> \u00b7\n   terminal value <b>$198.5B</b> \u2192\n   PV <b>$124.3B</b></p>\n<p>Enterprise value <b>$174.0B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.2B</b><br>\n   \u00f7 823M shares = <b>$199.46/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$223</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$199</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32105,6 +32117,10 @@
         [
           "2026-09-24",
           391.69
+        ],
+        [
+          "2026-09-25",
+          393.41
         ]
       ],
       "intraday": {
@@ -40902,6 +40918,10 @@
         [
           "2026-09-24",
           39.36
+        ],
+        [
+          "2026-09-25",
+          39.51
         ]
       ],
       "intraday": {
@@ -46090,7 +46110,7 @@
         ],
         [
           "2023-02-17",
-          72.93
+          72.94
         ],
         [
           "2023-02-21",
@@ -46534,7 +46554,7 @@
         ],
         [
           "2023-07-31",
-          84.58
+          84.59
         ],
         [
           "2023-08-01",
@@ -47338,7 +47358,7 @@
         ],
         [
           "2024-05-16",
-          87.06
+          87.05
         ],
         [
           "2024-05-17",
@@ -49699,6 +49719,10 @@
         [
           "2026-09-24",
           110.32
+        ],
+        [
+          "2026-09-25",
+          110.56
         ]
       ],
       "intraday": {
@@ -58496,6 +58520,10 @@
         [
           "2026-09-24",
           91.17
+        ],
+        [
+          "2026-09-25",
+          90.99
         ]
       ],
       "intraday": {
@@ -67293,6 +67321,10 @@
         [
           "2026-09-24",
           41.65
+        ],
+        [
+          "2026-09-25",
+          41.56
         ]
       ],
       "intraday": {
@@ -71029,5 +71061,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-26 01:24Z"
+  "price_as_of": "2026-09-26 07:26Z"
 }
