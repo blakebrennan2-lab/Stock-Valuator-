@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 486.76,
       "intrinsic": 501.1475525679828,
-      "upside": 0.028709214470385127,
+      "upside": 0.028709194983858734,
       "confidence": "low",
       "range_low": 501.1475525679828,
       "range_high": 501.1475525679828,
@@ -6279,7 +6279,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8966,7 +8966,7 @@
       "name": "KLA Corporation",
       "price": 189.17,
       "intrinsic": 195.1538207412994,
-      "upside": 0.030662073222905064,
+      "upside": 0.030662082605527795,
       "confidence": "low",
       "range_low": 195.1538207412994,
       "range_high": 195.1538207412994,
@@ -17933,9 +17933,9 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 227.31,
+      "price": 227.27,
       "intrinsic": 238.40815994793437,
-      "upside": 0.046551090996038366,
+      "upside": 0.046718852567403206,
       "confidence": "medium",
       "range_low": 199.8898265787363,
       "range_high": 276.92649331713244,
@@ -19491,15 +19491,15 @@
           ],
           [
             "2026-09-28 15:57",
-            227.26
+            227.29
           ],
           [
             "2026-09-28 15:58",
-            227.13
+            227.12
           ],
           [
             "2026-09-28 15:59",
-            227.27
+            227.31
           ]
         ],
         "week": [
@@ -21061,7 +21061,7 @@
           ],
           [
             "2026-09-28 15:55",
-            227.27
+            227.31
           ]
         ],
         "month": [
@@ -21623,7 +21623,7 @@
           ],
           [
             "2026-09-28 15:30",
-            227.27
+            227.31
           ]
         ]
       },
@@ -23920,7 +23920,7 @@
         ],
         [
           "2023-12-28",
-          260.61
+          260.6
         ],
         [
           "2023-12-29",
@@ -26839,6 +26839,12 @@
           "link": "https://finance.yahoo.com/video/impact-ai-advertising-according-sir-144000439.html"
         },
         {
+          "title": "Stock Market Today: Dow Ends Lower But Nvidia Pops On This; Leisure Play Tests Entry, MongoDB Dives",
+          "publisher": "Investor's Business Daily",
+          "date": "2026-09-28",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-treasury-yields/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push",
           "publisher": "GuruFocus.com",
           "date": "2026-09-28",
@@ -26849,12 +26855,6 @@
           "publisher": "GuruFocus.com",
           "date": "2026-09-28",
           "link": "https://finance.yahoo.com/technology/ai/articles/meta-just-put-microsoft-salesforce-193907867.html"
-        },
-        {
-          "title": "Stock Market Today: Dow Off Lows After Iran Report; Leisure Play Tests Entry, MongoDB Dives (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-09-28",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-treasury-yields/?src=A00220&yptr=yahoo"
         },
         {
           "title": "Microsoft, Oracle Stocks Tumble After Meta Unveils New AI Enterprise Push",
@@ -26892,7 +26892,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 377.92,
+      "price": 377.91,
       "drawdown": -0.25854424171081025,
       "thesis": "SPDR Gold Shares is down 26% from its 52-week high but is still in a long-term uptrend (3y +120%, 5y +127%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -31936,7 +31936,7 @@
         ],
         [
           "2026-09-28",
-          377.92
+          377.91
         ]
       ],
       "intraday": {
@@ -33483,7 +33483,7 @@
           ],
           [
             "2026-09-28 15:55",
-            377.94
+            377.93
           ],
           [
             "2026-09-28 15:56",
@@ -33495,7 +33495,7 @@
           ],
           [
             "2026-09-28 15:58",
-            377.94
+            377.96
           ],
           [
             "2026-09-28 15:59",
@@ -35633,7 +35633,7 @@
       "name": "Utilities Select Sector SPDR",
       "category": "Utilities",
       "is_etf": true,
-      "price": 39.27,
+      "price": 39.25,
       "drawdown": -0.1784518828451882,
       "thesis": "Utilities Select Sector SPDR is down 18% from its 52-week high but is still in a long-term uptrend (3y +46%, 5y +36%) \u2014 a pullback on a quality Utilities fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -40677,7 +40677,7 @@
         ],
         [
           "2026-09-28",
-          39.27
+          39.25
         ]
       ],
       "intraday": {
@@ -42240,7 +42240,7 @@
           ],
           [
             "2026-09-28 15:59",
-            39.27
+            39.26
           ]
         ],
         "week": [
@@ -43802,7 +43802,7 @@
           ],
           [
             "2026-09-28 15:55",
-            39.27
+            39.26
           ]
         ],
         "month": [
@@ -44364,7 +44364,7 @@
           ],
           [
             "2026-09-28 15:30",
-            39.27
+            39.26
           ]
         ]
       }
@@ -44374,7 +44374,7 @@
       "name": "Consumer Discretionary SPDR",
       "category": "Consumer discretionary",
       "is_etf": true,
-      "price": 108.99,
+      "price": 109.0,
       "drawdown": -0.12814974802015844,
       "thesis": "Consumer Discretionary SPDR is down 13% from its 52-week high but is still in a long-term uptrend (3y +39%, 5y +13%) \u2014 a pullback on a quality Consumer discretionary fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -49418,7 +49418,7 @@
         ],
         [
           "2026-09-28",
-          108.99
+          109.0
         ]
       ],
       "intraday": {
@@ -50969,7 +50969,7 @@
           ],
           [
             "2026-09-28 15:56",
-            108.98
+            108.99
           ],
           [
             "2026-09-28 15:57",
@@ -53115,7 +53115,7 @@
       "name": "Vanguard Real Estate",
       "category": "Real estate",
       "is_etf": true,
-      "price": 90.6,
+      "price": 90.59,
       "drawdown": -0.11001964636542239,
       "thesis": "Vanguard Real Estate is down 11% from its 52-week high but is still in a long-term uptrend (3y +35%, 5y +1%) \u2014 a pullback on a quality Real estate fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -56483,7 +56483,7 @@
         ],
         [
           "2025-01-27",
-          86.0
+          85.99
         ],
         [
           "2025-01-28",
@@ -58159,7 +58159,7 @@
         ],
         [
           "2026-09-28",
-          90.6
+          90.59
         ]
       ],
       "intraday": {
@@ -61856,7 +61856,7 @@
       "name": "Real Estate Select Sector SPDR",
       "category": "Real estate",
       "is_etf": true,
-      "price": 41.355,
+      "price": 41.35,
       "drawdown": -0.10978366160800779,
       "thesis": "Real Estate Select Sector SPDR is down 11% from its 52-week high but is still in a long-term uptrend (3y +35%, 5y +3%) \u2014 a pullback on a quality Real estate fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -68451,7 +68451,7 @@
           ],
           [
             "2026-09-28 15:57",
-            41.31
+            41.32
           ],
           [
             "2026-09-28 15:58",
@@ -70588,5 +70588,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-09-28 23:09Z"
 }
