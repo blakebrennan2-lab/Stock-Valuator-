@@ -5623,7 +5623,7 @@
         ],
         [
           "2023-07-26",
-          135.5
+          135.51
         ],
         [
           "2023-07-27",
@@ -6059,7 +6059,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6343,7 +6343,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -8119,7 +8119,7 @@
         ],
         [
           "2026-01-21",
-          324.08
+          324.09
         ],
         [
           "2026-01-22",
@@ -12882,7 +12882,7 @@
         ],
         [
           "2021-10-22",
-          32.67
+          32.68
         ],
         [
           "2021-10-25",
@@ -13386,7 +13386,7 @@
         ],
         [
           "2022-04-25",
-          31.72
+          31.71
         ],
         [
           "2022-04-26",
@@ -24360,7 +24360,7 @@
         ],
         [
           "2024-04-02",
-          298.7
+          298.69
         ],
         [
           "2024-04-03",
@@ -24860,7 +24860,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -27013,6 +27013,12 @@
       ],
       "news": [
         {
+          "title": "Salesforce vs. Palantir Technologies: What Revenue Trends Reveal to Investors About These Tech Giants",
+          "publisher": "Motley Fool",
+          "date": "2026-09-27",
+          "link": "https://www.fool.com/coverage/charts/2026/09/27/salesforce-vs-palantir-technologies-what-revenue-trends-reveal-to-investors-about-these-tech-giants/"
+        },
+        {
           "title": "Salesforce Stock Is Down Nearly 12% in 2026. Time to Sell or Load Up?",
           "publisher": "TIKR",
           "date": "2026-09-26",
@@ -27053,12 +27059,6 @@
           "publisher": "Zacks",
           "date": "2026-09-25",
           "link": "https://finance.yahoo.com/technology/ai/articles/saps-ai-platform-support-cloud-120800912.html"
-        },
-        {
-          "title": "2 Large-Cap Stocks with Exciting Potential and 1 Facing Headwinds",
-          "publisher": "StockStory",
-          "date": "2026-09-25",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-large-cap-stocks-exciting-113637517.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.8% / 8.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.206</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.324</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.454</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.596</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.7B</b> \u00b7\n   terminal value <b>$198.5B</b> \u2192\n   PV <b>$124.4B</b></p>\n<p>Enterprise value <b>$174.0B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.2B</b><br>\n   \u00f7 823M shares = <b>$199.49/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$223</td><td>$190</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$233</td><td><b>$199</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -46110,7 +46110,7 @@
         ],
         [
           "2023-02-17",
-          72.94
+          72.93
         ],
         [
           "2023-02-21",
@@ -47358,7 +47358,7 @@
         ],
         [
           "2024-05-16",
-          87.06
+          87.05
         ],
         [
           "2024-05-17",
@@ -56851,7 +56851,7 @@
         ],
         [
           "2025-01-27",
-          86.0
+          85.99
         ],
         [
           "2025-01-28",
@@ -71061,5 +71061,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-27 22:56Z"
+  "price_as_of": "2026-09-28 01:32Z"
 }
