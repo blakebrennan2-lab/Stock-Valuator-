@@ -5583,7 +5583,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6019,7 +6019,7 @@
         ],
         [
           "2023-12-29",
-          158.65
+          158.66
         ],
         [
           "2024-01-02",
@@ -6303,7 +6303,7 @@
         ],
         [
           "2024-04-12",
-          203.83
+          203.82
         ],
         [
           "2024-04-15",
@@ -6523,7 +6523,7 @@
         ],
         [
           "2024-07-02",
-          236.61
+          236.62
         ],
         [
           "2024-07-03",
@@ -8079,7 +8079,7 @@
         ],
         [
           "2026-01-21",
-          324.09
+          324.08
         ],
         [
           "2026-01-22",
@@ -8937,52 +8937,52 @@
       ],
       "news": [
         {
+          "title": "AMAT Stock Has Doubled This Year: Analyst Trims Price Target But Sees Higher 2027 Sales, Profit",
+          "publisher": "Stocktwits",
+          "date": "2026-09-30",
+          "link": "https://stocktwits.com/news-articles/markets/equity/amat-stock-has-doubled-this-year-analyst-trims-price-target-but-sees-higher-2027-sales-profit/cZMnsiNRBWF"
+        },
+        {
+          "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
+          "publisher": "Motley Fool",
+          "date": "2026-09-29",
+          "link": "https://www.fool.com/investing/2026/09/29/better-semiconductor-equipment-stock-applied-mater/"
+        },
+        {
+          "title": "Why It\u2019s Time to Load Up on Applied Materials Stock",
+          "publisher": "Barchart",
+          "date": "2026-09-29",
+          "link": "https://www.barchart.com/story/news/4862931/why-its-time-to-load-up-on-applied-materials-stock"
+        },
+        {
+          "title": "Morgan Stanley resets AMAT stock price target by $79",
+          "publisher": "TheStreet",
+          "date": "2026-09-29",
+          "link": "https://www.thestreet.com/investing/stocks/amat-applied-materials-inc-stock-price-target-morgan-stanley-september-2026"
+        },
+        {
+          "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
+          "publisher": "Zacks",
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/technology/ai/articles/klacs-backlog-surges-ai-demand-140200246.html"
+        },
+        {
+          "title": "DOCU Stock Soars 50.8% in 3 Months: Here's What You Should Know",
+          "publisher": "Zacks",
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/docu-stock-soars-50-8-135300249.html"
+        },
+        {
+          "title": "Is Applied Materials Still The Business You Bought?",
+          "publisher": "Trefis",
+          "date": "2026-09-29",
+          "link": "https://www.trefis.com/articles/616977/is-applied-materials-still-the-business-you-bought/2026-09-29"
+        },
+        {
           "title": "Wall Street Analysts Believe Applied Materials (AMAT) Could Rally 34.23%: Here's is How to Trade",
           "publisher": "Zacks",
           "date": "2026-09-28",
           "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-believe-applied-125503817.html"
-        },
-        {
-          "title": "Here's How Much a $1000 Investment in Applied Materials Made 10 Years Ago Would Be Worth Today",
-          "publisher": "Zacks",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-applied-113002255.html"
-        },
-        {
-          "title": "AI Is Powering A Profit Boom \u2014 But Is It An 'Earnings Bubble'? Wall Street Analyst Weighs In",
-          "publisher": "Stocktwits",
-          "date": "2026-09-28",
-          "link": "https://stocktwits.com/news-articles/markets/equity/ai-is-powering-a-profit-boom-but-is-it-an-earnings-bubble-wall-street-analyst-weighs-in/cZMSnngRBfy"
-        },
-        {
-          "title": "Is Axcelis (ACLS) Building a Long-Term Winner?",
-          "publisher": "Insider Monkey",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/axcelis-acls-building-long-term-061809665.html"
-        },
-        {
-          "title": "3 Chip Equipment Stocks Retail Investors Are Watching After The US China Summit",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-26",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-equipment-stocks-retail-051214393.html"
-        },
-        {
-          "title": "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-25",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-behind-fresh-042530701.html"
-        },
-        {
-          "title": "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?",
-          "publisher": "Insider Monkey",
-          "date": "2026-09-25",
-          "link": "https://finance.yahoo.com/technology/ai/articles/asml-vs-applied-materials-ai-040717818.html"
-        },
-        {
-          "title": "Richard Ross Names Semiconductor Equipment And Memory Buys",
-          "publisher": " TheStreet",
-          "date": "2026-09-24",
-          "link": "https://cdn.jwplayer.com/previews/oaP7SO6f"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$6.6B</b> \u00b7\n   growth applied <b>-1.4%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.597</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>12.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>2.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>98.2% / 1.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>12.1%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-1.4%</td><td>$6.5B</td><td>1.121</td><td>$5.8B</td></tr><tr><td>Y2</td><td>-1.1%</td><td>$6.4B</td><td>1.257</td><td>$5.1B</td></tr><tr><td>Y3</td><td>-0.7%</td><td>$6.4B</td><td>1.409</td><td>$4.5B</td></tr><tr><td>Y4</td><td>-0.4%</td><td>$6.4B</td><td>1.580</td><td>$4.0B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$6.4B</td><td>1.772</td><td>$3.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$23.1B</b> \u00b7\n   terminal value <b>$52.5B</b> \u2192\n   PV <b>$29.6B</b></p>\n<p>Enterprise value <b>$52.7B</b> \u2212 debt $7.0B\n   + cash $7.2B = equity <b>$52.9B</b><br>\n   \u00f7 794M shares = <b>$66.66/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 11.1%</th><th>WACC 12.1%</th><th>WACC 13.1%</th></tr><tr><td>growth -3.4%</td><td>$69</td><td>$64</td><td>$59</td></tr><tr><td>growth -1.4%</td><td>$73</td><td><b>$67</b></td><td>$62</td></tr><tr><td>growth 0.6%</td><td>$80</td><td>$73</td><td>$67</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -12810,7 +12810,7 @@
         ],
         [
           "2021-10-22",
-          32.67
+          32.68
         ],
         [
           "2021-10-25",
@@ -17934,6 +17934,12 @@
       ],
       "news": [
         {
+          "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
+          "publisher": "Zacks",
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/technology/ai/articles/klacs-backlog-surges-ai-demand-140200246.html"
+        },
+        {
           "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
           "publisher": "Zacks",
           "date": "2026-09-24",
@@ -17974,12 +17980,6 @@
           "publisher": "Zacks",
           "date": "2026-09-22",
           "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-stock-moves-2-221505648.html"
-        },
-        {
-          "title": "LRCX Eyes Mid-40s Operating Margin: Is the Long-Term Goal Achievable?",
-          "publisher": "Zacks",
-          "date": "2026-09-22",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lrcx-eyes-mid-40s-operating-123700792.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.5B</b> \u00b7\n   growth applied <b>0.5%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.444</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>11.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>97.6% / 2.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>11.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>0.5%</td><td>$3.6B</td><td>1.113</td><td>$3.2B</td></tr><tr><td>Y2</td><td>0.5%</td><td>$3.6B</td><td>1.240</td><td>$2.9B</td></tr><tr><td>Y3</td><td>0.5%</td><td>$3.6B</td><td>1.380</td><td>$2.6B</td></tr><tr><td>Y4</td><td>0.5%</td><td>$3.6B</td><td>1.537</td><td>$2.4B</td></tr><tr><td>Y5</td><td>0.5%</td><td>$3.6B</td><td>1.711</td><td>$2.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$13.2B</b> \u00b7\n   terminal value <b>$33.9B</b> \u2192\n   PV <b>$19.8B</b></p>\n<p>Enterprise value <b>$33.0B</b> \u2212 debt $6.2B\n   + cash $1.6B = equity <b>$28.5B</b><br>\n   \u00f7 1,305M shares = <b>$21.81/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 10.3%</th><th>WACC 11.3%</th><th>WACC 12.3%</th></tr><tr><td>growth -1.5%</td><td>$22</td><td>$20</td><td>$18</td></tr><tr><td>growth 0.5%</td><td>$24</td><td><b>$22</b></td><td>$20</td></tr><tr><td>growth 2.5%</td><td>$32</td><td>$28</td><td>$25</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22540,7 +22540,7 @@
         ],
         [
           "2022-07-18",
-          164.75
+          164.74
         ],
         [
           "2022-07-19",
@@ -24000,7 +24000,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -24256,7 +24256,7 @@
         ],
         [
           "2024-04-02",
-          298.7
+          298.69
         ],
         [
           "2024-04-03",
@@ -26917,52 +26917,52 @@
       ],
       "news": [
         {
-          "title": "The impact that AI will have on advertising, according to Sir Martin Sorrell",
+          "title": "Anthropic lost $42B last year: 2 hot takes on its leaked IPO filing",
           "publisher": "Yahoo Finance Video",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/video/impact-ai-advertising-according-sir-144000439.html"
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/video/anthropic-lost-42b-last-2-141500285.html"
         },
         {
-          "title": "Stock Market Today: Dow Ends Lower But Nvidia Pops On This; Leisure Play Tests Entry, MongoDB Dives",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-09-28",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-treasury-yields/?src=A00220&yptr=yahoo"
+          "title": "A closer look at Anthropic's 2025 losses, Dan Ives discusses AI safety risks",
+          "publisher": "Yahoo Finance Video",
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/video/closer-look-anthropics-2025-losses-141434926.html"
         },
         {
-          "title": "Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push",
+          "title": "Salesforce Stock Fell 8% in a Year. Here\u2019s Where the Street\u2019s Target Sits Now.",
+          "publisher": "TIKR",
+          "date": "2026-09-30",
+          "link": "https://www.tikr.com/blog/salesforce-stock-fell-8-in-a-year-heres-where-the-streets-target-sits-now?ref=yahoofinance"
+        },
+        {
+          "title": "Stock Market Today, Sept. 29: Oracle's Fusion Claw Helps it Claw Back Losses",
+          "publisher": "Motley Fool",
+          "date": "2026-09-29",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/29/stock-market-today-sept-29-oracle-s-fusion-claw-helps-it-claws-back-losses/"
+        },
+        {
+          "title": "Has MSFT Stock Run Out Of Steam?",
+          "publisher": "Trefis",
+          "date": "2026-09-29",
+          "link": "https://www.trefis.com/articles/616915/has-msft-stock-run-out-of-steam/2026-09-29"
+        },
+        {
+          "title": "Where Could Adobe's Next Growth Come From?",
+          "publisher": "Trefis",
+          "date": "2026-09-29",
+          "link": "https://www.trefis.com/articles/616935/where-could-adobes-next-growth-come-from/2026-09-29"
+        },
+        {
+          "title": "Meta Wants Its AI to Help Run Your Business",
           "publisher": "GuruFocus.com",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/technology/ai/articles/meta-platform-takes-aim-salesforce-194111319.html"
+          "date": "2026-09-29",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-wants-ai-help-run-182254491.html"
         },
         {
-          "title": "Meta Just Put Microsoft, Salesforce and ServiceNow on Notice",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/technology/ai/articles/meta-just-put-microsoft-salesforce-193907867.html"
-        },
-        {
-          "title": "Microsoft, Oracle Stocks Tumble After Meta Unveils New AI Enterprise Push",
-          "publisher": "GuruFocus.com",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-oracle-stocks-tumble-meta-185142672.html"
-        },
-        {
-          "title": "Salesforce Is Cheap. ServiceNow Is Growing Faster. Here\u2019s the Stock I\u2019d Buy.",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-09-28",
-          "link": "https://247wallst.com/investing/2026/09/28/salesforce-is-cheap-servicenow-is-growing-faster-heres-the-stock-id-buy/"
-        },
-        {
-          "title": "Is Salesforce (CRM) Cheap After AIforce And Koa Launches?",
-          "publisher": "Simply Wall St.",
-          "date": "2026-09-28",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-cheap-aiforce-koa-160754022.html"
-        },
-        {
-          "title": "Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-09-28",
-          "link": "https://247wallst.com/investing/2026/09/28/why-salesforce-servicenow-and-snowflake-all-dropped-4-within-minutes-of-a-meta-announcement-monday/"
+          "title": "What Is The Case For Waiting On CRM Stock?",
+          "publisher": "Trefis",
+          "date": "2026-09-29",
+          "link": "https://www.trefis.com/articles/616956/what-is-the-case-for-waiting-on-crm-stock/2026-09-29"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.202</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.6% / 8.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.8%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.098</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.205</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.323</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.453</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.595</td><td>$8.9B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.7B</b> \u00b7\n   terminal value <b>$198.9B</b> \u2192\n   PV <b>$124.7B</b></p>\n<p>Enterprise value <b>$174.4B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$164.5B</b><br>\n   \u00f7 823M shares = <b>$199.89/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.8%</th><th>WACC 9.8%</th><th>WACC 10.8%</th></tr><tr><td>growth 6.0%</td><td>$223</td><td>$191</td><td>$166</td></tr><tr><td>growth 8.0%</td><td>$234</td><td><b>$200</b></td><td>$174</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -45938,7 +45938,7 @@
         ],
         [
           "2023-02-17",
-          72.94
+          72.93
         ],
         [
           "2023-02-21",
@@ -56647,7 +56647,7 @@
         ],
         [
           "2025-01-27",
-          85.99
+          86.0
         ],
         [
           "2025-01-28",
@@ -70813,5 +70813,5 @@
       }
     }
   ],
-  "price_as_of": "2026-09-30 01:57Z"
+  "price_as_of": "2026-09-30 08:21Z"
 }
