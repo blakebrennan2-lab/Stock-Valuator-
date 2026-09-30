@@ -228,3 +228,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-09-28,1,AMAT,"Applied Materials, Inc.",486.76,501.15,2.9%,low,1
 2026-09-28,2,KLAC,KLA Corporation,189.17,195.15,3.1%,low,1
 2026-09-28,3,CRM,"Salesforce, Inc.",227.31,238.41,4.7%,medium,2
+2026-09-30,1,AMAT,"Applied Materials, Inc.",511.64,516.15,0.9%,low,1
+2026-09-30,2,KLAC,KLA Corporation,195.65,197.47,0.9%,low,1
+2026-09-30,3,CRM,"Salesforce, Inc.",228.65,234.03,2.3%,medium,2
