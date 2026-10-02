@@ -234,3 +234,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-01,1,CRM,"Salesforce, Inc.",235.76,237.88,0.9%,medium,2
 2026-10-01,2,BMY,Bristol-Myers Squibb Company,61.69,71.67,13.9%,high,3
 2026-10-01,3,BKNG,Booking Holdings Inc.,161.19,178.77,9.8%,medium,2
+2026-10-02,1,AMAT,"Applied Materials, Inc.",539.29,540.07,0.1%,low,1
+2026-10-02,2,CRM,"Salesforce, Inc.",234.02,239.54,2.3%,medium,2
+2026-10-02,3,BMY,Bristol-Myers Squibb Company,60.76,66.91,9.2%,high,3
