@@ -243,3 +243,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-04,1,CRM,"Salesforce, Inc.",234.69,240.00,2.2%,medium,2
 2026-10-04,2,BMY,Bristol-Myers Squibb Company,61.15,67.29,9.1%,high,3
 2026-10-04,3,ACN,Accenture plc,198.90,202.25,1.7%,medium,2
+2026-10-05,1,CRM,"Salesforce, Inc.",229.79,236.64,2.9%,medium,2
+2026-10-05,2,ACN,Accenture plc,195.05,201.41,3.2%,medium,2
+2026-10-05,3,BKNG,Booking Holdings Inc.,158.33,181.66,12.8%,medium,2
