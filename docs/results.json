@@ -5999,7 +5999,7 @@
         ],
         [
           "2023-12-29",
-          158.66
+          158.65
         ],
         [
           "2024-01-02",
@@ -6283,7 +6283,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -12741,7 +12741,7 @@
         ],
         [
           "2021-10-22",
-          32.68
+          32.67
         ],
         [
           "2021-10-25",
@@ -16569,7 +16569,7 @@
         ],
         [
           "2025-08-18",
-          87.87
+          87.86
         ],
         [
           "2025-08-19",
@@ -17891,9 +17891,9 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 224.88,
+      "price": 224.99,
       "intrinsic": 243.49358932020976,
-      "upside": 0.07644383775919128,
+      "upside": 0.07599207797915492,
       "confidence": "medium",
       "range_low": 193.10640099764922,
       "range_high": 293.88077764277034,
@@ -19445,7 +19445,7 @@
           ],
           [
             "2026-10-06 15:56",
-            224.78
+            224.8
           ],
           [
             "2026-10-06 15:57",
@@ -19457,7 +19457,7 @@
           ],
           [
             "2026-10-06 15:59",
-            224.88
+            224.97
           ]
         ],
         "week": [
@@ -21019,7 +21019,7 @@
           ],
           [
             "2026-10-06 15:55",
-            224.88
+            224.97
           ]
         ],
         "month": [
@@ -21609,7 +21609,7 @@
           ],
           [
             "2026-10-06 15:30",
-            224.88
+            224.97
           ]
         ]
       },
@@ -23882,7 +23882,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -24138,7 +24138,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -26658,7 +26658,7 @@
         ],
         [
           "2026-10-06",
-          224.88
+          224.99
         ]
       ],
       "stats": [
@@ -26829,7 +26829,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 382.22,
+      "price": 382.27,
       "drawdown": -0.24889130861290953,
       "thesis": "SPDR Gold Shares is down 25% from its 52-week high but is still in a long-term uptrend (3y +108%, 5y +131%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -31873,7 +31873,7 @@
         ],
         [
           "2026-10-06",
-          382.22
+          382.27
         ]
       ],
       "intraday": {
@@ -33436,7 +33436,7 @@
           ],
           [
             "2026-10-06 15:59",
-            382.28
+            382.27
           ]
         ],
         "week": [
@@ -34998,7 +34998,7 @@
           ],
           [
             "2026-10-06 15:55",
-            382.28
+            382.27
           ]
         ],
         "month": [
@@ -35588,7 +35588,7 @@
           ],
           [
             "2026-10-06 15:30",
-            382.28
+            382.27
           ]
         ]
       }
@@ -35598,7 +35598,7 @@
       "name": "Utilities Select Sector SPDR",
       "category": "Utilities",
       "is_etf": true,
-      "price": 41.15,
+      "price": 41.16,
       "drawdown": -0.14309623430962337,
       "thesis": "Utilities Select Sector SPDR is down 14% from its 52-week high but is still in a long-term uptrend (3y +50%, 5y +45%) \u2014 a pullback on a quality Utilities fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -40642,7 +40642,7 @@
         ],
         [
           "2026-10-06",
-          41.15
+          41.16
         ]
       ],
       "intraday": {
@@ -44367,7 +44367,7 @@
       "name": "Vanguard Real Estate",
       "category": "Real estate",
       "is_etf": true,
-      "price": 89.94,
+      "price": 89.93,
       "drawdown": -0.11684675834970526,
       "thesis": "Vanguard Real Estate is down 12% from its 52-week high but is still in a long-term uptrend (3y +39%, 5y +2%) \u2014 a pullback on a quality Real estate fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -49411,7 +49411,7 @@
         ],
         [
           "2026-10-06",
-          89.94
+          89.93
         ]
       ],
       "intraday": {
@@ -58177,10 +58177,6 @@
         [
           "2026-10-05",
           40.67
-        ],
-        [
-          "2026-10-06",
-          41.1
         ]
       ],
       "intraday": {
@@ -59743,7 +59739,7 @@
           ],
           [
             "2026-10-06 15:59",
-            41.1
+            41.11
           ]
         ],
         "week": [
@@ -61305,7 +61301,7 @@
           ],
           [
             "2026-10-06 15:55",
-            41.1
+            41.11
           ]
         ],
         "month": [
@@ -61895,7 +61891,7 @@
           ],
           [
             "2026-10-06 15:30",
-            41.1
+            41.11
           ]
         ]
       }
@@ -61905,7 +61901,7 @@
       "name": "Consumer Discretionary SPDR",
       "category": "Consumer discretionary",
       "is_etf": true,
-      "price": 111.75,
+      "price": 111.72,
       "drawdown": -0.10787137029037674,
       "thesis": "Consumer Discretionary SPDR is down 11% from its 52-week high but is still in a long-term uptrend (3y +50%, 5y +14%) \u2014 a pullback on a quality Consumer discretionary fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -63085,7 +63081,7 @@
         ],
         [
           "2022-11-28",
-          68.48
+          68.47
         ],
         [
           "2022-11-29",
@@ -63105,7 +63101,7 @@
         ],
         [
           "2022-12-05",
-          68.48
+          68.47
         ],
         [
           "2022-12-06",
@@ -63309,7 +63305,7 @@
         ],
         [
           "2023-02-17",
-          72.93
+          72.94
         ],
         [
           "2023-02-21",
@@ -66949,7 +66945,7 @@
         ],
         [
           "2026-10-06",
-          111.75
+          111.72
         ]
       ],
       "intraday": {
@@ -70670,5 +70666,5 @@
       }
     }
   ],
-  "price_as_of": "2026-10-06 20:10Z"
+  "price_as_of": "2026-10-07 00:33Z"
 }
