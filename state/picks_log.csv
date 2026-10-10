@@ -258,3 +258,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-09,1,AMAT,"Applied Materials, Inc.",507.83,515.62,1.5%,low,1
 2026-10-09,2,CRM,"Salesforce, Inc.",229.17,251.72,9.0%,medium,2
 2026-10-09,3,TMUS,"T-Mobile US, Inc.",149.57,155.69,3.9%,low,3
+2026-10-10,1,AMAT,"Applied Materials, Inc.",507.03,514.09,1.4%,low,1
+2026-10-10,2,KLAC,KLA Corporation,195.57,197.30,0.9%,low,1
+2026-10-10,3,CRM,"Salesforce, Inc.",229.13,234.22,2.2%,medium,2
