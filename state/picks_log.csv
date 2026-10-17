@@ -273,3 +273,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-15,1,AMAT,"Applied Materials, Inc.",429.95,465.13,7.6%,low,1
 2026-10-15,2,KLAC,KLA Corporation,173.19,175.67,1.4%,low,1
 2026-10-15,3,ETN,Eaton Corporation plc,400.02,401.02,0.2%,low,1
+2026-10-17,1,AMAT,"Applied Materials, Inc.",409.29,429.97,4.8%,low,1
+2026-10-17,2,CRM,"Salesforce, Inc.",240.70,255.78,5.9%,medium,2
+2026-10-17,3,ETN,Eaton Corporation plc,391.25,398.10,1.7%,low,1
