@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "Applied Materials, Inc.",
       "price": 409.29,
       "intrinsic": 429.97229316120695,
-      "upside": 0.04810143570932555,
+      "upside": 0.04810145558251736,
       "confidence": "low",
       "range_low": 429.97229316120695,
       "range_high": 429.97229316120695,
@@ -1885,7 +1885,7 @@
           ],
           [
             "2026-10-12 15:55",
-            497.53
+            497.52
           ],
           [
             "2026-10-13 09:30",
@@ -2433,7 +2433,7 @@
           ],
           [
             "2026-10-14 14:20",
-            447.71
+            447.77
           ],
           [
             "2026-10-14 14:25",
@@ -3163,7 +3163,7 @@
           ],
           [
             "2026-09-17 15:30",
-            417.26
+            417.27
           ],
           [
             "2026-09-18 09:30",
@@ -3191,7 +3191,7 @@
           ],
           [
             "2026-09-18 15:30",
-            444.73
+            444.46
           ],
           [
             "2026-09-21 09:30",
@@ -3387,7 +3387,7 @@
           ],
           [
             "2026-09-29 15:30",
-            512.12
+            512.15
           ],
           [
             "2026-09-30 09:30",
@@ -3583,7 +3583,7 @@
           ],
           [
             "2026-10-08 15:30",
-            509.76
+            509.72
           ],
           [
             "2026-10-09 09:30",
@@ -3639,7 +3639,7 @@
           ],
           [
             "2026-10-12 15:30",
-            497.53
+            497.52
           ],
           [
             "2026-10-13 09:30",
@@ -5563,7 +5563,7 @@
         ],
         [
           "2023-07-26",
-          135.51
+          135.5
         ],
         [
           "2023-07-27",
@@ -6283,7 +6283,7 @@
         ],
         [
           "2024-04-12",
-          203.82
+          203.83
         ],
         [
           "2024-04-15",
@@ -8976,7 +8976,7 @@
       "name": "Salesforce, Inc.",
       "price": 240.7,
       "intrinsic": 255.78407993249715,
-      "upside": 0.058971938317020106,
+      "upside": 0.05897192638602815,
       "confidence": "medium",
       "range_low": 192.1339824652373,
       "range_high": 319.434177399757,
@@ -11154,7 +11154,7 @@
           ],
           [
             "2026-10-13 15:40",
-            239.44
+            239.38
           ],
           [
             "2026-10-13 15:45",
@@ -11566,7 +11566,7 @@
           ],
           [
             "2026-10-15 11:15",
-            246.14
+            246.15
           ],
           [
             "2026-10-15 11:20",
@@ -12188,7 +12188,7 @@
           ],
           [
             "2026-09-21 15:30",
-            236.6
+            236.62
           ],
           [
             "2026-09-22 09:30",
@@ -12300,7 +12300,7 @@
           ],
           [
             "2026-09-25 15:30",
-            234.07
+            234.08
           ],
           [
             "2026-09-28 09:30",
@@ -14965,7 +14965,7 @@
         ],
         [
           "2023-12-28",
-          260.61
+          260.6
         ],
         [
           "2023-12-29",
@@ -15221,7 +15221,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -19478,7 +19478,7 @@
           ],
           [
             "2026-10-16 15:52",
-            392.21
+            392.19
           ],
           [
             "2026-10-16 15:53",
@@ -21462,7 +21462,7 @@
           ],
           [
             "2026-10-06 15:30",
-            445.09
+            445.13
           ],
           [
             "2026-10-07 09:30",
@@ -22042,7 +22042,7 @@
         ],
         [
           "2022-02-10",
-          143.86
+          143.87
         ],
         [
           "2022-02-11",
@@ -22198,7 +22198,7 @@
         ],
         [
           "2022-04-07",
-          136.31
+          136.32
         ],
         [
           "2022-04-08",
@@ -23546,7 +23546,7 @@
         ],
         [
           "2023-08-11",
-          210.34
+          210.35
         ],
         [
           "2023-08-14",
@@ -26760,7 +26760,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$152.0B"
+          "value": "$151.9B"
         },
         {
           "label": "P/E",
@@ -26901,9 +26901,9 @@
         "\u2713 \u2192 multiple compression: price down 18% while earnings grew +18%/yr (sentiment, not deterioration)"
       ],
       "news": [],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.128</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.9% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.5% / 6.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.094</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.197</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.310</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.433</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.568</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.0B</b> \u2192\n   PV <b>$38.9B</b></p>\n<p>Enterprise value <b>$53.5B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.6B</b><br>\n   \u00f7 388M shares = <b>$112.30/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.4%</th><th>WACC 9.4%</th><th>WACC 10.4%</th></tr><tr><td>growth 6.0%</td><td>$129</td><td>$106</td><td>$90</td></tr><tr><td>growth 8.0%</td><td>$136</td><td><b>$112</b></td><td>$95</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.128</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.9% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.5% / 6.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.094</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.197</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.310</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.433</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.568</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.0B</b> \u2192\n   PV <b>$38.9B</b></p>\n<p>Enterprise value <b>$53.5B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.6B</b><br>\n   \u00f7 388M shares = <b>$112.33/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.4%</th><th>WACC 9.4%</th><th>WACC 10.4%</th></tr><tr><td>growth 6.0%</td><td>$129</td><td>$106</td><td>$90</td></tr><tr><td>growth 8.0%</td><td>$136</td><td><b>$112</b></td><td>$95</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.1%, payout 40%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (4): <b>AME, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>37.4x</b></td><td><b>26.2x</b></td><td><b>7.9x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>36.3x</td><td>23.5x</td><td>5.1x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>35.3x</td><td>16.8x</td><td>4.4x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>39.9x</td><td>24.1x</td><td>13.5x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>46.7x</td><td>29.8x</td><td>16.7x</td></tr></table>\n<p>Median P/E: 38.1x \u2192 <b>$398.10</b><br>\n   Median EV/EBITDA: 23.8x \u2192 <b>$353.13</b><br>\n   Median P/B: 9.3x \u2192 <b>$461.77</b></p>\n<p>Implied by method: P/E $398 \u00b7 EV/EBITDA $353 \u00b7 P/B $462<br>\n   Reconciled (median): <b>$398.10/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (4): <b>AME, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>37.4x</b></td><td><b>26.2x</b></td><td><b>7.9x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>36.3x</td><td>23.5x</td><td>5.1x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>35.9x</td><td>16.8x</td><td>4.4x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>39.9x</td><td>24.1x</td><td>13.5x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>46.7x</td><td>29.8x</td><td>16.7x</td></tr></table>\n<p>Median P/E: 38.1x \u2192 <b>$398.10</b><br>\n   Median EV/EBITDA: 23.8x \u2192 <b>$353.22</b><br>\n   Median P/B: 9.3x \u2192 <b>$461.77</b></p>\n<p>Implied by method: P/E $398 \u00b7 EV/EBITDA $353 \u00b7 P/B $462<br>\n   Reconciled (median): <b>$398.10/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -33519,7 +33519,7 @@
           ],
           [
             "2026-10-16 15:58",
-            381.96
+            381.95
           ],
           [
             "2026-10-16 15:59",
@@ -34177,7 +34177,7 @@
           ],
           [
             "2026-10-14 10:00",
-            374.82
+            374.85
           ],
           [
             "2026-10-14 10:05",
@@ -37121,7 +37121,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -41500,7 +41500,7 @@
           ],
           [
             "2026-10-16 12:33",
-            549.17
+            549.19
           ],
           [
             "2026-10-16 12:34",
@@ -41824,7 +41824,7 @@
           ],
           [
             "2026-10-16 13:54",
-            545.18
+            545.19
           ],
           [
             "2026-10-16 13:55",
@@ -42008,7 +42008,7 @@
           ],
           [
             "2026-10-16 14:40",
-            543.23
+            543.2
           ],
           [
             "2026-10-16 14:41",
@@ -42192,7 +42192,7 @@
           ],
           [
             "2026-10-16 15:26",
-            543.41
+            543.37
           ],
           [
             "2026-10-16 15:27",
@@ -42236,7 +42236,7 @@
           ],
           [
             "2026-10-16 15:37",
-            540.78
+            540.8
           ],
           [
             "2026-10-16 15:38",
@@ -42280,7 +42280,7 @@
           ],
           [
             "2026-10-16 15:48",
-            540.98
+            540.97
           ],
           [
             "2026-10-16 15:49",
@@ -43786,7 +43786,7 @@
           ],
           [
             "2026-10-16 13:50",
-            545.18
+            545.19
           ],
           [
             "2026-10-16 13:55",
@@ -43972,7 +43972,7 @@
           ],
           [
             "2026-09-21 15:30",
-            596.13
+            596.12
           ],
           [
             "2026-09-22 09:30",
@@ -44084,7 +44084,7 @@
           ],
           [
             "2026-09-25 15:30",
-            606.47
+            606.49
           ],
           [
             "2026-09-28 09:30",
@@ -44124,7 +44124,7 @@
           ],
           [
             "2026-09-29 11:30",
-            608.87
+            608.88
           ],
           [
             "2026-09-29 12:30",
@@ -44308,7 +44308,7 @@
           ],
           [
             "2026-10-07 15:30",
-            625.17
+            625.18
           ],
           [
             "2026-10-08 09:30",
@@ -53667,7 +53667,7 @@
         ],
         [
           "2022-02-10",
-          191.83
+          191.82
         ],
         [
           "2022-02-11",
@@ -54079,7 +54079,7 @@
         ],
         [
           "2022-07-12",
-          162.43
+          162.42
         ],
         [
           "2022-07-13",
@@ -54663,7 +54663,7 @@
         ],
         [
           "2023-02-08",
-          184.34
+          184.35
         ],
         [
           "2023-02-09",
@@ -58498,7 +58498,7 @@
           ],
           [
             "2026-10-16 10:02",
-            275.13
+            275.12
           ],
           [
             "2026-10-16 10:03",
@@ -59678,7 +59678,7 @@
           ],
           [
             "2026-10-16 14:57",
-            270.23
+            270.22
           ],
           [
             "2026-10-16 14:58",
@@ -59914,7 +59914,7 @@
           ],
           [
             "2026-10-16 15:56",
-            270.46
+            270.45
           ],
           [
             "2026-10-16 15:57",
@@ -60444,7 +60444,7 @@
           ],
           [
             "2026-10-13 13:40",
-            276.65
+            276.64
           ],
           [
             "2026-10-13 13:45",
@@ -60652,7 +60652,7 @@
           ],
           [
             "2026-10-14 11:30",
-            272.43
+            272.44
           ],
           [
             "2026-10-14 11:35",
@@ -60928,7 +60928,7 @@
           ],
           [
             "2026-10-15 10:45",
-            273.67
+            273.68
           ],
           [
             "2026-10-15 10:50",
@@ -61786,7 +61786,7 @@
           ],
           [
             "2026-10-01 12:30",
-            279.82
+            279.83
           ],
           [
             "2026-10-01 13:30",
@@ -61802,7 +61802,7 @@
           ],
           [
             "2026-10-02 09:30",
-            282.96
+            282.94
           ],
           [
             "2026-10-02 10:30",
@@ -67247,7 +67247,7 @@
           ],
           [
             "2026-10-16 09:49",
-            169.69
+            169.7
           ],
           [
             "2026-10-16 09:50",
@@ -69969,7 +69969,7 @@
           ],
           [
             "2026-10-15 15:45",
-            167.67
+            167.66
           ],
           [
             "2026-10-15 15:50",
@@ -69993,7 +69993,7 @@
           ],
           [
             "2026-10-16 09:45",
-            169.69
+            169.7
           ],
           [
             "2026-10-16 09:50",
@@ -70912,6 +70912,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-10-18 14:26Z"
+  ]
 }
