@@ -288,3 +288,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-21,1,AMAT,"Applied Materials, Inc.",408.14,424.82,3.9%,low,1
 2026-10-21,2,KLAC,KLA Corporation,163.23,164.24,0.6%,low,1
 2026-10-21,3,ETN,Eaton Corporation plc,395.42,407.99,3.1%,low,1
+2026-10-22,1,AMAT,"Applied Materials, Inc.",380.41,392.76,3.1%,low,1
+2026-10-22,2,ETN,Eaton Corporation plc,368.78,388.75,5.1%,low,1
+2026-10-22,3,BKNG,Booking Holdings Inc.,162.25,189.94,14.6%,medium,2
