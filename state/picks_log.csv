@@ -297,3 +297,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-10-24,1,TMUS,"T-Mobile US, Inc.",146.54,149.02,1.7%,low,3
 2026-10-24,2,ETN,Eaton Corporation plc,366.11,393.22,6.9%,low,1
 2026-10-24,3,BMY,Bristol-Myers Squibb Company,61.48,77.48,20.7%,high,3
+2026-10-25,1,TMUS,"T-Mobile US, Inc.",146.54,149.02,1.7%,low,3
+2026-10-25,2,ETN,Eaton Corporation plc,366.11,393.22,6.9%,low,1
+2026-10-25,3,BMY,Bristol-Myers Squibb Company,61.48,77.48,20.7%,high,3

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "count": 3,
   "picks": [
     {
@@ -7,7 +7,7 @@
       "name": "T-Mobile US, Inc.",
       "price": 146.54,
       "intrinsic": 149.01732486,
-      "upside": 0.016624453406304356,
+      "upside": 0.016624408352031734,
       "confidence": "low",
       "range_low": 72.91847329996578,
       "range_high": 155.8281786646528,
@@ -5309,7 +5309,7 @@
         ],
         [
           "2023-05-01",
-          136.16
+          136.17
         ],
         [
           "2023-05-02",
@@ -7385,7 +7385,7 @@
         ],
         [
           "2025-05-27",
-          236.62
+          236.61
         ],
         [
           "2025-05-28",
@@ -8979,7 +8979,7 @@
       "name": "Eaton Corporation plc",
       "price": 366.11,
       "intrinsic": 393.21676955,
-      "upside": 0.06893598212878528,
+      "upside": 0.06893594487595517,
       "confidence": "low",
       "range_low": 393.21676955,
       "range_high": 393.21676955,
@@ -13059,7 +13059,7 @@
         ],
         [
           "2022-02-10",
-          143.86
+          143.87
         ],
         [
           "2022-02-11",
@@ -17938,16 +17938,16 @@
         "\u2713 \u2192 multiple compression: price down 23% while earnings grew +18%/yr (sentiment, not deterioration)"
       ],
       "news": [],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.128</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.9% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.1% / 6.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.094</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.197</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.309</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.432</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.566</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.3B</b> \u2192\n   PV <b>$39.2B</b></p>\n<p>Enterprise value <b>$53.8B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.9B</b><br>\n   \u00f7 388M shares = <b>$112.98/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.4%</th><th>WACC 9.4%</th><th>WACC 10.4%</th></tr><tr><td>growth 6.0%</td><td>$130</td><td>$107</td><td>$90</td></tr><tr><td>growth 8.0%</td><td>$137</td><td><b>$113</b></td><td>$95</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.128</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.9% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.1% / 6.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.094</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.197</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.309</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.432</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.566</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.3B</b> \u2192\n   PV <b>$39.2B</b></p>\n<p>Enterprise value <b>$53.8B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.9B</b><br>\n   \u00f7 388M shares = <b>$113.01/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.4%</th><th>WACC 9.4%</th><th>WACC 10.4%</th></tr><tr><td>growth 6.0%</td><td>$130</td><td>$107</td><td>$90</td></tr><tr><td>growth 8.0%</td><td>$137</td><td><b>$113</b></td><td>$95</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.1%, payout 40%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (4): <b>AME, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>35.0x</b></td><td><b>24.6x</b></td><td><b>7.4x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>35.1x</td><td>22.7x</td><td>4.9x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>35.4x</td><td>16.8x</td><td>4.4x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>39.9x</td><td>24.1x</td><td>13.5x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>44.0x</td><td>28.0x</td><td>15.7x</td></tr></table>\n<p>Median P/E: 37.6x \u2192 <b>$393.22</b><br>\n   Median EV/EBITDA: 23.4x \u2192 <b>$347.15</b><br>\n   Median P/B: 9.2x \u2192 <b>$457.56</b></p>\n<p>Implied by method: P/E $393 \u00b7 EV/EBITDA $347 \u00b7 P/B $458<br>\n   Reconciled (median): <b>$393.22/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (4): <b>AME, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>35.0x</b></td><td><b>24.6x</b></td><td><b>7.4x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>35.1x</td><td>22.7x</td><td>4.9x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>35.4x</td><td>16.8x</td><td>4.4x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>39.9x</td><td>24.1x</td><td>13.5x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>44.0x</td><td>28.0x</td><td>15.7x</td></tr></table>\n<p>Median P/E: 37.6x \u2192 <b>$393.22</b><br>\n   Median EV/EBITDA: 23.4x \u2192 <b>$347.24</b><br>\n   Median P/B: 9.2x \u2192 <b>$457.56</b></p>\n<p>Implied by method: P/E $393 \u00b7 EV/EBITDA $347 \u00b7 P/B $458<br>\n   Reconciled (median): <b>$393.22/share</b></p>\n"
     },
     {
       "ticker": "BMY",
       "name": "Bristol-Myers Squibb Company",
       "price": 61.48,
       "intrinsic": 77.48275619127024,
-      "upside": 0.20653313634752835,
+      "upside": 0.20653313043958585,
       "confidence": "high",
       "range_low": 49.40923873877462,
       "range_high": 88.19561629256195,
@@ -26771,7 +26771,7 @@
         },
         {
           "label": "P/E",
-          "value": "17.8  (peers 26.4)"
+          "value": "17.8  (peers 26.2)"
         },
         {
           "label": "Cash vs debt",
@@ -26893,7 +26893,7 @@
         "Free cash flow grew +2%/yr over 4y",
         "Net margin 15% on $48.2B revenue",
         "Net debt $34.9B (2.3x EBITDA)",
-        "P/E 17.8 vs peer median 26.4"
+        "P/E 17.8 vs peer median 26.2"
       ],
       "risks": [
         "Leverage: debt/equity 2.6x",
@@ -26914,7 +26914,7 @@
       "news": [],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$12.7B</b> \u00b7\n   growth applied <b>5.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.184</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>72.7% / 27.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>5.9%</td><td>$13.5B</td><td>1.090</td><td>$12.4B</td></tr><tr><td>Y2</td><td>5.0%</td><td>$14.2B</td><td>1.188</td><td>$11.9B</td></tr><tr><td>Y3</td><td>4.2%</td><td>$14.8B</td><td>1.295</td><td>$11.4B</td></tr><tr><td>Y4</td><td>3.3%</td><td>$15.3B</td><td>1.412</td><td>$10.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$15.6B</td><td>1.539</td><td>$10.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$56.7B</b> \u00b7\n   terminal value <b>$246.8B</b> \u2192\n   PV <b>$160.4B</b></p>\n<p>Enterprise value <b>$217.1B</b> \u2212 debt $47.1B\n   + cash $10.2B = equity <b>$180.2B</b><br>\n   \u00f7 2,043M shares = <b>$88.20/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 3.9%</td><td>$102</td><td>$83</td><td>$70</td></tr><tr><td>growth 5.9%</td><td>$108</td><td><b>$88</b></td><td>$74</td></tr><tr><td>growth 7.9%</td><td>$113</td><td>$93</td><td>$78</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$2.4800</b> \u00b7 growth <b>8.0%</b>\n   \u00b7 discount rate <b>9.0%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$2.6784</td><td>1.090</td><td>$2.4572</td></tr><tr><td>Y2</td><td>$2.8927</td><td>1.188</td><td>$2.4347</td></tr><tr><td>Y3</td><td>$3.1241</td><td>1.295</td><td>$2.4124</td></tr><tr><td>Y4</td><td>$3.3740</td><td>1.412</td><td>$2.3902</td></tr><tr><td>Y5</td><td>$3.6439</td><td>1.539</td><td>$2.3683</td></tr></table>\n<p>Stage-1 PV <b>$12.06</b> \u00b7 terminal value\n   <b>$57.46</b> \u2192 PV <b>$37.35</b></p>\n<p>Two-stage value <b>$49.41/share</b>\n   (single-stage Gordon ref: $39.11)</p>\n",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>MRK, PFE, ZTS</b><br>\n   Basis: same industry & size \u2014 Pharmaceuticals</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BMY<div class='peernm'>this company \u2014 at today's price</div></td><td><b>17.8x</b></td><td><b>10.7x</b></td><td><b>6.8x</b></td></tr><tr><td>MRK<div class='peernm'>Merck & Co., Inc.</div></td><td>117.2x</td><td>14.0x</td><td>8.6x</td></tr><tr><td>PFE<div class='peernm'>Pfizer Inc.</div></td><td>39.5x</td><td>8.8x</td><td>2.0x</td></tr><tr><td>ZTS<div class='peernm'>Zoetis Inc.</div></td><td>13.3x</td><td>10.1x</td><td>10.7x</td></tr></table>\n<p>Median P/E: 26.4x \u2192 <b>$91.41</b><br>\n   Median EV/EBITDA: 10.1x \u2192 <b>$57.22</b><br>\n   Median P/B: 8.6x \u2192 <b>$77.48</b></p>\n<p>Implied by method: P/E $91 \u00b7 EV/EBITDA $57 \u00b7 P/B $77<br>\n   Reconciled (median): <b>$77.48/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>MRK, PFE, ZTS</b><br>\n   Basis: same industry & size \u2014 Pharmaceuticals</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BMY<div class='peernm'>this company \u2014 at today's price</div></td><td><b>17.8x</b></td><td><b>10.7x</b></td><td><b>6.8x</b></td></tr><tr><td>MRK<div class='peernm'>Merck & Co., Inc.</div></td><td>115.3x</td><td>14.0x</td><td>8.6x</td></tr><tr><td>PFE<div class='peernm'>Pfizer Inc.</div></td><td>39.0x</td><td>8.8x</td><td>2.0x</td></tr><tr><td>ZTS<div class='peernm'>Zoetis Inc.</div></td><td>13.3x</td><td>10.1x</td><td>10.7x</td></tr></table>\n<p>Median P/E: 26.2x \u2192 <b>$90.53</b><br>\n   Median EV/EBITDA: 10.1x \u2192 <b>$57.22</b><br>\n   Median P/B: 8.6x \u2192 <b>$77.48</b></p>\n<p>Implied by method: P/E $91 \u00b7 EV/EBITDA $57 \u00b7 P/B $77<br>\n   Reconciled (median): <b>$77.48/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -70923,6 +70923,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-10-25 14:13Z"
+  ]
 }
