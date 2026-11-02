@@ -315,3 +315,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-11-01,1,CRM,"Salesforce, Inc.",229.17,262.88,12.8%,medium,2
 2026-11-01,2,ACN,Accenture plc,258.24,274.19,5.8%,low,1
 2026-11-01,3,ETN,Eaton Corporation plc,369.97,401.98,8.0%,low,1
+2026-11-02,1,CSCO,"Cisco Systems, Inc.",101.61,164.56,38.3%,low,1
+2026-11-02,2,CRM,"Salesforce, Inc.",226.18,264.43,14.5%,medium,2
+2026-11-02,3,ACN,Accenture plc,260.94,281.68,7.4%,low,1
