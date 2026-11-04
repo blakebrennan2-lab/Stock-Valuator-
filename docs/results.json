@@ -7,7 +7,7 @@
       "name": "Salesforce, Inc.",
       "price": 222.2,
       "intrinsic": 270.3258508853831,
-      "upside": 0.1780290369114134,
+      "upside": 0.17802904820059567,
       "confidence": "medium",
       "range_low": 196.106277712443,
       "range_high": 344.5454240583232,
@@ -4484,7 +4484,7 @@
         ],
         [
           "2022-07-18",
-          164.74
+          164.75
         ],
         [
           "2022-07-19",
@@ -8797,6 +8797,10 @@
         [
           "2026-11-02",
           226.18
+        ],
+        [
+          "2026-11-03",
+          222.2
         ]
       ],
       "stats": [
@@ -9014,7 +9018,7 @@
       "name": "Accenture plc",
       "price": 254.56,
       "intrinsic": 281.6783358947425,
-      "upside": 0.09627412704140673,
+      "upside": 0.09627413570876214,
       "confidence": "low",
       "range_low": 281.6783358947425,
       "range_high": 281.6783358947425,
@@ -10562,7 +10566,7 @@
           ],
           [
             "2026-11-03 15:57",
-            254.44
+            254.46
           ],
           [
             "2026-11-03 15:58",
@@ -10692,7 +10696,7 @@
           ],
           [
             "2026-10-28 11:55",
-            244.9
+            244.85
           ],
           [
             "2026-10-28 12:00",
@@ -12190,7 +12194,7 @@
           ],
           [
             "2026-10-06 15:30",
-            193.45
+            193.44
           ],
           [
             "2026-10-07 09:30",
@@ -12442,7 +12446,7 @@
           ],
           [
             "2026-10-19 15:30",
-            236.9
+            236.91
           ],
           [
             "2026-10-20 09:30",
@@ -13174,7 +13178,7 @@
         ],
         [
           "2022-03-25",
-          300.94
+          300.93
         ],
         [
           "2022-03-28",
@@ -14210,7 +14214,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -17795,6 +17799,10 @@
         [
           "2026-11-02",
           260.94
+        ],
+        [
+          "2026-11-03",
+          254.56
         ]
       ],
       "stats": [
@@ -17958,6 +17966,12 @@
       ],
       "news": [
         {
+          "title": "Lockheed Martin to Pay $29.5 Million to Settle Federal Probe Over Diversity Efforts",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-11-04",
+          "link": "https://www.wsj.com/business/lockheed-martin-to-pay-29-5-million-to-settle-federal-probe-over-diversity-efforts-fbf1adf1?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Bought: Moderna Leads on Oct. 30",
           "publisher": "GuruFocus.com",
           "date": "2026-11-03",
@@ -17998,12 +18012,6 @@
           "publisher": "TIKR",
           "date": "2026-10-30",
           "link": "https://www.tikr.com/blog/grid-dynamics-soars-34-as-margin-leap-is-not-a-one-time-event?ref=yahoofinance&tlnk=yf-261030-jr75xrpr"
-        },
-        {
-          "title": "Amazon earnings fall short amid tech sell-off, and Anthropic becomes SpaceX's top partner",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-10-30",
-          "link": "https://finance.yahoo.com/video/amazon-earnings-fall-short-amid-tech-sell-off-and-anthropic-becomes-spacexs-top-partner-174024326.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.0% / 8.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 612M shares = <b>$281.68/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$319</td><td>$269</td><td>$233</td></tr><tr><td>growth 6.9%</td><td>$333</td><td><b>$282</b></td><td>$244</td></tr><tr><td>growth 8.0%</td><td>$342</td><td>$289</td><td>$250</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18015,7 +18023,7 @@
       "name": "Eaton Corporation plc",
       "price": 391.7,
       "intrinsic": 409.622235,
-      "upside": 0.04375308142147118,
+      "upside": 0.04375305162076648,
       "confidence": "low",
       "range_low": 409.622235,
       "range_high": 409.622235,
@@ -21199,7 +21207,7 @@
           ],
           [
             "2026-10-06 15:30",
-            445.13
+            445.09
           ],
           [
             "2026-10-07 09:30",
@@ -23567,7 +23575,7 @@
         ],
         [
           "2023-08-11",
-          210.34
+          210.35
         ],
         [
           "2023-08-14",
@@ -26804,6 +26812,10 @@
         [
           "2026-11-02",
           366.07
+        ],
+        [
+          "2026-11-03",
+          391.7
         ]
       ],
       "stats": [
@@ -26967,6 +26979,18 @@
       ],
       "news": [
         {
+          "title": "Eaton Q3 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "date": "2026-11-04",
+          "link": "https://www.marketbeat.com/instant-alerts/transcript-eaton-q3-earnings-call-highlights-2026-11-03/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "title": "Eaton Corp PLC (ETN) Q3 2026 Earnings Call Highlights: Record $8. ...",
+          "publisher": "GuruFocus.com",
+          "date": "2026-11-04",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/eaton-corp-plc-etn-q3-050637925.html"
+        },
+        {
           "title": "Eaton (ETN) Q3 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
           "date": "2026-11-03",
@@ -27001,18 +27025,6 @@
           "publisher": "TIKR",
           "date": "2026-11-03",
           "link": "https://www.tikr.com/blog/vertiv-soars-6-eaton-up-7-as-bernstein-calls-election-day-data-center-fears-overblown?ref=yahoofinance&tlnk=yf-261103-x4mxr52x"
-        },
-        {
-          "title": "Eaton Sales Up 28%; GAAP EPS Rises Just 7%: Rapid Earnings Reaction",
-          "publisher": "Motley Fool",
-          "date": "2026-11-03",
-          "link": "https://www.fool.com/investing/2026/11/03/eaton-sales-up-28-gaap-eps-rises-just-7-rapid-earn/"
-        },
-        {
-          "title": "Eaton Earnings Are Rock Solid. It Won\u2019t Be Enough to Ease AI Concerns.",
-          "publisher": "Barrons.com",
-          "date": "2026-11-03",
-          "link": "https://www.barrons.com/articles/eaton-earnings-stock-price-690b534f?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.139</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.5% / 6.5%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.5%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.095</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.198</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.312</td><td>$2.9B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.436</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.572</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$60.6B</b> \u2192\n   PV <b>$38.5B</b></p>\n<p>Enterprise value <b>$53.1B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.2B</b><br>\n   \u00f7 388M shares = <b>$111.29/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.5%</th><th>WACC 9.5%</th><th>WACC 10.5%</th></tr><tr><td>growth 6.0%</td><td>$127</td><td>$105</td><td>$89</td></tr><tr><td>growth 8.0%</td><td>$134</td><td><b>$111</b></td><td>$94</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32067,6 +32079,10 @@
         [
           "2026-11-02",
           361.65
+        ],
+        [
+          "2026-11-03",
+          359.26
         ]
       ],
       "intraday": {
@@ -33385,7 +33401,7 @@
           ],
           [
             "2026-11-03 14:58",
-            359.14
+            359.17
           ],
           [
             "2026-11-03 14:59",
@@ -33625,7 +33641,7 @@
           ],
           [
             "2026-11-03 15:58",
-            359.31
+            359.32
           ],
           [
             "2026-11-03 15:59",
@@ -33795,7 +33811,7 @@
           ],
           [
             "2026-10-28 12:50",
-            371.0
+            371.01
           ],
           [
             "2026-10-28 12:55",
@@ -34331,7 +34347,7 @@
           ],
           [
             "2026-10-30 11:00",
-            359.15
+            359.16
           ],
           [
             "2026-10-30 11:05",
@@ -37175,7 +37191,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -40860,6 +40876,10 @@
         [
           "2026-11-02",
           508.31
+        ],
+        [
+          "2026-11-03",
+          518.52
         ]
       ],
       "intraday": {
@@ -41642,7 +41662,7 @@
           ],
           [
             "2026-11-03 12:44",
-            520.09
+            520.11
           ],
           [
             "2026-11-03 12:45",
@@ -41898,7 +41918,7 @@
           ],
           [
             "2026-11-03 13:48",
-            519.1
+            519.08
           ],
           [
             "2026-11-03 13:49",
@@ -43216,7 +43236,7 @@
           ],
           [
             "2026-10-30 12:55",
-            519.95
+            519.91
           ],
           [
             "2026-10-30 13:00",
@@ -43316,7 +43336,7 @@
           ],
           [
             "2026-10-30 15:00",
-            515.2
+            515.18
           ],
           [
             "2026-10-30 15:05",
@@ -43828,7 +43848,7 @@
           ],
           [
             "2026-11-03 12:40",
-            520.09
+            520.11
           ],
           [
             "2026-11-03 12:45",
@@ -44070,7 +44090,7 @@
           ],
           [
             "2026-10-07 15:30",
-            625.18
+            625.17
           ],
           [
             "2026-10-08 09:30",
@@ -44294,7 +44314,7 @@
           ],
           [
             "2026-10-19 15:30",
-            548.25
+            548.24
           ],
           [
             "2026-10-20 09:30",
@@ -49653,6 +49673,10 @@
         [
           "2026-11-02",
           100.26
+        ],
+        [
+          "2026-11-03",
+          101.44
         ]
       ],
       "intraday": {
@@ -51241,7 +51265,7 @@
           ],
           [
             "2026-10-28 09:55",
-            103.25
+            103.24
           ],
           [
             "2026-10-28 10:00",
@@ -51837,7 +51861,7 @@
           ],
           [
             "2026-10-29 15:50",
-            101.19
+            101.2
           ],
           [
             "2026-10-29 15:55",
@@ -53115,7 +53139,7 @@
           ],
           [
             "2026-10-20 15:30",
-            110.22
+            110.23
           ],
           [
             "2026-10-21 09:30",
@@ -54993,7 +55017,7 @@
         ],
         [
           "2023-05-24",
-          75.39
+          75.4
         ],
         [
           "2023-05-25",
@@ -58446,6 +58470,10 @@
         [
           "2026-11-02",
           174.22
+        ],
+        [
+          "2026-11-03",
+          176.51
         ]
       ],
       "intraday": {
@@ -61880,7 +61908,7 @@
           ],
           [
             "2026-10-19 15:30",
-            185.95
+            185.92
           ],
           [
             "2026-10-20 09:30",
@@ -62282,7 +62310,7 @@
         ],
         [
           "2021-11-23",
-          54.31
+          54.3
         ],
         [
           "2021-11-24",
@@ -64622,7 +64650,7 @@
         ],
         [
           "2024-03-25",
-          64.98
+          64.99
         ],
         [
           "2024-03-26",
@@ -65278,7 +65306,7 @@
         ],
         [
           "2024-11-15",
-          74.69
+          74.68
         ],
         [
           "2024-11-18",
@@ -65914,7 +65942,7 @@
         ],
         [
           "2025-07-10",
-          83.85
+          83.86
         ],
         [
           "2025-07-11",
@@ -67239,6 +67267,10 @@
         [
           "2026-11-02",
           113.83
+        ],
+        [
+          "2026-11-03",
+          115.28
         ]
       ],
       "intraday": {
@@ -70987,5 +71019,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-04 01:10Z"
+  "price_as_of": "2026-11-04 08:54Z"
 }
