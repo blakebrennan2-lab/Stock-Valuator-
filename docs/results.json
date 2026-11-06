@@ -7,7 +7,7 @@
       "name": "Cisco Systems, Inc.",
       "price": 95.72,
       "intrinsic": 165.22513174308943,
-      "upside": 0.4206692469228217,
+      "upside": 0.42066923953470153,
       "confidence": "low",
       "range_low": 165.22513174308943,
       "range_high": 165.22513174308943,
@@ -5407,7 +5407,7 @@
         ],
         [
           "2023-06-09",
-          45.53
+          45.54
         ],
         [
           "2023-06-12",
@@ -5635,7 +5635,7 @@
         ],
         [
           "2023-08-31",
-          52.98
+          52.99
         ],
         [
           "2023-09-01",
@@ -8824,6 +8824,10 @@
         [
           "2026-11-04",
           103.61
+        ],
+        [
+          "2026-11-05",
+          95.72
         ]
       ],
       "stats": [
@@ -8987,6 +8991,24 @@
       ],
       "news": [
         {
+          "title": "Was Nutanix's Rise Driven By The Company Or Its Industry?",
+          "publisher": "Trefis",
+          "date": "2026-11-06",
+          "link": "https://www.trefis.com/stock/ntnx/articles/622629/was-nutanixs-rise-driven-by-the-company-or-its-industry/2026-11-05"
+        },
+        {
+          "title": "Our Pick Of The Best Cash Flow Stocks In November 2026",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-06",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pick-best-cash-flow-stocks-012043415.html"
+        },
+        {
+          "title": "3 Value Stocks With Up To 38% Discount To Fair Value",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-06",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-value-stocks-38-discount-011948981.html"
+        },
+        {
           "title": "Tech, Media & Telecom Roundup: Market Talk",
           "publisher": "The Wall Street Journal",
           "date": "2026-11-05",
@@ -9015,24 +9037,6 @@
           "publisher": "24/7 Wall St.",
           "date": "2026-11-05",
           "link": "https://247wallst.com/investing/2026/11/05/cisco-falls-7-on-morgan-stanley-downgrade-ciena-plunges-15-arista-networks-tumbles-10/"
-        },
-        {
-          "title": "Charter Communications (CHTR) Rolls Out Managed Secure Networking For AI Heavy Enterprises",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-05",
-          "link": "https://finance.yahoo.com/technology/ai/articles/charter-communications-chtr-rolls-managed-181334302.html"
-        },
-        {
-          "title": "Cognex Q3 Earnings Beat on Strong Demand and Margin Expansion",
-          "publisher": "Zacks",
-          "date": "2026-11-05",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cognex-q3-earnings-beat-strong-171600596.html"
-        },
-        {
-          "title": "MKSI Q3 Earnings Beat Estimates on Strong Semiconductor Growth",
-          "publisher": "Zacks",
-          "date": "2026-11-05",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mksi-q3-earnings-beat-estimates-171300453.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.2% / 6.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9044,7 +9048,7 @@
       "name": "Salesforce, Inc.",
       "price": 222.41,
       "intrinsic": 266.2684614750559,
-      "upside": 0.16471519470271392,
+      "upside": 0.16471518094926615,
       "confidence": "medium",
       "range_low": 195.7825414191277,
       "range_high": 336.7543815309842,
@@ -17862,6 +17866,10 @@
         [
           "2026-11-04",
           227.11
+        ],
+        [
+          "2026-11-05",
+          222.41
         ]
       ],
       "stats": [
@@ -18022,6 +18030,12 @@
       ],
       "news": [
         {
+          "title": "DocuSign (DOCU) Stock Trades At A Premium To Its Earnings Base",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-06",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-trades-premium-071638806.html"
+        },
+        {
           "title": "Paylocity (PCTY) Tops Q1 Earnings and Revenue Estimates",
           "publisher": "Zacks",
           "date": "2026-11-06",
@@ -18062,12 +18076,6 @@
           "publisher": "Zacks",
           "date": "2026-11-05",
           "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-believe-salesforce-135503263.html"
-        },
-        {
-          "title": "TWLO Declines 12% Since Q3 Results: Is This a Buy-the-Dip Opportunity?",
-          "publisher": "Zacks",
-          "date": "2026-11-05",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/twlo-declines-12-since-q3-135200566.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.6% / 8.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.209</td><td>$10.4B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.329</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.461</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.606</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.1B</b> \u2192\n   PV <b>$121.5B</b></p>\n<p>Enterprise value <b>$171.0B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.1B</b><br>\n   \u00f7 823M shares = <b>$195.78/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$218</td><td>$187</td><td>$163</td></tr><tr><td>growth 8.0%</td><td>$228</td><td><b>$196</b></td><td>$171</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -18079,7 +18087,7 @@
       "name": "Eaton Corporation plc",
       "price": 327.02,
       "intrinsic": 393.765671475,
-      "upside": 0.1695060700059976,
+      "upside": 0.1695060979066728,
       "confidence": "low",
       "range_low": 393.765671475,
       "range_high": 393.765671475,
@@ -22147,7 +22155,7 @@
         ],
         [
           "2022-02-10",
-          143.87
+          143.86
         ],
         [
           "2022-02-11",
@@ -26896,6 +26904,10 @@
         [
           "2026-11-04",
           353.08
+        ],
+        [
+          "2026-11-05",
+          327.02
         ]
       ],
       "stats": [
@@ -27059,6 +27071,24 @@
       ],
       "news": [
         {
+          "title": "Is GE Vernova Stock A Real Bargain?",
+          "publisher": "Trefis",
+          "date": "2026-11-06",
+          "link": "https://www.trefis.com/stock/gev/articles/622842/is-ge-vernova-stock-a-real-bargain/2026-11-05"
+        },
+        {
+          "title": "What Are Eaton Stock Bulls Not Worried About?",
+          "publisher": "Trefis",
+          "date": "2026-11-06",
+          "link": "https://www.trefis.com/stock/etn/articles/622872/what-are-eaton-stock-bulls-not-worried-about/2026-11-05"
+        },
+        {
+          "title": "What Should Vertiv Stock Holders Take From Its Third-Quarter Report?",
+          "publisher": "Trefis",
+          "date": "2026-11-06",
+          "link": "https://www.trefis.com/stock/vrt/articles/622913/what-should-vertiv-stock-holders-take-from-its-third-quarter-report/2026-11-05"
+        },
+        {
           "title": "GE Vernova Is Up 18% in 2026 After Three Guidance Raises: Take Profits, or Buy More?",
           "publisher": "TIKR",
           "date": "2026-11-06",
@@ -27087,24 +27117,6 @@
           "publisher": "Utility Dive",
           "date": "2026-11-05",
           "link": "https://www.utilitydive.com/news/eaton-ceo-ac-to-dc-migration-is-real-because-of-large-power-savings/873887/"
-        },
-        {
-          "title": "GNRC's Amazon Deal Adds $2.4 Billion in Data Center Revenue Visibility",
-          "publisher": "Zacks",
-          "date": "2026-11-05",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gnrcs-amazon-deal-adds-2-170400012.html"
-        },
-        {
-          "title": "Vertiv Suffered a Near 40% Drop Over 6 Months: 80% Returns Will Materialize According to This Wall Street Team",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-11-05",
-          "link": "https://247wallst.com/investing/2026/11/05/vertiv-suffered-a-near-40-drop-over-6-months-80-returns-will-materialize-according-to-this-wall-street-team/"
-        },
-        {
-          "title": "Eaton (ETN) Stock Sinks As Q3 Results Fail To Calm Execution Fears",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-04",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-stock-sinks-q3-231745797.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.139</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.9% / 7.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.4%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.094</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.197</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.310</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.433</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.568</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.1B</b> \u2192\n   PV <b>$38.9B</b></p>\n<p>Enterprise value <b>$53.5B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$43.6B</b><br>\n   \u00f7 388M shares = <b>$112.30/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.4%</th><th>WACC 9.4%</th><th>WACC 10.4%</th></tr><tr><td>growth 6.0%</td><td>$129</td><td>$106</td><td>$90</td></tr><tr><td>growth 8.0%</td><td>$136</td><td><b>$112</b></td><td>$95</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -32159,6 +32171,10 @@
         [
           "2026-11-04",
           372.49
+        ],
+        [
+          "2026-11-05",
+          375.49
         ]
       ],
       "intraday": {
@@ -40980,6 +40996,10 @@
         [
           "2026-11-04",
           504.27
+        ],
+        [
+          "2026-11-05",
+          447.73
         ]
       ],
       "intraday": {
@@ -46340,7 +46360,7 @@
         ],
         [
           "2023-05-24",
-          75.4
+          75.39
         ],
         [
           "2023-05-25",
@@ -48676,7 +48696,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -49801,6 +49821,10 @@
         [
           "2026-11-04",
           176.5
+        ],
+        [
+          "2026-11-05",
+          162.38
         ]
       ],
       "intraday": {
@@ -58622,6 +58646,10 @@
         [
           "2026-11-04",
           104.96
+        ],
+        [
+          "2026-11-05",
+          104.34
         ]
       ],
       "intraday": {
@@ -64082,7 +64110,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -65474,7 +65502,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -66110,7 +66138,7 @@
         ],
         [
           "2025-07-10",
-          83.85
+          83.86
         ],
         [
           "2025-07-11",
@@ -67443,6 +67471,10 @@
         [
           "2026-11-04",
           115.55
+        ],
+        [
+          "2026-11-05",
+          107.06
         ]
       ],
       "intraday": {
@@ -71219,5 +71251,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-06 01:27Z"
+  "price_as_of": "2026-11-06 09:11Z"
 }
