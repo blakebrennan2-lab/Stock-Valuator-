@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "count": 3,
   "picks": [
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
       "price": 93.85,
-      "intrinsic": 149.82721675591597,
-      "upside": 0.3736118142873037,
+      "intrinsic": 156.5804655384191,
+      "upside": 0.40062766017915147,
       "confidence": "low",
-      "range_low": 149.82721675591597,
-      "range_high": 149.82721675591597,
+      "range_low": 156.5804655384191,
+      "range_high": 156.5804655384191,
       "intraday": {
         "day": [
           [
@@ -3783,7 +3783,7 @@
           ]
         ]
       },
-      "thesis": "CSCO is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($94.16 vs $149.83, low confidence). Valued with DCF and Comps.",
+      "thesis": "CSCO is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($93.85 vs $156.58, low confidence). Valued with DCF and DDM and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -3794,8 +3794,8 @@
         {
           "key": "DDM",
           "name": "DDM \u2014 dividend discount",
-          "used": false,
-          "reason": "Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.3%, payout n/a), so a dividend-only model understates it \u2014 DDM excluded"
+          "used": true,
+          "reason": "Used in the blended value."
         },
         {
           "key": "Comps",
@@ -3806,7 +3806,7 @@
       ],
       "reconciliation": {
         "values": {
-          "Comps": 149.82721675591597
+          "Comps": 156.5804655384191
         },
         "spread": 0.0,
         "confidence": "low",
@@ -6231,7 +6231,7 @@
         ],
         [
           "2024-04-05",
-          45.72
+          45.73
         ],
         [
           "2024-04-08",
@@ -8853,7 +8853,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$371.2B"
+          "value": "$370.0B"
         },
         {
           "label": "P/E",
@@ -8938,8 +8938,8 @@
         },
         {
           "label": "Street target",
-          "value": "$136.16 (range $110.00\u2013$170.00)",
-          "src": "mean analyst target \u2014 our fair value: $149.83"
+          "value": "$135.56 (range $110.00\u2013$170.00)",
+          "src": "mean analyst target \u2014 our fair value: $156.58"
         },
         {
           "label": "Forward EPS (est.)",
@@ -8954,13 +8954,13 @@
       ],
       "capital": [
         "Dividends: $6.6B paid in FY2026 \u2014 51% of free cash flow",
-        "Dividend/share grew -5%/yr over 4y",
+        "Dividend/share grew +3%/yr over 4y",
         "Buybacks: diluted share count down 5% over 3y",
         "Leverage rising: total debt UP 252% over 3y ($8.4B \u2192 $29.5B)",
         "Reinvestment: capex 2% of revenue (FY2026)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$149.83) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$156.58) \u2014 the discount that makes it a buy is gone",
         "Net margin (21%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +12% YoY) turns negative",
         "Free cash flow (now $12.8B) turns negative"
@@ -8973,8 +8973,8 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "37% below intrinsic value ($94.16 vs $149.83)",
-        "low confidence across 1 models \u2014 Comps $149.83",
+        "40% below intrinsic value ($93.85 vs $156.58)",
+        "low confidence across 1 models \u2014 Comps $156.58",
         "Free cash flow declined -12%/yr over 4y",
         "Net margin 21% on $63.3B revenue",
         "Net debt $22.3B (1.1x EBITDA)"
@@ -8989,7 +8989,7 @@
         "\u2713 healthy margins: 21% net margin",
         "\u2713 durable revenue: growth vol 7%",
         "\u2713 recent pullback: down 28% from 52wk high",
-        "\u2713 at/below fair value: MoS 37%",
+        "\u2713 at/below fair value: MoS 40%",
         "\u2713 \u2192 multiple compression: price down 28% while earnings grew +2%/yr (sentiment, not deterioration)"
       ],
       "news": [
@@ -9010,6 +9010,12 @@
           "publisher": "TheStreet",
           "date": "2026-11-06",
           "link": "https://www.thestreet.com/investing/csco-cisco-stock-morgan-stanley-downgrades-price-target-by-11-before-earnings"
+        },
+        {
+          "title": "Better Dividend Stock: Texas Instruments vs. Cisco",
+          "publisher": "TIKR",
+          "date": "2026-11-06",
+          "link": "https://www.tikr.com/blog/better-dividend-stock-texas-instruments-vs-cisco?ref=yahoofinancedividend&tlnk=yf-261107-frm3vjw5"
         },
         {
           "title": "Earnings Calendar and Analysis for This Week",
@@ -9034,27 +9040,21 @@
           "publisher": "Trefis",
           "date": "2026-11-06",
           "link": "https://www.trefis.com/stock/anet/articles/623302/what-changed-in-aristas-story/2026-11-06"
-        },
-        {
-          "title": "Is ANET Worth Buying as AI Growth Meets a Rich Valuation Premium?",
-          "publisher": "Zacks",
-          "date": "2026-11-06",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/anet-worth-buying-ai-growth-175500139.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.6% / 7.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
-      "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.3%, payout n/a), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>\u2013</b></td><td><b>19.7x</b></td><td><b>\u2013</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>45.6x</td><td>35.2x</td><td>13.1x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>41.4x</td><td>26.0x</td><td>27.8x</td></tr></table>\n<p>Median P/E: dropped<br>\n   Median EV/EBITDA: 30.6x \u2192 <b>$149.83</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: EV/EBITDA $150<br>\n   Reconciled (median): <b>$149.83/share</b></p>\n"
+      "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$1.6700</b> \u00b7 growth <b>2.5%</b>\n   \u00b7 discount rate <b>9.3%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$1.7126</td><td>1.093</td><td>$1.5667</td></tr><tr><td>Y2</td><td>$1.7562</td><td>1.195</td><td>$1.4698</td></tr><tr><td>Y3</td><td>$1.8010</td><td>1.306</td><td>$1.3789</td></tr><tr><td>Y4</td><td>$1.8470</td><td>1.428</td><td>$1.2936</td></tr><tr><td>Y5</td><td>$1.8940</td><td>1.561</td><td>$1.2136</td></tr></table>\n<p>Stage-1 PV <b>$6.92</b> \u00b7 terminal value\n   <b>$28.51</b> \u2192 PV <b>$18.27</b></p>\n<p>Two-stage value <b>$25.19/share</b>\n   (single-stage Gordon ref: $25.14)</p>\n",
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>\u2013</b></td><td><b>19.6x</b></td><td><b>\u2013</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>45.8x</td><td>38.0x</td><td>13.1x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>41.4x</td><td>25.9x</td><td>27.7x</td></tr></table>\n<p>Median P/E: dropped<br>\n   Median EV/EBITDA: 32.0x \u2192 <b>$156.58</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: EV/EBITDA $157<br>\n   Reconciled (median): <b>$156.58/share</b></p>\n"
     },
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
       "price": 213.65,
-      "intrinsic": 278.451287349592,
-      "upside": 0.23272039454337462,
+      "intrinsic": 273.26980440672514,
+      "upside": 0.2181719437907202,
       "confidence": "medium",
-      "range_low": 196.68358563478543,
-      "range_high": 360.21898906439856,
+      "range_low": 196.68834757408206,
+      "range_high": 349.85126123936817,
       "intraday": {
         "day": [
           [
@@ -12827,7 +12827,7 @@
           ]
         ]
       },
-      "thesis": "CRM is down 21% from its 52-week high while earnings grew 230%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($213.72 vs $278.45, medium confidence). Valued with DCF and Comps.",
+      "thesis": "CRM is down 21% from its 52-week high while earnings grew 230%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($213.65 vs $273.27, medium confidence). Valued with DCF and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -12850,12 +12850,12 @@
       ],
       "reconciliation": {
         "values": {
-          "DCF": 196.68358563478543,
-          "Comps": 360.21898906439856
+          "DCF": 196.68834757408206,
+          "Comps": 349.85126123936817
         },
-        "spread": 0.8314644198793286,
+        "spread": 0.7787086299436106,
         "confidence": "medium",
-        "sentence": "The methods land between $196.68 and $360.22 (a 83% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
+        "sentence": "The methods land between $196.69 and $349.85 (a 78% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
       },
       "history": [
         [
@@ -15008,7 +15008,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -17898,11 +17898,11 @@
         },
         {
           "label": "Market cap",
-          "value": "$175.9B"
+          "value": "$175.8B"
         },
         {
           "label": "P/E",
-          "value": "27.4  (peers 20.8)"
+          "value": "27.4  (peers 20.7)"
         },
         {
           "label": "Cash vs debt",
@@ -17946,7 +17946,7 @@
         },
         {
           "label": "Institutional ownership",
-          "value": "87.3%",
+          "value": "87.9%",
           "src": "Yahoo Finance holders data"
         },
         {
@@ -17979,7 +17979,7 @@
         {
           "label": "Street target",
           "value": "$287.08 (range $165.00\u2013$475.00)",
-          "src": "mean analyst target \u2014 our fair value: $278.45"
+          "src": "mean analyst target \u2014 our fair value: $273.27"
         },
         {
           "label": "Forward EPS (est.)",
@@ -18000,7 +18000,7 @@
         "Reinvestment: capex 1% of revenue (FY2026)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$278.45) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$273.27) \u2014 the discount that makes it a buy is gone",
         "Net margin (18%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +10% YoY) turns negative",
         "Free cash flow (now $14.4B) turns negative",
@@ -18014,16 +18014,16 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "23% below intrinsic value ($213.72 vs $278.45)",
-        "medium confidence across 2 models \u2014 DCF $196.68, Comps $360.22",
+        "22% below intrinsic value ($213.65 vs $273.27)",
+        "medium confidence across 2 models \u2014 DCF $196.69, Comps $349.85",
         "Free cash flow grew +32%/yr over 4y",
         "Net margin 18% on $41.5B revenue",
         "Net debt $7.1B (0.6x EBITDA)",
-        "P/E 27.4 vs peer median 20.8"
+        "P/E 27.4 vs peer median 20.7"
       ],
       "risks": [
         "Recession sensitivity moderate [heuristic]",
-        "Model spread moderate (29%) \u2014 lower confidence"
+        "Model spread moderate (28%) \u2014 lower confidence"
       ],
       "profile": [
         "\u2713 not excluded: Information Technology",
@@ -18032,7 +18032,7 @@
         "\u2713 healthy margins: 18% net margin",
         "\u2713 durable revenue: growth vol 1%",
         "\u2713 recent pullback: down 21% from 52wk high",
-        "\u2713 at/below fair value: MoS 23%",
+        "\u2713 at/below fair value: MoS 22%",
         "\u2713 \u2192 multiple compression: price down 21% while earnings grew +230%/yr (sentiment, not deterioration)"
       ],
       "news": [
@@ -18085,9 +18085,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110607892.html"
         }
       ],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.1% / 8.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.327</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.603</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.9B</b> \u2192\n   PV <b>$122.2B</b></p>\n<p>Enterprise value <b>$171.7B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.9B</b><br>\n   \u00f7 823M shares = <b>$196.68/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$188</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$230</td><td><b>$197</b></td><td>$172</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.1% / 8.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.327</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.603</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.9B</b> \u2192\n   PV <b>$122.2B</b></p>\n<p>Enterprise value <b>$171.7B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.9B</b><br>\n   \u00f7 823M shares = <b>$196.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$188</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$230</td><td><b>$197</b></td><td>$172</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 0.6%, payout 17%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (8): <b>ADBE, ADSK, CDNS, DDOG, INTU, ORCL, SNPS, WDAY</b><br>\n   Basis: same industry & size \u2014 Application Software</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CRM<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.4x</b></td><td><b>14.8x</b></td><td><b>3.5x</b></td></tr><tr><td>ADBE<div class='peernm'>Adobe Inc.</div></td><td>13.4x</td><td>9.8x</td><td>8.0x</td></tr><tr><td>ADSK<div class='peernm'>Autodesk, Inc.</div></td><td>34.1x</td><td>24.4x</td><td>16.2x</td></tr><tr><td>CDNS<div class='peernm'>Cadence Design Systems, Inc.</div></td><td>63.3x</td><td>39.1x</td><td>12.7x</td></tr><tr><td>DDOG<div class='peernm'>Datadog, Inc.</div></td><td>253.7x</td><td>347.2x</td><td>14.0x</td></tr><tr><td>INTU<div class='peernm'>Intuit Inc.</div></td><td>20.8x</td><td>14.0x</td><td>4.8x</td></tr><tr><td>ORCL<div class='peernm'>Oracle Corporation</div></td><td>18.1x</td><td>14.1x</td><td>5.6x</td></tr><tr><td>SNPS<div class='peernm'>Synopsys, Inc.</div></td><td>80.0x</td><td>44.1x</td><td>2.8x</td></tr><tr><td>WDAY<div class='peernm'>Workday, Inc.</div></td><td>39.7x</td><td>30.6x</td><td>7.3x</td></tr></table>\n<p>Median P/E: 20.8x \u2192 <b>$161.90</b><br>\n   Median EV/EBITDA: 24.4x \u2192 <b>$360.22</b><br>\n   Median P/B: 7.6x \u2192 <b>$471.30</b></p>\n<p>Implied by method: P/E $162 \u00b7 EV/EBITDA $360 \u00b7 P/B $471<br>\n   Reconciled (median): <b>$360.22/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (8): <b>ADBE, ADSK, CDNS, DDOG, INTU, ORCL, SNPS, WDAY</b><br>\n   Basis: same industry & size \u2014 Application Software</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CRM<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.4x</b></td><td><b>14.8x</b></td><td><b>3.5x</b></td></tr><tr><td>ADBE<div class='peernm'>Adobe Inc.</div></td><td>13.4x</td><td>9.5x</td><td>8.0x</td></tr><tr><td>ADSK<div class='peernm'>Autodesk, Inc.</div></td><td>33.9x</td><td>23.7x</td><td>16.2x</td></tr><tr><td>CDNS<div class='peernm'>Cadence Design Systems, Inc.</div></td><td>63.6x</td><td>40.1x</td><td>12.8x</td></tr><tr><td>DDOG<div class='peernm'>Datadog, Inc.</div></td><td>248.7x</td><td>356.6x</td><td>13.7x</td></tr><tr><td>INTU<div class='peernm'>Intuit Inc.</div></td><td>20.7x</td><td>13.5x</td><td>4.8x</td></tr><tr><td>ORCL<div class='peernm'>Oracle Corporation</div></td><td>18.2x</td><td>14.2x</td><td>5.7x</td></tr><tr><td>SNPS<div class='peernm'>Synopsys, Inc.</div></td><td>79.6x</td><td>45.1x</td><td>2.8x</td></tr><tr><td>WDAY<div class='peernm'>Workday, Inc.</div></td><td>39.3x</td><td>29.5x</td><td>7.2x</td></tr></table>\n<p>Median P/E: 20.7x \u2192 <b>$161.83</b><br>\n   Median EV/EBITDA: 23.7x \u2192 <b>$349.85</b><br>\n   Median P/B: 7.6x \u2192 <b>$468.62</b></p>\n<p>Implied by method: P/E $162 \u00b7 EV/EBITDA $350 \u00b7 P/B $469<br>\n   Reconciled (median): <b>$349.85/share</b></p>\n"
     },
     {
       "ticker": "ACN",
@@ -21870,7 +21870,7 @@
           ]
         ]
       },
-      "thesis": "ACN is down 11% from its 52-week high while earnings grew 7%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($260.18 vs $291.79, low confidence). Valued with DCF and DDM.",
+      "thesis": "ACN is down 11% from its 52-week high while earnings grew 7%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($260.50 vs $291.79, low confidence). Valued with DCF and DDM.",
       "methods": [
         {
           "key": "DCF",
@@ -22282,7 +22282,7 @@
         ],
         [
           "2022-03-25",
-          300.94
+          300.93
         ],
         [
           "2022-03-28",
@@ -24582,7 +24582,7 @@
         ],
         [
           "2024-07-11",
-          284.41
+          284.42
         ],
         [
           "2024-07-12",
@@ -26940,7 +26940,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$153.7B"
+          "value": "$153.9B"
         },
         {
           "label": "P/E",
@@ -26993,7 +26993,7 @@
         },
         {
           "label": "Institutional ownership",
-          "value": "84.9%",
+          "value": "84.8%",
           "src": "Yahoo Finance holders data"
         },
         {
@@ -27061,7 +27061,7 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "11% below intrinsic value ($260.18 vs $291.79)",
+        "11% below intrinsic value ($260.50 vs $291.79)",
         "low confidence across 1 models \u2014 DCF $291.79",
         "Free cash flow grew +9%/yr over 4y",
         "Net margin 11% on $74.2B revenue",
@@ -27142,7 +27142,7 @@
       "category": "Semiconductors",
       "is_etf": true,
       "price": 463.96,
-      "drawdown": -0.3083666999092032,
+      "drawdown": -0.30940863015941544,
       "thesis": "VanEck Semiconductor is down 31% from its 52-week high but is still in a long-term uptrend (3y +193%, 5y +208%) \u2014 a pullback on a quality Semiconductors fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -35971,7 +35971,7 @@
       "category": "Gold",
       "is_etf": true,
       "price": 372.52,
-      "drawdown": -0.2697272905630762,
+      "drawdown": -0.2691387090445361,
       "thesis": "SPDR Gold Shares is down 27% from its 52-week high but is still in a long-term uptrend (3y +97%, 5y +118%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -44800,8 +44800,8 @@
       "category": "Technology",
       "is_etf": true,
       "price": 164.74,
-      "drawdown": -0.18755227552275522,
-      "thesis": "Technology Select Sector SPDR is down 19% from its 52-week high but is still in a long-term uptrend (3y +82%, 5y +97%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
+      "drawdown": -0.18947109471094703,
+      "thesis": "Technology Select Sector SPDR is down 19% from its 52-week high but is still in a long-term uptrend (3y +81%, 5y +96%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
           "label": "Down from high",
@@ -44813,11 +44813,11 @@
         },
         {
           "label": "3-yr return",
-          "value": "+82%"
+          "value": "+81%"
         },
         {
           "label": "5-yr return",
-          "value": "+97%"
+          "value": "+96%"
         },
         {
           "label": "Category",
@@ -53629,8 +53629,8 @@
       "category": "Technology",
       "is_etf": true,
       "price": 108.51,
-      "drawdown": -0.16768712689422927,
-      "thesis": "Vanguard Information Technology is down 17% from its 52-week high but is still in a long-term uptrend (3y +91%, 5y +96%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
+      "drawdown": -0.169523955303842,
+      "thesis": "Vanguard Information Technology is down 17% from its 52-week high but is still in a long-term uptrend (3y +91%, 5y +95%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
           "label": "Down from high",
@@ -53646,7 +53646,7 @@
         },
         {
           "label": "5-yr return",
-          "value": "+96%"
+          "value": "+95%"
         },
         {
           "label": "Category",
@@ -53704,7 +53704,7 @@
         ],
         [
           "2021-11-23",
-          54.31
+          54.3
         ],
         [
           "2021-11-24",
@@ -56700,7 +56700,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -62458,7 +62458,7 @@
       "category": "US tech / growth",
       "is_etf": true,
       "price": 656.1,
-      "drawdown": -0.13669611724300657,
+      "drawdown": -0.13994704139684866,
       "thesis": "Invesco QQQ (Nasdaq-100) is down 14% from its 52-week high but is still in a long-term uptrend (3y +72%, 5y +70%) \u2014 a pullback on a quality US tech / growth fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -64957,7 +64957,7 @@
         ],
         [
           "2024-04-24",
-          420.98
+          420.97
         ],
         [
           "2024-04-25",
@@ -65977,7 +65977,7 @@
         ],
         [
           "2025-05-01",
-          478.34
+          478.33
         ],
         [
           "2025-05-02",
@@ -71281,6 +71281,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-11-07 16:15Z"
+  ]
 }
