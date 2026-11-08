@@ -4287,7 +4287,7 @@
         ],
         [
           "2022-04-28",
-          44.72
+          44.71
         ],
         [
           "2022-04-29",
@@ -5651,7 +5651,7 @@
         ],
         [
           "2023-09-07",
-          52.26
+          52.27
         ],
         [
           "2023-09-08",
@@ -6231,7 +6231,7 @@
         ],
         [
           "2024-04-05",
-          45.72
+          45.73
         ],
         [
           "2024-04-08",
@@ -8994,6 +8994,12 @@
       ],
       "news": [
         {
+          "title": "In March 2000, Cisco Briefly Became The World\u2019s Most Valuable Company As Its Stock Closed At $80.06. Buyers That Day Waited More Than 25 Years For It To Close Higher. Here\u2019s What AI Investors Need To Know",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-11-08",
+          "link": "https://247wallst.com/investing/2026/11/08/in-march-2000-cisco-briefly-became-the-worlds-most-valuable-company-as-its-stock-closed-at-80-06-buyers-that-day-waited-more-than-25-years-for-it-to-close-higher-heres-what-ai-investors-need-t/"
+        },
+        {
           "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
           "publisher": "Barrons.com",
           "date": "2026-11-08",
@@ -9034,12 +9040,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-11-07",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-analyst-meta-184215687.html"
-        },
-        {
-          "title": "What Is Behind The Move In Arista Stock?",
-          "publisher": "Trefis",
-          "date": "2026-11-07",
-          "link": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.6% / 7.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -15008,7 +15008,7 @@
         ],
         [
           "2023-12-28",
-          260.61
+          260.6
         ],
         [
           "2023-12-29",
@@ -15176,7 +15176,7 @@
         ],
         [
           "2024-02-29",
-          303.03
+          303.04
         ],
         [
           "2024-03-01",
@@ -22694,7 +22694,7 @@
         ],
         [
           "2022-08-23",
-          283.49
+          283.48
         ],
         [
           "2022-08-24",
@@ -23318,7 +23318,7 @@
         ],
         [
           "2023-04-06",
-          262.61
+          262.6
         ],
         [
           "2023-04-10",
@@ -28489,7 +28489,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -48715,7 +48715,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -56700,7 +56700,7 @@
         ],
         [
           "2024-11-15",
-          74.69
+          74.68
         ],
         [
           "2024-11-18",
@@ -63273,7 +63273,7 @@
         ],
         [
           "2022-08-19",
-          314.74
+          314.75
         ],
         [
           "2022-08-22",
@@ -64957,7 +64957,7 @@
         ],
         [
           "2024-04-24",
-          420.97
+          420.98
         ],
         [
           "2024-04-25",
@@ -65585,7 +65585,7 @@
         ],
         [
           "2024-12-06",
-          521.2
+          521.21
         ],
         [
           "2024-12-09",
@@ -65977,7 +65977,7 @@
         ],
         [
           "2025-05-01",
-          478.33
+          478.34
         ],
         [
           "2025-05-02",
@@ -66025,7 +66025,7 @@
         ],
         [
           "2025-05-19",
-          518.38
+          518.39
         ],
         [
           "2025-05-20",
@@ -71282,5 +71282,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-08 19:29Z"
+  "price_as_of": "2026-11-08 23:34Z"
 }
