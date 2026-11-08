@@ -5651,7 +5651,7 @@
         ],
         [
           "2023-09-07",
-          52.27
+          52.26
         ],
         [
           "2023-09-08",
@@ -6231,7 +6231,7 @@
         ],
         [
           "2024-04-05",
-          45.73
+          45.72
         ],
         [
           "2024-04-08",
@@ -15008,7 +15008,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -15264,7 +15264,7 @@
         ],
         [
           "2024-04-02",
-          298.7
+          298.69
         ],
         [
           "2024-04-03",
@@ -18037,6 +18037,12 @@
       ],
       "news": [
         {
+          "title": "Braze (BRZE) Stock May Be 17% Undervalued Following Its Cash Takeover Offer",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-08",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/braze-brze-stock-may-17-061108039.html"
+        },
+        {
           "title": "5 Best Dow Stocks to Buy for 2027",
           "publisher": "Insider Monkey",
           "date": "2026-11-07",
@@ -18077,12 +18083,6 @@
           "publisher": "Zacks",
           "date": "2026-11-06",
           "link": "https://finance.yahoo.com/markets/stocks/articles/crm-adsk-better-value-stock-154003835.html"
-        },
-        {
-          "title": "Atlassian Sinks 12% as Slower Growth Outlook Overshadows Beat: \u201cEnterprise AI Has Hit an Inflection Point\u201d",
-          "publisher": "TIKR",
-          "date": "2026-11-06",
-          "link": "https://www.tikr.com/blog/atlassian-sinks-12-as-slower-growth-outlook-overshadows-beat-enterprise-ai-has-hit-an-inflection-point?ref=yahoofinance&tlnk=yf-261106-xxxpcpm3"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.1% / 8.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.327</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.603</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.9B</b> \u2192\n   PV <b>$122.2B</b></p>\n<p>Enterprise value <b>$171.7B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.9B</b><br>\n   \u00f7 823M shares = <b>$196.69/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$188</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$230</td><td><b>$197</b></td><td>$172</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22694,7 +22694,7 @@
         ],
         [
           "2022-08-23",
-          283.48
+          283.49
         ],
         [
           "2022-08-24",
@@ -46379,7 +46379,7 @@
         ],
         [
           "2023-05-24",
-          75.39
+          75.4
         ],
         [
           "2023-05-25",
@@ -48715,7 +48715,7 @@
         ],
         [
           "2025-09-23",
-          139.4
+          139.39
         ],
         [
           "2025-09-24",
@@ -57336,7 +57336,7 @@
         ],
         [
           "2025-07-10",
-          83.85
+          83.86
         ],
         [
           "2025-07-11",
@@ -65585,7 +65585,7 @@
         ],
         [
           "2024-12-06",
-          521.21
+          521.2
         ],
         [
           "2024-12-09",
@@ -65977,7 +65977,7 @@
         ],
         [
           "2025-05-01",
-          478.33
+          478.34
         ],
         [
           "2025-05-02",
@@ -71282,5 +71282,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-08 00:21Z"
+  "price_as_of": "2026-11-08 07:06Z"
 }
