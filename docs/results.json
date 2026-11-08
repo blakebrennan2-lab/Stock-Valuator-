@@ -7,7 +7,7 @@
       "name": "Cisco Systems, Inc.",
       "price": 93.85,
       "intrinsic": 156.5804655384191,
-      "upside": 0.40062766017915147,
+      "upside": 0.40062766992416593,
       "confidence": "low",
       "range_low": 156.5804655384191,
       "range_high": 156.5804655384191,
@@ -4287,7 +4287,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -5651,7 +5651,7 @@
         ],
         [
           "2023-09-07",
-          52.27
+          52.26
         ],
         [
           "2023-09-08",
@@ -8994,6 +8994,12 @@
       ],
       "news": [
         {
+          "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
+          "publisher": "Barrons.com",
+          "date": "2026-11-08",
+          "link": "https://www.barrons.com/articles/inflation-data-constellation-energy-skydance-applied-materials-stocks-b662c219?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Cisco Systems (CSCO) Named A Leader In ABI Research Open Line Systems Ranking",
           "publisher": "Simply Wall St.",
           "date": "2026-11-08",
@@ -9034,12 +9040,6 @@
           "publisher": "Trefis",
           "date": "2026-11-07",
           "link": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07"
-        },
-        {
-          "title": "Q3 Earnings Update: Broad-Based Growth, Key Sector Outliers, and What's Ahead for Q4",
-          "publisher": "Zacks",
-          "date": "2026-11-07",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-broad-based-growth-002200772.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.6% / 7.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9051,7 +9051,7 @@
       "name": "Salesforce, Inc.",
       "price": 213.65,
       "intrinsic": 273.26980440672514,
-      "upside": 0.2181719437907202,
+      "upside": 0.2181719661258466,
       "confidence": "medium",
       "range_low": 196.68834757408206,
       "range_high": 349.85126123936817,
@@ -15008,7 +15008,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -15176,7 +15176,7 @@
         ],
         [
           "2024-02-29",
-          303.04
+          303.03
         ],
         [
           "2024-03-01",
@@ -15764,7 +15764,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -22694,7 +22694,7 @@
         ],
         [
           "2022-08-23",
-          283.48
+          283.49
         ],
         [
           "2022-08-24",
@@ -23318,7 +23318,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -24582,7 +24582,7 @@
         ],
         [
           "2024-07-11",
-          284.42
+          284.41
         ],
         [
           "2024-07-12",
@@ -25030,7 +25030,7 @@
         ],
         [
           "2024-12-18",
-          333.13
+          333.12
         ],
         [
           "2024-12-19",
@@ -28489,7 +28489,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -46379,7 +46379,7 @@
         ],
         [
           "2023-05-24",
-          75.39
+          75.4
         ],
         [
           "2023-05-25",
@@ -63273,7 +63273,7 @@
         ],
         [
           "2022-08-19",
-          314.75
+          314.74
         ],
         [
           "2022-08-22",
@@ -64957,7 +64957,7 @@
         ],
         [
           "2024-04-24",
-          420.98
+          420.97
         ],
         [
           "2024-04-25",
@@ -65585,7 +65585,7 @@
         ],
         [
           "2024-12-06",
-          521.21
+          521.2
         ],
         [
           "2024-12-09",
@@ -65977,7 +65977,7 @@
         ],
         [
           "2025-05-01",
-          478.34
+          478.33
         ],
         [
           "2025-05-02",
@@ -66025,7 +66025,7 @@
         ],
         [
           "2025-05-19",
-          518.39
+          518.38
         ],
         [
           "2025-05-20",
@@ -71281,5 +71281,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-11-08 19:29Z"
 }
