@@ -8934,6 +8934,12 @@
       ],
       "news": [
         {
+          "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+          "publisher": "Investing.com",
+          "date": "2026-11-10",
+          "link": "https://finance.yahoo.com/news/u-stock-futures-steady-tech-004342905.html"
+        },
+        {
           "title": "Lantronix, Inc. (LTRX) Tops Q1 Earnings and Revenue Estimates",
           "publisher": "Zacks",
           "date": "2026-11-09",
@@ -8974,12 +8980,6 @@
           "publisher": "Barchart",
           "date": "2026-11-09",
           "link": "https://www.barchart.com/story/news/8737053/1-options-trade-to-bet-on-cisco-stock-ahead-of-earnings-on-november-12-and-get-a-shot-at-a-128-57-maximum-payout"
-        },
-        {
-          "title": "Cisco Systems (CSCO) Could Be 15% Undervalued As AI Earnings Focus Builds",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-09",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-csco-could-15-150928783.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.9% / 7.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -15052,7 +15052,7 @@
         ],
         [
           "2024-02-29",
-          303.04
+          303.03
         ],
         [
           "2024-03-01",
@@ -15140,7 +15140,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -22302,7 +22302,7 @@
         ],
         [
           "2022-06-13",
-          254.66
+          254.67
         ],
         [
           "2022-06-14",
@@ -23122,7 +23122,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -26890,6 +26890,18 @@
       ],
       "news": [
         {
+          "title": "Qantas to Cut 850 Jobs After Tech Deal With Accenture",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-11-10",
+          "link": "https://www.wsj.com/business/airlines/qantas-to-cut-850-jobs-after-tech-deal-with-accenture-2037ae2f?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Australia's Qantas to axe 850 jobs in offshoring deal with Accenture",
+          "publisher": "Reuters",
+          "date": "2026-11-10",
+          "link": "https://finance.yahoo.com/technology/ai/articles/australias-qantas-axe-850-jobs-012757322.html"
+        },
+        {
           "title": "Can Innodata Sustain 42% Growth After a $12 Million Program Wind-Down?",
           "publisher": "Zacks",
           "date": "2026-11-09",
@@ -26924,18 +26936,6 @@
           "publisher": "Zacks",
           "date": "2026-11-06",
           "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-stock-sinks-market-215001724.html"
-        },
-        {
-          "title": "These 3 Underperforming Stocks Are Seeing Notable CEO Insider Trades",
-          "publisher": "MarketBeat",
-          "date": "2026-11-06",
-          "link": "https://www.marketbeat.com/articles/these-3-underperforming-stocks-are-seeing-notable-ceo-insider-trades/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Accenture Is Up 33% in a Month but Still Down 2% This Year. Is the Stock Cheap?",
-          "publisher": "TIKR",
-          "date": "2026-11-06",
-          "link": "https://www.tikr.com/blog/accenture-acn-stock-rally-cheap-forward-pe?ref=yahoofinance&tlnk=yf-261106-63w7m4v5"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.8% / 8.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 591M shares = <b>$291.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$330</td><td>$279</td><td>$241</td></tr><tr><td>growth 6.9%</td><td>$345</td><td><b>$292</b></td><td>$253</td></tr><tr><td>growth 8.0%</td><td>$354</td><td>$299</td><td>$259</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -54928,7 +54928,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -70790,5 +70790,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-10 00:05Z"
+  "price_as_of": "2026-11-10 08:12Z"
 }
