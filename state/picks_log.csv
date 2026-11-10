@@ -336,3 +336,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-11-09,1,CSCO,"Cisco Systems, Inc.",98.65,156.58,37.0%,low,1
 2026-11-09,2,CRM,"Salesforce, Inc.",214.94,273.23,21.3%,medium,2
 2026-11-09,3,ACN,Accenture plc,254.37,291.79,12.8%,low,1
+2026-11-10,1,CSCO,"Cisco Systems, Inc.",98.28,167.42,41.3%,low,1
+2026-11-10,2,CRM,"Salesforce, Inc.",211.91,274.47,22.8%,medium,2
+2026-11-10,3,ACN,Accenture plc,259.14,291.79,11.2%,low,1
