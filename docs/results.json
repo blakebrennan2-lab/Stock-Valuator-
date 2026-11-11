@@ -5611,7 +5611,7 @@
         ],
         [
           "2023-09-07",
-          52.26
+          52.27
         ],
         [
           "2023-09-08",
@@ -15192,7 +15192,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -17973,6 +17973,12 @@
       ],
       "news": [
         {
+          "title": "Mercor raises $750m to expand AI evaluation tools for enterprises",
+          "publisher": "Verdict",
+          "date": "2026-11-11",
+          "link": "https://www.verdict.co.uk/mercor-raises-750m/"
+        },
+        {
           "title": "What Are ServiceNow Stock Bears Missing?",
           "publisher": "Trefis",
           "date": "2026-11-10",
@@ -18013,12 +18019,6 @@
           "publisher": "TIKR",
           "date": "2026-11-10",
           "link": "https://www.tikr.com/blog/salesforce-sinks-as-sp-cuts-its-rating-to-a-on-deals-and-a-25-billion-buyback?ref=yahoofinance&tlnk=yf-261110-j7mwj89p"
-        },
-        {
-          "title": "Is Salesforce a Falling Knife Or Is The Worst Over?",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-11-09",
-          "link": "https://247wallst.com/investing/2026/11/09/is-salesforce-a-falling-knife-or-is-the-worst-over/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.0% / 9.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.327</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.603</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$196.0B</b> \u2192\n   PV <b>$122.3B</b></p>\n<p>Enterprise value <b>$171.8B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$162.0B</b><br>\n   \u00f7 823M shares = <b>$196.81/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$188</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$230</td><td><b>$197</b></td><td>$172</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -23214,7 +23214,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -55104,7 +55104,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -56496,7 +56496,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -65085,7 +65085,7 @@
         ],
         [
           "2024-09-04",
-          455.36
+          455.35
         ],
         [
           "2024-09-05",
@@ -65349,7 +65349,7 @@
         ],
         [
           "2024-12-06",
-          521.2
+          521.21
         ],
         [
           "2024-12-09",
@@ -71026,5 +71026,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-11 02:40Z"
+  "price_as_of": "2026-11-11 10:38Z"
 }
