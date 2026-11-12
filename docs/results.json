@@ -5,9 +5,9 @@
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
-      "price": 101.57,
+      "price": 100.76,
       "intrinsic": 166.65448477487487,
-      "upside": 0.3905354534130553,
+      "upside": 0.39539580866298557,
       "confidence": "low",
       "range_low": 166.65448477487487,
       "range_high": 166.65448477487487,
@@ -1383,7 +1383,195 @@
           ],
           [
             "2026-11-11 15:12",
+            101.32
+          ],
+          [
+            "2026-11-11 15:13",
             101.36
+          ],
+          [
+            "2026-11-11 15:14",
+            101.31
+          ],
+          [
+            "2026-11-11 15:15",
+            101.28
+          ],
+          [
+            "2026-11-11 15:16",
+            101.19
+          ],
+          [
+            "2026-11-11 15:17",
+            101.2
+          ],
+          [
+            "2026-11-11 15:18",
+            101.21
+          ],
+          [
+            "2026-11-11 15:19",
+            101.29
+          ],
+          [
+            "2026-11-11 15:20",
+            101.19
+          ],
+          [
+            "2026-11-11 15:21",
+            101.14
+          ],
+          [
+            "2026-11-11 15:22",
+            101.23
+          ],
+          [
+            "2026-11-11 15:23",
+            101.2
+          ],
+          [
+            "2026-11-11 15:24",
+            101.23
+          ],
+          [
+            "2026-11-11 15:25",
+            101.29
+          ],
+          [
+            "2026-11-11 15:26",
+            101.38
+          ],
+          [
+            "2026-11-11 15:27",
+            101.4
+          ],
+          [
+            "2026-11-11 15:28",
+            101.38
+          ],
+          [
+            "2026-11-11 15:29",
+            101.33
+          ],
+          [
+            "2026-11-11 15:30",
+            101.32
+          ],
+          [
+            "2026-11-11 15:31",
+            101.4
+          ],
+          [
+            "2026-11-11 15:32",
+            101.39
+          ],
+          [
+            "2026-11-11 15:33",
+            101.38
+          ],
+          [
+            "2026-11-11 15:34",
+            101.36
+          ],
+          [
+            "2026-11-11 15:35",
+            101.4
+          ],
+          [
+            "2026-11-11 15:36",
+            101.38
+          ],
+          [
+            "2026-11-11 15:37",
+            101.38
+          ],
+          [
+            "2026-11-11 15:38",
+            101.31
+          ],
+          [
+            "2026-11-11 15:39",
+            101.39
+          ],
+          [
+            "2026-11-11 15:40",
+            101.24
+          ],
+          [
+            "2026-11-11 15:41",
+            101.24
+          ],
+          [
+            "2026-11-11 15:42",
+            101.19
+          ],
+          [
+            "2026-11-11 15:43",
+            101.2
+          ],
+          [
+            "2026-11-11 15:44",
+            101.28
+          ],
+          [
+            "2026-11-11 15:45",
+            101.29
+          ],
+          [
+            "2026-11-11 15:46",
+            101.25
+          ],
+          [
+            "2026-11-11 15:47",
+            101.33
+          ],
+          [
+            "2026-11-11 15:48",
+            101.39
+          ],
+          [
+            "2026-11-11 15:49",
+            101.3
+          ],
+          [
+            "2026-11-11 15:50",
+            100.96
+          ],
+          [
+            "2026-11-11 15:51",
+            100.92
+          ],
+          [
+            "2026-11-11 15:52",
+            100.82
+          ],
+          [
+            "2026-11-11 15:53",
+            100.74
+          ],
+          [
+            "2026-11-11 15:54",
+            100.84
+          ],
+          [
+            "2026-11-11 15:55",
+            100.74
+          ],
+          [
+            "2026-11-11 15:56",
+            100.74
+          ],
+          [
+            "2026-11-11 15:57",
+            100.73
+          ],
+          [
+            "2026-11-11 15:58",
+            100.69
+          ],
+          [
+            "2026-11-11 15:59",
+            100.83
           ]
         ],
         "week": [
@@ -2909,7 +3097,43 @@
           ],
           [
             "2026-11-11 15:10",
+            101.31
+          ],
+          [
+            "2026-11-11 15:15",
+            101.29
+          ],
+          [
+            "2026-11-11 15:20",
+            101.23
+          ],
+          [
+            "2026-11-11 15:25",
+            101.33
+          ],
+          [
+            "2026-11-11 15:30",
             101.36
+          ],
+          [
+            "2026-11-11 15:35",
+            101.39
+          ],
+          [
+            "2026-11-11 15:40",
+            101.28
+          ],
+          [
+            "2026-11-11 15:45",
+            101.3
+          ],
+          [
+            "2026-11-11 15:50",
+            100.84
+          ],
+          [
+            "2026-11-11 15:55",
+            100.83
           ]
         ],
         "month": [
@@ -3551,7 +3775,11 @@
           ],
           [
             "2026-11-11 14:30",
-            101.36
+            101.33
+          ],
+          [
+            "2026-11-11 15:30",
+            100.83
           ]
         ]
       },
@@ -3585,10 +3813,6 @@
         "sentence": "Only one method applied here, so treat the estimate cautiously (low confidence)."
       },
       "history": [
-        [
-          "2021-11-11",
-          49.5
-        ],
         [
           "2021-11-12",
           49.55
@@ -4047,7 +4271,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -8600,10 +8824,6 @@
         [
           "2026-11-10",
           98.15
-        ],
-        [
-          "2026-11-11",
-          101.36
         ]
       ],
       "stats": [
@@ -8766,6 +8986,24 @@
       ],
       "news": [
         {
+          "title": "Is Dell Stock Priced Right Against Its Peers?",
+          "publisher": "Trefis",
+          "date": "2026-11-11",
+          "link": "https://www.trefis.com/stock/dell/articles/624271/is-dell-stock-priced-right-against-its-peers/2026-11-11"
+        },
+        {
+          "title": "Cisco (CSCO) Is Considered a Good Investment by Brokers: Is That True?",
+          "publisher": "Zacks",
+          "date": "2026-11-11",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-considered-good-investment-202243792.html"
+        },
+        {
+          "title": "What Is Cisco Systems (CSCO) Building With Its New AI Defense Push?",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-11",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-systems-csco-building-ai-200812215.html"
+        },
+        {
           "title": "Is TE Connectivity\u2019s Buyback Still Lifting Earnings Per Share?",
           "publisher": "Trefis",
           "date": "2026-11-11",
@@ -8784,34 +9022,16 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/cienas-116m-free-cash-flow-172900157.html"
         },
         {
+          "title": "Ahead of Cisco Earnings, Here's What Barchart Data Says Comes Next for CSCO Stock",
+          "publisher": "Barchart",
+          "date": "2026-11-11",
+          "link": "https://www.barchart.com/story/news/8783993/ahead-of-cisco-earnings-here-s-what-barchart-data-says-comes-next-for-csco-stock"
+        },
+        {
           "title": "PPI Data in Focus",
           "publisher": "Zacks",
           "date": "2026-11-11",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ppi-data-focus-162600538.html"
-        },
-        {
-          "title": "Will Cisco (CSCO) Beat Estimates Again in Its Next Earnings Report?",
-          "publisher": "Zacks",
-          "date": "2026-11-11",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-beat-estimates-again-161001728.html"
-        },
-        {
-          "title": "AI Trade Comes Back Post-CoreWeave Numbers",
-          "publisher": "Zacks",
-          "date": "2026-11-11",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-trade-comes-back-post-160700443.html"
-        },
-        {
-          "title": "Buy 2 Cybersecurity Bigwigs for Solid Price Upside for Rest of 2026",
-          "publisher": "Zacks",
-          "date": "2026-11-11",
-          "link": "https://finance.yahoo.com/technology/articles/buy-2-cybersecurity-bigwigs-solid-153900922.html"
-        },
-        {
-          "title": "Radcom (RDCM) Surpasses Q3 Earnings and Revenue Estimates",
-          "publisher": "Zacks",
-          "date": "2026-11-11",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/radcom-rdcm-surpasses-q3-earnings-152513919.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.1% / 6.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -8821,9 +9041,9 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 217.36,
+      "price": 218.01,
       "intrinsic": 272.0250823549231,
-      "upside": 0.20095603641284496,
+      "upside": 0.1985665508758021,
       "confidence": "medium",
       "range_low": 196.44016227971252,
       "range_high": 347.61000243013365,
@@ -10191,11 +10411,199 @@
           ],
           [
             "2026-11-11 15:11",
-            217.38
+            217.33
           ],
           [
             "2026-11-11 15:12",
-            217.33
+            217.36
+          ],
+          [
+            "2026-11-11 15:13",
+            217.39
+          ],
+          [
+            "2026-11-11 15:14",
+            217.4
+          ],
+          [
+            "2026-11-11 15:15",
+            217.31
+          ],
+          [
+            "2026-11-11 15:16",
+            217.14
+          ],
+          [
+            "2026-11-11 15:17",
+            217.18
+          ],
+          [
+            "2026-11-11 15:18",
+            217.31
+          ],
+          [
+            "2026-11-11 15:19",
+            217.27
+          ],
+          [
+            "2026-11-11 15:20",
+            217.39
+          ],
+          [
+            "2026-11-11 15:21",
+            217.43
+          ],
+          [
+            "2026-11-11 15:22",
+            217.37
+          ],
+          [
+            "2026-11-11 15:23",
+            217.42
+          ],
+          [
+            "2026-11-11 15:24",
+            217.3
+          ],
+          [
+            "2026-11-11 15:25",
+            217.38
+          ],
+          [
+            "2026-11-11 15:26",
+            217.43
+          ],
+          [
+            "2026-11-11 15:27",
+            217.49
+          ],
+          [
+            "2026-11-11 15:28",
+            217.5
+          ],
+          [
+            "2026-11-11 15:29",
+            217.43
+          ],
+          [
+            "2026-11-11 15:30",
+            217.5
+          ],
+          [
+            "2026-11-11 15:31",
+            217.67
+          ],
+          [
+            "2026-11-11 15:32",
+            217.86
+          ],
+          [
+            "2026-11-11 15:33",
+            217.88
+          ],
+          [
+            "2026-11-11 15:34",
+            217.81
+          ],
+          [
+            "2026-11-11 15:35",
+            217.89
+          ],
+          [
+            "2026-11-11 15:36",
+            217.53
+          ],
+          [
+            "2026-11-11 15:37",
+            217.72
+          ],
+          [
+            "2026-11-11 15:38",
+            217.52
+          ],
+          [
+            "2026-11-11 15:39",
+            217.51
+          ],
+          [
+            "2026-11-11 15:40",
+            217.46
+          ],
+          [
+            "2026-11-11 15:41",
+            217.49
+          ],
+          [
+            "2026-11-11 15:42",
+            217.44
+          ],
+          [
+            "2026-11-11 15:43",
+            217.55
+          ],
+          [
+            "2026-11-11 15:44",
+            217.55
+          ],
+          [
+            "2026-11-11 15:45",
+            217.44
+          ],
+          [
+            "2026-11-11 15:46",
+            217.43
+          ],
+          [
+            "2026-11-11 15:47",
+            217.64
+          ],
+          [
+            "2026-11-11 15:48",
+            217.86
+          ],
+          [
+            "2026-11-11 15:49",
+            217.84
+          ],
+          [
+            "2026-11-11 15:50",
+            217.83
+          ],
+          [
+            "2026-11-11 15:51",
+            217.79
+          ],
+          [
+            "2026-11-11 15:52",
+            217.57
+          ],
+          [
+            "2026-11-11 15:53",
+            217.55
+          ],
+          [
+            "2026-11-11 15:54",
+            217.22
+          ],
+          [
+            "2026-11-11 15:55",
+            217.46
+          ],
+          [
+            "2026-11-11 15:56",
+            217.24
+          ],
+          [
+            "2026-11-11 15:57",
+            217.16
+          ],
+          [
+            "2026-11-11 15:58",
+            217.32
+          ],
+          [
+            "2026-11-11 15:59",
+            217.98
           ]
         ],
         "week": [
@@ -11721,7 +12129,43 @@
           ],
           [
             "2026-11-11 15:10",
-            217.33
+            217.4
+          ],
+          [
+            "2026-11-11 15:15",
+            217.27
+          ],
+          [
+            "2026-11-11 15:20",
+            217.3
+          ],
+          [
+            "2026-11-11 15:25",
+            217.43
+          ],
+          [
+            "2026-11-11 15:30",
+            217.81
+          ],
+          [
+            "2026-11-11 15:35",
+            217.51
+          ],
+          [
+            "2026-11-11 15:40",
+            217.55
+          ],
+          [
+            "2026-11-11 15:45",
+            217.84
+          ],
+          [
+            "2026-11-11 15:50",
+            217.22
+          ],
+          [
+            "2026-11-11 15:55",
+            217.98
           ]
         ],
         "month": [
@@ -12363,7 +12807,11 @@
           ],
           [
             "2026-11-11 14:30",
-            217.33
+            217.43
+          ],
+          [
+            "2026-11-11 15:30",
+            217.98
           ]
         ]
       },
@@ -12398,10 +12846,6 @@
         "sentence": "The methods land between $196.44 and $347.61 (a 77% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
       },
       "history": [
-        [
-          "2021-11-11",
-          297.3
-        ],
         [
           "2021-11-12",
           300.91
@@ -13076,7 +13520,7 @@
         ],
         [
           "2022-07-18",
-          164.74
+          164.75
         ],
         [
           "2022-07-19",
@@ -14704,7 +15148,7 @@
         ],
         [
           "2024-02-29",
-          303.04
+          303.03
         ],
         [
           "2024-03-01",
@@ -17413,10 +17857,6 @@
         [
           "2026-11-10",
           213.48
-        ],
-        [
-          "2026-11-11",
-          217.33
         ]
       ],
       "stats": [
@@ -17577,6 +18017,24 @@
       ],
       "news": [
         {
+          "title": "Is the AI boom hiding a jobs crisis for graduates?",
+          "publisher": "Yahoo Finance Video",
+          "date": "2026-11-11",
+          "link": "https://finance.yahoo.com/video/is-the-ai-boom-hiding-a-jobs-crisis-for-graduates-214503208.html"
+        },
+        {
+          "title": "Salesforce (CRM) Surpasses Market Returns: Some Facts Worth Knowing",
+          "publisher": "Zacks",
+          "date": "2026-11-11",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-surpasses-market-returns-214502634.html"
+        },
+        {
+          "title": "Bosses Have a New Plan to Boost Morale at the Office: Desk Plants",
+          "publisher": "The Wall Street Journal",
+          "date": "2026-11-11",
+          "link": "https://www.wsj.com/lifestyle/workplace/desk-plants-office-employee-morale-10a0868a?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
           "publisher": "Zacks",
           "date": "2026-11-11",
@@ -17605,24 +18063,6 @@
           "publisher": "Verdict",
           "date": "2026-11-11",
           "link": "https://www.verdict.co.uk/mercor-raises-750m/"
-        },
-        {
-          "title": "What Are ServiceNow Stock Bears Missing?",
-          "publisher": "Trefis",
-          "date": "2026-11-10",
-          "link": "https://www.trefis.com/stock/now/articles/623995/what-are-servicenow-stock-bears-missing/2026-11-10"
-        },
-        {
-          "title": "Salesforce And 2 Other AI Stocks To Watch",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-10",
-          "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-2-other-ai-stocks-201026055.html"
-        },
-        {
-          "title": "ServiceNow Just Dropped 30% in a Month: Stay the Course, or Just Stay Away?",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-11-10",
-          "link": "https://247wallst.com/investing/2026/11/10/servicenow-just-dropped-30-in-a-month-stay-the-course-or-just-stay-away/"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.2% / 8.8%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.328</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.604</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.7B</b> \u2192\n   PV <b>$122.0B</b></p>\n<p>Enterprise value <b>$171.5B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.7B</b><br>\n   \u00f7 823M shares = <b>$196.44/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$187</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$229</td><td><b>$196</b></td><td>$171</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -17632,9 +18072,9 @@
     {
       "ticker": "ACN",
       "name": "Accenture plc",
-      "price": 252.58,
+      "price": 253.66,
       "intrinsic": 291.78923332574954,
-      "upside": 0.13437518882671337,
+      "upside": 0.13067388707650696,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -18954,7 +19394,7 @@
           ],
           [
             "2026-11-11 14:58",
-            252.59
+            252.58
           ],
           [
             "2026-11-11 14:59",
@@ -18978,7 +19418,7 @@
           ],
           [
             "2026-11-11 15:04",
-            253.0
+            252.98
           ],
           [
             "2026-11-11 15:05",
@@ -19010,7 +19450,195 @@
           ],
           [
             "2026-11-11 15:12",
+            253.58
+          ],
+          [
+            "2026-11-11 15:13",
+            253.56
+          ],
+          [
+            "2026-11-11 15:14",
+            253.6
+          ],
+          [
+            "2026-11-11 15:15",
+            253.59
+          ],
+          [
+            "2026-11-11 15:16",
             253.55
+          ],
+          [
+            "2026-11-11 15:17",
+            253.71
+          ],
+          [
+            "2026-11-11 15:18",
+            253.94
+          ],
+          [
+            "2026-11-11 15:19",
+            253.88
+          ],
+          [
+            "2026-11-11 15:20",
+            254.03
+          ],
+          [
+            "2026-11-11 15:21",
+            253.81
+          ],
+          [
+            "2026-11-11 15:22",
+            253.85
+          ],
+          [
+            "2026-11-11 15:23",
+            253.76
+          ],
+          [
+            "2026-11-11 15:24",
+            253.6
+          ],
+          [
+            "2026-11-11 15:25",
+            253.55
+          ],
+          [
+            "2026-11-11 15:26",
+            253.31
+          ],
+          [
+            "2026-11-11 15:27",
+            253.39
+          ],
+          [
+            "2026-11-11 15:28",
+            253.62
+          ],
+          [
+            "2026-11-11 15:29",
+            253.48
+          ],
+          [
+            "2026-11-11 15:30",
+            253.4
+          ],
+          [
+            "2026-11-11 15:31",
+            253.39
+          ],
+          [
+            "2026-11-11 15:32",
+            253.68
+          ],
+          [
+            "2026-11-11 15:33",
+            253.81
+          ],
+          [
+            "2026-11-11 15:34",
+            253.8
+          ],
+          [
+            "2026-11-11 15:35",
+            254.0
+          ],
+          [
+            "2026-11-11 15:36",
+            253.99
+          ],
+          [
+            "2026-11-11 15:37",
+            253.74
+          ],
+          [
+            "2026-11-11 15:38",
+            253.72
+          ],
+          [
+            "2026-11-11 15:39",
+            253.73
+          ],
+          [
+            "2026-11-11 15:40",
+            253.71
+          ],
+          [
+            "2026-11-11 15:41",
+            253.98
+          ],
+          [
+            "2026-11-11 15:42",
+            254.01
+          ],
+          [
+            "2026-11-11 15:43",
+            254.0
+          ],
+          [
+            "2026-11-11 15:44",
+            253.96
+          ],
+          [
+            "2026-11-11 15:45",
+            253.56
+          ],
+          [
+            "2026-11-11 15:46",
+            253.58
+          ],
+          [
+            "2026-11-11 15:47",
+            253.52
+          ],
+          [
+            "2026-11-11 15:48",
+            253.73
+          ],
+          [
+            "2026-11-11 15:49",
+            253.6
+          ],
+          [
+            "2026-11-11 15:50",
+            253.34
+          ],
+          [
+            "2026-11-11 15:51",
+            253.32
+          ],
+          [
+            "2026-11-11 15:52",
+            253.13
+          ],
+          [
+            "2026-11-11 15:53",
+            253.18
+          ],
+          [
+            "2026-11-11 15:54",
+            252.94
+          ],
+          [
+            "2026-11-11 15:55",
+            253.26
+          ],
+          [
+            "2026-11-11 15:56",
+            253.1
+          ],
+          [
+            "2026-11-11 15:57",
+            253.37
+          ],
+          [
+            "2026-11-11 15:58",
+            253.38
+          ],
+          [
+            "2026-11-11 15:59",
+            253.64
           ]
         ],
         "week": [
@@ -20528,7 +21156,7 @@
           ],
           [
             "2026-11-11 15:00",
-            253.0
+            252.98
           ],
           [
             "2026-11-11 15:05",
@@ -20536,7 +21164,43 @@
           ],
           [
             "2026-11-11 15:10",
-            253.55
+            253.6
+          ],
+          [
+            "2026-11-11 15:15",
+            253.88
+          ],
+          [
+            "2026-11-11 15:20",
+            253.6
+          ],
+          [
+            "2026-11-11 15:25",
+            253.48
+          ],
+          [
+            "2026-11-11 15:30",
+            253.8
+          ],
+          [
+            "2026-11-11 15:35",
+            253.73
+          ],
+          [
+            "2026-11-11 15:40",
+            253.96
+          ],
+          [
+            "2026-11-11 15:45",
+            253.6
+          ],
+          [
+            "2026-11-11 15:50",
+            252.94
+          ],
+          [
+            "2026-11-11 15:55",
+            253.64
           ]
         ],
         "month": [
@@ -21178,7 +21842,11 @@
           ],
           [
             "2026-11-11 14:30",
-            253.55
+            253.48
+          ],
+          [
+            "2026-11-11 15:30",
+            253.64
           ]
         ]
       },
@@ -21212,10 +21880,6 @@
         "sentence": "Only one method applied here, so treat the estimate cautiously (low confidence)."
       },
       "history": [
-        [
-          "2021-11-11",
-          335.42
-        ],
         [
           "2021-11-12",
           340.02
@@ -22618,7 +23282,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -23882,7 +24546,7 @@
         ],
         [
           "2024-07-11",
-          284.42
+          284.41
         ],
         [
           "2024-07-12",
@@ -26227,10 +26891,6 @@
         [
           "2026-11-10",
           258.51
-        ],
-        [
-          "2026-11-11",
-          253.55
         ]
       ],
       "stats": [
@@ -26394,6 +27054,18 @@
       ],
       "news": [
         {
+          "title": "Australian companies face 'AI washing' claims after wave of job cuts, offshoring",
+          "publisher": "Reuters",
+          "date": "2026-11-11",
+          "link": "https://finance.yahoo.com/technology/ai/articles/australian-companies-face-ai-washing-210132986.html"
+        },
+        {
+          "title": "What Will Decide Accenture Stock Over The Next Six Months?",
+          "publisher": "Trefis",
+          "date": "2026-11-11",
+          "link": "https://www.trefis.com/stock/acn/articles/624400/what-will-decide-accenture-stock-over-the-next-six-months/2026-11-11"
+        },
+        {
           "title": "SpaceX\u2019s Starlink Sees Strong Subscriber Growth in H1 2026, But Ookla Asks Whether Network Capacity Can Keep Up With Growing Demand",
           "publisher": "Stocktwits",
           "date": "2026-11-11",
@@ -26428,18 +27100,6 @@
           "publisher": "Motley Fool",
           "date": "2026-11-10",
           "link": "https://www.fool.com/coverage/better-buy/2026/11/10/accenture-vs-intuit-does-corporate-consulting-or-financial-software-make-for-a-better-stock-buy-in-2026/"
-        },
-        {
-          "title": "\u2018Baby Berkshire\u2019 Portfolio: 10 Best AI Stocks to Buy According to Warren Buffett Disciple Tom Gayner",
-          "publisher": "Insider Monkey",
-          "date": "2026-11-10",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/baby-berkshire-portfolio-10-best-152942323.html"
-        },
-        {
-          "title": "Accenture (ACN) Following WSIB Win Has An Undervalued Narrative To Defend",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-10",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-following-wsib-win-121157753.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.8% / 8.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 591M shares = <b>$291.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$330</td><td>$279</td><td>$241</td></tr><tr><td>growth 6.9%</td><td>$345</td><td><b>$292</b></td><td>$253</td></tr><tr><td>growth 8.0%</td><td>$354</td><td>$299</td><td>$259</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -26453,7 +27113,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 365.28,
+      "price": 365.17,
       "drawdown": -0.28334314302530905,
       "thesis": "SPDR Gold Shares is down 28% from its 52-week high but is still in a long-term uptrend (3y +94%, 5y +114%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -26483,10 +27143,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-11",
-          174.12
-        ],
         [
           "2021-11-12",
           174.45
@@ -31498,10 +32154,6 @@
         [
           "2026-11-10",
           369.36
-        ],
-        [
-          "2026-11-11",
-          365.28
         ]
       ],
       "intraday": {
@@ -32832,7 +33484,7 @@
           ],
           [
             "2026-11-11 15:01",
-            365.18
+            365.17
           ],
           [
             "2026-11-11 15:02",
@@ -32864,7 +33516,7 @@
           ],
           [
             "2026-11-11 15:09",
-            365.24
+            365.25
           ],
           [
             "2026-11-11 15:10",
@@ -32877,6 +33529,194 @@
           [
             "2026-11-11 15:12",
             365.28
+          ],
+          [
+            "2026-11-11 15:13",
+            365.29
+          ],
+          [
+            "2026-11-11 15:14",
+            365.26
+          ],
+          [
+            "2026-11-11 15:15",
+            365.21
+          ],
+          [
+            "2026-11-11 15:16",
+            365.14
+          ],
+          [
+            "2026-11-11 15:17",
+            365.04
+          ],
+          [
+            "2026-11-11 15:18",
+            365.04
+          ],
+          [
+            "2026-11-11 15:19",
+            365.04
+          ],
+          [
+            "2026-11-11 15:20",
+            365.13
+          ],
+          [
+            "2026-11-11 15:21",
+            365.24
+          ],
+          [
+            "2026-11-11 15:22",
+            365.29
+          ],
+          [
+            "2026-11-11 15:23",
+            365.26
+          ],
+          [
+            "2026-11-11 15:24",
+            365.3
+          ],
+          [
+            "2026-11-11 15:25",
+            365.34
+          ],
+          [
+            "2026-11-11 15:26",
+            365.44
+          ],
+          [
+            "2026-11-11 15:27",
+            365.41
+          ],
+          [
+            "2026-11-11 15:28",
+            365.37
+          ],
+          [
+            "2026-11-11 15:29",
+            365.21
+          ],
+          [
+            "2026-11-11 15:30",
+            365.12
+          ],
+          [
+            "2026-11-11 15:31",
+            365.01
+          ],
+          [
+            "2026-11-11 15:32",
+            365.1
+          ],
+          [
+            "2026-11-11 15:33",
+            365.12
+          ],
+          [
+            "2026-11-11 15:34",
+            365.1
+          ],
+          [
+            "2026-11-11 15:35",
+            365.08
+          ],
+          [
+            "2026-11-11 15:36",
+            365.14
+          ],
+          [
+            "2026-11-11 15:37",
+            365.12
+          ],
+          [
+            "2026-11-11 15:38",
+            365.17
+          ],
+          [
+            "2026-11-11 15:39",
+            365.26
+          ],
+          [
+            "2026-11-11 15:40",
+            365.13
+          ],
+          [
+            "2026-11-11 15:41",
+            365.15
+          ],
+          [
+            "2026-11-11 15:42",
+            365.18
+          ],
+          [
+            "2026-11-11 15:43",
+            365.26
+          ],
+          [
+            "2026-11-11 15:44",
+            365.35
+          ],
+          [
+            "2026-11-11 15:45",
+            365.39
+          ],
+          [
+            "2026-11-11 15:46",
+            365.4
+          ],
+          [
+            "2026-11-11 15:47",
+            365.34
+          ],
+          [
+            "2026-11-11 15:48",
+            365.39
+          ],
+          [
+            "2026-11-11 15:49",
+            365.46
+          ],
+          [
+            "2026-11-11 15:50",
+            365.4
+          ],
+          [
+            "2026-11-11 15:51",
+            365.35
+          ],
+          [
+            "2026-11-11 15:52",
+            365.34
+          ],
+          [
+            "2026-11-11 15:53",
+            365.34
+          ],
+          [
+            "2026-11-11 15:54",
+            365.35
+          ],
+          [
+            "2026-11-11 15:55",
+            365.24
+          ],
+          [
+            "2026-11-11 15:56",
+            365.27
+          ],
+          [
+            "2026-11-11 15:57",
+            365.24
+          ],
+          [
+            "2026-11-11 15:58",
+            365.22
+          ],
+          [
+            "2026-11-11 15:59",
+            365.17
           ]
         ],
         "week": [
@@ -34398,11 +35238,47 @@
           ],
           [
             "2026-11-11 15:05",
-            365.24
+            365.25
           ],
           [
             "2026-11-11 15:10",
-            365.28
+            365.26
+          ],
+          [
+            "2026-11-11 15:15",
+            365.04
+          ],
+          [
+            "2026-11-11 15:20",
+            365.3
+          ],
+          [
+            "2026-11-11 15:25",
+            365.21
+          ],
+          [
+            "2026-11-11 15:30",
+            365.1
+          ],
+          [
+            "2026-11-11 15:35",
+            365.26
+          ],
+          [
+            "2026-11-11 15:40",
+            365.35
+          ],
+          [
+            "2026-11-11 15:45",
+            365.46
+          ],
+          [
+            "2026-11-11 15:50",
+            365.35
+          ],
+          [
+            "2026-11-11 15:55",
+            365.17
           ]
         ],
         "month": [
@@ -35044,7 +35920,11 @@
           ],
           [
             "2026-11-11 14:30",
-            365.27
+            365.21
+          ],
+          [
+            "2026-11-11 15:30",
+            365.17
           ]
         ]
       }
@@ -35054,7 +35934,7 @@
       "name": "VanEck Semiconductor",
       "category": "Semiconductors",
       "is_etf": true,
-      "price": 508.93,
+      "price": 506.96,
       "drawdown": -0.2424720539422176,
       "thesis": "VanEck Semiconductor is down 24% from its 52-week high but is still in a long-term uptrend (3y +221%, 5y +238%) \u2014 a pullback on a quality Semiconductors fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -35084,10 +35964,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-11",
-          144.6
-        ],
         [
           "2021-11-12",
           146.07
@@ -40099,10 +40975,6 @@
         [
           "2026-11-10",
           483.63
-        ],
-        [
-          "2026-11-11",
-          508.93
         ]
       ],
       "intraday": {
@@ -41477,7 +42349,195 @@
           ],
           [
             "2026-11-11 15:12",
-            508.93
+            508.88
+          ],
+          [
+            "2026-11-11 15:13",
+            509.34
+          ],
+          [
+            "2026-11-11 15:14",
+            509.06
+          ],
+          [
+            "2026-11-11 15:15",
+            509.5
+          ],
+          [
+            "2026-11-11 15:16",
+            509.49
+          ],
+          [
+            "2026-11-11 15:17",
+            509.42
+          ],
+          [
+            "2026-11-11 15:18",
+            509.27
+          ],
+          [
+            "2026-11-11 15:19",
+            508.96
+          ],
+          [
+            "2026-11-11 15:20",
+            508.56
+          ],
+          [
+            "2026-11-11 15:21",
+            508.36
+          ],
+          [
+            "2026-11-11 15:22",
+            508.18
+          ],
+          [
+            "2026-11-11 15:23",
+            508.26
+          ],
+          [
+            "2026-11-11 15:24",
+            508.76
+          ],
+          [
+            "2026-11-11 15:25",
+            508.82
+          ],
+          [
+            "2026-11-11 15:26",
+            509.24
+          ],
+          [
+            "2026-11-11 15:27",
+            509.25
+          ],
+          [
+            "2026-11-11 15:28",
+            509.28
+          ],
+          [
+            "2026-11-11 15:29",
+            508.83
+          ],
+          [
+            "2026-11-11 15:30",
+            508.12
+          ],
+          [
+            "2026-11-11 15:31",
+            508.0
+          ],
+          [
+            "2026-11-11 15:32",
+            507.95
+          ],
+          [
+            "2026-11-11 15:33",
+            508.1
+          ],
+          [
+            "2026-11-11 15:34",
+            508.15
+          ],
+          [
+            "2026-11-11 15:35",
+            508.75
+          ],
+          [
+            "2026-11-11 15:36",
+            508.5
+          ],
+          [
+            "2026-11-11 15:37",
+            508.85
+          ],
+          [
+            "2026-11-11 15:38",
+            508.8
+          ],
+          [
+            "2026-11-11 15:39",
+            508.63
+          ],
+          [
+            "2026-11-11 15:40",
+            508.15
+          ],
+          [
+            "2026-11-11 15:41",
+            508.13
+          ],
+          [
+            "2026-11-11 15:42",
+            507.68
+          ],
+          [
+            "2026-11-11 15:43",
+            507.87
+          ],
+          [
+            "2026-11-11 15:44",
+            508.0
+          ],
+          [
+            "2026-11-11 15:45",
+            508.82
+          ],
+          [
+            "2026-11-11 15:46",
+            508.7
+          ],
+          [
+            "2026-11-11 15:47",
+            508.7
+          ],
+          [
+            "2026-11-11 15:48",
+            508.77
+          ],
+          [
+            "2026-11-11 15:49",
+            508.39
+          ],
+          [
+            "2026-11-11 15:50",
+            507.51
+          ],
+          [
+            "2026-11-11 15:51",
+            507.45
+          ],
+          [
+            "2026-11-11 15:52",
+            507.48
+          ],
+          [
+            "2026-11-11 15:53",
+            507.24
+          ],
+          [
+            "2026-11-11 15:54",
+            506.74
+          ],
+          [
+            "2026-11-11 15:55",
+            506.32
+          ],
+          [
+            "2026-11-11 15:56",
+            506.98
+          ],
+          [
+            "2026-11-11 15:57",
+            507.04
+          ],
+          [
+            "2026-11-11 15:58",
+            507.2
+          ],
+          [
+            "2026-11-11 15:59",
+            507.23
           ]
         ],
         "week": [
@@ -43003,7 +44063,43 @@
           ],
           [
             "2026-11-11 15:10",
-            508.84
+            509.06
+          ],
+          [
+            "2026-11-11 15:15",
+            508.96
+          ],
+          [
+            "2026-11-11 15:20",
+            508.76
+          ],
+          [
+            "2026-11-11 15:25",
+            508.83
+          ],
+          [
+            "2026-11-11 15:30",
+            508.15
+          ],
+          [
+            "2026-11-11 15:35",
+            508.63
+          ],
+          [
+            "2026-11-11 15:40",
+            508.0
+          ],
+          [
+            "2026-11-11 15:45",
+            508.39
+          ],
+          [
+            "2026-11-11 15:50",
+            506.74
+          ],
+          [
+            "2026-11-11 15:55",
+            507.23
           ]
         ],
         "month": [
@@ -43645,7 +44741,11 @@
           ],
           [
             "2026-11-11 14:30",
-            508.84
+            508.83
+          ],
+          [
+            "2026-11-11 15:30",
+            507.23
           ]
         ]
       }
@@ -43655,7 +44755,7 @@
       "name": "Technology Select Sector SPDR",
       "category": "Technology",
       "is_etf": true,
-      "price": 174.79,
+      "price": 174.36,
       "drawdown": -0.1400246002460025,
       "thesis": "Technology Select Sector SPDR is down 14% from its 52-week high but is still in a long-term uptrend (3y +92%, 5y +108%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -43685,10 +44785,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-11",
-          79.65
-        ],
         [
           "2021-11-12",
           80.62
@@ -47559,7 +48655,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -48700,10 +49796,6 @@
         [
           "2026-11-10",
           168.91
-        ],
-        [
-          "2026-11-11",
-          174.79
         ]
       ],
       "intraday": {
@@ -50026,7 +51118,7 @@
           ],
           [
             "2026-11-11 14:59",
-            175.07
+            175.08
           ],
           [
             "2026-11-11 15:00",
@@ -50078,7 +51170,195 @@
           ],
           [
             "2026-11-11 15:12",
+            174.81
+          ],
+          [
+            "2026-11-11 15:13",
+            174.93
+          ],
+          [
+            "2026-11-11 15:14",
+            174.85
+          ],
+          [
+            "2026-11-11 15:15",
+            174.89
+          ],
+          [
+            "2026-11-11 15:16",
+            174.85
+          ],
+          [
+            "2026-11-11 15:17",
+            174.85
+          ],
+          [
+            "2026-11-11 15:18",
+            174.81
+          ],
+          [
+            "2026-11-11 15:19",
+            174.74
+          ],
+          [
+            "2026-11-11 15:20",
+            174.65
+          ],
+          [
+            "2026-11-11 15:21",
+            174.66
+          ],
+          [
+            "2026-11-11 15:22",
+            174.63
+          ],
+          [
+            "2026-11-11 15:23",
+            174.65
+          ],
+          [
+            "2026-11-11 15:24",
+            174.71
+          ],
+          [
+            "2026-11-11 15:25",
+            174.73
+          ],
+          [
+            "2026-11-11 15:26",
+            174.82
+          ],
+          [
+            "2026-11-11 15:27",
+            174.83
+          ],
+          [
+            "2026-11-11 15:28",
+            174.85
+          ],
+          [
+            "2026-11-11 15:29",
+            174.76
+          ],
+          [
+            "2026-11-11 15:30",
+            174.66
+          ],
+          [
+            "2026-11-11 15:31",
+            174.67
+          ],
+          [
+            "2026-11-11 15:32",
+            174.67
+          ],
+          [
+            "2026-11-11 15:33",
+            174.71
+          ],
+          [
+            "2026-11-11 15:34",
+            174.71
+          ],
+          [
+            "2026-11-11 15:35",
+            174.82
+          ],
+          [
+            "2026-11-11 15:36",
+            174.76
+          ],
+          [
+            "2026-11-11 15:37",
+            174.84
+          ],
+          [
+            "2026-11-11 15:38",
+            174.84
+          ],
+          [
+            "2026-11-11 15:39",
+            174.8
+          ],
+          [
+            "2026-11-11 15:40",
+            174.63
+          ],
+          [
+            "2026-11-11 15:41",
+            174.67
+          ],
+          [
+            "2026-11-11 15:42",
+            174.59
+          ],
+          [
+            "2026-11-11 15:43",
+            174.62
+          ],
+          [
+            "2026-11-11 15:44",
+            174.65
+          ],
+          [
+            "2026-11-11 15:45",
+            174.83
+          ],
+          [
+            "2026-11-11 15:46",
             174.79
+          ],
+          [
+            "2026-11-11 15:47",
+            174.79
+          ],
+          [
+            "2026-11-11 15:48",
+            174.84
+          ],
+          [
+            "2026-11-11 15:49",
+            174.76
+          ],
+          [
+            "2026-11-11 15:50",
+            174.5
+          ],
+          [
+            "2026-11-11 15:51",
+            174.47
+          ],
+          [
+            "2026-11-11 15:52",
+            174.43
+          ],
+          [
+            "2026-11-11 15:53",
+            174.39
+          ],
+          [
+            "2026-11-11 15:54",
+            174.26
+          ],
+          [
+            "2026-11-11 15:55",
+            174.22
+          ],
+          [
+            "2026-11-11 15:56",
+            174.33
+          ],
+          [
+            "2026-11-11 15:57",
+            174.34
+          ],
+          [
+            "2026-11-11 15:58",
+            174.38
+          ],
+          [
+            "2026-11-11 15:59",
+            174.39
           ]
         ],
         "week": [
@@ -51592,7 +52872,7 @@
           ],
           [
             "2026-11-11 14:55",
-            175.07
+            175.08
           ],
           [
             "2026-11-11 15:00",
@@ -51604,7 +52884,43 @@
           ],
           [
             "2026-11-11 15:10",
-            174.79
+            174.85
+          ],
+          [
+            "2026-11-11 15:15",
+            174.74
+          ],
+          [
+            "2026-11-11 15:20",
+            174.71
+          ],
+          [
+            "2026-11-11 15:25",
+            174.76
+          ],
+          [
+            "2026-11-11 15:30",
+            174.71
+          ],
+          [
+            "2026-11-11 15:35",
+            174.8
+          ],
+          [
+            "2026-11-11 15:40",
+            174.65
+          ],
+          [
+            "2026-11-11 15:45",
+            174.76
+          ],
+          [
+            "2026-11-11 15:50",
+            174.26
+          ],
+          [
+            "2026-11-11 15:55",
+            174.39
           ]
         ],
         "month": [
@@ -52246,7 +53562,11 @@
           ],
           [
             "2026-11-11 14:30",
-            174.79
+            174.76
+          ],
+          [
+            "2026-11-11 15:30",
+            174.39
           ]
         ]
       }
@@ -52256,7 +53576,7 @@
       "name": "Vanguard Information Technology",
       "category": "Technology",
       "is_etf": true,
-      "price": 114.005,
+      "price": 113.72,
       "drawdown": -0.12746823817541708,
       "thesis": "Vanguard Information Technology is down 13% from its 52-week high but is still in a long-term uptrend (3y +101%, 5y +105%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -52286,10 +53606,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-11",
-          53.76
-        ],
         [
           "2021-11-12",
           54.4
@@ -53528,7 +54844,7 @@
         ],
         [
           "2023-02-07",
-          45.21
+          45.2
         ],
         [
           "2023-02-08",
@@ -57301,10 +58617,6 @@
         [
           "2026-11-10",
           110.52
-        ],
-        [
-          "2026-11-11",
-          114.0
         ]
       ],
       "intraday": {
@@ -58663,7 +59975,7 @@
           ],
           [
             "2026-11-11 15:08",
-            114.04
+            114.0
           ],
           [
             "2026-11-11 15:09",
@@ -58671,7 +59983,7 @@
           ],
           [
             "2026-11-11 15:10",
-            113.99
+            114.0
           ],
           [
             "2026-11-11 15:11",
@@ -58679,7 +59991,195 @@
           ],
           [
             "2026-11-11 15:12",
+            114.01
+          ],
+          [
+            "2026-11-11 15:13",
+            114.07
+          ],
+          [
+            "2026-11-11 15:14",
+            114.02
+          ],
+          [
+            "2026-11-11 15:15",
+            114.04
+          ],
+          [
+            "2026-11-11 15:16",
+            114.01
+          ],
+          [
+            "2026-11-11 15:17",
+            114.02
+          ],
+          [
+            "2026-11-11 15:18",
+            113.99
+          ],
+          [
+            "2026-11-11 15:19",
+            113.94
+          ],
+          [
+            "2026-11-11 15:20",
+            113.9
+          ],
+          [
+            "2026-11-11 15:21",
+            113.89
+          ],
+          [
+            "2026-11-11 15:22",
+            113.88
+          ],
+          [
+            "2026-11-11 15:23",
+            113.89
+          ],
+          [
+            "2026-11-11 15:24",
+            113.92
+          ],
+          [
+            "2026-11-11 15:25",
+            113.93
+          ],
+          [
+            "2026-11-11 15:26",
+            113.98
+          ],
+          [
+            "2026-11-11 15:27",
             114.0
+          ],
+          [
+            "2026-11-11 15:28",
+            114.0
+          ],
+          [
+            "2026-11-11 15:29",
+            113.94
+          ],
+          [
+            "2026-11-11 15:30",
+            113.89
+          ],
+          [
+            "2026-11-11 15:31",
+            113.92
+          ],
+          [
+            "2026-11-11 15:32",
+            113.92
+          ],
+          [
+            "2026-11-11 15:33",
+            113.94
+          ],
+          [
+            "2026-11-11 15:34",
+            113.94
+          ],
+          [
+            "2026-11-11 15:35",
+            114.01
+          ],
+          [
+            "2026-11-11 15:36",
+            113.95
+          ],
+          [
+            "2026-11-11 15:37",
+            114.01
+          ],
+          [
+            "2026-11-11 15:38",
+            114.01
+          ],
+          [
+            "2026-11-11 15:39",
+            114.0
+          ],
+          [
+            "2026-11-11 15:40",
+            113.89
+          ],
+          [
+            "2026-11-11 15:41",
+            113.91
+          ],
+          [
+            "2026-11-11 15:42",
+            113.86
+          ],
+          [
+            "2026-11-11 15:43",
+            113.89
+          ],
+          [
+            "2026-11-11 15:44",
+            113.89
+          ],
+          [
+            "2026-11-11 15:45",
+            114.0
+          ],
+          [
+            "2026-11-11 15:46",
+            113.99
+          ],
+          [
+            "2026-11-11 15:47",
+            113.99
+          ],
+          [
+            "2026-11-11 15:48",
+            114.02
+          ],
+          [
+            "2026-11-11 15:49",
+            113.97
+          ],
+          [
+            "2026-11-11 15:50",
+            113.8
+          ],
+          [
+            "2026-11-11 15:51",
+            113.81
+          ],
+          [
+            "2026-11-11 15:52",
+            113.79
+          ],
+          [
+            "2026-11-11 15:53",
+            113.76
+          ],
+          [
+            "2026-11-11 15:54",
+            113.68
+          ],
+          [
+            "2026-11-11 15:55",
+            113.66
+          ],
+          [
+            "2026-11-11 15:56",
+            113.73
+          ],
+          [
+            "2026-11-11 15:57",
+            113.75
+          ],
+          [
+            "2026-11-11 15:58",
+            113.78
+          ],
+          [
+            "2026-11-11 15:59",
+            113.77
           ]
         ],
         "week": [
@@ -60205,7 +61705,43 @@
           ],
           [
             "2026-11-11 15:10",
+            114.02
+          ],
+          [
+            "2026-11-11 15:15",
+            113.94
+          ],
+          [
+            "2026-11-11 15:20",
+            113.92
+          ],
+          [
+            "2026-11-11 15:25",
+            113.94
+          ],
+          [
+            "2026-11-11 15:30",
+            113.94
+          ],
+          [
+            "2026-11-11 15:35",
             114.0
+          ],
+          [
+            "2026-11-11 15:40",
+            113.89
+          ],
+          [
+            "2026-11-11 15:45",
+            113.97
+          ],
+          [
+            "2026-11-11 15:50",
+            113.68
+          ],
+          [
+            "2026-11-11 15:55",
+            113.77
           ]
         ],
         "month": [
@@ -60847,7 +62383,11 @@
           ],
           [
             "2026-11-11 14:30",
-            114.0
+            113.94
+          ],
+          [
+            "2026-11-11 15:30",
+            113.77
           ]
         ]
       }
@@ -60857,7 +62397,7 @@
       "name": "Energy Select Sector SPDR",
       "category": "Energy",
       "is_etf": true,
-      "price": 63.145,
+      "price": 63.37,
       "drawdown": -0.09985744832501786,
       "thesis": "Energy Select Sector SPDR is down 10% from its 52-week high but is still in a long-term uptrend (3y +64%, 5y +168%) \u2014 a pullback on a quality Energy fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -60887,10 +62427,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-11",
-          24.19
-        ],
         [
           "2021-11-12",
           24.14
@@ -65902,10 +67438,6 @@
         [
           "2026-11-10",
           62.21
-        ],
-        [
-          "2026-11-11",
-          63.15
         ]
       ],
       "intraday": {
@@ -67232,7 +68764,7 @@
           ],
           [
             "2026-11-11 15:00",
-            63.1
+            63.09
           ],
           [
             "2026-11-11 15:01",
@@ -67268,7 +68800,7 @@
           ],
           [
             "2026-11-11 15:09",
-            63.12
+            63.13
           ],
           [
             "2026-11-11 15:10",
@@ -67280,7 +68812,195 @@
           ],
           [
             "2026-11-11 15:12",
+            63.13
+          ],
+          [
+            "2026-11-11 15:13",
+            63.16
+          ],
+          [
+            "2026-11-11 15:14",
             63.15
+          ],
+          [
+            "2026-11-11 15:15",
+            63.12
+          ],
+          [
+            "2026-11-11 15:16",
+            63.13
+          ],
+          [
+            "2026-11-11 15:17",
+            63.15
+          ],
+          [
+            "2026-11-11 15:18",
+            63.15
+          ],
+          [
+            "2026-11-11 15:19",
+            63.17
+          ],
+          [
+            "2026-11-11 15:20",
+            63.17
+          ],
+          [
+            "2026-11-11 15:21",
+            63.16
+          ],
+          [
+            "2026-11-11 15:22",
+            63.17
+          ],
+          [
+            "2026-11-11 15:23",
+            63.17
+          ],
+          [
+            "2026-11-11 15:24",
+            63.15
+          ],
+          [
+            "2026-11-11 15:25",
+            63.17
+          ],
+          [
+            "2026-11-11 15:26",
+            63.16
+          ],
+          [
+            "2026-11-11 15:27",
+            63.15
+          ],
+          [
+            "2026-11-11 15:28",
+            63.13
+          ],
+          [
+            "2026-11-11 15:29",
+            63.15
+          ],
+          [
+            "2026-11-11 15:30",
+            63.18
+          ],
+          [
+            "2026-11-11 15:31",
+            63.19
+          ],
+          [
+            "2026-11-11 15:32",
+            63.21
+          ],
+          [
+            "2026-11-11 15:33",
+            63.2
+          ],
+          [
+            "2026-11-11 15:34",
+            63.21
+          ],
+          [
+            "2026-11-11 15:35",
+            63.21
+          ],
+          [
+            "2026-11-11 15:36",
+            63.22
+          ],
+          [
+            "2026-11-11 15:37",
+            63.21
+          ],
+          [
+            "2026-11-11 15:38",
+            63.23
+          ],
+          [
+            "2026-11-11 15:39",
+            63.24
+          ],
+          [
+            "2026-11-11 15:40",
+            63.22
+          ],
+          [
+            "2026-11-11 15:41",
+            63.22
+          ],
+          [
+            "2026-11-11 15:42",
+            63.18
+          ],
+          [
+            "2026-11-11 15:43",
+            63.17
+          ],
+          [
+            "2026-11-11 15:44",
+            63.19
+          ],
+          [
+            "2026-11-11 15:45",
+            63.17
+          ],
+          [
+            "2026-11-11 15:46",
+            63.17
+          ],
+          [
+            "2026-11-11 15:47",
+            63.22
+          ],
+          [
+            "2026-11-11 15:48",
+            63.22
+          ],
+          [
+            "2026-11-11 15:49",
+            63.22
+          ],
+          [
+            "2026-11-11 15:50",
+            63.24
+          ],
+          [
+            "2026-11-11 15:51",
+            63.32
+          ],
+          [
+            "2026-11-11 15:52",
+            63.3
+          ],
+          [
+            "2026-11-11 15:53",
+            63.29
+          ],
+          [
+            "2026-11-11 15:54",
+            63.28
+          ],
+          [
+            "2026-11-11 15:55",
+            63.35
+          ],
+          [
+            "2026-11-11 15:56",
+            63.35
+          ],
+          [
+            "2026-11-11 15:57",
+            63.35
+          ],
+          [
+            "2026-11-11 15:58",
+            63.35
+          ],
+          [
+            "2026-11-11 15:59",
+            63.36
           ]
         ],
         "week": [
@@ -68802,11 +70522,47 @@
           ],
           [
             "2026-11-11 15:05",
-            63.12
+            63.13
           ],
           [
             "2026-11-11 15:10",
             63.15
+          ],
+          [
+            "2026-11-11 15:15",
+            63.17
+          ],
+          [
+            "2026-11-11 15:20",
+            63.15
+          ],
+          [
+            "2026-11-11 15:25",
+            63.15
+          ],
+          [
+            "2026-11-11 15:30",
+            63.21
+          ],
+          [
+            "2026-11-11 15:35",
+            63.24
+          ],
+          [
+            "2026-11-11 15:40",
+            63.19
+          ],
+          [
+            "2026-11-11 15:45",
+            63.22
+          ],
+          [
+            "2026-11-11 15:50",
+            63.28
+          ],
+          [
+            "2026-11-11 15:55",
+            63.36
           ]
         ],
         "month": [
@@ -69449,9 +71205,14 @@
           [
             "2026-11-11 14:30",
             63.15
+          ],
+          [
+            "2026-11-11 15:30",
+            63.36
           ]
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-11-12 01:26Z"
 }
