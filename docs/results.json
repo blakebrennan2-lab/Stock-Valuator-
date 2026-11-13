@@ -5,9 +5,9 @@
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
-      "price": 101.78,
+      "price": 102.01,
       "intrinsic": 174.60351557864075,
-      "upside": 0.41707932018036215,
+      "upside": 0.4157620377907823,
       "confidence": "low",
       "range_low": 174.60351557864075,
       "range_high": 174.60351557864075,
@@ -1323,7 +1323,7 @@
           ],
           [
             "2026-11-12 14:57",
-            102.35
+            102.36
           ],
           [
             "2026-11-12 14:58",
@@ -1531,7 +1531,47 @@
           ],
           [
             "2026-11-12 15:49",
-            102.01
+            102.04
+          ],
+          [
+            "2026-11-12 15:50",
+            102.22
+          ],
+          [
+            "2026-11-12 15:51",
+            102.14
+          ],
+          [
+            "2026-11-12 15:52",
+            101.85
+          ],
+          [
+            "2026-11-12 15:53",
+            101.78
+          ],
+          [
+            "2026-11-12 15:54",
+            101.9
+          ],
+          [
+            "2026-11-12 15:55",
+            102.07
+          ],
+          [
+            "2026-11-12 15:56",
+            102.0
+          ],
+          [
+            "2026-11-12 15:57",
+            102.25
+          ],
+          [
+            "2026-11-12 15:58",
+            102.12
+          ],
+          [
+            "2026-11-12 15:59",
+            101.9
           ]
         ],
         "week": [
@@ -3085,14 +3125,18 @@
           ],
           [
             "2026-11-12 15:45",
-            102.03
+            102.04
+          ],
+          [
+            "2026-11-12 15:50",
+            101.9
+          ],
+          [
+            "2026-11-12 15:55",
+            101.9
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            115.33
-          ],
           [
             "2026-10-13 09:30",
             114.5
@@ -3511,7 +3555,7 @@
           ],
           [
             "2026-11-02 15:30",
-            101.68
+            101.69
           ],
           [
             "2026-11-03 09:30",
@@ -3735,7 +3779,7 @@
           ],
           [
             "2026-11-12 15:30",
-            102.03
+            101.9
           ]
         ]
       },
@@ -3769,10 +3813,6 @@
         "sentence": "Only one method applied here, so treat the estimate cautiously (low confidence)."
       },
       "history": [
-        [
-          "2021-11-12",
-          49.55
-        ],
         [
           "2021-11-15",
           49.94
@@ -6171,7 +6211,7 @@
         ],
         [
           "2024-04-05",
-          45.73
+          45.72
         ],
         [
           "2024-04-08",
@@ -8787,7 +8827,7 @@
         ],
         [
           "2026-11-12",
-          102.03
+          102.01
         ]
       ],
       "stats": [
@@ -8950,52 +8990,52 @@
       ],
       "news": [
         {
-          "title": "Nvidia staff wait 6 days for an all-hands after Jensen Huang\u2019s exit. PR experts warn employees need answers sooner",
-          "publisher": "Fortune",
+          "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
+          "publisher": "Investor's Business Daily",
           "date": "2026-11-12",
-          "link": "https://finance.yahoo.com/technology/articles/nvidia-staff-wait-6-days-173910176.html"
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-ceo-huang-exit-surging-yields-spacex-tesla-merger-deal/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "How Risky Is Hewlett Packard Enterprise Stock?",
-          "publisher": "Trefis",
+          "title": "Colette Kress named Nvidia interim CEO as Jensen Huang's abrupt resignation raises investor concerns",
+          "publisher": "Fox Business",
           "date": "2026-11-12",
-          "link": "https://www.trefis.com/stock/hpe/articles/624688/how-risky-is-hewlett-packard-enterprise-stock/2026-11-12"
+          "link": "https://www.foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns"
         },
         {
-          "title": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
-          "publisher": "Insider Monkey",
-          "date": "2026-11-12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html"
-        },
-        {
-          "title": "Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven\u2019t",
-          "publisher": "24/7 Wall St.",
-          "date": "2026-11-12",
-          "link": "https://247wallst.com/investing/2026/11/12/export-controls-were-supposed-to-keep-ai-chips-out-of-china-the-rental-loophole-shows-why-they-havent/"
-        },
-        {
-          "title": "Jensen Huang Is Out at Nvidia. Who Could Replace Him?",
-          "publisher": "Barrons.com",
-          "date": "2026-11-12",
-          "link": "https://www.barrons.com/articles/nvidia-jensen-huang-ceo-successor-colette-kress-a53b45fd?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "What We Know About Jensen Huang\u2019s Resignation",
+          "title": "Cisco Systems Raises Outlook On Soaring Revenue, Profit",
           "publisher": "The Wall Street Journal",
           "date": "2026-11-12",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/what-we-know-about-huang-s-resignation-FELDYm6e10IKGCnT8ZQ0?siteid=yhoof2&yptr=yahoo"
+          "link": "https://www.wsj.com/business/earnings/cisco-systems-raises-outlook-on-soaring-revenue-profit-7efeabd0?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Jensen Huang Resigns, Leaving CFO Colette Kress to Run Nvidia",
-          "publisher": "GuruFocus.com",
-          "date": "2026-11-12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-resigns-leaving-cfo-155030892.html"
-        },
-        {
-          "title": "Who is NVIDIA\u2019s new CEO Colette Kress?",
+          "title": "Cisco shares climb 4% on strong earnings beat and raised outlook",
           "publisher": "Investing.com",
           "date": "2026-11-12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-colette-kress-153831193.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-4-strong-214347073.html"
+        },
+        {
+          "title": "Cisco Shares Climb as First-Quarter Growth Hits More Than 15-Year High",
+          "publisher": "MT Newswires",
+          "date": "2026-11-12",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-first-quarter-213920638.html"
+        },
+        {
+          "title": "Cisco (CSCO) Reports Q1 Earnings: What Key Metrics Have to Say",
+          "publisher": "Zacks",
+          "date": "2026-11-12",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-reports-q1-earnings-213001521.html"
+        },
+        {
+          "title": "Cisco Breezes Past Earnings Estimates Thanks to AI Demand",
+          "publisher": "Barrons.com",
+          "date": "2026-11-12",
+          "link": "https://www.barrons.com/articles/cisco-beat-earnings-estimates-stock-ai-64619a24?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Cisco Earnings, Revenue Top Estimates On AI Data Center Growth",
+          "publisher": "Investor's Business Daily",
+          "date": "2026-11-12",
+          "link": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/?src=A00220&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>93.1% / 6.9%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9005,9 +9045,9 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 217.145,
+      "price": 217.57,
       "intrinsic": 271.96355032102264,
-      "upside": 0.20156579900621036,
+      "upside": 0.20000306266261922,
       "confidence": "medium",
       "range_low": 196.45431813900765,
       "range_high": 347.47278250303765,
@@ -10475,11 +10515,11 @@
           ],
           [
             "2026-11-12 15:35",
-            216.53
+            216.6
           ],
           [
             "2026-11-12 15:36",
-            216.65
+            216.69
           ],
           [
             "2026-11-12 15:37",
@@ -10495,7 +10535,7 @@
           ],
           [
             "2026-11-12 15:40",
-            216.56
+            216.62
           ],
           [
             "2026-11-12 15:41",
@@ -10503,7 +10543,7 @@
           ],
           [
             "2026-11-12 15:42",
-            216.64
+            216.59
           ],
           [
             "2026-11-12 15:43",
@@ -10531,7 +10571,47 @@
           ],
           [
             "2026-11-12 15:49",
-            217.07
+            217.24
+          ],
+          [
+            "2026-11-12 15:50",
+            217.26
+          ],
+          [
+            "2026-11-12 15:51",
+            217.32
+          ],
+          [
+            "2026-11-12 15:52",
+            217.23
+          ],
+          [
+            "2026-11-12 15:53",
+            217.37
+          ],
+          [
+            "2026-11-12 15:54",
+            217.32
+          ],
+          [
+            "2026-11-12 15:55",
+            217.32
+          ],
+          [
+            "2026-11-12 15:56",
+            217.18
+          ],
+          [
+            "2026-11-12 15:57",
+            217.3
+          ],
+          [
+            "2026-11-12 15:58",
+            217.37
+          ],
+          [
+            "2026-11-12 15:59",
+            217.56
           ]
         ],
         "week": [
@@ -12085,14 +12165,18 @@
           ],
           [
             "2026-11-12 15:45",
-            217.07
+            217.24
+          ],
+          [
+            "2026-11-12 15:50",
+            217.32
+          ],
+          [
+            "2026-11-12 15:55",
+            217.56
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            233.74
-          ],
           [
             "2026-10-13 09:30",
             240.79
@@ -12735,7 +12819,7 @@
           ],
           [
             "2026-11-12 15:30",
-            217.07
+            217.56
           ]
         ]
       },
@@ -12770,10 +12854,6 @@
         "sentence": "The methods land between $196.45 and $347.47 (a 77% spread). They broadly agree on direction but differ on magnitude \u2014 medium confidence."
       },
       "history": [
-        [
-          "2021-11-12",
-          300.91
-        ],
         [
           "2021-11-15",
           299.77
@@ -14904,7 +14984,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -15160,7 +15240,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -15660,7 +15740,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -17788,7 +17868,7 @@
         ],
         [
           "2026-11-12",
-          217.07
+          217.57
         ]
       ],
       "stats": [
@@ -18004,9 +18084,9 @@
     {
       "ticker": "ACN",
       "name": "Accenture plc",
-      "price": 251.655,
+      "price": 249.95,
       "intrinsic": 291.78923332574954,
-      "upside": 0.13754528523314025,
+      "upside": 0.14338855447349078,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -19530,7 +19610,47 @@
           ],
           [
             "2026-11-12 15:49",
-            251.26
+            251.23
+          ],
+          [
+            "2026-11-12 15:50",
+            251.0
+          ],
+          [
+            "2026-11-12 15:51",
+            250.95
+          ],
+          [
+            "2026-11-12 15:52",
+            250.58
+          ],
+          [
+            "2026-11-12 15:53",
+            250.51
+          ],
+          [
+            "2026-11-12 15:54",
+            250.42
+          ],
+          [
+            "2026-11-12 15:55",
+            250.3
+          ],
+          [
+            "2026-11-12 15:56",
+            250.11
+          ],
+          [
+            "2026-11-12 15:57",
+            250.26
+          ],
+          [
+            "2026-11-12 15:58",
+            250.17
+          ],
+          [
+            "2026-11-12 15:59",
+            250.05
           ]
         ],
         "week": [
@@ -21084,14 +21204,18 @@
           ],
           [
             "2026-11-12 15:45",
-            251.26
+            251.23
+          ],
+          [
+            "2026-11-12 15:50",
+            250.42
+          ],
+          [
+            "2026-11-12 15:55",
+            250.05
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            214.86
-          ],
           [
             "2026-10-13 09:30",
             217.0
@@ -21230,7 +21354,7 @@
           ],
           [
             "2026-10-19 15:30",
-            236.91
+            236.9
           ],
           [
             "2026-10-20 09:30",
@@ -21734,7 +21858,7 @@
           ],
           [
             "2026-11-12 15:30",
-            251.26
+            250.05
           ]
         ]
       },
@@ -21768,10 +21892,6 @@
         "sentence": "Only one method applied here, so treat the estimate cautiously (low confidence)."
       },
       "history": [
-        [
-          "2021-11-12",
-          340.02
-        ],
         [
           "2021-11-15",
           337.47
@@ -26786,7 +26906,7 @@
         ],
         [
           "2026-11-12",
-          251.26
+          249.95
         ]
       ],
       "stats": [
@@ -26950,6 +27070,18 @@
       ],
       "news": [
         {
+          "title": "Why Accenture (ACN) Dipped More Than Broader Market Today",
+          "publisher": "Zacks",
+          "date": "2026-11-12",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-accenture-acn-dipped-more-215002863.html"
+        },
+        {
+          "title": "Accenture (ACN): Record Managed Services Contracts Meet a Tougher Regulatory Backdrop",
+          "publisher": "Insider Monkey",
+          "date": "2026-11-12",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-record-managed-services-211241828.html"
+        },
+        {
           "title": "Is Accenture's Next Big Thing Already Here?",
           "publisher": "Trefis",
           "date": "2026-11-12",
@@ -26984,18 +27116,6 @@
           "publisher": "Reuters",
           "date": "2026-11-11",
           "link": "https://finance.yahoo.com/technology/ai/articles/australian-companies-face-ai-washing-210132986.html"
-        },
-        {
-          "title": "What Will Decide Accenture Stock Over The Next Six Months?",
-          "publisher": "Trefis",
-          "date": "2026-11-11",
-          "link": "https://www.trefis.com/stock/acn/articles/624400/what-will-decide-accenture-stock-over-the-next-six-months/2026-11-11"
-        },
-        {
-          "title": "SpaceX\u2019s Starlink Sees Strong Subscriber Growth in H1 2026, But Ookla Asks Whether Network Capacity Can Keep Up With Growing Demand",
-          "publisher": "Stocktwits",
-          "date": "2026-11-11",
-          "link": "https://stocktwits.com/news-articles/markets/equity/spacex-starlink-sees-strong-subscriber-growth-in-h1-2026-but-ookla-asks-whether-network-capacity-can-keep-up/cNGDHIhR9Bw"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.7% / 8.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 591M shares = <b>$291.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$330</td><td>$279</td><td>$241</td></tr><tr><td>growth 6.9%</td><td>$345</td><td><b>$292</b></td><td>$253</td></tr><tr><td>growth 8.0%</td><td>$354</td><td>$299</td><td>$259</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -27009,7 +27129,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 355.465,
+      "price": 354.89,
       "drawdown": -0.30259956837355306,
       "thesis": "SPDR Gold Shares is down 30% from its 52-week high but is still in a long-term uptrend (3y +88%, 5y +108%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -27039,10 +27159,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-12",
-          174.45
-        ],
         [
           "2021-11-15",
           174.18
@@ -32057,7 +32173,7 @@
         ],
         [
           "2026-11-12",
-          355.46
+          354.89
         ]
       ],
       "intraday": {
@@ -33520,7 +33636,7 @@
           ],
           [
             "2026-11-12 15:34",
-            355.62
+            355.58
           ],
           [
             "2026-11-12 15:35",
@@ -33548,11 +33664,11 @@
           ],
           [
             "2026-11-12 15:41",
-            355.65
+            355.64
           ],
           [
             "2026-11-12 15:42",
-            355.54
+            355.56
           ],
           [
             "2026-11-12 15:43",
@@ -33580,7 +33696,47 @@
           ],
           [
             "2026-11-12 15:49",
-            355.46
+            355.45
+          ],
+          [
+            "2026-11-12 15:50",
+            355.33
+          ],
+          [
+            "2026-11-12 15:51",
+            355.27
+          ],
+          [
+            "2026-11-12 15:52",
+            355.24
+          ],
+          [
+            "2026-11-12 15:53",
+            355.1
+          ],
+          [
+            "2026-11-12 15:54",
+            355.09
+          ],
+          [
+            "2026-11-12 15:55",
+            354.92
+          ],
+          [
+            "2026-11-12 15:56",
+            354.95
+          ],
+          [
+            "2026-11-12 15:57",
+            355.02
+          ],
+          [
+            "2026-11-12 15:58",
+            354.95
+          ],
+          [
+            "2026-11-12 15:59",
+            354.94
           ]
         ],
         "week": [
@@ -34198,7 +34354,7 @@
           ],
           [
             "2026-11-09 15:45",
-            379.46
+            379.45
           ],
           [
             "2026-11-09 15:50",
@@ -35122,7 +35278,7 @@
           ],
           [
             "2026-11-12 15:30",
-            355.62
+            355.58
           ],
           [
             "2026-11-12 15:35",
@@ -35134,14 +35290,18 @@
           ],
           [
             "2026-11-12 15:45",
-            355.46
+            355.45
+          ],
+          [
+            "2026-11-12 15:50",
+            355.09
+          ],
+          [
+            "2026-11-12 15:55",
+            354.94
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            382.18
-          ],
           [
             "2026-10-13 09:30",
             381.93
@@ -35784,7 +35944,7 @@
           ],
           [
             "2026-11-12 15:30",
-            355.46
+            354.94
           ]
         ]
       }
@@ -35794,7 +35954,7 @@
       "name": "VanEck Semiconductor",
       "category": "Semiconductors",
       "is_etf": true,
-      "price": 500.38,
+      "price": 501.73,
       "drawdown": -0.2551984877126655,
       "thesis": "VanEck Semiconductor is down 26% from its 52-week high but is still in a long-term uptrend (3y +216%, 5y +232%) \u2014 a pullback on a quality Semiconductors fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -35824,10 +35984,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-12",
-          146.07
-        ],
         [
           "2021-11-15",
           145.88
@@ -37126,7 +37282,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -40842,7 +40998,7 @@
         ],
         [
           "2026-11-12",
-          500.45
+          501.73
         ]
       ],
       "intraday": {
@@ -40865,7 +41021,7 @@
           ],
           [
             "2026-11-12 09:34",
-            493.43
+            493.27
           ],
           [
             "2026-11-12 09:35",
@@ -41761,7 +41917,7 @@
           ],
           [
             "2026-11-12 13:18",
-            503.57
+            503.59
           ],
           [
             "2026-11-12 13:19",
@@ -42365,7 +42521,47 @@
           ],
           [
             "2026-11-12 15:49",
-            500.45
+            500.49
+          ],
+          [
+            "2026-11-12 15:50",
+            500.26
+          ],
+          [
+            "2026-11-12 15:51",
+            500.75
+          ],
+          [
+            "2026-11-12 15:52",
+            500.75
+          ],
+          [
+            "2026-11-12 15:53",
+            500.71
+          ],
+          [
+            "2026-11-12 15:54",
+            501.14
+          ],
+          [
+            "2026-11-12 15:55",
+            500.62
+          ],
+          [
+            "2026-11-12 15:56",
+            501.27
+          ],
+          [
+            "2026-11-12 15:57",
+            501.38
+          ],
+          [
+            "2026-11-12 15:58",
+            501.7
+          ],
+          [
+            "2026-11-12 15:59",
+            502.02
           ]
         ],
         "week": [
@@ -42407,7 +42603,7 @@
           ],
           [
             "2026-11-06 10:15",
-            467.09
+            467.05
           ],
           [
             "2026-11-06 10:20",
@@ -42527,7 +42723,7 @@
           ],
           [
             "2026-11-06 12:45",
-            457.73
+            457.72
           ],
           [
             "2026-11-06 12:50",
@@ -42699,7 +42895,7 @@
           ],
           [
             "2026-11-09 09:50",
-            478.46
+            478.37
           ],
           [
             "2026-11-09 09:55",
@@ -42807,7 +43003,7 @@
           ],
           [
             "2026-11-09 12:05",
-            486.08
+            486.11
           ],
           [
             "2026-11-09 12:10",
@@ -42851,7 +43047,7 @@
           ],
           [
             "2026-11-09 13:00",
-            484.02
+            483.99
           ],
           [
             "2026-11-09 13:05",
@@ -42963,7 +43159,7 @@
           ],
           [
             "2026-11-09 15:20",
-            489.3
+            489.35
           ],
           [
             "2026-11-09 15:25",
@@ -43319,7 +43515,7 @@
           ],
           [
             "2026-11-11 09:45",
-            498.36
+            498.35
           ],
           [
             "2026-11-11 09:50",
@@ -43375,7 +43571,7 @@
           ],
           [
             "2026-11-11 10:55",
-            511.17
+            511.16
           ],
           [
             "2026-11-11 11:00",
@@ -43619,7 +43815,7 @@
           ],
           [
             "2026-11-12 09:30",
-            493.43
+            493.27
           ],
           [
             "2026-11-12 09:35",
@@ -43919,14 +44115,18 @@
           ],
           [
             "2026-11-12 15:45",
-            500.38
+            500.49
+          ],
+          [
+            "2026-11-12 15:50",
+            501.14
+          ],
+          [
+            "2026-11-12 15:55",
+            502.02
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            590.5
-          ],
           [
             "2026-10-13 09:30",
             582.12
@@ -44065,7 +44265,7 @@
           ],
           [
             "2026-10-19 15:30",
-            548.24
+            548.25
           ],
           [
             "2026-10-20 09:30",
@@ -44569,7 +44769,7 @@
           ],
           [
             "2026-11-12 15:30",
-            500.45
+            502.02
           ]
         ]
       }
@@ -44579,7 +44779,7 @@
       "name": "Technology Select Sector SPDR",
       "category": "Technology",
       "is_etf": true,
-      "price": 173.365,
+      "price": 173.77,
       "drawdown": -0.1470356703567035,
       "thesis": "Technology Select Sector SPDR is down 15% from its 52-week high but is still in a long-term uptrend (3y +91%, 5y +107%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -44609,10 +44809,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-12",
-          80.62
-        ],
         [
           "2021-11-15",
           80.54
@@ -48479,7 +48675,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -49627,7 +49823,7 @@
         ],
         [
           "2026-11-12",
-          173.37
+          173.77
         ]
       ],
       "intraday": {
@@ -50926,7 +51122,7 @@
           ],
           [
             "2026-11-12 14:53",
-            173.57
+            173.56
           ],
           [
             "2026-11-12 14:54",
@@ -51098,7 +51294,7 @@
           ],
           [
             "2026-11-12 15:36",
-            172.95
+            172.94
           ],
           [
             "2026-11-12 15:37",
@@ -51150,7 +51346,47 @@
           ],
           [
             "2026-11-12 15:49",
-            173.37
+            173.39
+          ],
+          [
+            "2026-11-12 15:50",
+            173.32
+          ],
+          [
+            "2026-11-12 15:51",
+            173.41
+          ],
+          [
+            "2026-11-12 15:52",
+            173.35
+          ],
+          [
+            "2026-11-12 15:53",
+            173.35
+          ],
+          [
+            "2026-11-12 15:54",
+            173.49
+          ],
+          [
+            "2026-11-12 15:55",
+            173.38
+          ],
+          [
+            "2026-11-12 15:56",
+            173.53
+          ],
+          [
+            "2026-11-12 15:57",
+            173.61
+          ],
+          [
+            "2026-11-12 15:58",
+            173.68
+          ],
+          [
+            "2026-11-12 15:59",
+            173.74
           ]
         ],
         "week": [
@@ -52704,14 +52940,18 @@
           ],
           [
             "2026-11-12 15:45",
-            173.37
+            173.39
+          ],
+          [
+            "2026-11-12 15:50",
+            173.49
+          ],
+          [
+            "2026-11-12 15:55",
+            173.74
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            196.36
-          ],
           [
             "2026-10-13 09:30",
             195.63
@@ -52850,7 +53090,7 @@
           ],
           [
             "2026-10-19 15:30",
-            185.92
+            185.95
           ],
           [
             "2026-10-20 09:30",
@@ -53354,7 +53594,7 @@
           ],
           [
             "2026-11-12 15:30",
-            173.37
+            173.74
           ]
         ]
       }
@@ -53364,7 +53604,7 @@
       "name": "Vanguard Information Technology",
       "category": "Technology",
       "is_etf": true,
-      "price": 112.87,
+      "price": 113.09,
       "drawdown": -0.13615490586254397,
       "thesis": "Vanguard Information Technology is down 14% from its 52-week high but is still in a long-term uptrend (3y +99%, 5y +103%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -53394,10 +53634,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-12",
-          54.4
-        ],
         [
           "2021-11-15",
           54.33
@@ -55028,7 +55264,7 @@
         ],
         [
           "2023-06-30",
-          54.28
+          54.27
         ],
         [
           "2023-07-03",
@@ -55764,7 +56000,7 @@
         ],
         [
           "2024-03-25",
-          64.99
+          64.98
         ],
         [
           "2024-03-26",
@@ -56420,7 +56656,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -58412,7 +58648,7 @@
         ],
         [
           "2026-11-12",
-          112.87
+          113.09
         ]
       ],
       "intraday": {
@@ -59895,7 +60131,7 @@
           ],
           [
             "2026-11-12 15:39",
-            112.71
+            112.73
           ],
           [
             "2026-11-12 15:40",
@@ -59907,7 +60143,7 @@
           ],
           [
             "2026-11-12 15:42",
-            112.68
+            112.7
           ],
           [
             "2026-11-12 15:43",
@@ -59915,7 +60151,7 @@
           ],
           [
             "2026-11-12 15:44",
-            112.69
+            112.71
           ],
           [
             "2026-11-12 15:45",
@@ -59927,7 +60163,7 @@
           ],
           [
             "2026-11-12 15:47",
-            112.84
+            112.85
           ],
           [
             "2026-11-12 15:48",
@@ -59935,7 +60171,47 @@
           ],
           [
             "2026-11-12 15:49",
+            112.88
+          ],
+          [
+            "2026-11-12 15:50",
+            112.82
+          ],
+          [
+            "2026-11-12 15:51",
+            112.91
+          ],
+          [
+            "2026-11-12 15:52",
+            112.89
+          ],
+          [
+            "2026-11-12 15:53",
             112.87
+          ],
+          [
+            "2026-11-12 15:54",
+            112.93
+          ],
+          [
+            "2026-11-12 15:55",
+            112.87
+          ],
+          [
+            "2026-11-12 15:56",
+            112.96
+          ],
+          [
+            "2026-11-12 15:57",
+            113.02
+          ],
+          [
+            "2026-11-12 15:58",
+            113.06
+          ],
+          [
+            "2026-11-12 15:59",
+            113.09
           ]
         ],
         "week": [
@@ -61481,22 +61757,26 @@
           ],
           [
             "2026-11-12 15:35",
-            112.71
+            112.73
           ],
           [
             "2026-11-12 15:40",
-            112.69
+            112.71
           ],
           [
             "2026-11-12 15:45",
-            112.87
+            112.88
+          ],
+          [
+            "2026-11-12 15:50",
+            112.93
+          ],
+          [
+            "2026-11-12 15:55",
+            113.09
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            126.5
-          ],
           [
             "2026-10-13 09:30",
             126.25
@@ -62139,7 +62419,7 @@
           ],
           [
             "2026-11-12 15:30",
-            112.87
+            113.09
           ]
         ]
       }
@@ -62149,7 +62429,7 @@
       "name": "Communication Services SPDR",
       "category": "Communication",
       "is_etf": true,
-      "price": 107.575,
+      "price": 107.56,
       "drawdown": -0.1065570366679125,
       "thesis": "Communication Services SPDR is down 11% from its 52-week high but is still in a long-term uptrend (3y +60%, 5y +46%) \u2014 a pullback on a quality Communication fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -62179,10 +62459,6 @@
         }
       ],
       "history": [
-        [
-          "2021-11-12",
-          77.04
-        ],
         [
           "2021-11-15",
           77.25
@@ -64365,7 +64641,7 @@
         ],
         [
           "2024-01-18",
-          71.5
+          71.49
         ],
         [
           "2024-01-19",
@@ -67197,7 +67473,7 @@
         ],
         [
           "2026-11-12",
-          107.57
+          107.56
         ]
       ],
       "intraday": {
@@ -68664,11 +68940,11 @@
           ],
           [
             "2026-11-12 15:35",
-            107.69
+            107.71
           ],
           [
             "2026-11-12 15:36",
-            107.69
+            107.68
           ],
           [
             "2026-11-12 15:37",
@@ -68676,7 +68952,7 @@
           ],
           [
             "2026-11-12 15:38",
-            107.68
+            107.69
           ],
           [
             "2026-11-12 15:39",
@@ -68708,7 +68984,7 @@
           ],
           [
             "2026-11-12 15:46",
-            107.62
+            107.61
           ],
           [
             "2026-11-12 15:47",
@@ -68720,7 +68996,47 @@
           ],
           [
             "2026-11-12 15:49",
+            107.55
+          ],
+          [
+            "2026-11-12 15:50",
+            107.45
+          ],
+          [
+            "2026-11-12 15:51",
+            107.45
+          ],
+          [
+            "2026-11-12 15:52",
+            107.42
+          ],
+          [
+            "2026-11-12 15:53",
+            107.42
+          ],
+          [
+            "2026-11-12 15:54",
+            107.5
+          ],
+          [
+            "2026-11-12 15:55",
+            107.43
+          ],
+          [
+            "2026-11-12 15:56",
+            107.53
+          ],
+          [
+            "2026-11-12 15:57",
+            107.56
+          ],
+          [
+            "2026-11-12 15:58",
             107.57
+          ],
+          [
+            "2026-11-12 15:59",
+            107.59
           ]
         ],
         "week": [
@@ -70274,14 +70590,18 @@
           ],
           [
             "2026-11-12 15:45",
-            107.57
+            107.55
+          ],
+          [
+            "2026-11-12 15:50",
+            107.5
+          ],
+          [
+            "2026-11-12 15:55",
+            107.59
           ]
         ],
         "month": [
-          [
-            "2026-10-12 15:30",
-            111.42
-          ],
           [
             "2026-10-13 09:30",
             112.72
@@ -70448,7 +70768,7 @@
           ],
           [
             "2026-10-20 15:30",
-            110.23
+            110.22
           ],
           [
             "2026-10-21 09:30",
@@ -70924,10 +71244,11 @@
           ],
           [
             "2026-11-12 15:30",
-            107.57
+            107.59
           ]
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-11-13 00:03Z"
 }
