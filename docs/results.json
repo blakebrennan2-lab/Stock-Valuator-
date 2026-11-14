@@ -5631,7 +5631,7 @@
         ],
         [
           "2023-09-07",
-          52.26
+          52.27
         ],
         [
           "2023-09-08",
@@ -6211,7 +6211,7 @@
         ],
         [
           "2024-04-05",
-          45.73
+          45.72
         ],
         [
           "2024-04-08",
@@ -9000,22 +9000,10 @@
           "link": "https://finance.yahoo.com/video/cisco-ceo-on-trusting-nvidia-chips-after-jensen-huangs-exit-absolutely-201049124.html"
         },
         {
-          "title": "3 signs the AI trade is back",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/video/3-signs-the-ai-trade-is-back-171247074.html"
-        },
-        {
-          "title": "Three positive signs for the AI trade, America's inflation problem, and Huang's Nvidia departure",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/video/three-positive-signs-for-the-ai-trade-americas-inflation-problem-and-huangs-nvidia-departure-150622803.html"
-        },
-        {
-          "title": "3 signs AI stocks may be a great trade again",
-          "publisher": "Yahoo Finance",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/markets/article/3-signs-ai-stocks-may-be-a-great-trade-again-130410381.html"
+          "title": "Is Cisco Systems a Buy After Its Latest Earnings Report?",
+          "publisher": "Motley Fool",
+          "date": "2026-11-14",
+          "link": "https://www.fool.com/investing/2026/11/14/is-cisco-systems-a-buy-after-its-latest-earnings-report/"
         },
         {
           "title": "Can You Justify Buying Dynatrace Stock Today?",
@@ -9040,6 +9028,18 @@
           "publisher": "Kiplinger",
           "date": "2026-11-13",
           "link": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today"
+        },
+        {
+          "title": "Earnings week scorecard: beats rewarded selectively as AI-infrastructure names pull back",
+          "publisher": "Investing.com",
+          "date": "2026-11-13",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-week-scorecard-beats-rewarded-203315112.html"
+        },
+        {
+          "title": "Cisco earnings analysis: questions answered and next catalysts",
+          "publisher": "Investing.com",
+          "date": "2026-11-13",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-earnings-analysis-questions-answered-203200917.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.7% / 7.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -14988,7 +14988,7 @@
         ],
         [
           "2023-12-28",
-          260.6
+          260.61
         ],
         [
           "2023-12-29",
@@ -15244,7 +15244,7 @@
         ],
         [
           "2024-04-02",
-          298.7
+          298.69
         ],
         [
           "2024-04-03",
@@ -15744,7 +15744,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -23298,7 +23298,7 @@
         ],
         [
           "2023-04-06",
-          262.61
+          262.6
         ],
         [
           "2023-04-10",
@@ -25010,7 +25010,7 @@
         ],
         [
           "2024-12-18",
-          333.13
+          333.12
         ],
         [
           "2024-12-19",
@@ -27082,6 +27082,12 @@
       ],
       "news": [
         {
+          "title": "Cadence Stock And 2 AI Software Names With Stronger Governance Profiles",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-14",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cadence-stock-2-ai-software-091204904.html"
+        },
+        {
           "title": "AI software is sinking, why is Accenture winning $84.5B deals?",
           "publisher": "Investing.com",
           "date": "2026-11-13",
@@ -27122,12 +27128,6 @@
           "publisher": "Barchart",
           "date": "2026-11-12",
           "link": "https://www.barchart.com/story/news/8800548/is-wall-street-bullish-or-bearish-on-accenture-stock"
-        },
-        {
-          "title": "Accenture PLC (ACN) Is a Trending Stock: Facts to Know Before Betting on It",
-          "publisher": "Zacks",
-          "date": "2026-11-12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-plc-acn-trending-stock-130002396.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.7% / 8.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 591M shares = <b>$291.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$330</td><td>$279</td><td>$241</td></tr><tr><td>growth 6.9%</td><td>$345</td><td><b>$292</b></td><td>$253</td></tr><tr><td>growth 8.0%</td><td>$354</td><td>$299</td><td>$259</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -37298,7 +37298,7 @@
         ],
         [
           "2023-03-02",
-          119.22
+          119.21
         ],
         [
           "2023-03-03",
@@ -48695,7 +48695,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -55288,7 +55288,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -56680,7 +56680,7 @@
         ],
         [
           "2024-11-15",
-          74.69
+          74.68
         ],
         [
           "2024-11-18",
@@ -65957,7 +65957,7 @@
         ],
         [
           "2025-05-01",
-          478.33
+          478.34
         ],
         [
           "2025-05-02",
@@ -71282,5 +71282,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-14 02:59Z"
+  "price_as_of": "2026-11-14 10:10Z"
 }
