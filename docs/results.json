@@ -4267,7 +4267,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -5631,7 +5631,7 @@
         ],
         [
           "2023-09-07",
-          52.27
+          52.26
         ],
         [
           "2023-09-08",
@@ -9018,28 +9018,28 @@
           "link": "https://finance.yahoo.com/markets/article/3-signs-ai-stocks-may-be-a-great-trade-again-130410381.html"
         },
         {
+          "title": "Can You Justify Buying Dynatrace Stock Today?",
+          "publisher": "Trefis",
+          "date": "2026-11-14",
+          "link": "https://www.trefis.com/stock/dt/articles/624866/can-you-justify-buying-dynatrace-stock-today/2026-11-13"
+        },
+        {
           "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
           "publisher": "Investor's Business Daily",
           "date": "2026-11-13",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-cerebras-earnings/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Earnings week scorecard: beats rewarded selectively as AI-infrastructure names pull back",
-          "publisher": "Investing.com",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-week-scorecard-beats-rewarded-203315112.html"
-        },
-        {
-          "title": "Cisco earnings analysis: questions answered and next catalysts",
-          "publisher": "Investing.com",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-earnings-analysis-questions-answered-203200917.html"
-        },
-        {
-          "title": "The Dow Is Flat. The Stock Market is Doing Better Than it Looks.",
+          "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today\u2019s Market",
           "publisher": "Barrons.com",
           "date": "2026-11-13",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-111326/card/the-dow-is-flat-the-stock-market-is-doing-better-than-it-looks--PKt1eFRguqEyv9NmDHmh?siteid=yhoof2&yptr=yahoo"
+          "link": "https://www.barrons.com/articles/stock-movers-9a030e1c?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Nasdaq Drops Friday But Ends the Week Up: Stock Market Today",
+          "publisher": "Kiplinger",
+          "date": "2026-11-13",
+          "link": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.7% / 7.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,943M shares = <b>$27.84/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -15244,7 +15244,7 @@
         ],
         [
           "2024-04-02",
-          298.69
+          298.7
         ],
         [
           "2024-04-03",
@@ -15744,7 +15744,7 @@
         ],
         [
           "2024-09-30",
-          269.78
+          269.77
         ],
         [
           "2024-10-01",
@@ -23298,7 +23298,7 @@
         ],
         [
           "2023-04-06",
-          262.6
+          262.61
         ],
         [
           "2023-04-10",
@@ -25010,7 +25010,7 @@
         ],
         [
           "2024-12-18",
-          333.12
+          333.13
         ],
         [
           "2024-12-19",
@@ -37298,7 +37298,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -48695,7 +48695,7 @@
         ],
         [
           "2025-09-23",
-          139.4
+          139.39
         ],
         [
           "2025-09-24",
@@ -57316,7 +57316,7 @@
         ],
         [
           "2025-07-10",
-          83.86
+          83.85
         ],
         [
           "2025-07-11",
@@ -65565,7 +65565,7 @@
         ],
         [
           "2024-12-06",
-          521.2
+          521.21
         ],
         [
           "2024-12-09",
@@ -65957,7 +65957,7 @@
         ],
         [
           "2025-05-01",
-          478.34
+          478.33
         ],
         [
           "2025-05-02",
@@ -66005,7 +66005,7 @@
         ],
         [
           "2025-05-19",
-          518.38
+          518.39
         ],
         [
           "2025-05-20",
@@ -71282,5 +71282,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-13 22:27Z"
+  "price_as_of": "2026-11-14 02:59Z"
 }
