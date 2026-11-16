@@ -4267,7 +4267,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -9005,6 +9005,18 @@
       ],
       "news": [
         {
+          "title": "Is Ciena Stock Increasing Your Market Risk?",
+          "publisher": "Trefis",
+          "date": "2026-11-16",
+          "link": "https://www.trefis.com/stock/cien/articles/625178/is-ciena-stock-increasing-your-market-risk/2026-11-16"
+        },
+        {
+          "title": "Cisco posts its best growth in 15 years. Why isn't Wall Street buying?",
+          "publisher": "TheStreet",
+          "date": "2026-11-16",
+          "link": "https://www.thestreet.com/investing/stocks/csco-cisco-morgan-stanley-maintains-price-target-on-cisco-after-strongest-growth-in-15-years"
+        },
+        {
           "title": "US AI Data Centers \u2018Are Going to Get Built\u2019 Despite Political Pushback, Says Cisco CEO: \u2018Too Important to Our Country\u2019",
           "publisher": "Benzinga",
           "date": "2026-11-15",
@@ -9039,18 +9051,6 @@
           "publisher": "Trefis",
           "date": "2026-11-14",
           "link": "https://www.trefis.com/stock/dt/articles/624866/can-you-justify-buying-dynatrace-stock-today/2026-11-13"
-        },
-        {
-          "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
-          "publisher": "Investor's Business Daily",
-          "date": "2026-11-13",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-cerebras-earnings/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "date": "2026-11-13",
-          "link": "https://www.barrons.com/articles/stock-movers-9a030e1c?siteid=yhoof2&yptr=yahoo"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.7% / 7.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,937M shares = <b>$27.88/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -15167,7 +15167,7 @@
         ],
         [
           "2024-02-29",
-          303.04
+          303.03
         ],
         [
           "2024-03-01",
@@ -15755,7 +15755,7 @@
         ],
         [
           "2024-09-30",
-          269.77
+          269.78
         ],
         [
           "2024-10-01",
@@ -18048,6 +18048,12 @@
       ],
       "news": [
         {
+          "title": "Has Microsoft Stock Become A Different Bet?",
+          "publisher": "Trefis",
+          "date": "2026-11-16",
+          "link": "https://www.trefis.com/stock/msft/articles/625201/has-microsoft-stock-become-a-different-bet/2026-11-16"
+        },
+        {
           "title": "Salesforce Buys Cresta 13 Days After Braze Because Voice Is \u201cHardest to Get Right\u201d",
           "publisher": "TIKR",
           "date": "2026-11-14",
@@ -18088,12 +18094,6 @@
           "publisher": "Zacks",
           "date": "2026-11-13",
           "link": "https://finance.yahoo.com/markets/stocks/articles/helmerich-payne-q4-earnings-preview-140300235.html"
-        },
-        {
-          "title": "Did AI Platform Growth Just Shift Salesforce's (CRM) Investment Narrative?",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-13",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/did-ai-platform-growth-just-043459296.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$11.0B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.233</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.5% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.2%</td></tr>\n<tr><td>Weights (E/D)</td><td>91.3% / 8.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.9%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$11.8B</td><td>1.099</td><td>$10.8B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$12.6B</td><td>1.208</td><td>$10.5B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$13.3B</td><td>1.328</td><td>$10.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$13.8B</td><td>1.459</td><td>$9.5B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$14.2B</td><td>1.604</td><td>$8.8B</td></tr></table>\n<p>Sum of PV (explicit): <b>$49.5B</b> \u00b7\n   terminal value <b>$195.7B</b> \u2192\n   PV <b>$122.0B</b></p>\n<p>Enterprise value <b>$171.5B</b> \u2212 debt $17.2B\n   + cash $7.3B = equity <b>$161.6B</b><br>\n   \u00f7 823M shares = <b>$196.41/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.9%</th><th>WACC 9.9%</th><th>WACC 10.9%</th></tr><tr><td>growth 6.0%</td><td>$219</td><td>$187</td><td>$164</td></tr><tr><td>growth 8.0%</td><td>$229</td><td><b>$196</b></td><td>$171</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -22005,7 +22005,7 @@
         ],
         [
           "2021-12-17",
-          362.92
+          362.93
         ],
         [
           "2021-12-20",
@@ -22273,7 +22273,7 @@
         ],
         [
           "2022-03-25",
-          300.93
+          300.94
         ],
         [
           "2022-03-28",
@@ -22489,7 +22489,7 @@
         ],
         [
           "2022-06-13",
-          254.67
+          254.66
         ],
         [
           "2022-06-14",
@@ -22685,7 +22685,7 @@
         ],
         [
           "2022-08-23",
-          283.48
+          283.49
         ],
         [
           "2022-08-24",
@@ -24573,7 +24573,7 @@
         ],
         [
           "2024-07-11",
-          284.42
+          284.41
         ],
         [
           "2024-07-12",
@@ -37309,7 +37309,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -48706,7 +48706,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -55299,7 +55299,7 @@
         ],
         [
           "2023-06-30",
-          54.28
+          54.27
         ],
         [
           "2023-07-03",
@@ -63264,7 +63264,7 @@
         ],
         [
           "2022-08-19",
-          314.75
+          314.74
         ],
         [
           "2022-08-22",
@@ -64948,7 +64948,7 @@
         ],
         [
           "2024-04-24",
-          420.98
+          420.97
         ],
         [
           "2024-04-25",
@@ -71293,5 +71293,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-16 01:46Z"
+  "price_as_of": "2026-11-16 09:22Z"
 }
