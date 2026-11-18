@@ -7,7 +7,7 @@
       "name": "Cisco Systems, Inc.",
       "price": 97.18,
       "intrinsic": 162.19681072270808,
-      "upside": 0.4008513511024635,
+      "upside": 0.4008513492209482,
       "confidence": "low",
       "range_low": 162.19681072270808,
       "range_high": 162.19681072270808,
@@ -4251,7 +4251,7 @@
         ],
         [
           "2022-04-28",
-          44.72
+          44.71
         ],
         [
           "2022-04-29",
@@ -5615,7 +5615,7 @@
         ],
         [
           "2023-09-07",
-          52.26
+          52.27
         ],
         [
           "2023-09-08",
@@ -6195,7 +6195,7 @@
         ],
         [
           "2024-04-05",
-          45.73
+          45.72
         ],
         [
           "2024-04-08",
@@ -9056,9 +9056,9 @@
     {
       "ticker": "ACN",
       "name": "Accenture plc",
-      "price": 227.46,
+      "price": 227.49,
       "intrinsic": 291.78923332574954,
-      "upside": 0.22046472583151566,
+      "upside": 0.22036189306821574,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -10614,7 +10614,7 @@
           ],
           [
             "2026-11-18 15:57",
-            227.96
+            227.93
           ],
           [
             "2026-11-18 15:58",
@@ -17878,7 +17878,7 @@
         ],
         [
           "2026-11-18",
-          227.46
+          227.49
         ]
       ],
       "stats": [
@@ -18097,9 +18097,9 @@
     {
       "ticker": "ETN",
       "name": "Eaton Corporation plc",
-      "price": 338.245,
+      "price": 338.34,
       "intrinsic": 350.447662675,
-      "upside": 0.03482021418506811,
+      "upside": 0.03454914278694405,
       "confidence": "low",
       "range_low": 350.447662675,
       "range_high": 350.447662675,
@@ -19663,7 +19663,7 @@
           ],
           [
             "2026-11-18 15:59",
-            338.24
+            338.31
           ]
         ],
         "week": [
@@ -21225,7 +21225,7 @@
           ],
           [
             "2026-11-18 15:55",
-            338.24
+            338.31
           ]
         ],
         "month": [
@@ -21871,7 +21871,7 @@
           ],
           [
             "2026-11-18 15:30",
-            338.24
+            338.31
           ]
         ]
       },
@@ -26919,7 +26919,7 @@
         ],
         [
           "2026-11-18",
-          338.24
+          338.34
         ]
       ],
       "stats": [
@@ -27142,7 +27142,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 341.25,
+      "price": 341.19,
       "drawdown": -0.3304885226603884,
       "thesis": "SPDR Gold Shares is down 33% from its 52-week high but is still in a long-term uptrend (3y +81%, 5y +100%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -32186,7 +32186,7 @@
         ],
         [
           "2026-11-18",
-          341.25
+          341.19
         ]
       ],
       "intraday": {
@@ -33749,7 +33749,7 @@
           ],
           [
             "2026-11-18 15:59",
-            341.22
+            341.17
           ]
         ],
         "week": [
@@ -35311,7 +35311,7 @@
           ],
           [
             "2026-11-18 15:55",
-            341.22
+            341.17
           ]
         ],
         "month": [
@@ -35957,7 +35957,7 @@
           ],
           [
             "2026-11-18 15:30",
-            341.22
+            341.17
           ]
         ]
       }
@@ -44792,7 +44792,7 @@
       "name": "Technology Select Sector SPDR",
       "category": "Technology",
       "is_etf": true,
-      "price": 163.79,
+      "price": 163.81,
       "drawdown": -0.1941451414514146,
       "thesis": "Technology Select Sector SPDR is down 19% from its 52-week high but is still in a long-term uptrend (3y +80%, 5y +95%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -46336,7 +46336,7 @@
         ],
         [
           "2023-05-24",
-          75.39
+          75.4
         ],
         [
           "2023-05-25",
@@ -49836,7 +49836,7 @@
         ],
         [
           "2026-11-18",
-          163.79
+          163.81
         ]
       ],
       "intraday": {
@@ -51399,7 +51399,7 @@
           ],
           [
             "2026-11-18 15:59",
-            163.75
+            163.79
           ]
         ],
         "week": [
@@ -52961,7 +52961,7 @@
           ],
           [
             "2026-11-18 15:55",
-            163.75
+            163.79
           ]
         ],
         "month": [
@@ -53607,7 +53607,7 @@
           ],
           [
             "2026-11-18 15:30",
-            163.75
+            163.79
           ]
         ]
       }
@@ -53617,7 +53617,7 @@
       "name": "Vanguard Information Technology",
       "category": "Technology",
       "is_etf": true,
-      "price": 107.04,
+      "price": 107.03,
       "drawdown": -0.18077452931271998,
       "thesis": "Vanguard Information Technology is down 18% from its 52-week high but is still in a long-term uptrend (3y +88%, 5y +93%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -56653,7 +56653,7 @@
         ],
         [
           "2024-11-15",
-          74.69
+          74.68
         ],
         [
           "2024-11-18",
@@ -57289,7 +57289,7 @@
         ],
         [
           "2025-07-10",
-          83.85
+          83.86
         ],
         [
           "2025-07-11",
@@ -58661,7 +58661,7 @@
         ],
         [
           "2026-11-18",
-          107.04
+          107.03
         ]
       ],
       "intraday": {
@@ -63222,7 +63222,7 @@
         ],
         [
           "2022-08-19",
-          314.75
+          314.74
         ],
         [
           "2022-08-22",
@@ -64906,7 +64906,7 @@
         ],
         [
           "2024-04-24",
-          420.98
+          420.97
         ],
         [
           "2024-04-25",
@@ -65534,7 +65534,7 @@
         ],
         [
           "2024-12-06",
-          521.21
+          521.2
         ],
         [
           "2024-12-09",
@@ -71262,5 +71262,6 @@
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-11-18 21:46Z"
 }
