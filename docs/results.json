@@ -3443,7 +3443,7 @@
           ],
           [
             "2026-11-02 15:30",
-            101.69
+            101.68
           ],
           [
             "2026-11-03 09:30",
@@ -4251,7 +4251,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -5615,7 +5615,7 @@
         ],
         [
           "2023-09-07",
-          52.27
+          52.26
         ],
         [
           "2023-09-08",
@@ -9001,6 +9001,12 @@
       ],
       "news": [
         {
+          "title": "Cisco (CSCO) Stock Lags Record Q1 Earnings As AI Revenue Builds",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-19",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-lags-record-001939761.html"
+        },
+        {
           "title": "NVIDIA vs. Cisco: One AI Stock Looks Like a Better Buy Now",
           "publisher": "Zacks",
           "date": "2026-11-18",
@@ -9041,12 +9047,6 @@
           "publisher": "Zacks",
           "date": "2026-11-18",
           "link": "https://finance.yahoo.com/technology/ai/articles/arista-strengthen-ai-networking-etherlink-143300058.html"
-        },
-        {
-          "title": "Do You Like Cash? Consider Zoom Stock",
-          "publisher": "Trefis",
-          "date": "2026-11-18",
-          "link": "https://www.trefis.com/stock/zm/articles/626159/do-you-like-cash-consider-zoom-stock/2026-11-18"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.8% / 7.2%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,937M shares = <b>$27.88/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -10622,7 +10622,7 @@
           ],
           [
             "2026-11-18 15:59",
-            227.46
+            227.49
           ]
         ],
         "week": [
@@ -12184,7 +12184,7 @@
           ],
           [
             "2026-11-18 15:55",
-            227.46
+            227.49
           ]
         ],
         "month": [
@@ -12214,7 +12214,7 @@
           ],
           [
             "2026-10-19 15:30",
-            236.9
+            236.91
           ],
           [
             "2026-10-20 09:30",
@@ -12830,7 +12830,7 @@
           ],
           [
             "2026-11-18 15:30",
-            227.46
+            227.49
           ]
         ]
       },
@@ -15510,7 +15510,7 @@
         ],
         [
           "2024-07-11",
-          284.41
+          284.42
         ],
         [
           "2024-07-12",
@@ -18042,6 +18042,18 @@
       ],
       "news": [
         {
+          "title": "Can Accenture Stock Jump 30%?",
+          "publisher": "Trefis",
+          "date": "2026-11-18",
+          "link": "https://www.trefis.com/stock/acn/articles/626175/can-accenture-stock-jump-30-3/2026-11-18"
+        },
+        {
+          "title": "Accenture (ACN) Registers a Bigger Fall Than the Market: Important Facts to Note",
+          "publisher": "Zacks",
+          "date": "2026-11-18",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-registers-bigger-fall-215001379.html"
+        },
+        {
           "title": "Accenture (ACN) Joins 40 Plus Organizations In AI Transparency Initiative",
           "publisher": "Simply Wall St.",
           "date": "2026-11-18",
@@ -18076,18 +18088,6 @@
           "publisher": "Simply Wall St.",
           "date": "2026-11-17",
           "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-stock-may-trade-020729980.html"
-        },
-        {
-          "title": "Most work doesn\u2019t need the Ferrari of AI, Wharton and Accenture find, but companies may be paying for it anyway",
-          "publisher": "Fortune",
-          "date": "2026-11-16",
-          "link": "https://finance.yahoo.com/technology/ai/articles/most-doesn-t-ferrari-ai-140000997.html"
-        },
-        {
-          "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Bought: Moderna Leads on Nov. 12",
-          "publisher": "GuruFocus.com",
-          "date": "2026-11-16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110506567.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$9.9B</b> \u00b7\n   growth applied <b>6.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.004</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.7%</td></tr>\n<tr><td>Weights (E/D)</td><td>90.9% / 9.1%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>6.9%</td><td>$10.6B</td><td>1.090</td><td>$9.7B</td></tr><tr><td>Y2</td><td>5.8%</td><td>$11.2B</td><td>1.188</td><td>$9.5B</td></tr><tr><td>Y3</td><td>4.7%</td><td>$11.8B</td><td>1.295</td><td>$9.1B</td></tr><tr><td>Y4</td><td>3.6%</td><td>$12.2B</td><td>1.412</td><td>$8.6B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$12.5B</td><td>1.539</td><td>$8.1B</td></tr></table>\n<p>Sum of PV (explicit): <b>$45.0B</b> \u00b7\n   terminal value <b>$196.8B</b> \u2192\n   PV <b>$127.9B</b></p>\n<p>Enterprise value <b>$172.9B</b> \u2212 debt $13.4B\n   + cash $12.8B = equity <b>$172.4B</b><br>\n   \u00f7 591M shares = <b>$291.79/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 4.9%</td><td>$330</td><td>$279</td><td>$241</td></tr><tr><td>growth 6.9%</td><td>$345</td><td><b>$292</b></td><td>$253</td></tr><tr><td>growth 8.0%</td><td>$354</td><td>$299</td><td>$259</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -19643,7 +19643,7 @@
           ],
           [
             "2026-11-18 15:54",
-            338.28
+            338.27
           ],
           [
             "2026-11-18 15:55",
@@ -21221,7 +21221,7 @@
           ],
           [
             "2026-11-18 15:50",
-            338.28
+            338.27
           ],
           [
             "2026-11-18 15:55",
@@ -22267,7 +22267,7 @@
         ],
         [
           "2022-03-31",
-          141.39
+          141.38
         ],
         [
           "2022-04-01",
@@ -23791,7 +23791,7 @@
         ],
         [
           "2023-10-06",
-          201.85
+          201.86
         ],
         [
           "2023-10-09",
@@ -41038,7 +41038,7 @@
           ],
           [
             "2026-11-18 09:35",
-            461.04
+            460.98
           ],
           [
             "2026-11-18 09:36",
@@ -41686,7 +41686,7 @@
           ],
           [
             "2026-11-18 12:17",
-            457.96
+            457.97
           ],
           [
             "2026-11-18 12:18",
@@ -42258,7 +42258,7 @@
           ],
           [
             "2026-11-18 14:40",
-            456.2
+            456.17
           ],
           [
             "2026-11-18 14:41",
@@ -42580,7 +42580,7 @@
         "week": [
           [
             "2026-11-12 09:30",
-            493.27
+            493.43
           ],
           [
             "2026-11-12 09:35",
@@ -44166,7 +44166,7 @@
           ],
           [
             "2026-10-19 15:30",
-            548.25
+            548.24
           ],
           [
             "2026-10-20 09:30",
@@ -48672,7 +48672,7 @@
         ],
         [
           "2025-09-23",
-          139.4
+          139.39
         ],
         [
           "2025-09-24",
@@ -49931,7 +49931,7 @@
           ],
           [
             "2026-11-18 09:52",
-            162.99
+            162.98
           ],
           [
             "2026-11-18 09:53",
@@ -52991,7 +52991,7 @@
           ],
           [
             "2026-10-19 15:30",
-            185.95
+            185.92
           ],
           [
             "2026-10-20 09:30",
@@ -53657,7 +53657,7 @@
         ],
         [
           "2021-11-23",
-          54.31
+          54.3
         ],
         [
           "2021-11-24",
@@ -55261,7 +55261,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -56653,7 +56653,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -61398,7 +61398,7 @@
           ],
           [
             "2026-11-17 14:20",
-            106.13
+            106.14
           ],
           [
             "2026-11-17 14:25",
@@ -65534,7 +65534,7 @@
         ],
         [
           "2024-12-06",
-          521.2
+          521.21
         ],
         [
           "2024-12-09",
@@ -65926,7 +65926,7 @@
         ],
         [
           "2025-05-01",
-          478.34
+          478.33
         ],
         [
           "2025-05-02",
@@ -65974,7 +65974,7 @@
         ],
         [
           "2025-05-19",
-          518.38
+          518.39
         ],
         [
           "2025-05-20",
@@ -67817,7 +67817,7 @@
           ],
           [
             "2026-11-18 10:51",
-            656.69
+            656.68
           ],
           [
             "2026-11-18 10:52",
@@ -68145,7 +68145,7 @@
           ],
           [
             "2026-11-18 12:13",
-            656.43
+            656.44
           ],
           [
             "2026-11-18 12:14",
@@ -68253,7 +68253,7 @@
           ],
           [
             "2026-11-18 12:40",
-            658.77
+            658.74
           ],
           [
             "2026-11-18 12:41",
@@ -68713,7 +68713,7 @@
           ],
           [
             "2026-11-18 14:35",
-            658.18
+            658.19
           ],
           [
             "2026-11-18 14:36",
@@ -69025,7 +69025,7 @@
           ],
           [
             "2026-11-18 15:53",
-            659.74
+            659.75
           ],
           [
             "2026-11-18 15:54",
@@ -69235,7 +69235,7 @@
           ],
           [
             "2026-11-12 13:15",
-            690.73
+            690.72
           ],
           [
             "2026-11-12 13:20",
@@ -69331,7 +69331,7 @@
           ],
           [
             "2026-11-12 15:15",
-            687.55
+            687.53
           ],
           [
             "2026-11-12 15:20",
@@ -69359,11 +69359,11 @@
           ],
           [
             "2026-11-12 15:50",
-            687.78
+            687.81
           ],
           [
             "2026-11-12 15:55",
-            688.17
+            688.21
           ],
           [
             "2026-11-13 09:30",
@@ -69611,7 +69611,7 @@
           ],
           [
             "2026-11-13 14:35",
-            679.53
+            679.51
           ],
           [
             "2026-11-13 14:40",
@@ -69627,7 +69627,7 @@
           ],
           [
             "2026-11-13 14:55",
-            679.85
+            679.87
           ],
           [
             "2026-11-13 15:00",
@@ -69935,7 +69935,7 @@
           ],
           [
             "2026-11-16 14:50",
-            663.99
+            663.98
           ],
           [
             "2026-11-16 14:55",
@@ -69987,7 +69987,7 @@
           ],
           [
             "2026-11-16 15:55",
-            661.85
+            661.86
           ],
           [
             "2026-11-17 09:30",
@@ -70295,7 +70295,7 @@
           ],
           [
             "2026-11-17 15:50",
-            653.71
+            653.7
           ],
           [
             "2026-11-17 15:55",
@@ -70829,7 +70829,7 @@
           ],
           [
             "2026-10-28 13:30",
-            722.57
+            722.56
           ],
           [
             "2026-10-28 14:30",
@@ -71005,7 +71005,7 @@
           ],
           [
             "2026-11-05 15:30",
-            647.8
+            648.06
           ],
           [
             "2026-11-06 09:30",
@@ -71105,7 +71105,7 @@
           ],
           [
             "2026-11-11 12:30",
-            695.14
+            695.16
           ],
           [
             "2026-11-11 13:30",
@@ -71145,7 +71145,7 @@
           ],
           [
             "2026-11-12 15:30",
-            688.17
+            688.21
           ],
           [
             "2026-11-13 09:30",
@@ -71201,7 +71201,7 @@
           ],
           [
             "2026-11-16 15:30",
-            661.85
+            661.86
           ],
           [
             "2026-11-17 09:30",
@@ -71263,5 +71263,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-18 21:46Z"
+  "price_as_of": "2026-11-19 03:05Z"
 }
