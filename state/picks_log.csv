@@ -366,3 +366,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-11-19,1,CSCO,"Cisco Systems, Inc.",94.70,163.16,42.0%,low,1
 2026-11-19,2,ACN,Accenture plc,218.70,291.79,25.0%,low,1
 2026-11-19,3,ETN,Eaton Corporation plc,330.53,344.13,4.0%,low,1
+2026-11-20,1,CSCO,"Cisco Systems, Inc.",90.26,156.08,42.2%,low,1
+2026-11-20,2,ACN,Accenture plc,221.09,291.79,24.2%,low,1
+2026-11-20,3,ETN,Eaton Corporation plc,309.83,331.59,6.6%,low,1
