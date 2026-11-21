@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "count": 3,
   "picks": [
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
       "price": 90.64,
-      "intrinsic": 156.07643437356802,
-      "upside": 0.4192589050778663,
+      "intrinsic": 149.90925086332695,
+      "upside": 0.3953675341714771,
       "confidence": "low",
-      "range_low": 156.07643437356802,
-      "range_high": 156.07643437356802,
+      "range_low": 149.90925086332695,
+      "range_high": 149.90925086332695,
       "intraday": {
         "day": [
           [
@@ -2661,7 +2661,7 @@
           ],
           [
             "2026-11-19 12:35",
-            96.18
+            96.2
           ],
           [
             "2026-11-19 12:40",
@@ -3387,7 +3387,7 @@
           ],
           [
             "2026-11-02 15:30",
-            101.69
+            101.68
           ],
           [
             "2026-11-03 09:30",
@@ -3783,7 +3783,7 @@
           ]
         ]
       },
-      "thesis": "CSCO is down 31% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($90.26 vs $156.08, low confidence). Valued with DCF and DDM and Comps.",
+      "thesis": "CSCO is down 30% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($90.64 vs $149.91, low confidence). Valued with DCF and DDM and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -3806,7 +3806,7 @@
       ],
       "reconciliation": {
         "values": {
-          "Comps": 156.07643437356802
+          "Comps": 149.90925086332695
         },
         "spread": 0.0,
         "confidence": "low",
@@ -4247,7 +4247,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -8853,11 +8853,11 @@
         },
         {
           "label": "Market cap",
-          "value": "$355.8B"
+          "value": "$357.3B"
         },
         {
           "label": "P/E",
-          "value": "27.1  (peers 43.1)"
+          "value": "27.2  (peers 43.4)"
         },
         {
           "label": "Cash vs debt",
@@ -8949,7 +8949,7 @@
         {
           "label": "Street target",
           "value": "$130.50 (range $109.00\u2013$160.00)",
-          "src": "mean analyst target \u2014 our fair value: $156.08"
+          "src": "mean analyst target \u2014 our fair value: $149.91"
         },
         {
           "label": "Forward EPS (est.)",
@@ -8970,7 +8970,7 @@
         "Reinvestment: capex 2% of revenue (FY2026)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$156.08) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$149.91) \u2014 the discount that makes it a buy is gone",
         "Net margin (21%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +12% YoY) turns negative",
         "Free cash flow (now $12.8B) turns negative"
@@ -8983,27 +8983,33 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "42% below intrinsic value ($90.26 vs $156.08)",
-        "low confidence across 1 models \u2014 Comps $156.08",
+        "40% below intrinsic value ($90.64 vs $149.91)",
+        "low confidence across 1 models \u2014 Comps $149.91",
         "Free cash flow declined -12%/yr over 4y",
         "Net margin 21% on $63.3B revenue",
         "Net debt $22.3B (1.1x EBITDA)",
-        "P/E 27.1 vs peer median 43.1"
+        "P/E 27.2 vs peer median 43.4"
       ],
       "risks": [
         "Recession sensitivity moderate [heuristic]"
       ],
       "profile": [
         "\u2713 not excluded: Information Technology",
-        "\u2713 long-term uptrend: 3y +101%, 5y +63%",
+        "\u2713 long-term uptrend: 3y +102%, 5y +64%",
         "\u2713 earnings intact: net income +2%/yr over 4y",
         "\u2713 healthy margins: 21% net margin",
         "\u2713 durable revenue: growth vol 7%",
-        "\u2713 recent pullback: down 31% from 52wk high",
-        "\u2713 at/below fair value: MoS 42%",
-        "\u2713 \u2192 multiple compression: price down 31% while earnings grew +2%/yr (sentiment, not deterioration)"
+        "\u2713 recent pullback: down 30% from 52wk high",
+        "\u2713 at/below fair value: MoS 40%",
+        "\u2713 \u2192 multiple compression: price down 30% while earnings grew +2%/yr (sentiment, not deterioration)"
       ],
       "news": [
+        {
+          "title": "Dell Up 447% In 5 Years, HPE 220%: What Did Michael Dell Do Differently?",
+          "publisher": "Trefis",
+          "date": "2026-11-21",
+          "link": "https://www.trefis.com/stock/dell/articles/624826/dell-up-447-in-5-years-hpe-220-what-did-michael-dell-do-differently/2026-11-21"
+        },
         {
           "title": "Is Dell Stock Really Cheap?",
           "publisher": "Trefis",
@@ -9045,24 +9051,18 @@
           "publisher": "Trefis",
           "date": "2026-11-20",
           "link": "https://www.trefis.com/stock/anet/articles/627269/can-arista-networks-stock-fall-30/2026-11-20"
-        },
-        {
-          "title": "Cisco Fell 89%. Is Nvidia Stock Next?",
-          "publisher": "Trefis",
-          "date": "2026-11-20",
-          "link": "https://www.trefis.com/stock/nvda/articles/626552/cisco-fell-89-is-nvidia-stock-next/2026-11-20"
         }
       ],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.3% / 7.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,942M shares = <b>$27.85/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.4% / 7.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,942M shares = <b>$27.85/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$1.6700</b> \u00b7 growth <b>2.5%</b>\n   \u00b7 discount rate <b>9.3%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$1.7120</td><td>1.093</td><td>$1.5662</td></tr><tr><td>Y2</td><td>$1.7551</td><td>1.195</td><td>$1.4689</td></tr><tr><td>Y3</td><td>$1.7993</td><td>1.306</td><td>$1.3776</td></tr><tr><td>Y4</td><td>$1.8446</td><td>1.428</td><td>$1.2920</td></tr><tr><td>Y5</td><td>$1.8910</td><td>1.561</td><td>$1.2117</td></tr></table>\n<p>Stage-1 PV <b>$6.92</b> \u00b7 terminal value\n   <b>$28.46</b> \u2192 PV <b>$18.24</b></p>\n<p>Two-stage value <b>$25.15/share</b>\n   (single-stage Gordon ref: $25.14)</p>\n",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.1x</b></td><td><b>18.9x</b></td><td><b>7.2x</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>44.6x</td><td>42.5x</td><td>12.8x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>41.5x</td><td>26.3x</td><td>27.9x</td></tr></table>\n<p>Median P/E: 43.1x \u2192 <b>$143.36</b><br>\n   Median EV/EBITDA: 34.4x \u2192 <b>$168.80</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $143 \u00b7 EV/EBITDA $169<br>\n   Reconciled (median): <b>$156.08/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>27.2x</b></td><td><b>19.0x</b></td><td><b>7.2x</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>44.9x</td><td>37.2x</td><td>12.9x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>41.9x</td><td>26.2x</td><td>28.1x</td></tr></table>\n<p>Median P/E: 43.4x \u2192 <b>$144.50</b><br>\n   Median EV/EBITDA: 31.7x \u2192 <b>$155.31</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $145 \u00b7 EV/EBITDA $155<br>\n   Reconciled (median): <b>$149.91/share</b></p>\n"
     },
     {
       "ticker": "ACN",
       "name": "Accenture plc",
       "price": 221.17,
       "intrinsic": 291.78923332574954,
-      "upside": 0.24202138767048292,
+      "upside": 0.24202138139521823,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -9198,7 +9198,7 @@
           ],
           [
             "2026-11-20 10:02",
-            227.21
+            227.22
           ],
           [
             "2026-11-20 10:03",
@@ -10566,7 +10566,7 @@
           ],
           [
             "2026-11-20 15:44",
-            221.39
+            221.4
           ],
           [
             "2026-11-20 15:45",
@@ -11564,7 +11564,7 @@
           ],
           [
             "2026-11-18 15:55",
-            227.46
+            227.49
           ],
           [
             "2026-11-19 09:30",
@@ -11704,7 +11704,7 @@
           ],
           [
             "2026-11-19 12:20",
-            218.2
+            218.1
           ],
           [
             "2026-11-19 12:25",
@@ -12176,7 +12176,7 @@
           ],
           [
             "2026-11-20 15:40",
-            221.39
+            221.4
           ],
           [
             "2026-11-20 15:45",
@@ -12778,7 +12778,7 @@
           ],
           [
             "2026-11-18 15:30",
-            227.46
+            227.49
           ],
           [
             "2026-11-19 09:30",
@@ -12838,7 +12838,7 @@
           ]
         ]
       },
-      "thesis": "ACN is down 24% from its 52-week high while earnings grew 7%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($221.09 vs $291.79, low confidence). Valued with DCF and DDM.",
+      "thesis": "ACN is down 24% from its 52-week high while earnings grew 7%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($221.17 vs $291.79, low confidence). Valued with DCF and DDM.",
       "methods": [
         {
           "key": "DCF",
@@ -17908,7 +17908,7 @@
         },
         {
           "label": "Market cap",
-          "value": "$130.6B"
+          "value": "$130.7B"
         },
         {
           "label": "P/E",
@@ -18029,7 +18029,7 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "24% below intrinsic value ($221.09 vs $291.79)",
+        "24% below intrinsic value ($221.17 vs $291.79)",
         "low confidence across 1 models \u2014 DCF $291.79",
         "Free cash flow grew +9%/yr over 4y",
         "Net margin 11% on $74.2B revenue",
@@ -18106,11 +18106,11 @@
       "ticker": "ETN",
       "name": "Eaton Corporation plc",
       "price": 311.33,
-      "intrinsic": 331.59330115830113,
-      "upside": 0.06110893831465519,
+      "intrinsic": 326.622812175,
+      "upside": 0.04682101679660488,
       "confidence": "low",
-      "range_low": 331.59330115830113,
-      "range_high": 331.59330115830113,
+      "range_low": 326.622812175,
+      "range_high": 326.622812175,
       "intraday": {
         "day": [
           [
@@ -18411,7 +18411,7 @@
           ],
           [
             "2026-11-20 10:44",
-            317.85
+            317.86
           ],
           [
             "2026-11-20 10:45",
@@ -19611,7 +19611,7 @@
           ],
           [
             "2026-11-20 15:44",
-            310.7
+            310.71
           ],
           [
             "2026-11-20 15:45",
@@ -20605,7 +20605,7 @@
           ],
           [
             "2026-11-18 15:50",
-            338.28
+            338.27
           ],
           [
             "2026-11-18 15:55",
@@ -20981,7 +20981,7 @@
           ],
           [
             "2026-11-20 10:40",
-            317.85
+            317.86
           ],
           [
             "2026-11-20 10:45",
@@ -21221,7 +21221,7 @@
           ],
           [
             "2026-11-20 15:40",
-            310.7
+            310.71
           ],
           [
             "2026-11-20 15:45",
@@ -21883,7 +21883,7 @@
           ]
         ]
       },
-      "thesis": "ETN is down 35% from its 52-week high while earnings grew 18%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($309.83 vs $331.59, low confidence). Valued with DCF and Comps.",
+      "thesis": "ETN is down 35% from its 52-week high while earnings grew 18%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($311.33 vs $326.62, low confidence). Valued with DCF and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -21906,7 +21906,7 @@
       ],
       "reconciliation": {
         "values": {
-          "Comps": 331.59330115830113
+          "Comps": 326.622812175
         },
         "spread": 0.0,
         "confidence": "low",
@@ -22271,7 +22271,7 @@
         ],
         [
           "2022-03-31",
-          141.38
+          141.39
         ],
         [
           "2022-04-01",
@@ -24431,7 +24431,7 @@
         ],
         [
           "2024-05-24",
-          330.7
+          330.69
         ],
         [
           "2024-05-28",
@@ -25039,7 +25039,7 @@
         ],
         [
           "2025-01-02",
-          324.02
+          324.03
         ],
         [
           "2025-01-03",
@@ -26953,11 +26953,11 @@
         },
         {
           "label": "Market cap",
-          "value": "$120.4B"
+          "value": "$121.0B"
         },
         {
           "label": "P/E",
-          "value": "29.6  (peers 31.2)"
+          "value": "29.8  (peers 31.3)"
         },
         {
           "label": "Cash vs debt",
@@ -27038,8 +27038,8 @@
         },
         {
           "label": "Street target",
-          "value": "$469.00 (range $333.00\u2013$539.00)",
-          "src": "mean analyst target \u2014 our fair value: $331.59"
+          "value": "$469.74 (range $333.00\u2013$556.00)",
+          "src": "mean analyst target \u2014 our fair value: $326.62"
         },
         {
           "label": "Forward EPS (est.)",
@@ -27060,7 +27060,7 @@
         "Reinvestment: capex 3% of revenue (FY2025)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$331.59) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$326.62) \u2014 the discount that makes it a buy is gone",
         "Net margin (15%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +10% YoY) turns negative",
         "Free cash flow (now $3.6B) turns negative"
@@ -27073,24 +27073,24 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "7% below intrinsic value ($309.83 vs $331.59)",
-        "low confidence across 1 models \u2014 Comps $331.59",
+        "5% below intrinsic value ($311.33 vs $326.62)",
+        "low confidence across 1 models \u2014 Comps $326.62",
         "Free cash flow grew +22%/yr over 4y",
         "Net margin 15% on $27.4B revenue",
         "Net debt $9.3B (1.5x EBITDA)",
-        "P/E 29.6 vs peer median 31.2"
+        "P/E 29.8 vs peer median 31.3"
       ],
       "risks": [
         "Recession sensitivity higher (cyclical sector) [heuristic]"
       ],
       "profile": [
         "\u2713 not excluded: Industrials",
-        "\u2713 long-term uptrend: 3y +41%, 5y +94%",
+        "\u2713 long-term uptrend: 3y +42%, 5y +94%",
         "\u2713 earnings intact: net income +18%/yr over 4y",
         "\u2713 healthy margins: 15% net margin",
         "\u2713 durable revenue: growth vol 2%",
         "\u2713 recent pullback: down 35% from 52wk high",
-        "\u2713 at/below fair value: MoS 7%",
+        "\u2713 at/below fair value: MoS 5%",
         "\u2713 \u2192 multiple compression: price down 35% while earnings grew +18%/yr (sentiment, not deterioration)"
       ],
       "news": [
@@ -27143,9 +27143,9 @@
           "link": "https://www.trefis.com/stock/vrt/articles/626729/are-you-overpaying-for-vertiv-stock-versus-its-rivals/2026-11-19"
         }
       ],
-      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.139</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.0% / 8.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.093</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.196</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.307</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.429</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.563</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.7B</b> \u2192\n   PV <b>$39.5B</b></p>\n<p>Enterprise value <b>$54.1B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$44.2B</b><br>\n   \u00f7 388M shares = <b>$113.80/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.3%</th><th>WACC 9.3%</th><th>WACC 10.3%</th></tr><tr><td>growth 6.0%</td><td>$131</td><td>$108</td><td>$91</td></tr><tr><td>growth 8.0%</td><td>$138</td><td><b>$114</b></td><td>$96</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
+      "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.139</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.0% / 8.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.093</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.196</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.307</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.430</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.563</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.7B</b> \u2192\n   PV <b>$39.5B</b></p>\n<p>Enterprise value <b>$54.1B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$44.2B</b><br>\n   \u00f7 388M shares = <b>$113.74/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.3%</th><th>WACC 9.3%</th><th>WACC 10.3%</th></tr><tr><td>growth 6.0%</td><td>$131</td><td>$108</td><td>$91</td></tr><tr><td>growth 8.0%</td><td>$138</td><td><b>$114</b></td><td>$96</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "<p class='na'><b>DDM:</b> Not meaningful: this is a growth-oriented company that reinvests and returns cash mainly via buybacks rather than dividends (yield 1.3%, payout 40%), so a dividend-only model understates it \u2014 DDM excluded</p>",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (5): <b>AME, BE, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>29.6x</b></td><td><b>21.1x</b></td><td><b>6.2x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>31.5x</td><td>22.7x</td><td>4.4x</td></tr><tr><td>BE<div class='peernm'>Bloom Energy Corporation</div></td><td>86.3x</td><td>83.0x</td><td>21.8x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>31.5x</td><td>16.0x</td><td>4.1x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>28.9x</td><td>22.7x</td><td>11.2x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>31.0x</td><td>22.2x</td><td>11.6x</td></tr></table>\n<p>Median P/E: 31.2x \u2192 <b>$326.19</b><br>\n   Median EV/EBITDA: 22.5x \u2192 <b>$331.59</b><br>\n   Median P/B: 11.2x \u2192 <b>$556.58</b></p>\n<p>Implied by method: P/E $326 \u00b7 EV/EBITDA $332 \u00b7 P/B $557<br>\n   Reconciled (median): <b>$331.59/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (5): <b>AME, BE, EMR, ROK, VRT</b><br>\n   Basis: same industry & size \u2014 Electrical Components & Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>ETN<div class='peernm'>this company \u2014 at today's price</div></td><td><b>29.8x</b></td><td><b>21.2x</b></td><td><b>6.3x</b></td></tr><tr><td>AME<div class='peernm'>AMETEK, Inc.</div></td><td>31.4x</td><td>22.0x</td><td>4.4x</td></tr><tr><td>BE<div class='peernm'>Bloom Energy Corporation</div></td><td>86.3x</td><td>70.4x</td><td>21.8x</td></tr><tr><td>EMR<div class='peernm'>Emerson Electric Co.</div></td><td>31.5x</td><td>15.4x</td><td>4.1x</td></tr><tr><td>ROK<div class='peernm'>Rockwell Automation, Inc.</div></td><td>28.9x</td><td>21.5x</td><td>11.2x</td></tr><tr><td>VRT<div class='peernm'>Vertiv Holdings Co</div></td><td>31.1x</td><td>20.0x</td><td>11.6x</td></tr></table>\n<p>Median P/E: 31.3x \u2192 <b>$326.62</b><br>\n   Median EV/EBITDA: 20.7x \u2192 <b>$304.32</b><br>\n   Median P/B: 11.2x \u2192 <b>$556.05</b></p>\n<p>Implied by method: P/E $327 \u00b7 EV/EBITDA $304 \u00b7 P/B $556<br>\n   Reconciled (median): <b>$326.62/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -27155,7 +27155,7 @@
       "category": "Gold",
       "is_etf": true,
       "price": 322.87,
-      "drawdown": -0.3667647635864234,
+      "drawdown": -0.36654895036295854,
       "thesis": "SPDR Gold Shares is down 37% from its 52-week high but is still in a long-term uptrend (3y +71%, 5y +89%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -32453,7 +32453,7 @@
           ],
           [
             "2026-11-20 10:31",
-            324.26
+            324.25
           ],
           [
             "2026-11-20 10:32",
@@ -32585,7 +32585,7 @@
           ],
           [
             "2026-11-20 11:04",
-            324.27
+            324.28
           ],
           [
             "2026-11-20 11:05",
@@ -32605,7 +32605,7 @@
           ],
           [
             "2026-11-20 11:09",
-            325.25
+            325.27
           ],
           [
             "2026-11-20 11:10",
@@ -32925,7 +32925,7 @@
           ],
           [
             "2026-11-20 12:29",
-            323.37
+            323.35
           ],
           [
             "2026-11-20 12:30",
@@ -33317,7 +33317,7 @@
           ],
           [
             "2026-11-20 14:07",
-            323.07
+            323.08
           ],
           [
             "2026-11-20 14:08",
@@ -33721,11 +33721,11 @@
           ],
           [
             "2026-11-20 15:48",
-            322.74
+            322.7
           ],
           [
             "2026-11-20 15:49",
-            323.04
+            323.05
           ],
           [
             "2026-11-20 15:50",
@@ -33733,7 +33733,7 @@
           ],
           [
             "2026-11-20 15:51",
-            322.92
+            322.91
           ],
           [
             "2026-11-20 15:52",
@@ -33741,7 +33741,7 @@
           ],
           [
             "2026-11-20 15:53",
-            322.94
+            322.93
           ],
           [
             "2026-11-20 15:54",
@@ -35091,11 +35091,11 @@
           ],
           [
             "2026-11-20 11:00",
-            324.27
+            324.28
           ],
           [
             "2026-11-20 11:05",
-            325.25
+            325.27
           ],
           [
             "2026-11-20 11:10",
@@ -35159,7 +35159,7 @@
           ],
           [
             "2026-11-20 12:25",
-            323.37
+            323.35
           ],
           [
             "2026-11-20 12:30",
@@ -35319,7 +35319,7 @@
           ],
           [
             "2026-11-20 15:45",
-            323.04
+            323.05
           ],
           [
             "2026-11-20 15:50",
@@ -35957,7 +35957,7 @@
           ],
           [
             "2026-11-20 11:30",
-            323.37
+            323.35
           ],
           [
             "2026-11-20 12:30",
@@ -35984,7 +35984,7 @@
       "category": "Technology",
       "is_etf": true,
       "price": 149.01,
-      "drawdown": -0.266469864698647,
+      "drawdown": -0.26686346863468635,
       "thesis": "Technology Select Sector SPDR is down 27% from its 52-week high but is still in a long-term uptrend (3y +64%, 5y +78%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -41678,7 +41678,7 @@
           ],
           [
             "2026-11-20 12:10",
-            152.37
+            152.38
           ],
           [
             "2026-11-20 12:11",
@@ -42382,7 +42382,7 @@
           ],
           [
             "2026-11-20 15:06",
-            149.86
+            149.88
           ],
           [
             "2026-11-20 15:07",
@@ -42586,7 +42586,7 @@
           ],
           [
             "2026-11-20 15:57",
-            148.56
+            148.57
           ],
           [
             "2026-11-20 15:58",
@@ -43836,7 +43836,7 @@
           ],
           [
             "2026-11-19 15:45",
-            161.14
+            161.15
           ],
           [
             "2026-11-19 15:50",
@@ -44813,7 +44813,7 @@
       "category": "Technology",
       "is_etf": true,
       "price": 97.64,
-      "drawdown": -0.251339354048676,
+      "drawdown": -0.25271697535588544,
       "thesis": "Vanguard Information Technology is down 25% from its 52-week high but is still in a long-term uptrend (3y +72%, 5y +76%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -47844,7 +47844,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -51331,7 +51331,7 @@
           ],
           [
             "2026-11-20 15:36",
-            97.86
+            97.88
           ],
           [
             "2026-11-20 15:37",
@@ -51973,7 +51973,7 @@
           ],
           [
             "2026-11-17 14:20",
-            106.13
+            106.14
           ],
           [
             "2026-11-17 14:25",
@@ -54417,7 +54417,7 @@
         ],
         [
           "2022-08-19",
-          314.75
+          314.74
         ],
         [
           "2022-08-22",
@@ -56729,7 +56729,7 @@
         ],
         [
           "2024-12-06",
-          521.21
+          521.2
         ],
         [
           "2024-12-09",
@@ -57169,7 +57169,7 @@
         ],
         [
           "2025-05-19",
-          518.39
+          518.38
         ],
         [
           "2025-05-20",
@@ -58720,7 +58720,7 @@
           ],
           [
             "2026-11-20 09:36",
-            637.51
+            637.41
           ],
           [
             "2026-11-20 09:37",
@@ -58804,7 +58804,7 @@
           ],
           [
             "2026-11-20 09:57",
-            641.45
+            641.42
           ],
           [
             "2026-11-20 09:58",
@@ -58872,7 +58872,7 @@
           ],
           [
             "2026-11-20 10:14",
-            636.5
+            636.52
           ],
           [
             "2026-11-20 10:15",
@@ -58904,7 +58904,7 @@
           ],
           [
             "2026-11-20 10:22",
-            632.66
+            632.65
           ],
           [
             "2026-11-20 10:23",
@@ -58988,11 +58988,11 @@
           ],
           [
             "2026-11-20 10:43",
-            629.54
+            629.53
           ],
           [
             "2026-11-20 10:44",
-            628.94
+            628.92
           ],
           [
             "2026-11-20 10:45",
@@ -59040,7 +59040,7 @@
           ],
           [
             "2026-11-20 10:56",
-            628.82
+            628.85
           ],
           [
             "2026-11-20 10:57",
@@ -59288,7 +59288,7 @@
           ],
           [
             "2026-11-20 11:58",
-            623.7
+            623.68
           ],
           [
             "2026-11-20 11:59",
@@ -59484,11 +59484,11 @@
           ],
           [
             "2026-11-20 12:47",
-            619.68
+            619.61
           ],
           [
             "2026-11-20 12:48",
-            619.92
+            619.89
           ],
           [
             "2026-11-20 12:49",
@@ -59500,7 +59500,7 @@
           ],
           [
             "2026-11-20 12:51",
-            620.99
+            621.01
           ],
           [
             "2026-11-20 12:52",
@@ -59640,7 +59640,7 @@
           ],
           [
             "2026-11-20 13:26",
-            621.43
+            621.42
           ],
           [
             "2026-11-20 13:27",
@@ -59672,7 +59672,7 @@
           ],
           [
             "2026-11-20 13:34",
-            621.91
+            621.92
           ],
           [
             "2026-11-20 13:35",
@@ -59884,7 +59884,7 @@
           ],
           [
             "2026-11-20 14:27",
-            615.04
+            615.03
           ],
           [
             "2026-11-20 14:28",
@@ -60028,7 +60028,7 @@
           ],
           [
             "2026-11-20 15:03",
-            614.24
+            614.25
           ],
           [
             "2026-11-20 15:04",
@@ -60080,7 +60080,7 @@
           ],
           [
             "2026-11-20 15:16",
-            613.81
+            613.8
           ],
           [
             "2026-11-20 15:17",
@@ -60136,7 +60136,7 @@
           ],
           [
             "2026-11-20 15:30",
-            610.25
+            610.28
           ],
           [
             "2026-11-20 15:31",
@@ -60224,11 +60224,11 @@
           ],
           [
             "2026-11-20 15:52",
-            610.95
+            610.92
           ],
           [
             "2026-11-20 15:53",
-            610.38
+            610.34
           ],
           [
             "2026-11-20 15:54",
@@ -60244,7 +60244,7 @@
           ],
           [
             "2026-11-20 15:57",
-            608.1
+            607.92
           ],
           [
             "2026-11-20 15:58",
@@ -60514,7 +60514,7 @@
           ],
           [
             "2026-11-16 14:50",
-            663.99
+            663.98
           ],
           [
             "2026-11-16 14:55",
@@ -60566,7 +60566,7 @@
           ],
           [
             "2026-11-16 15:55",
-            661.85
+            661.86
           ],
           [
             "2026-11-17 09:30",
@@ -60874,7 +60874,7 @@
           ],
           [
             "2026-11-17 15:50",
-            653.71
+            653.7
           ],
           [
             "2026-11-17 15:55",
@@ -61342,7 +61342,7 @@
           ],
           [
             "2026-11-19 12:35",
-            654.32
+            654.09
           ],
           [
             "2026-11-19 12:40",
@@ -61350,7 +61350,7 @@
           ],
           [
             "2026-11-19 12:45",
-            653.47
+            653.5
           ],
           [
             "2026-11-19 12:50",
@@ -61538,7 +61538,7 @@
           ],
           [
             "2026-11-20 10:10",
-            636.5
+            636.52
           ],
           [
             "2026-11-20 10:15",
@@ -61562,7 +61562,7 @@
           ],
           [
             "2026-11-20 10:40",
-            628.94
+            628.92
           ],
           [
             "2026-11-20 10:45",
@@ -61698,7 +61698,7 @@
           ],
           [
             "2026-11-20 13:30",
-            621.91
+            621.92
           ],
           [
             "2026-11-20 13:35",
@@ -61976,7 +61976,7 @@
           ],
           [
             "2026-10-28 13:30",
-            722.57
+            722.56
           ],
           [
             "2026-10-28 14:30",
@@ -62152,7 +62152,7 @@
           ],
           [
             "2026-11-05 15:30",
-            647.8
+            648.06
           ],
           [
             "2026-11-06 09:30",
@@ -62252,7 +62252,7 @@
           ],
           [
             "2026-11-11 12:30",
-            695.14
+            695.16
           ],
           [
             "2026-11-11 13:30",
@@ -62292,7 +62292,7 @@
           ],
           [
             "2026-11-12 15:30",
-            688.17
+            688.21
           ],
           [
             "2026-11-13 09:30",
@@ -62348,7 +62348,7 @@
           ],
           [
             "2026-11-16 15:30",
-            661.85
+            661.86
           ],
           [
             "2026-11-17 09:30",
@@ -62471,7 +62471,7 @@
       "category": "Emerging markets",
       "is_etf": true,
       "price": 50.62,
-      "drawdown": -0.17720181995450113,
+      "drawdown": -0.1774455638609035,
       "thesis": "Vanguard FTSE Emerging Markets is down 18% from its 52-week high but is still in a long-term uptrend (3y +36%, 5y +18%) \u2014 a pullback on a quality Emerging markets fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
         {
@@ -63254,7 +63254,7 @@
         ],
         [
           "2022-08-23",
-          36.52
+          36.53
         ],
         [
           "2022-08-24",
@@ -70997,7 +70997,7 @@
           ],
           [
             "2026-11-06 12:30",
-            55.36
+            55.35
           ],
           [
             "2026-11-06 13:30",
@@ -71294,6 +71294,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-11-21 17:16Z"
+  ]
 }
