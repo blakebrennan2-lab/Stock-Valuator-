@@ -5,9 +5,9 @@
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
-      "price": 90.26,
+      "price": 90.64,
       "intrinsic": 156.07643437356802,
-      "upside": 0.42169360568576786,
+      "upside": 0.4192589011672723,
       "confidence": "low",
       "range_low": 156.07643437356802,
       "range_high": 156.07643437356802,
@@ -8828,10 +8828,6 @@
         [
           "2026-11-19",
           94.7
-        ],
-        [
-          "2026-11-20",
-          90.64
         ]
       ],
       "stats": [
@@ -9005,6 +9001,12 @@
       ],
       "news": [
         {
+          "title": "The Fear Gauge Hit 40. This Is What the Market Is Worried About.",
+          "publisher": "Barrons.com",
+          "date": "2026-11-20",
+          "link": "https://www.barrons.com/articles/stock-market-vix-fear-gauge-ai-d1012e90?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "How Investors May Respond To Cisco Stock After Earnings Beat",
           "publisher": "Simply Wall St.",
           "date": "2026-11-20",
@@ -9045,12 +9047,6 @@
           "publisher": "Zacks",
           "date": "2026-11-20",
           "link": "https://finance.yahoo.com/technology/ai/articles/cien-targets-50b-market-ai-131000909.html"
-        },
-        {
-          "title": "Own Dell Or HPE? Look Past The Record Backlog",
-          "publisher": "Trefis",
-          "date": "2026-11-20",
-          "link": "https://www.trefis.com/stock/dell/articles/627165/own-dell-or-hpe-look-past-the-record-backlog/2026-11-20"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.3% / 7.7%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,942M shares = <b>$27.85/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -9060,9 +9056,9 @@
     {
       "ticker": "ACN",
       "name": "Accenture plc",
-      "price": 221.09,
+      "price": 221.17,
       "intrinsic": 291.78923332574954,
-      "upside": 0.24229555189523347,
+      "upside": 0.24202138139521823,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -10590,7 +10586,7 @@
           ],
           [
             "2026-11-20 15:50",
-            222.17
+            222.13
           ],
           [
             "2026-11-20 15:51",
@@ -10602,11 +10598,11 @@
           ],
           [
             "2026-11-20 15:53",
-            221.13
+            221.16
           ],
           [
             "2026-11-20 15:54",
-            221.1
+            221.03
           ],
           [
             "2026-11-20 15:55",
@@ -10618,7 +10614,7 @@
           ],
           [
             "2026-11-20 15:57",
-            220.71
+            220.73
           ],
           [
             "2026-11-20 15:58",
@@ -10626,7 +10622,7 @@
           ],
           [
             "2026-11-20 15:59",
-            221.18
+            221.17
           ]
         ],
         "week": [
@@ -12184,11 +12180,11 @@
           ],
           [
             "2026-11-20 15:50",
-            221.1
+            221.03
           ],
           [
             "2026-11-20 15:55",
-            221.18
+            221.17
           ]
         ],
         "month": [
@@ -12834,7 +12830,7 @@
           ],
           [
             "2026-11-20 15:30",
-            221.18
+            221.17
           ]
         ]
       },
@@ -13210,7 +13206,7 @@
         ],
         [
           "2022-03-25",
-          300.94
+          300.93
         ],
         [
           "2022-03-28",
@@ -17883,10 +17879,6 @@
         [
           "2026-11-19",
           218.58
-        ],
-        [
-          "2026-11-20",
-          221.18
         ]
       ],
       "stats": [
@@ -18105,9 +18097,9 @@
     {
       "ticker": "ETN",
       "name": "Eaton Corporation plc",
-      "price": 309.83,
+      "price": 311.33,
       "intrinsic": 331.59330115830113,
-      "upside": 0.06563251152022352,
+      "upside": 0.061108897820066455,
       "confidence": "low",
       "range_low": 331.59330115830113,
       "range_high": 331.59330115830113,
@@ -19651,15 +19643,15 @@
           ],
           [
             "2026-11-20 15:54",
-            310.62
+            310.55
           ],
           [
             "2026-11-20 15:55",
-            309.55
+            309.52
           ],
           [
             "2026-11-20 15:56",
-            309.9
+            309.88
           ],
           [
             "2026-11-20 15:57",
@@ -19667,11 +19659,11 @@
           ],
           [
             "2026-11-20 15:58",
-            310.05
+            310.1
           ],
           [
             "2026-11-20 15:59",
-            311.16
+            311.46
           ]
         ],
         "week": [
@@ -21229,11 +21221,11 @@
           ],
           [
             "2026-11-20 15:50",
-            310.62
+            310.55
           ],
           [
             "2026-11-20 15:55",
-            311.16
+            311.46
           ]
         ],
         "month": [
@@ -21879,7 +21871,7 @@
           ],
           [
             "2026-11-20 15:30",
-            311.16
+            311.46
           ]
         ]
       },
@@ -22099,7 +22091,7 @@
         ],
         [
           "2022-01-28",
-          145.18
+          145.19
         ],
         [
           "2022-01-31",
@@ -22271,7 +22263,7 @@
         ],
         [
           "2022-03-31",
-          141.38
+          141.39
         ],
         [
           "2022-04-01",
@@ -23795,7 +23787,7 @@
         ],
         [
           "2023-10-06",
-          201.85
+          201.86
         ],
         [
           "2023-10-09",
@@ -26928,10 +26920,6 @@
         [
           "2026-11-19",
           330.57
-        ],
-        [
-          "2026-11-20",
-          311.16
         ]
       ],
       "stats": [
@@ -27154,7 +27142,7 @@
       "name": "SPDR Gold Shares",
       "category": "Gold",
       "is_etf": true,
-      "price": 322.76,
+      "price": 322.87,
       "drawdown": -0.3667647635864234,
       "thesis": "SPDR Gold Shares is down 37% from its 52-week high but is still in a long-term uptrend (3y +71%, 5y +89%) \u2014 a pullback on a quality Gold fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -32199,10 +32187,6 @@
         [
           "2026-11-19",
           335.18
-        ],
-        [
-          "2026-11-20",
-          322.76
         ]
       ],
       "intraday": {
@@ -33733,7 +33717,7 @@
           ],
           [
             "2026-11-20 15:51",
-            322.92
+            322.91
           ],
           [
             "2026-11-20 15:52",
@@ -33745,7 +33729,7 @@
           ],
           [
             "2026-11-20 15:54",
-            322.58
+            322.57
           ],
           [
             "2026-11-20 15:55",
@@ -35323,7 +35307,7 @@
           ],
           [
             "2026-11-20 15:50",
-            322.58
+            322.57
           ],
           [
             "2026-11-20 15:55",
@@ -35983,7 +35967,7 @@
       "name": "Technology Select Sector SPDR",
       "category": "Technology",
       "is_etf": true,
-      "price": 149.09,
+      "price": 149.01,
       "drawdown": -0.266469864698647,
       "thesis": "Technology Select Sector SPDR is down 27% from its 52-week high but is still in a long-term uptrend (3y +64%, 5y +78%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -37523,7 +37507,7 @@
         ],
         [
           "2023-05-24",
-          75.4
+          75.39
         ],
         [
           "2023-05-25",
@@ -39859,7 +39843,7 @@
         ],
         [
           "2025-09-23",
-          139.39
+          139.4
         ],
         [
           "2025-09-24",
@@ -41028,10 +41012,6 @@
         [
           "2026-11-19",
           160.69
-        ],
-        [
-          "2026-11-20",
-          149.09
         ]
       ],
       "intraday": {
@@ -42570,7 +42550,7 @@
           ],
           [
             "2026-11-20 15:53",
-            149.28
+            149.3
           ],
           [
             "2026-11-20 15:54",
@@ -42594,7 +42574,7 @@
           ],
           [
             "2026-11-20 15:59",
-            149.08
+            149.12
           ]
         ],
         "week": [
@@ -44156,7 +44136,7 @@
           ],
           [
             "2026-11-20 15:55",
-            149.08
+            149.12
           ]
         ],
         "month": [
@@ -44802,7 +44782,7 @@
           ],
           [
             "2026-11-20 15:30",
-            149.08
+            149.12
           ]
         ]
       }
@@ -44812,7 +44792,7 @@
       "name": "Vanguard Information Technology",
       "category": "Technology",
       "is_etf": true,
-      "price": 97.82,
+      "price": 97.64,
       "drawdown": -0.251339354048676,
       "thesis": "Vanguard Information Technology is down 25% from its 52-week high but is still in a long-term uptrend (3y +72%, 5y +76%) \u2014 a pullback on a quality Technology fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -46452,7 +46432,7 @@
         ],
         [
           "2023-06-30",
-          54.27
+          54.28
         ],
         [
           "2023-07-03",
@@ -47844,7 +47824,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -49857,10 +49837,6 @@
         [
           "2026-11-19",
           104.99
-        ],
-        [
-          "2026-11-20",
-          97.82
         ]
       ],
       "intraday": {
@@ -51411,7 +51387,7 @@
           ],
           [
             "2026-11-20 15:56",
-            97.23
+            97.25
           ],
           [
             "2026-11-20 15:57",
@@ -51419,7 +51395,7 @@
           ],
           [
             "2026-11-20 15:58",
-            97.4
+            97.41
           ],
           [
             "2026-11-20 15:59",
@@ -54417,7 +54393,7 @@
         ],
         [
           "2022-08-19",
-          314.74
+          314.75
         ],
         [
           "2022-08-22",
@@ -56101,7 +56077,7 @@
         ],
         [
           "2024-04-24",
-          420.97
+          420.98
         ],
         [
           "2024-04-25",
@@ -57169,7 +57145,7 @@
         ],
         [
           "2025-05-19",
-          518.38
+          518.39
         ],
         [
           "2025-05-20",
@@ -58686,10 +58662,6 @@
         [
           "2026-11-19",
           645.04
-        ],
-        [
-          "2026-11-20",
-          608.45
         ]
       ],
       "intraday": {
@@ -62470,7 +62442,7 @@
       "name": "Vanguard FTSE Emerging Markets",
       "category": "Emerging markets",
       "is_etf": true,
-      "price": 50.635,
+      "price": 50.62,
       "drawdown": -0.17720181995450113,
       "thesis": "Vanguard FTSE Emerging Markets is down 18% from its 52-week high but is still in a long-term uptrend (3y +36%, 5y +18%) \u2014 a pullback on a quality Emerging markets fund, not a breakdown. (Funds are screened on trend + dip, not DCF \u2014 an ETF has no earnings.)",
       "stats": [
@@ -67515,10 +67487,6 @@
         [
           "2026-11-19",
           52.66
-        ],
-        [
-          "2026-11-20",
-          50.63
         ]
       ],
       "intraday": {
@@ -69081,7 +69049,7 @@
           ],
           [
             "2026-11-20 15:59",
-            50.63
+            50.58
           ]
         ],
         "week": [
@@ -70643,7 +70611,7 @@
           ],
           [
             "2026-11-20 15:55",
-            50.63
+            50.58
           ]
         ],
         "month": [
@@ -71289,10 +71257,11 @@
           ],
           [
             "2026-11-20 15:30",
-            50.63
+            50.58
           ]
         ]
       }
     }
-  ]
+  ],
+  "price_as_of": "2026-11-21 01:18Z"
 }
