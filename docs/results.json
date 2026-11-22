@@ -4247,7 +4247,7 @@
         ],
         [
           "2022-04-28",
-          44.71
+          44.72
         ],
         [
           "2022-04-29",
@@ -9005,6 +9005,18 @@
       ],
       "news": [
         {
+          "title": "Is Nvidia the Next Cisco? What the Dot-Com Crash Says About the AI Sell-Off",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-11-22",
+          "link": "https://247wallst.com/investing/2026/11/22/is-nvidia-the-next-cisco-what-the-dot-com-crash-says-about-the-ai-sell-off/"
+        },
+        {
+          "title": "Arista Networks Lost 15% in a Week. Rosenblatt Sees 67% Upside From Here",
+          "publisher": "TIKR",
+          "date": "2026-11-22",
+          "link": "https://www.tikr.com/blog/arista-networks-lost-15-in-a-week-rosenblatt-sees-67-upside-from-here?ref=yahoofinance&tlnk=yf-261122-24r529hq"
+        },
+        {
           "title": "Tom Lee Says AI Sell-Off Is \u2018Max Pain\u2019 Before A \u2018Big Payoff\u2019 For Patient Investors",
           "publisher": "Stocktwits",
           "date": "2026-11-22",
@@ -9039,18 +9051,6 @@
           "publisher": "Barrons.com",
           "date": "2026-11-20",
           "link": "https://www.barrons.com/articles/stock-market-vix-fear-gauge-ai-d1012e90?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "How Investors May Respond To Cisco Stock After Earnings Beat",
-          "publisher": "Simply Wall St.",
-          "date": "2026-11-20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-cisco-stock-191220194.html"
-        },
-        {
-          "title": "Is Dell Stock's Steep Fall A Bargain Or A Warning?",
-          "publisher": "Trefis",
-          "date": "2026-11-20",
-          "link": "https://www.trefis.com/stock/dell/articles/627170/is-dell-stocks-steep-fall-a-bargain-or-a-warning/2026-11-20"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.4% / 7.6%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,942M shares = <b>$27.85/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -13622,7 +13622,7 @@
         ],
         [
           "2022-08-23",
-          283.49
+          283.48
         ],
         [
           "2022-08-24",
@@ -22271,7 +22271,7 @@
         ],
         [
           "2022-03-31",
-          141.39
+          141.38
         ],
         [
           "2022-04-01",
@@ -25559,7 +25559,7 @@
         ],
         [
           "2025-07-14",
-          354.19
+          354.2
         ],
         [
           "2025-07-15",
@@ -27095,6 +27095,12 @@
       ],
       "news": [
         {
+          "title": "3 Stocks Riding The AI Data Center Power Buildout",
+          "publisher": "Simply Wall St.",
+          "date": "2026-11-22",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-riding-ai-data-160704018.html"
+        },
+        {
           "title": "Could Honeywell Be The Value Stock For Your Portfolio?",
           "publisher": "Trefis",
           "date": "2026-11-20",
@@ -27135,12 +27141,6 @@
           "publisher": "Insider Monkey",
           "date": "2026-11-19",
           "link": "https://finance.yahoo.com/markets/stocks/articles/concern-behind-erste-group-call-151651946.html"
-        },
-        {
-          "title": "Are You Overpaying For Vertiv Stock Versus Its Rivals?",
-          "publisher": "Trefis",
-          "date": "2026-11-19",
-          "link": "https://www.trefis.com/stock/vrt/articles/626729/are-you-overpaying-for-vertiv-stock-versus-its-rivals/2026-11-19"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$3.2B</b> \u00b7\n   growth applied <b>8.0%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.139</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>10.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>1.9%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.0% / 8.0%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.3%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>8.0%</td><td>$3.4B</td><td>1.093</td><td>$3.2B</td></tr><tr><td>Y2</td><td>6.6%</td><td>$3.7B</td><td>1.196</td><td>$3.1B</td></tr><tr><td>Y3</td><td>5.3%</td><td>$3.9B</td><td>1.307</td><td>$3.0B</td></tr><tr><td>Y4</td><td>3.9%</td><td>$4.0B</td><td>1.430</td><td>$2.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$4.1B</td><td>1.563</td><td>$2.6B</td></tr></table>\n<p>Sum of PV (explicit): <b>$14.6B</b> \u00b7\n   terminal value <b>$61.7B</b> \u2192\n   PV <b>$39.5B</b></p>\n<p>Enterprise value <b>$54.1B</b> \u2212 debt $10.5B\n   + cash $622.0M = equity <b>$44.2B</b><br>\n   \u00f7 388M shares = <b>$113.74/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.3%</th><th>WACC 9.3%</th><th>WACC 10.3%</th></tr><tr><td>growth 6.0%</td><td>$131</td><td>$108</td><td>$91</td></tr><tr><td>growth 8.0%</td><td>$138</td><td><b>$114</b></td><td>$96</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
@@ -48480,7 +48480,7 @@
         ],
         [
           "2025-07-10",
-          83.85
+          83.86
         ],
         [
           "2025-07-11",
@@ -54261,7 +54261,7 @@
         ],
         [
           "2022-06-24",
-          287.2
+          287.21
         ],
         [
           "2022-06-27",
@@ -57169,7 +57169,7 @@
         ],
         [
           "2025-05-19",
-          518.39
+          518.38
         ],
         [
           "2025-05-20",
@@ -71295,5 +71295,5 @@
       }
     }
   ],
-  "price_as_of": "2026-11-22 11:08Z"
+  "price_as_of": "2026-11-22 19:24Z"
 }
