@@ -381,3 +381,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-11-24,1,CSCO,"Cisco Systems, Inc.",93.99,154.57,39.2%,low,1
 2026-11-24,2,ACN,Accenture plc,232.32,291.79,20.4%,low,1
 2026-11-24,3,ETN,Eaton Corporation plc,319.27,337.40,5.4%,low,1
+2026-11-25,1,CSCO,"Cisco Systems, Inc.",94.20,151.34,37.8%,low,1
+2026-11-25,2,ACN,Accenture plc,240.49,291.79,17.6%,low,1
+2026-11-25,3,BMY,Bristol-Myers Squibb Company,61.56,69.84,11.9%,high,3
