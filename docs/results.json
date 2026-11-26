@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "count": 3,
   "picks": [
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
       "price": 94.2,
-      "intrinsic": 151.34201693630462,
-      "upside": 0.37756877531314925,
+      "intrinsic": 150.58669280494757,
+      "upside": 0.37444671740008467,
       "confidence": "low",
-      "range_low": 151.34201693630462,
-      "range_high": 151.34201693630462,
+      "range_low": 150.58669280494757,
+      "range_high": 150.58669280494757,
       "intraday": {
         "day": [
           [
@@ -19,7 +19,7 @@
           ],
           [
             "2026-11-25 09:31",
-            91.32
+            91.33
           ],
           [
             "2026-11-25 09:32",
@@ -1725,7 +1725,7 @@
           ],
           [
             "2026-11-19 12:35",
-            96.18
+            96.2
           ],
           [
             "2026-11-19 12:40",
@@ -3303,7 +3303,7 @@
           ],
           [
             "2026-11-02 15:30",
-            101.69
+            101.68
           ],
           [
             "2026-11-03 09:30",
@@ -3783,7 +3783,7 @@
           ]
         ]
       },
-      "thesis": "CSCO is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($94.20 vs $151.34, low confidence). Valued with DCF and DDM and Comps.",
+      "thesis": "CSCO is down 28% from its 52-week high while earnings grew 2%/yr \u2014 a sentiment-driven pullback, not fundamental deterioration. Quality looks intact (healthy margins, durable revenue, long-term uptrend), and it's now at or below fair value ($94.20 vs $150.59, low confidence). Valued with DCF and DDM and Comps.",
       "methods": [
         {
           "key": "DCF",
@@ -3806,7 +3806,7 @@
       ],
       "reconciliation": {
         "values": {
-          "Comps": 151.34201693630462
+          "Comps": 150.58669280494757
         },
         "spread": 0.0,
         "confidence": "low",
@@ -5599,7 +5599,7 @@
         ],
         [
           "2023-09-07",
-          52.27
+          52.26
         ],
         [
           "2023-09-08",
@@ -6179,7 +6179,7 @@
         ],
         [
           "2024-04-05",
-          45.72
+          45.73
         ],
         [
           "2024-04-08",
@@ -8949,7 +8949,7 @@
         {
           "label": "Street target",
           "value": "$129.04 (range $109.00\u2013$160.00)",
-          "src": "mean analyst target \u2014 our fair value: $151.34"
+          "src": "mean analyst target \u2014 our fair value: $150.59"
         },
         {
           "label": "Forward EPS (est.)",
@@ -8970,7 +8970,7 @@
         "Reinvestment: capex 2% of revenue (FY2026)"
       ],
       "change_mind": [
-        "Price recovers above fair value (~$151.34) \u2014 the discount that makes it a buy is gone",
+        "Price recovers above fair value (~$150.59) \u2014 the discount that makes it a buy is gone",
         "Net margin (21%) deteriorates toward the 5% quality floor",
         "Revenue growth (now +12% YoY) turns negative",
         "Free cash flow (now $12.8B) turns negative"
@@ -8983,8 +8983,8 @@
         "Industry structure and disruption risk"
       ],
       "why": [
-        "38% below intrinsic value ($94.20 vs $151.34)",
-        "low confidence across 1 models \u2014 Comps $151.34",
+        "37% below intrinsic value ($94.20 vs $150.59)",
+        "low confidence across 1 models \u2014 Comps $150.59",
         "Free cash flow declined -12%/yr over 4y",
         "Net margin 21% on $63.3B revenue",
         "Net debt $22.3B (1.1x EBITDA)",
@@ -9000,10 +9000,22 @@
         "\u2713 healthy margins: 21% net margin",
         "\u2713 durable revenue: growth vol 7%",
         "\u2713 recent pullback: down 28% from 52wk high",
-        "\u2713 at/below fair value: MoS 38%",
+        "\u2713 at/below fair value: MoS 37%",
         "\u2713 \u2192 multiple compression: price down 28% while earnings grew +2%/yr (sentiment, not deterioration)"
       ],
       "news": [
+        {
+          "title": "Ken Fisher and 13 Other Big Funds Bought Cisco Last Quarter, While 11 Sold. Who\u2019s Right?",
+          "publisher": "TIKR",
+          "date": "2026-11-26",
+          "link": "https://www.tikr.com/blog/ken-fisher-and-13-other-big-funds-bought-cisco-last-quarter-while-11-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-h4726jcf"
+        },
+        {
+          "title": "BR Stock Rises 27.3% in Six Months: Here's What You Should Know",
+          "publisher": "Zacks",
+          "date": "2026-11-26",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/br-stock-rises-27-3-134400705.html"
+        },
         {
           "title": "Genpact Stock Rises 20% in Three Months: Here's What You Should Know",
           "publisher": "Zacks",
@@ -9039,30 +9051,18 @@
           "publisher": "Trefis",
           "date": "2026-11-25",
           "link": "https://www.trefis.com/stock/dell/articles/628977/what-s-behind-dell-stock-s-fall/2026-11-25"
-        },
-        {
-          "title": "George Soros, Ken Fisher and 11 Other Big Funds Bought Hewlett Packard Enterprise Last Quarter, While 5 Sold. Who\u2019s Right?",
-          "publisher": "TIKR",
-          "date": "2026-11-25",
-          "link": "https://www.tikr.com/blog/george-soros-ken-fisher-and-11-other-big-funds-bought-hewlett-packard-enterprise-last-quarter-while-5-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-pp776jqf"
-        },
-        {
-          "title": "Ten reasons the market is selling off again before Thanksgiving",
-          "publisher": "Yahoo Finance Video",
-          "date": "2026-11-25",
-          "link": "https://finance.yahoo.com/video/ten-reasons-the-market-is-selling-off-again-before-thanksgiving-160424234.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$13.0B</b> \u00b7\n   growth applied <b>-3.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>1.002</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.3% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>4.1%</td></tr>\n<tr><td>Weights (E/D)</td><td>92.6% / 7.4%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>-3.9%</td><td>$12.5B</td><td>1.090</td><td>$11.5B</td></tr><tr><td>Y2</td><td>-2.9%</td><td>$12.1B</td><td>1.188</td><td>$10.2B</td></tr><tr><td>Y3</td><td>-2.0%</td><td>$11.9B</td><td>1.295</td><td>$9.2B</td></tr><tr><td>Y4</td><td>-1.0%</td><td>$11.8B</td><td>1.412</td><td>$8.4B</td></tr><tr><td>Y5</td><td>0.0%</td><td>$11.8B</td><td>1.539</td><td>$7.7B</td></tr></table>\n<p>Sum of PV (explicit): <b>$46.9B</b> \u00b7\n   terminal value <b>$131.0B</b> \u2192\n   PV <b>$85.2B</b></p>\n<p>Enterprise value <b>$132.1B</b> \u2212 debt $29.5B\n   + cash $7.2B = equity <b>$109.8B</b><br>\n   \u00f7 3,942M shares = <b>$27.85/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth -5.0%</td><td>$31</td><td>$27</td><td>$24</td></tr><tr><td>growth -3.9%</td><td>$32</td><td><b>$28</b></td><td>$25</td></tr><tr><td>growth -1.9%</td><td>$34</td><td>$29</td><td>$26</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$1.6700</b> \u00b7 growth <b>2.5%</b>\n   \u00b7 discount rate <b>9.3%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$1.7120</td><td>1.093</td><td>$1.5662</td></tr><tr><td>Y2</td><td>$1.7551</td><td>1.195</td><td>$1.4689</td></tr><tr><td>Y3</td><td>$1.7993</td><td>1.306</td><td>$1.3776</td></tr><tr><td>Y4</td><td>$1.8446</td><td>1.428</td><td>$1.2920</td></tr><tr><td>Y5</td><td>$1.8910</td><td>1.561</td><td>$1.2117</td></tr></table>\n<p>Stage-1 PV <b>$6.92</b> \u00b7 terminal value\n   <b>$28.46</b> \u2192 PV <b>$18.24</b></p>\n<p>Two-stage value <b>$25.15/share</b>\n   (single-stage Gordon ref: $25.14)</p>\n",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>28.3x</b></td><td><b>19.7x</b></td><td><b>7.5x</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>44.0x</td><td>37.4x</td><td>12.6x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>43.5x</td><td>26.6x</td><td>29.2x</td></tr></table>\n<p>Median P/E: 43.7x \u2192 <b>$145.67</b><br>\n   Median EV/EBITDA: 32.0x \u2192 <b>$157.02</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $146 \u00b7 EV/EBITDA $157<br>\n   Reconciled (median): <b>$151.34/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (2): <b>ANET, MSI</b><br>\n   Basis: same industry & size \u2014 Communications Equipment</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>CSCO<div class='peernm'>this company \u2014 at today's price</div></td><td><b>28.3x</b></td><td><b>19.7x</b></td><td><b>7.5x</b></td></tr><tr><td>ANET<div class='peernm'>Arista Networks, Inc.</div></td><td>44.0x</td><td>36.4x</td><td>12.6x</td></tr><tr><td>MSI<div class='peernm'>Motorola Solutions, Inc.</div></td><td>43.5x</td><td>27.1x</td><td>29.2x</td></tr></table>\n<p>Median P/E: 43.7x \u2192 <b>$145.67</b><br>\n   Median EV/EBITDA: 31.7x \u2192 <b>$155.50</b><br>\n   Median P/B: dropped</p>\n<p>Implied by method: P/E $146 \u00b7 EV/EBITDA $156<br>\n   Reconciled (median): <b>$150.59/share</b></p>\n"
     },
     {
       "ticker": "ACN",
       "name": "Accenture plc",
       "price": 240.49,
       "intrinsic": 291.78923332574954,
-      "upside": 0.1758091868157305,
+      "upside": 0.1758092056415247,
       "confidence": "low",
       "range_low": 291.78923332574954,
       "range_high": 291.78923332574954,
@@ -10764,7 +10764,7 @@
           ],
           [
             "2026-11-19 12:20",
-            218.2
+            218.1
           ],
           [
             "2026-11-19 12:25",
@@ -11236,7 +11236,7 @@
           ],
           [
             "2026-11-20 15:40",
-            221.39
+            221.4
           ],
           [
             "2026-11-20 15:45",
@@ -11552,7 +11552,7 @@
           ],
           [
             "2026-11-23 15:45",
-            222.84
+            222.79
           ],
           [
             "2026-11-23 15:50",
@@ -12690,7 +12690,7 @@
           ],
           [
             "2026-11-18 15:30",
-            227.46
+            227.49
           ],
           [
             "2026-11-19 09:30",
@@ -13410,7 +13410,7 @@
         ],
         [
           "2022-06-13",
-          254.66
+          254.67
         ],
         [
           "2022-06-14",
@@ -18103,7 +18103,7 @@
       "name": "Bristol-Myers Squibb Company",
       "price": 61.56,
       "intrinsic": 69.83922311633154,
-      "upside": 0.11854687629113203,
+      "upside": 0.11854689595473869,
       "confidence": "high",
       "range_low": 49.40923873877462,
       "range_high": 88.13645457717018,
@@ -27036,7 +27036,7 @@
         },
         {
           "label": "Street target",
-          "value": "$65.25 (range $40.00\u2013$80.00)",
+          "value": "$65.29 (range $40.00\u2013$80.00)",
           "src": "mean analyst target \u2014 our fair value: $69.84"
         },
         {
@@ -27097,6 +27097,18 @@
       ],
       "news": [
         {
+          "title": "Bristol Myers' Sotyktu Delivers Mixed Phase III Lupus Study Results",
+          "publisher": "Zacks",
+          "date": "2026-11-26",
+          "link": "https://finance.yahoo.com/healthcare/articles/bristol-myers-sotyktu-delivers-mixed-170600243.html"
+        },
+        {
+          "title": "What\u2019s the Tax Bill on $7,125 a Month in Dividend Income? The Taxable Account vs. Roth IRA Math",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-11-26",
+          "link": "https://247wallst.com/personal-finance/2026/11/26/whats-the-tax-bill-on-7125-a-month-in-dividend-income-the-taxable-account-vs-roth-ira-math/"
+        },
+        {
           "title": "A $1,500,000 Portfolio in McCormick, PepsiCo and Bristol Myers Squibb Pays $61,489 a Year in Dividends. Here\u2019s What Happens if One Cuts",
           "publisher": "TIKR",
           "date": "2026-11-26",
@@ -27131,23 +27143,11 @@
           "publisher": "Simply Wall St.",
           "date": "2026-11-25",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-squibb-bmy-names-100818194.html"
-        },
-        {
-          "title": "BMS crowns new R&D head as key readouts loom",
-          "publisher": "Pharma Voice",
-          "date": "2026-11-24",
-          "link": "https://www.pharmavoice.com/news/bms-new-rd-readouts-cobenfy-drug-pharma-chief/875668/"
-        },
-        {
-          "title": "Coca-Cola Shakes up Leadership, Names Pharma Veteran as CFO",
-          "publisher": "Benzinga",
-          "date": "2026-11-24",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-shakes-leadership-names-134351680.html"
         }
       ],
       "dcf_html": "\n<h4>DCF \u2014 discounted free cash flow</h4>\n<p>Base FCF (median of history): <b>$12.7B</b> \u00b7\n   growth applied <b>5.9%</b> (fades to terminal)</p>\n<table><tr><th>WACC build</th><th></th></tr>\n<tr><td>Beta</td><td>0.186</td></tr>\n<tr><td>Risk-free + \u03b2\u00b7ERP</td><td>9.0% cost of equity</td></tr>\n<tr><td>After-tax cost of debt</td><td>3.0%</td></tr>\n<tr><td>Weights (E/D)</td><td>72.7% / 27.3%</td></tr>\n<tr><td><b>WACC</b></td><td><b>9.0%</b></td></tr></table>\n<table><tr><th>Yr</th><th>Growth</th><th>Proj FCF</th><th>Disc</th><th>PV</th></tr>\n<tr><td>Y1</td><td>5.9%</td><td>$13.5B</td><td>1.090</td><td>$12.4B</td></tr><tr><td>Y2</td><td>5.0%</td><td>$14.2B</td><td>1.188</td><td>$11.9B</td></tr><tr><td>Y3</td><td>4.2%</td><td>$14.8B</td><td>1.295</td><td>$11.4B</td></tr><tr><td>Y4</td><td>3.3%</td><td>$15.3B</td><td>1.412</td><td>$10.8B</td></tr><tr><td>Y5</td><td>2.5%</td><td>$15.6B</td><td>1.539</td><td>$10.2B</td></tr></table>\n<p>Sum of PV (explicit): <b>$56.7B</b> \u00b7\n   terminal value <b>$246.8B</b> \u2192\n   PV <b>$160.4B</b></p>\n<p>Enterprise value <b>$217.1B</b> \u2212 debt $47.1B\n   + cash $10.2B = equity <b>$180.2B</b><br>\n   \u00f7 2,044M shares = <b>$88.14/share</b></p>\n<h4>Sensitivity \u2014 fair value/share</h4><table><tr><th></th><th>WACC 8.0%</th><th>WACC 9.0%</th><th>WACC 10.0%</th></tr><tr><td>growth 3.9%</td><td>$102</td><td>$83</td><td>$70</td></tr><tr><td>growth 5.9%</td><td>$108</td><td><b>$88</b></td><td>$74</td></tr><tr><td>growth 7.9%</td><td>$113</td><td>$93</td><td>$78</td></tr></table><p class='na'>Bold = base case. If the buy only works in the bottom-left corner, it isn't robust.</p>\n",
       "ddm_html": "\n<h4>DDM \u2014 dividend discount</h4>\n<p>Latest dividend <b>$2.4800</b> \u00b7 growth <b>8.0%</b>\n   \u00b7 discount rate <b>9.0%</b></p>\n<table><tr><th>Yr</th><th>Dividend</th><th>Disc</th><th>PV</th></tr><tr><td>Y1</td><td>$2.6784</td><td>1.090</td><td>$2.4572</td></tr><tr><td>Y2</td><td>$2.8927</td><td>1.188</td><td>$2.4347</td></tr><tr><td>Y3</td><td>$3.1241</td><td>1.295</td><td>$2.4124</td></tr><tr><td>Y4</td><td>$3.3740</td><td>1.412</td><td>$2.3902</td></tr><tr><td>Y5</td><td>$3.6439</td><td>1.539</td><td>$2.3683</td></tr></table>\n<p>Stage-1 PV <b>$12.06</b> \u00b7 terminal value\n   <b>$57.46</b> \u2192 PV <b>$37.35</b></p>\n<p>Two-stage value <b>$49.41/share</b>\n   (single-stage Gordon ref: $39.11)</p>\n",
-      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>MRK, PFE, ZTS</b><br>\n   Basis: same industry & size \u2014 Pharmaceuticals</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BMY<div class='peernm'>this company \u2014 at today's price</div></td><td><b>17.8x</b></td><td><b>10.7x</b></td><td><b>6.8x</b></td></tr><tr><td>MRK<div class='peernm'>Merck & Co., Inc.</div></td><td>141.7x</td><td>13.3x</td><td>7.7x</td></tr><tr><td>PFE<div class='peernm'>Pfizer Inc.</div></td><td>40.7x</td><td>8.5x</td><td>1.8x</td></tr><tr><td>ZTS<div class='peernm'>Zoetis Inc.</div></td><td>14.0x</td><td>10.1x</td><td>10.2x</td></tr></table>\n<p>Median P/E: 27.4x \u2192 <b>$94.64</b><br>\n   Median EV/EBITDA: 10.1x \u2192 <b>$57.38</b><br>\n   Median P/B: 7.7x \u2192 <b>$69.84</b></p>\n<p>Implied by method: P/E $95 \u00b7 EV/EBITDA $57 \u00b7 P/B $70<br>\n   Reconciled (median): <b>$69.84/share</b></p>\n"
+      "comps_html": "\n<h4>Comps \u2014 peer multiples</h4>\n<p>Peers used (3): <b>MRK, PFE, ZTS</b><br>\n   Basis: same industry & size \u2014 Pharmaceuticals</p>\n<table><tr><th>Peer</th><th>P/E</th><th>EV/EBITDA</th><th>P/B</th></tr><tr class='self'><td>BMY<div class='peernm'>this company \u2014 at today's price</div></td><td><b>17.8x</b></td><td><b>10.7x</b></td><td><b>6.8x</b></td></tr><tr><td>MRK<div class='peernm'>Merck & Co., Inc.</div></td><td>141.7x</td><td>13.2x</td><td>7.7x</td></tr><tr><td>PFE<div class='peernm'>Pfizer Inc.</div></td><td>40.7x</td><td>8.5x</td><td>1.8x</td></tr><tr><td>ZTS<div class='peernm'>Zoetis Inc.</div></td><td>14.0x</td><td>10.2x</td><td>10.2x</td></tr></table>\n<p>Median P/E: 27.4x \u2192 <b>$94.64</b><br>\n   Median EV/EBITDA: 10.2x \u2192 <b>$58.23</b><br>\n   Median P/B: 7.7x \u2192 <b>$69.84</b></p>\n<p>Implied by method: P/E $95 \u00b7 EV/EBITDA $58 \u00b7 P/B $70<br>\n   Reconciled (median): <b>$69.84/share</b></p>\n"
     }
   ],
   "etfs": [
@@ -28452,7 +28452,7 @@
         ],
         [
           "2023-03-02",
-          119.21
+          119.22
         ],
         [
           "2023-03-03",
@@ -33921,7 +33921,7 @@
           ],
           [
             "2026-11-19 12:35",
-            454.74
+            454.63
           ],
           [
             "2026-11-19 12:40",
@@ -34121,7 +34121,7 @@
           ],
           [
             "2026-11-20 10:15",
-            424.32
+            424.14
           ],
           [
             "2026-11-20 10:20",
@@ -34401,7 +34401,7 @@
           ],
           [
             "2026-11-23 09:35",
-            452.48
+            452.5
           ],
           [
             "2026-11-23 09:40",
@@ -41048,7 +41048,7 @@
           ],
           [
             "2026-11-25 09:32",
-            317.38
+            317.37
           ],
           [
             "2026-11-25 09:33",
@@ -41232,7 +41232,7 @@
           ],
           [
             "2026-11-25 10:18",
-            314.34
+            314.33
           ],
           [
             "2026-11-25 10:19",
@@ -41760,7 +41760,7 @@
           ],
           [
             "2026-11-25 12:30",
-            320.57
+            320.54
           ],
           [
             "2026-11-25 12:31",
@@ -42596,7 +42596,7 @@
           ],
           [
             "2026-11-25 15:59",
-            327.43
+            327.48
           ]
         ],
         "week": [
@@ -42986,11 +42986,11 @@
           ],
           [
             "2026-11-20 11:00",
-            324.27
+            324.28
           ],
           [
             "2026-11-20 11:05",
-            325.25
+            325.27
           ],
           [
             "2026-11-20 11:10",
@@ -43054,7 +43054,7 @@
           ],
           [
             "2026-11-20 12:25",
-            323.37
+            323.35
           ],
           [
             "2026-11-20 12:30",
@@ -43214,7 +43214,7 @@
           ],
           [
             "2026-11-20 15:45",
-            323.04
+            323.05
           ],
           [
             "2026-11-20 15:50",
@@ -44158,7 +44158,7 @@
           ],
           [
             "2026-11-25 15:55",
-            327.43
+            327.48
           ]
         ],
         "month": [
@@ -44704,7 +44704,7 @@
           ],
           [
             "2026-11-20 11:30",
-            323.37
+            323.35
           ],
           [
             "2026-11-20 12:30",
@@ -44804,7 +44804,7 @@
           ],
           [
             "2026-11-25 15:30",
-            327.43
+            327.48
           ]
         ]
       }
@@ -50849,7 +50849,7 @@
           ],
           [
             "2026-11-25 13:35",
-            154.21
+            154.2
           ],
           [
             "2026-11-25 13:36",
@@ -51731,7 +51731,7 @@
           ],
           [
             "2026-11-19 15:45",
-            161.14
+            161.15
           ],
           [
             "2026-11-19 15:50",
@@ -56663,7 +56663,7 @@
         ],
         [
           "2024-11-15",
-          74.68
+          74.69
         ],
         [
           "2024-11-18",
@@ -63236,7 +63236,7 @@
         ],
         [
           "2022-08-19",
-          314.75
+          314.74
         ],
         [
           "2022-08-22",
@@ -63848,7 +63848,7 @@
         ],
         [
           "2023-03-30",
-          309.51
+          309.52
         ],
         [
           "2023-03-31",
@@ -65548,7 +65548,7 @@
         ],
         [
           "2024-12-06",
-          521.2
+          521.21
         ],
         [
           "2024-12-09",
@@ -65988,7 +65988,7 @@
         ],
         [
           "2025-05-19",
-          518.38
+          518.39
         ],
         [
           "2025-05-20",
@@ -67571,7 +67571,7 @@
           ],
           [
             "2026-11-25 09:41",
-            610.0
+            610.03
           ],
           [
             "2026-11-25 09:42",
@@ -67711,7 +67711,7 @@
           ],
           [
             "2026-11-25 10:16",
-            612.23
+            612.22
           ],
           [
             "2026-11-25 10:17",
@@ -67835,7 +67835,7 @@
           ],
           [
             "2026-11-25 10:47",
-            609.92
+            609.91
           ],
           [
             "2026-11-25 10:48",
@@ -67851,7 +67851,7 @@
           ],
           [
             "2026-11-25 10:51",
-            611.31
+            611.32
           ],
           [
             "2026-11-25 10:52",
@@ -67911,7 +67911,7 @@
           ],
           [
             "2026-11-25 11:06",
-            610.96
+            610.99
           ],
           [
             "2026-11-25 11:07",
@@ -67987,7 +67987,7 @@
           ],
           [
             "2026-11-25 11:25",
-            612.53
+            612.54
           ],
           [
             "2026-11-25 11:26",
@@ -68047,7 +68047,7 @@
           ],
           [
             "2026-11-25 11:40",
-            610.8
+            610.86
           ],
           [
             "2026-11-25 11:41",
@@ -68191,7 +68191,7 @@
           ],
           [
             "2026-11-25 12:16",
-            621.76
+            621.78
           ],
           [
             "2026-11-25 12:17",
@@ -68347,7 +68347,7 @@
           ],
           [
             "2026-11-25 12:55",
-            626.66
+            626.63
           ],
           [
             "2026-11-25 12:56",
@@ -68547,7 +68547,7 @@
           ],
           [
             "2026-11-25 13:45",
-            631.64
+            631.67
           ],
           [
             "2026-11-25 13:46",
@@ -68571,7 +68571,7 @@
           ],
           [
             "2026-11-25 13:51",
-            632.03
+            632.04
           ],
           [
             "2026-11-25 13:52",
@@ -68619,7 +68619,7 @@
           ],
           [
             "2026-11-25 14:03",
-            632.83
+            632.87
           ],
           [
             "2026-11-25 14:04",
@@ -68711,7 +68711,7 @@
           ],
           [
             "2026-11-25 14:26",
-            633.24
+            633.26
           ],
           [
             "2026-11-25 14:27",
@@ -68767,7 +68767,7 @@
           ],
           [
             "2026-11-25 14:40",
-            634.75
+            634.7
           ],
           [
             "2026-11-25 14:41",
@@ -69237,7 +69237,7 @@
           ],
           [
             "2026-11-19 12:35",
-            654.32
+            654.09
           ],
           [
             "2026-11-19 12:40",
@@ -69245,7 +69245,7 @@
           ],
           [
             "2026-11-19 12:45",
-            653.47
+            653.5
           ],
           [
             "2026-11-19 12:50",
@@ -69433,7 +69433,7 @@
           ],
           [
             "2026-11-20 10:10",
-            636.5
+            636.52
           ],
           [
             "2026-11-20 10:15",
@@ -69457,7 +69457,7 @@
           ],
           [
             "2026-11-20 10:40",
-            628.94
+            628.92
           ],
           [
             "2026-11-20 10:45",
@@ -69593,7 +69593,7 @@
           ],
           [
             "2026-11-20 13:30",
-            621.91
+            621.92
           ],
           [
             "2026-11-20 13:35",
@@ -69781,7 +69781,7 @@
           ],
           [
             "2026-11-23 10:55",
-            652.41
+            652.47
           ],
           [
             "2026-11-23 11:00",
@@ -70723,7 +70723,7 @@
           ],
           [
             "2026-10-28 13:30",
-            722.57
+            722.56
           ],
           [
             "2026-10-28 14:30",
@@ -70899,7 +70899,7 @@
           ],
           [
             "2026-11-05 15:30",
-            647.8
+            648.06
           ],
           [
             "2026-11-06 09:30",
@@ -70999,7 +70999,7 @@
           ],
           [
             "2026-11-11 12:30",
-            695.14
+            695.16
           ],
           [
             "2026-11-11 13:30",
@@ -71039,7 +71039,7 @@
           ],
           [
             "2026-11-12 15:30",
-            688.17
+            688.21
           ],
           [
             "2026-11-13 09:30",
@@ -71095,7 +71095,7 @@
           ],
           [
             "2026-11-16 15:30",
-            661.85
+            661.86
           ],
           [
             "2026-11-17 09:30",
@@ -71296,6 +71296,5 @@
         ]
       }
     }
-  ],
-  "price_as_of": "2026-11-26 14:55Z"
+  ]
 }

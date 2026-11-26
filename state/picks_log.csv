@@ -384,3 +384,6 @@ run_date,rank,symbol,name,price,intrinsic,margin_of_safety,confidence,n_models
 2026-11-25,1,CSCO,"Cisco Systems, Inc.",94.20,151.34,37.8%,low,1
 2026-11-25,2,ACN,Accenture plc,240.49,291.79,17.6%,low,1
 2026-11-25,3,BMY,Bristol-Myers Squibb Company,61.56,69.84,11.9%,high,3
+2026-11-26,1,CSCO,"Cisco Systems, Inc.",94.20,150.59,37.4%,low,1
+2026-11-26,2,ACN,Accenture plc,240.49,291.79,17.6%,low,1
+2026-11-26,3,BMY,Bristol-Myers Squibb Company,61.56,69.84,11.9%,high,3
